@@ -76,6 +76,25 @@ header{padding-top:30px}h1{font-size:clamp(1.8rem,3vw,2.5rem);letter-spacing:-.0
 @media(max-width:720px){.news-lead{grid-template-columns:1fr}.news-side-image{min-height:130px;grid-row:1}.news-side-image span{font-size:4.5rem}.news-secondary{grid-template-columns:1fr}.news-row{grid-template-columns:1fr auto;gap:5px 10px}.news-time{grid-column:1/-1}.news-row .sentiment-pill{grid-column:2;grid-row:2}.genealogy-wrap{padding:20px 12px}.gen-branch{min-width:88px}.fruit-node{min-width:88px}.gen-children{gap:6px}}
 
 :focus-visible{outline:2px solid var(--ac);outline-offset:2px}
+
+/* Theme engine */
+:root{--font-ui:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;--panel-radius:10px}
+body{font-family:var(--font-ui)}
+body.theme-serious .fruit-emoji,body.theme-serious .org-role-emoji{display:none}
+body.theme-serious .fruit-node:before{content:"[OPERADOR]";font-size:.62rem;color:var(--mu);letter-spacing:.08em}
+body.theme-serious .org-role{border-radius:8px;box-shadow:none}
+body.theme-minimal{--bg:#0d1117;--pp:#11161d;--ink:#dce4ed;--mu:#8c9aaa;--line:#29323d;--ac:#7ea6d8;--up:#69b99a;--dn:#d77c86;--wait:#c4a66a;--panel-radius:3px;--font-ui:Inter,system-ui,sans-serif;background:var(--bg)}
+body.theme-minimal *{box-shadow:none!important;border-radius:var(--panel-radius)!important}
+body.theme-minimal .genealogy-wrap{background:#101821;border-color:var(--line)}
+body.theme-minimal .genealogy-wrap:before,body.theme-minimal .genealogy-wrap:after{opacity:.18}
+body.theme-minimal .fruit-emoji,body.theme-minimal .org-role-emoji{filter:grayscale(1);opacity:.45}
+body.theme-botanical .fruit-emoji,body.theme-botanical .org-role-emoji{display:inline-block}
+body.theme-botanical .genealogy-wrap{background:linear-gradient(180deg,#12231f,#1d2922)}
+.settings-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin:18px 0}
+.setting-card{background:var(--pp);border:1px solid var(--line);border-radius:12px;padding:18px;text-align:left;color:var(--ink);cursor:pointer;font:inherit;min-height:145px}
+.setting-card:hover,.setting-card.selected{border-color:var(--ac);outline:1px solid var(--ac)}.setting-card h3{margin:0 0 8px}.setting-card p{color:var(--mu);font-size:.88rem;margin:0}.setting-card .setting-label{display:inline-block;font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--ac);margin-bottom:10px}
+.audit-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px;margin:16px 0}.audit-card{border:1px solid var(--line);background:var(--pp);border-radius:10px;padding:14px}.audit-card strong{display:block;font-size:1.2rem}.audit-card small{color:var(--mu)}.metric-note{font-size:.8rem;color:var(--mu);margin:10px 0}
+@media(max-width:640px){.setting-card{min-height:unset}}
 </style></head>
 <body>
 <header>
@@ -87,8 +106,8 @@ header{padding-top:30px}h1{font-size:clamp(1.8rem,3vw,2.5rem);letter-spacing:-.0
 <main>
 <nav class="chips" id="tabs"></nav>
 <section class="v on" id="v0"><div class="chips" id="chips"></div>
-<div class="tw"><table><thead><tr id="th"></tr></thead><tbody id="tb"></tbody></table></div></section>
-<section class="v" id="v1"></section><section class="v" id="v2"></section><section class="v" id="v3"></section><section class="v" id="v4"></section><section class="v" id="v5"></section><section class="v" id="v6"></section><section class="v" id="v7"></section>
+<div class="tw"><table><thead><tr id="th"></tr></thead><tbody id="tb"></tbody></table></div><div id="genotype-metrics"></div></section>
+<section class="v" id="v1"></section><section class="v" id="v2"></section><section class="v" id="v3"></section><section class="v" id="v4"></section><section class="v" id="v5"></section><section class="v" id="v6"></section><section class="v" id="v7"></section><section class="v" id="v8"></section>
 </main>
 <aside id="ps"></aside>
 <footer>Ambiente de simulação educacional. Não é recomendação de investimento.</footer>
@@ -149,6 +168,8 @@ function render(){
  const[k,d]=ord;
  $("tb").innerHTML=G.filter(g=>fil=="todos"||g.status==fil).sort((a,b)=>(a[k]>b[k]?1:a[k]<b[k]?-1:0)*d).map(g=>`<tr onclick="abrir(${g.id})"><td>${e(g.nome)}</td><td>${e(g.equipe)}, ${e(g.setor)}</td><td><span class="st">${g.status}</span></td><td class="${cl(g.lucro)}">${brl(g.lucro)}</td><td class="${cl(g.ret)}">${pct(g.ret)}</td><td class="lv ${g.status}"><i style="width:${g.vida/mx*70}px"></i><span style="color:var(--ink)">${g.vida} dias</span></td><td>${g.clonagens}</td><td>${e(g.melhor_regime)}</td></tr>`).join("")}
 
+const gm=document.getElementById("genotype-metrics");if(gm)gm.innerHTML=genotypeMetrics();
+
 function chart(c){const w=380,h=120,a=Math.min(...c),b=Math.max(...c),f=v=>h-6-(v-a)/(b-a||1)*(h-12),p=c.map((v,i)=>(i?"L":"M")+(i*w/(c.length-1)).toFixed(1)+" "+f(v).toFixed(1)).join("");
  return`<svg viewBox="0 0 ${w} ${h}" width="100%" role="img" aria-label="Curva de patrimônio"><path d="${p}" fill="none" stroke="${c.at(-1)>=c[0]?"var(--up)":"var(--dn)"}" stroke-width="2"/></svg>`}
 
@@ -166,9 +187,9 @@ async function abrir(id){
  <h3>Histórico de operações</h3><table>${g.operacoes.map(o=>`<tr><td>${e(o.data)}</td><td>${e(o.ativo)}</td><td>${e(o.lado)}</td><td class="${cl(o.resultado)}">${brl(o.resultado)}</td></tr>`).join("")}</table>`;
  $("ps").classList.add("on")}
 
-const TABS=["Genomas","Árvore genealógica","Hierarquia","Reputação","Caixa geral","Análise de mercado","Notícias","Mercado ao vivo"];
+const TABS=["Genomas","Árvore genealógica","Hierarquia","Reputação","Caixa geral","Análise de mercado","Notícias","Mercado ao vivo","Configurações"];
 function aba(i){document.querySelectorAll(".v").forEach((v,k)=>v.classList.toggle("on",k==i));
- $("tabs").innerHTML=TABS.map((t,k)=>`<button class="chip ${k==i?"on":""}" onclick="aba(${k})">${t}</button>`).join("");if(i==4)caixa();if(i==5)analise();if(i==6)noticias();if(i==7)live()}
+ $("tabs").innerHTML=TABS.map((t,k)=>`<button class="chip ${k==i?"on":""}" onclick="aba(${k})">${t}</button>`).join("");if(i==4)caixa();if(i==5)analise();if(i==6)noticias();if(i==7)live();if(i==8)settings()}
 function fruta(g){
  const status=String(g.status||'treino').toLowerCase();
  if(status==='campo'||status==='ativo'||status==='ativa')return {emoji:'🍎',label:'Ativo',cls:'campo'};
@@ -208,8 +229,27 @@ function hier(){
  <div class="org-connector org-connector-down"><span></span></div>
  <section class="org-operational"><div class="org-operational-head"><div><span class="org-eyebrow">NÍVEL 04 · EXECUÇÃO</span><h3>Genomas operacionais</h3><p class="sub">Cada maçã é um genoma real da simulação; clique para abrir patrimônio, genes, operações e linhagem.</p></div><div class="org-state-legend"><span>🍎 Ativo ${ativos.length}</span><span>🍏 Treino ${treino.length}</span><span>🧺 Hibernação ${hib.length}</span><span>🥀 Eliminado ${mortos.length}</span></div></div><div class="org-status-grid"><section class="org-status-group"><h4>🍎 Em operação</h4>${membros(ativos)||'<p class="sub">Nenhum genoma ativo.</p>'}</section><section class="org-status-group"><h4>🍏 Em treinamento</h4>${membros(treino)||'<p class="sub">Nenhum genoma em treinamento.</p>'}</section><section class="org-status-group"><h4>🧺 Em hibernação</h4>${membros(hib)||'<p class="sub">Nenhum genoma hibernado.</p>'}</section><section class="org-status-group"><h4>🥀 Eliminados</h4>${membros(mortos)||'<p class="sub">Nenhum genoma eliminado.</p>'}</section></div></section>
  <details class="org-by-sector"><summary>Explorar genomas por mercado / setor</summary><div class="org-sector-grid">${grupos}</div></details></div></div>`;
+ const audit=document.createElement('section');audit.className='audit-grid';
+ const opCount=G.reduce((n,g)=>n+(g.operacoes||[]).length,0);
+ audit.innerHTML=`<div class="audit-card"><small>Governança · caixa geral</small><strong>Ver saldo em Caixa geral</strong><small>O saldo oficial não é inferido da hierarquia.</small></div><div class="audit-card"><small>Controle de população</small><strong>${ativos.length} ativos · ${treino.length} em treino</strong><small>${hib.length} hibernados · ${mortos.length} eliminados</small></div><div class="audit-card"><small>Trilha de auditoria</small><strong>${opCount} operações disponíveis</strong><small>Contagem dos registros carregados, sem alterar o histórico.</small></div>`;
+ $('v2').appendChild(audit);
 }
 function rank(){$("v3").innerHTML=`<p class="sub">Reputação é o retorno ajustado ao risco (tipo Sharpe). Só conta depois de 40 dias de vida.</p><div class="tw"><table><thead><tr><th>Posição</th><th>Genoma</th><th>Reputação</th><th>Equipe</th><th>Lucro ou perda</th><th>Status</th></tr></thead><tbody>${[...G].sort((a,b)=>b.reputacao-a.reputacao).map((g,i)=>`<tr onclick="abrir(${g.id})"><td>${i+1}</td><td>${e(g.nome)}</td><td class="${cl(g.reputacao)}">${g.reputacao}</td><td>${e(g.equipe)}</td><td class="${cl(g.lucro)}">${brl(g.lucro)}</td><td><span class="st ${g.status}">${g.status}</span></td></tr>`).join("")}</tbody></table></div>`}
+function settings(){
+ let current='serious';try{current=localStorage.getItem('lae-theme')||'serious'}catch(_){}
+ $('v8').innerHTML=`<span class="org-eyebrow">PREFERÊNCIAS DE INTERFACE</span><h2>Configurações visuais</h2><p class="sub">O perfil fica salvo neste navegador e altera somente a apresentação, não o motor, os genes nem as regras de negociação.</p><div class="settings-grid">
+ <button class="setting-card ${current==='serious'?'selected':''}" onclick="setTheme('serious')"><span class="setting-label">Padrão recomendado</span><h3>Sério / Quantitativo</h3><p>Visual corporativo denso, badges funcionais, tipografia técnica e foco em governança.</p></button>
+ <button class="setting-card ${current==='minimal'?'selected':''}" onclick="setTheme('minimal')"><span class="setting-label">Baixo ruído visual</span><h3>Minimalista</h3><p>Monocromático, linhas finas, tabelas limpas e destaque para estatísticas.</p></button>
+ <button class="setting-card ${current==='botanical'?'selected':''}" onclick="setTheme('botanical')"><span class="setting-label">Modo didático</span><h3>Pomar botânico</h3><p>Metáfora de frutas para apresentações educacionais da hierarquia e da linhagem.</p></button></div><p class="metric-note">Limpar os dados do navegador restaura o perfil padrão.</p>`;
+}
+function setTheme(theme){if(!['serious','minimal','botanical'].includes(theme))theme='serious';document.body.classList.remove('theme-serious','theme-minimal','theme-botanical');document.body.classList.add('theme-'+theme);try{localStorage.setItem('lae-theme',theme)}catch(_){}if($('v8').classList.contains('on'))settings();if($('v1').classList.contains('on'))arvore();if($('v2').classList.contains('on'))hier();}
+function applySavedTheme(){let theme='serious';try{theme=localStorage.getItem('lae-theme')||'serious'}catch(_){}setTheme(theme)}
+function genotypeMetrics(){
+ const avg=a=>a.length?a.reduce((x,y)=>x+y,0)/a.length:0;
+ const rows=G.map(g=>{const rs=(g.operacoes||[]).map(o=>Number(o.resultado||0)).filter(Number.isFinite),mean=avg(rs),down=rs.filter(x=>x<0),sd=Math.sqrt(avg(rs.map(x=>(x-mean)**2))),dsd=Math.sqrt(avg(down.map(x=>x*x)));let peak=-Infinity,mdd=0;(g.curva||[]).forEach(v=>{peak=Math.max(peak,Number(v));if(peak>0)mdd=Math.min(mdd,Number(v)/peak-1)});return {g,sharpe:sd?mean/sd:0,sortino:dsd?mean/dsd:0,mdd}});
+ return `<h3>Análise genotípica · indicadores exploratórios</h3><p class="metric-note">Sharpe e Sortino são aproximações sobre resultados de operações disponíveis, sem anualização. Max Drawdown usa a curva de patrimônio disponível. Não são métricas certificadas nem recomendações de investimento.</p><div class="tw"><table><thead><tr><th>Genoma</th><th>Sharpe aprox.</th><th>Sortino aprox.</th><th>Max drawdown</th><th>Tendência</th><th>Risco</th><th>Horizonte</th></tr></thead><tbody>${rows.map(x=>`<tr onclick="abrir(${Number(x.g.id)})"><td>${e(x.g.nome)}</td><td>${x.sharpe.toFixed(3)}</td><td>${x.sortino.toFixed(3)}</td><td>${pct(x.mdd)}</td><td>${x.g.genes?.tendencia??'n/d'}</td><td>${x.g.genes?.risco??'n/d'}</td><td>${x.g.genes?.horizonte_dias??'n/d'}</td></tr>`).join('')}</tbody></table></div>`;
+}
+
 async function caixa(){
  const c=demo?{saldo:CX.reduce((t,x)=>t+(x.destino=="caixa"?x.valor:0)-(x.origem=="caixa"?x.valor:0),0),transacoes:[...CX].reverse()}:await(await fetch("/api/caixa")).json();
  $("v4").innerHTML=`<div class="strip"><div class="s"><b class="num">${brl(c.saldo)}</b><span>Saldo do caixa geral</span></div><div class="s"><b class="num">${c.transacoes.length}</b><span>Transações registradas</span></div></div><div class="tw"><table><thead><tr><th>Data</th><th>Origem</th><th>Destino</th><th>Valor</th><th>Motivo</th></tr></thead><tbody>${c.transacoes.map(t=>`<tr><td>${e(t.data)}</td><td>${e(t.origem)}</td><td>${e(t.destino)}</td><td>${brl(t.valor)}</td><td>${e(t.motivo)}</td></tr>`).join("")}</tbody></table></div>`}
@@ -262,7 +302,7 @@ async function liveRender(){const m=await J("mercado.json"),q={};let fonte="arqu
  <div class="tw"><table><thead><tr><th>Ativo</th><th>Preço</th><th>Variação no dia</th><th>Últimos 60 pregões</th></tr></thead><tbody>${L.map(x=>{const pr=q[x.ticker]?.preco??x.preco,v=q[x.ticker]?.var_dia??x.var_dia;return`<tr><td>${e(x.ticker)}</td><td>${pr!=null?(x.ticker=="IBOV"?pr.toLocaleString("pt-BR"):brl(pr)):"n/d"}</td><td class="${cl(v||0)}">${v!=null?pct(v):"n/d"}</td><td>${spk(x.hist)}</td></tr>`}).join("")}</tbody></table></div>
  <p class="sub">${m?"Arquivo exportado em "+dh(m.atualizado)+".":""}</p>`}
 
-function iniciar(){prep();render();arvore();hier();rank();aba(0);
+function iniciar(){applySavedTheme();prep();render();arvore();hier();rank();aba(0);
  const a=$("aviso");a.hidden=false;
  a.innerHTML=demo?`Simulação rodando no seu navegador, com dados fictícios (semente ${SEED}). <button class="chip" onclick="nova()">Nova simulação</button>`:"Conectado ao backend. Os dados são de exemplo (simulação), não resultados reais."}
 function nova(){SEED=Math.floor(Math.random()*1e9);({G,caixa:CX}=simular(SEED));iniciar()}
