@@ -13,11 +13,12 @@ import random
 import sqlite3
 from pathlib import Path
 
+import motor
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import FileResponse
 
 BASE = Path(__file__).parent
-DB = BASE / "agentes.db"
+DB = BASE / "lab.db"
 REGIMES = ["alta calma", "alta volátil", "lateral", "queda", "crise"]
 app = FastAPI(title="Agentes Evolutivos")
 
@@ -28,7 +29,7 @@ def con():
     return c
 
 
-def seed(c):
+def seed_antigo(c):  # não é mais usado: o motor.py gera os dados
     """Gera 14 genomas de mentira, só para o painel ter o que mostrar."""
     random.seed(42)
     hoje = dt.date.today()
@@ -81,7 +82,7 @@ def init():
         """
     )
     if c.execute("SELECT COUNT(*) FROM genomas").fetchone()[0] == 0:
-        seed(c)
+        motor.rodar(c)
     c.commit()
     c.close()
 
@@ -115,9 +116,19 @@ def detalhe(gid: int):
     d = linha(g)
     d["curva"] = [r[0] for r in c.execute("SELECT valor FROM patrimonio WHERE genoma_id=? ORDER BY dia", (gid,))]
     d["operacoes"] = [dict(r) for r in c.execute(
-        "SELECT data, ativo, lado, qtd, preco, resultado FROM operacoes WHERE genoma_id=? ORDER BY data DESC", (gid,))]
+        "SELECT data, ativo, lado, qtd, preco, resultado FROM operacoes WHERE genoma_id=? ORDER BY data DESC LIMIT 30", (gid,))]
     c.close()
     return d
+
+
+@app.get("/api/caixa")
+def caixa():
+    c = con()
+    t = [dict(r) for r in c.execute("SELECT * FROM caixa ORDER BY id DESC")]
+    ent = sum(x["valor"] for x in t if x["destino"] == "caixa")
+    sai = sum(x["valor"] for x in t if x["origem"] == "caixa")
+    c.close()
+    return {"saldo": ent - sai, "transacoes": t}
 
 
 @app.get("/")

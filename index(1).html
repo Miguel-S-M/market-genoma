@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Laboratório de agentes evolutivos</title>
+<style>
+:root{--bg:#eef1f5;--pp:#fff;--ink:#14213d;--mu:#5b6780;--line:#d5dbe6;--ac:#3b4cca;--up:#0b7a6b;--dn:#c2255c;--wait:#b7791f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+header,main{max-width:1100px;margin:auto;padding:0 16px}
+header{padding-top:24px}
+h1,h2,.num{font-family:"Iowan Old Style",Georgia,serif;font-weight:600}
+h1{margin:0;font-size:1.7rem}
+.sub{color:var(--mu);font-size:.88rem}
+#aviso{margin-top:12px;padding:8px 12px;border-left:3px solid var(--wait);background:#fbf3e2;font-size:.85rem}
+.strip{display:flex;flex-wrap:wrap;border-block:1px solid var(--line);margin:18px 0}
+.s{flex:1 1 150px;padding:12px 16px;border-left:1px solid var(--line)}
+.s:first-child{border-left:0}
+.s .num{display:block;font-size:1.5rem}
+.s span{color:var(--mu);font-size:.82rem}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.chip{background:var(--pp);border:1px solid var(--line);color:var(--mu);padding:6px 14px;border-radius:6px;cursor:pointer;font:inherit}
+.chip.on{background:var(--ink);border-color:var(--ink);color:#fff}
+.tw{overflow-x:auto;background:var(--pp);border:1px solid var(--line);border-radius:6px}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+th,td{padding:10px 14px;text-align:left;white-space:nowrap;border-bottom:1px solid var(--line)}
+th{color:var(--mu);font-weight:500;font-size:.82rem;cursor:pointer}
+tbody tr{cursor:pointer}tbody tr:hover{background:#f4f6fb}
+.ok{color:var(--up)}.bad{color:var(--dn)}
+.campo{color:var(--up)}.treino{color:var(--ac)}.hibernado{color:var(--wait)}.eliminado{color:var(--dn)}
+.st{color:var(--ink)}.st:before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;background:currentColor;margin-right:7px}
+.st.campo:before{background:var(--up)}.st.treino:before{background:var(--ac)}.st.hibernado:before{background:var(--wait)}.st.eliminado:before{background:var(--dn)}
+.lv i{display:inline-block;height:8px;border-radius:2px;background:currentColor;vertical-align:middle;margin-right:6px}
+aside{position:fixed;inset:0 0 0 auto;width:min(440px,100%);background:var(--pp);box-shadow:-8px 0 24px #14213d22;padding:20px;overflow:auto;transform:translateX(105%);transition:transform .2s;z-index:5}
+aside.on{transform:none}
+aside h3{margin:20px 0 6px;font-size:.9rem;color:var(--mu);font-weight:600}
+aside table td{padding:5px 8px;font-size:.85rem}
+.x{float:right;background:none;border:0;font-size:1.6rem;cursor:pointer;color:var(--ink)}
+.gene{display:flex;align-items:center;gap:10px;font-size:.85rem;margin:5px 0}
+.gene em{width:96px;font-style:normal;color:var(--mu)}
+.gene i{flex:1;height:6px;background:var(--line);border-radius:3px;overflow:hidden}
+.gene u{display:block;height:100%;background:var(--ac)}
+footer{color:var(--mu);font-size:.78rem;text-align:center;padding:24px 16px}
+.v{display:none}.v.on{display:block}
+.tree,.tree ul{list-style:none;margin:0;padding-left:22px;border-left:1px solid var(--line)}
+.tree{padding:0;border:0}.tree li{margin:7px 0}.tree a{color:var(--ink);text-decoration:none;font-weight:600}.tree small{color:var(--mu)}
+.hn{border-left:2px solid var(--ac);padding:4px 0 4px 14px;margin:10px 0 10px 16px}
+.hn>b{display:block}.hn a{color:var(--ink);text-decoration:none}
+:focus-visible{outline:2px solid var(--ac);outline-offset:2px}
+</style></head>
+<body>
+<header>
+<h1>Laboratório de agentes evolutivos</h1>
+<div class="sub">Acompanhe cada genoma: resultado, vida, linhagem e melhor mercado.</div>
+<div id="aviso" hidden></div>
+<div class="strip" id="strip"></div>
+</header>
+<main>
+<nav class="chips" id="tabs"></nav>
+<section class="v on" id="v0"><div class="chips" id="chips"></div>
+<div class="tw"><table><thead><tr id="th"></tr></thead><tbody id="tb"></tbody></table></div></section>
+<section class="v" id="v1"></section><section class="v" id="v2"></section><section class="v" id="v3"></section><section class="v" id="v4"></section>
+</main>
+<aside id="ps"></aside>
+<footer>Ambiente de simulação educacional. Não é recomendação de investimento.</footer>
+<script>
+const REG=["alta calma","alta volátil","lateral","queda","crise"];
+const COL=[["nome","Genoma"],["equipe","Equipe e setor"],["status","Status"],["lucro","Lucro ou perda"],["ret","Retorno"],["vida","Vida"],["clonagens","Clonagens"],["melhor_regime","Melhor mercado"]];
+let CX=[],SEED=+new URLSearchParams(location.search).get("seed")||7,G=[],demo=false,ord=["lucro",-1],fil="todos";
+const $=i=>document.getElementById(i);
+const e=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const brl=v=>v.toLocaleString("pt-BR",{style:"currency",currency:"BRL"});
+const pct=v=>(v>0?"+":"")+(v*100).toFixed(1)+"%";
+const cl=v=>v>=0?"ok":"bad";
+const vida=g=>Math.round(((g.morte?new Date(g.morte):new Date())-new Date(g.nascimento))/864e5);
+const prep=()=>G.forEach(g=>{g.lucro=g.capital_atual-g.capital_inicial;g.ret=g.lucro/g.capital_inicial;g.vida=vida(g);g.reputacao??=+(g.ret*8).toFixed(2)});
+const srt=k=>{ord=ord[0]==k?[k,-ord[1]]:[k,-1];render()};
+
+function simular(seed){
+ let q=seed>>>0;const R=()=>{q=(q+0x6D2B79F5)>>>0;let t=q;t=Math.imul(t^t>>>15,t|1);t^=t+Math.imul(t^t>>>7,t|61);return((t^t>>>14)>>>0)/4294967296},
+ N=(m,sd)=>m+sd*Math.sqrt(-2*Math.log(1-R()))*Math.cos(2*Math.PI*R()),U=(a,b)=>a+(b-a)*R(),pick=a=>a[Math.floor(R()*a.length)],r2=x=>Math.round(x*100)/100,
+ sum=l=>l.reduce((p,c)=>p+c,0),avg=l=>sum(l)/l.length,
+ REGS={"alta calma":[.0008,.006],"alta volátil":[.0008,.02],"lateral":[0,.008],"queda":[-.001,.012],"crise":[-.003,.03]},SET={tecnologia:1.3,energia:.9,financeiro:1,varejo:1.1},EQ={5:"curto",20:"medio",60:"longo"},K=Object.keys(REGS),SK=Object.keys(SET),
+ E=8,D=40,now=Date.now(),d2=d=>new Date(now-(E*D-d)*864e5).toISOString().slice(0,10),ags=[],led=[],cx={v:4e4},
+ gn0=()=>({tendencia:r2(U(-1,1)),risco:r2(U(.2,1)),horizonte_dias:pick([5,20,60])}),
+ mut=g=>({tendencia:r2(Math.max(-1,Math.min(1,g.tendencia+N(0,.15)))),risco:r2(Math.max(.1,Math.min(1,g.risco+N(0,.1)))),horizonte_dias:R()<.2?pick([5,20,60]):g.horizonte_dias}),
+ rep=a=>{const r=a.rets;if(r.length<40)return 0;const m=avg(r),sd=Math.sqrt(avg(r.map(x=>(x-m)**2)));return sd?r2(m/sd*15.8):0},
+ mov=(d,o,t,v,m)=>led.push({data:d2(d),origem:o,destino:t,valor:r2(v),motivo:m}),
+ vivos=()=>ags.filter(x=>x.status=="treino"||x.status=="campo"),
+ novo=(d,g,pai,ev,cap)=>{const a={id:ags.length+1,genes:g,setor:pick(SK),equipe:EQ[g.horizonte_dias],ev,status:"treino",nasc:d,morte:null,pai_id:pai,v:cap,capital_inicial:cap,pos:0,ent:cap,rets:[],curva:[],operacoes:[],reg:{},clonagens:0,ep0:cap};
+  a.nome="G-"+String(a.id).padStart(3,"0");ags.push(a);cx.v-=cap;mov(d,"caixa",a.nome,cap,pai?"clonagem":"capital inicial");return a};
+ mov(0,"externo","caixa",4e4,"aporte inicial (simulado)");
+ for(let i=0;i<20;i++){const a=novo(0,gn0(),null,i<16,1000);if(i>=16)a.equipe="generalista"}
+ const px={};SK.forEach(s=>px[s]=[100]);let d=0;
+ for(let ep=0;ep<E;ep++){
+  const x=R()*12,reg=K[x<4?0:x<6?1:x<9?2:x<11?3:4],[mu,sg]=REGS[reg];
+  for(let t=0;t<D;t++){
+   const m=N(mu,sg);SK.forEach(s=>px[s].push(px[s].at(-1)*(1+SET[s]*m+N(0,.004))));d++;
+   vivos().forEach(a=>{const sr=px[a.setor],h=a.genes.horizonte_dias,r=sr.at(-1)/sr.at(-2)-1;
+    a.v*=1+a.pos*r;a.rets.push(a.pos*r);
+    const mom=sr.length>h?sr.at(-1)/sr.at(-1-h)-1:0,nova=mom*a.genes.tendencia>0?a.genes.risco:0;
+    if((nova>0)!=(a.pos>0)){a.v*=.999;const p=r2(sr.at(-1)),qt=Math.max(1,Math.floor(a.v*Math.max(nova,a.pos)/p)),at="SIM-"+a.setor.slice(0,4).toUpperCase();
+     if(nova>0){a.ent=a.v;a.operacoes.push({data:d2(d),ativo:at,lado:"compra",qtd:qt,preco:p,resultado:0})}
+     else a.operacoes.push({data:d2(d),ativo:at,lado:"venda",qtd:qt,preco:p,resultado:r2(a.v-a.ent)})}
+    a.pos=nova;if(d%4==0)a.curva.push(a.v)})}
+  vivos().forEach(a=>{(a.reg[reg]??=[]).push(a.v/a.ep0-1);a.ep0=a.v;if(!a.ev)return;
+   if(a.status=="treino"&&rep(a)>0)a.status="campo";
+   if(a.v<a.capital_inicial*.85){const hib=Object.values(a.reg).some(l=>l.length>1&&sum(l)>0);
+    a.status=hib?"hibernado":"eliminado";a.morte=d;cx.v+=a.v;mov(d,a.nome,"caixa",a.v,hib?"hibernação":"desligamento")}
+   else if(a.clonagens<3&&a.v-a.capital_inicial>=[100,300,900][a.clonagens]&&cx.v>=2500){novo(d,mut(a.genes),a.id,true,500);a.clonagens++}});
+  while(ags.filter(x=>x.ev&&(x.status=="treino"||x.status=="campo")).length<8&&cx.v>=3000)novo(d,gn0(),null,true,1000)}
+ return{G:ags.map(a=>{const ks=Object.keys(a.reg),mr=ks.length?ks.reduce((b,k)=>avg(a.reg[k])>avg(a.reg[b])?k:b):"sem dados";
+  return{id:a.id,nome:a.nome,equipe:a.equipe,setor:a.setor,status:a.status,nascimento:d2(a.nasc),morte:a.morte?d2(a.morte):null,pai_id:a.pai_id,clonagens:a.clonagens,genes:a.genes,capital_inicial:a.capital_inicial,capital_atual:a.v,melhor_regime:mr,reputacao:rep(a),curva:a.curva.length?a.curva:[a.v],operacoes:a.operacoes.slice(-30).reverse()}}),caixa:led}}
+
+function render(){
+ const vivos=G.filter(g=>g.status=="campo"||g.status=="treino"),n=s=>G.filter(g=>g.status==s).length,sum=(a,f)=>a.reduce((t,g)=>t+f(g),0),L=sum(G,g=>g.lucro),mx=Math.max(...G.map(g=>g.vida),1);
+ $("strip").innerHTML=[["Patrimônio dos vivos",brl(sum(vivos,g=>g.capital_atual))],["Lucro ou perda total",brl(L),cl(L)],["Genomas vivos",vivos.length],["Hibernados",n("hibernado")],["Eliminados",n("eliminado")],["Clonagens",sum(G,g=>g.clonagens)]].map(([a,b,c])=>`<div class="s"><b class="num ${c||""}">${b}</b><span>${a}</span></div>`).join("");
+ $("chips").innerHTML=["todos","campo","treino","hibernado","eliminado"].map(s=>`<button class="chip ${s==fil?"on":""}" onclick="fil='${s}';render()">${s}</button>`).join("");
+ $("th").innerHTML=COL.map(([k,t])=>`<th onclick="srt('${k}')">${t}${ord[0]==k?(ord[1]<0?" ▾":" ▴"):""}</th>`).join("");
+ const[k,d]=ord;
+ $("tb").innerHTML=G.filter(g=>fil=="todos"||g.status==fil).sort((a,b)=>(a[k]>b[k]?1:a[k]<b[k]?-1:0)*d).map(g=>`<tr onclick="abrir(${g.id})"><td>${e(g.nome)}</td><td>${e(g.equipe)}, ${e(g.setor)}</td><td><span class="st">${g.status}</span></td><td class="${cl(g.lucro)}">${brl(g.lucro)}</td><td class="${cl(g.ret)}">${pct(g.ret)}</td><td class="lv ${g.status}"><i style="width:${g.vida/mx*70}px"></i><span style="color:var(--ink)">${g.vida} dias</span></td><td>${g.clonagens}</td><td>${e(g.melhor_regime)}</td></tr>`).join("")}
+
+function chart(c){const w=380,h=120,a=Math.min(...c),b=Math.max(...c),f=v=>h-6-(v-a)/(b-a||1)*(h-12),p=c.map((v,i)=>(i?"L":"M")+(i*w/(c.length-1)).toFixed(1)+" "+f(v).toFixed(1)).join("");
+ return`<svg viewBox="0 0 ${w} ${h}" width="100%" role="img" aria-label="Curva de patrimônio"><path d="${p}" fill="none" stroke="${c.at(-1)>=c[0]?"var(--up)":"var(--dn)"}" stroke-width="2"/></svg>`}
+
+async function abrir(id){
+ let g=G.find(x=>x.id==id);
+ if(!demo){try{g={...g,...await(await fetch("/api/genomas/"+id)).json()}}catch(_){}}
+ const gen=Object.entries(g.genes).filter(([k])=>k!="horizonte_dias");
+ $("ps").innerHTML=`<button class="x" onclick="$('ps').classList.remove('on')" aria-label="Fechar">×</button>
+ <h2 style="margin:0">${e(g.nome)}</h2><span class="st ${g.status}">${g.status}</span>
+ <div class="sub">Equipe ${e(g.equipe)}, setor ${e(g.setor)}</div>
+ <h3>Resultado</h3><div class="num" style="font-size:1.4rem">${brl(g.capital_atual)} <span class="${cl(g.lucro)}" style="font-size:.95rem">${brl(g.lucro)} (${pct(g.ret)})</span></div>
+ <div class="sub" style="margin-top:6px">Vida: ${g.vida} dias, nasceu em ${e(g.nascimento)}${g.morte?", encerrou em "+e(g.morte):""}.<br>Origem: ${g.pai_id?"descendente de G-"+String(g.pai_id).padStart(3,"0"):"geração inicial"}. Clonagens: ${g.clonagens}.<br>Melhor mercado: <b>${e(g.melhor_regime)}</b>. Horizonte: ${g.genes.horizonte_dias} dias.</div>
+ <h3>Patrimônio ao longo do tempo</h3>${chart(g.curva)}
+ <h3>Genes</h3>${gen.map(([k,v])=>`<div class="gene"><em>${e(k)}</em><i><u style="width:${v*100}%"></u></i>${v}</div>`).join("")}
+ <h3>Histórico de operações</h3><table>${g.operacoes.map(o=>`<tr><td>${e(o.data)}</td><td>${e(o.ativo)}</td><td>${e(o.lado)}</td><td class="${cl(o.resultado)}">${brl(o.resultado)}</td></tr>`).join("")}</table>`;
+ $("ps").classList.add("on")}
+
+const TABS=["Genomas","Árvore genealógica","Hierarquia","Reputação","Caixa geral"];
+function aba(i){document.querySelectorAll(".v").forEach((v,k)=>v.classList.toggle("on",k==i));
+ $("tabs").innerHTML=TABS.map((t,k)=>`<button class="chip ${k==i?"on":""}" onclick="aba(${k})">${t}</button>`).join("");if(i==4)caixa()}
+function arvore(){const no=g=>{const f=G.filter(x=>x.pai_id==g.id);return`<li><a href="#" onclick="abrir(${g.id});return false" class="st ${g.status}">${e(g.nome)}</a> <small>${brl(g.lucro)}, ${g.clonagens} clones</small>${f.length?"<ul>"+f.map(no).join("")+"</ul>":""}</li>`};
+ $("v1").innerHTML=`<p class="sub">Quem descende de quem. A cor mostra o status atual.</p><ul class="tree">${G.filter(g=>!g.pai_id).map(no).join("")}</ul>`}
+function hier(){const lst=a=>a.map(g=>`<a href="#" onclick="abrir(${g.id});return false" class="st ${g.status}" style="margin-right:16px">${e(g.nome)}</a>`).join(""),set=[...new Set(G.map(g=>g.setor))];
+ $("v2").innerHTML=`<div class="hn"><b>Arquiteto de operações</b><span class="sub">Define capital e limites de risco (regras fixas por enquanto).</span>
+ <div class="hn"><b>Analistas de mercado</b><span class="sub">Classificam o regime atual. Entram na próxima etapa.</span></div>
+ ${["longo","medio","curto"].map(q=>`<div class="hn"><b>Arquiteto de mercado, ${q} prazo</b>${set.map(s=>{const a=G.filter(g=>g.equipe==q&&g.setor==s);return a.length?`<div class="hn"><b>Mercado ${e(s)}</b>${lst(a)}</div>`:""}).join("")}</div>`).join("")}
+ <div class="hn"><b>Grupo generalista (controle, não evolui)</b>${lst(G.filter(g=>g.equipe=="generalista"))}</div></div>`}
+function rank(){$("v3").innerHTML=`<p class="sub">Reputação é o retorno ajustado ao risco (tipo Sharpe). Só conta depois de 40 dias de vida.</p><div class="tw"><table><thead><tr><th>Posição</th><th>Genoma</th><th>Reputação</th><th>Equipe</th><th>Lucro ou perda</th><th>Status</th></tr></thead><tbody>${[...G].sort((a,b)=>b.reputacao-a.reputacao).map((g,i)=>`<tr onclick="abrir(${g.id})"><td>${i+1}</td><td>${e(g.nome)}</td><td class="${cl(g.reputacao)}">${g.reputacao}</td><td>${e(g.equipe)}</td><td class="${cl(g.lucro)}">${brl(g.lucro)}</td><td><span class="st ${g.status}">${g.status}</span></td></tr>`).join("")}</tbody></table></div>`}
+async function caixa(){
+ const c=demo?{saldo:CX.reduce((t,x)=>t+(x.destino=="caixa"?x.valor:0)-(x.origem=="caixa"?x.valor:0),0),transacoes:[...CX].reverse()}:await(await fetch("/api/caixa")).json();
+ $("v4").innerHTML=`<div class="strip"><div class="s"><b class="num">${brl(c.saldo)}</b><span>Saldo do caixa geral</span></div><div class="s"><b class="num">${c.transacoes.length}</b><span>Transações registradas</span></div></div><div class="tw"><table><thead><tr><th>Data</th><th>Origem</th><th>Destino</th><th>Valor</th><th>Motivo</th></tr></thead><tbody>${c.transacoes.map(t=>`<tr><td>${e(t.data)}</td><td>${e(t.origem)}</td><td>${e(t.destino)}</td><td>${brl(t.valor)}</td><td>${e(t.motivo)}</td></tr>`).join("")}</tbody></table></div>`}
+
+function iniciar(){prep();render();arvore();hier();rank();aba(0);
+ const a=$("aviso");a.hidden=false;
+ a.innerHTML=demo?`Simulação rodando no seu navegador, com dados fictícios (semente ${SEED}). <button class="chip" onclick="nova()">Nova simulação</button>`:"Conectado ao backend. Os dados são de exemplo (simulação), não resultados reais."}
+function nova(){SEED=Math.floor(Math.random()*1e9);({G,caixa:CX}=simular(SEED));iniciar()}
+(async()=>{try{const r=await fetch("/api/genomas");if(!r.ok)throw 0;G=await r.json()}catch(_){demo=true;({G,caixa:CX}=simular(SEED))}iniciar()})();
+</script>
+</body></html>
