@@ -129,10 +129,70 @@ body.theme-amber .news-lead{background:linear-gradient(140deg,#332817,#1b1a12);b
 body.theme-serious .genealogy-wrap{background:#111a24;border-color:var(--line)}body.theme-serious .genealogy-wrap:after{opacity:.15}
 @media(max-width:620px){.dna-helix{grid-template-columns:1fr}.gen-generation{grid-template-columns:repeat(auto-fit,minmax(min(100%,145px),1fr))}.fruit-node{min-height:80px}.genealogy-wrap{padding:16px 10px}}
 
+
+/* Refinamento visual solicitado — camada exclusivamente visual; não altera o motor de simulação. */
+:root{scrollbar-color:var(--ac) var(--bg);scrollbar-width:thin}
+*{scrollbar-width:thin;scrollbar-color:var(--ac) transparent}
+*::-webkit-scrollbar{width:8px;height:8px}
+*::-webkit-scrollbar-track{background:color-mix(in srgb,var(--bg) 82%,transparent);border-radius:99px}
+*::-webkit-scrollbar-thumb{background:color-mix(in srgb,var(--ac) 72%,var(--line));border:2px solid transparent;background-clip:padding-box;border-radius:99px}
+*::-webkit-scrollbar-thumb:hover{background:var(--ac);background-clip:padding-box}
+body{min-height:100vh;transition:background .35s ease,color .25s ease}
+header{position:relative}
+.header-status{display:inline-flex;align-items:center;gap:8px;margin-top:12px;padding:6px 10px;border:1px solid color-mix(in srgb,var(--up) 45%,var(--line));border-radius:999px;background:color-mix(in srgb,var(--pp) 76%,transparent);color:var(--up);font-size:.72rem;letter-spacing:.045em;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+.header-status .status-led{width:7px;height:7px;flex:0 0 7px;border-radius:50%;background:var(--up);box-shadow:0 0 0 0 color-mix(in srgb,var(--up) 45%,transparent);animation:online-pulse 2.4s ease-out infinite}
+@keyframes online-pulse{0%{box-shadow:0 0 0 0 color-mix(in srgb,var(--up) 45%,transparent);opacity:1}70%{box-shadow:0 0 0 7px transparent;opacity:.82}100%{box-shadow:0 0 0 0 transparent;opacity:1}}
+/* Glass panels and floating cards */
+.strip,.tw,.setting-card,.audit-card,.genealogy-wrap,.dna-panel,.news-lead,.org-role,.org-operational,.org-status-group,.org-sector,.org-by-sector,.org-agent,.group-member,.dna-explainer{
+ backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);transition:background .28s ease,border-color .28s ease,box-shadow .28s ease,transform .28s ease
+}
+.strip,.tw,.setting-card,.audit-card{background:color-mix(in srgb,var(--pp) 82%,transparent);border-color:color-mix(in srgb,var(--ac) 20%,var(--line));box-shadow:inset 0 1px 0 #ffffff08,0 8px 28px #0000000b}
+.setting-card:hover,.setting-card.selected,.audit-card:hover{box-shadow:0 0 0 1px color-mix(in srgb,var(--ac) 22%,transparent),0 12px 32px color-mix(in srgb,var(--ac) 10%,transparent);transform:translateY(-2px)}
+aside{background:color-mix(in srgb,var(--pp) 84%,transparent);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border-left:1px solid color-mix(in srgb,var(--ac) 42%,var(--line));box-shadow:-16px 0 48px #0005;transition:transform .38s cubic-bezier(.22,.8,.25,1),background .3s ease,border-color .3s ease}
+.chip,.dna-gene,.fruit-node,.org-agent,.group-member{transition:transform .22s ease,background .25s ease,border-color .25s ease,box-shadow .25s ease,color .25s ease}
+.v.on{animation:tab-arrive .28s ease both}
+@keyframes tab-arrive{from{opacity:.35;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+/* Status labels are badges instead of plain inline text. */
+.st{display:inline-flex;align-items:center;gap:6px;padding:3px 9px;border:1px solid color-mix(in srgb,var(--ac) 35%,var(--line));border-radius:999px;background:color-mix(in srgb,var(--ac) 10%,transparent);font-size:.72rem;font-weight:700;line-height:1.4;white-space:nowrap}
+.st:before{width:6px;height:6px;flex:0 0 6px;border-radius:50%;margin:0;background:var(--ac);box-shadow:0 0 8px color-mix(in srgb,var(--ac) 30%,transparent)}
+.st.campo{color:var(--up);border-color:color-mix(in srgb,var(--up) 48%,var(--line));background:color-mix(in srgb,var(--up) 10%,transparent)}.st.campo:before{background:var(--up)}
+.st.treino{color:var(--ac);border-color:color-mix(in srgb,var(--ac) 48%,var(--line));background:color-mix(in srgb,var(--ac) 10%,transparent)}.st.treino:before{background:var(--ac)}
+.st.hibernado{color:var(--wait);border-color:color-mix(in srgb,var(--wait) 48%,var(--line));background:color-mix(in srgb,var(--wait) 10%,transparent)}.st.hibernado:before{background:var(--wait)}
+.st.eliminado{color:var(--dn);border-color:color-mix(in srgb,var(--dn) 48%,var(--line));background:color-mix(in srgb,var(--dn) 10%,transparent)}.st.eliminado:before{background:var(--dn)}
+/* Active DNA blocks have a restrained living signal, not a full orange wash. */
+.dna-panel{background:color-mix(in srgb,var(--pp) 72%,transparent);border-color:color-mix(in srgb,var(--ac) 40%,var(--line));box-shadow:inset 0 1px 0 #ffffff0a,0 12px 32px #0002}
+.dna-gene{overflow:hidden;background:linear-gradient(145deg,color-mix(in srgb,var(--pp) 76%,var(--ac) 12%),color-mix(in srgb,var(--bg) 88%,var(--up) 12%));border-color:color-mix(in srgb,var(--ac) 44%,var(--line));box-shadow:inset 0 1px 0 #ffffff0a}
+.dna-gene:before{background:linear-gradient(90deg,var(--ac),var(--up),var(--ac));background-size:200% 100%;animation:dna-flow 5s linear infinite}
+.dna-gene:hover,.dna-gene:focus-visible{box-shadow:0 0 0 1px color-mix(in srgb,var(--ac) 30%,transparent),0 0 22px color-mix(in srgb,var(--ac) 14%,transparent)}
+.dna-bases i{animation:base-breathe 3.2s ease-in-out infinite alternate;box-shadow:0 0 7px color-mix(in srgb,var(--ac) 12%,transparent)}
+.dna-bases i:nth-child(2n){animation-delay:.35s}.dna-bases i:nth-child(3n){animation-delay:.7s}
+@keyframes dna-flow{to{background-position:200% 0}}
+@keyframes base-breathe{from{filter:brightness(.86);opacity:.72}to{filter:brightness(1.16);opacity:1}}
+.fruit-node:hover,.org-agent:hover,.group-member:hover{box-shadow:0 0 0 1px color-mix(in srgb,var(--ac) 22%,transparent),0 12px 25px #0003}
+/* Amber = charcoal fossil glass, restrained gold and laboratory green. */
+body.theme-amber{--bg:#100f0a;--pp:#191911;--ink:#eee6ce;--mu:#b3aa8d;--line:#3c3928;--ac:#d6a846;--up:#9fc36b;--dn:#d87964;--wait:#c8a65a;background:radial-gradient(ellipse at 18% 0%,#9fc36b0c,transparent 34%),radial-gradient(ellipse at 72% -12%,#d6a8461b,transparent 48%),linear-gradient(155deg,#100f0a 0%,#14140e 52%,#0d100c 100%);color:var(--ink)}
+body.theme-amber header .header-status{background:#182016b8;border-color:#587044;color:#b8d68a}
+body.theme-amber .strip,body.theme-amber .tw,body.theme-amber .setting-card,body.theme-amber .audit-card{background:#191911b8;border-color:#51472e;box-shadow:inset 0 1px 0 #ffffff09,0 10px 28px #0004}
+body.theme-amber .chip{background:#191911c9;border-color:#45402b;color:#d4ccb4}body.theme-amber .chip:hover{border-color:#9fc36b}body.theme-amber .chip.on{background:#d6a846;color:#17150d;border-color:#e7c66e;box-shadow:0 0 18px #d6a84620}
+body.theme-amber aside{background:#15160fd9;border-color:#5b4a2a;box-shadow:-16px 0 48px #0008}
+body.theme-amber .dna-panel{background:linear-gradient(135deg,#1d2017d9,#17170fdf 72%);border-color:#65542d;box-shadow:inset 0 0 28px #9fc36b08,0 12px 36px #0004}
+body.theme-amber .dna-gene{background:linear-gradient(145deg,#292719e8,#191b13ed 72%);border-color:#67552d;color:#eee6ce}
+body.theme-amber .dna-gene:before{background:linear-gradient(90deg,#d6a846,#9fc36b,#bba15b);background-size:200% 100%}
+body.theme-amber .dna-bases i{background:#b18a3c;border-color:#d6a84699}body.theme-amber .dna-gene:nth-child(2) .dna-bases i{background:#5f7f43;border-color:#9fc36b99}body.theme-amber .dna-gene:nth-child(3) .dna-bases i{background:#897544;border-color:#d6c07899}
+body.theme-amber .dna-explainer{background:#1a1d14d9;border-color:#9fc36b;color:#e8e2cc}body.theme-amber .dna-explainer h4{color:#d6b75f}body.theme-amber .dna-explainer p{color:#c6c2ad}
+body.theme-amber .genealogy-wrap{background:radial-gradient(ellipse at 52% 0%,#9fc36b0c,transparent 54%),radial-gradient(ellipse at 50% 8%,#d6a84614,transparent 56%),#12130e;border-color:#4c4930;box-shadow:inset 0 0 38px #9fc36b07}
+body.theme-amber .gen-generation{border-top-color:#d6a84633}body.theme-amber .gen-generation:before{background:#12130e;color:#cbb778}body.theme-amber .fruit-node{background:linear-gradient(145deg,#202117ed,#171810ed);border-color:#514b30;color:#eee6ce}body.theme-amber .fruit-node:hover{background:linear-gradient(145deg,#29291b,#1b2115);border-color:#9fc36b}
+body.theme-amber .fruit-node .fruit-value,body.theme-amber .fruit-node .fruit-status{color:#b9b29a}body.theme-amber .legend-item{background:#1a1b13c9;border-color:#514a31;color:#d5c9a6}
+body.theme-amber .news-lead{background:linear-gradient(135deg,#1c2017e8,#151710ed);border-color:#454a30}body.theme-amber .news-section-title,body.theme-amber .news-kicker{color:#b8ce8a}
+body.theme-minimal .header-status{border-radius:4px;background:#11161dcc}
+body.theme-botanical .header-status{background:#12231fd9}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}
+
 </style></head>
 <body>
 <header>
 <h1>Laboratório de agentes evolutivos</h1>
+<div class="header-status" role="status" aria-label="Sistema online e sincronizado"><span class="status-led" aria-hidden="true"></span><span>Sistema online <span aria-hidden="true">·</span> sincronizado</span></div>
 <div class="sub">Acompanhe cada genoma: resultado, vida, linhagem e melhor mercado.</div>
 <div id="aviso" hidden></div>
 <div class="strip" id="strip"></div>
