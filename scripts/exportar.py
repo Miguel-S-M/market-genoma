@@ -99,21 +99,66 @@ def sentimento(t):
 
 
 def noticias():
-    itens = []
+    """Atualiza notícias sem apagar o último conjunto válido se os feeds falharem."""
+    itens, feeds_ok = [], 0
+    anterior = OUT / "noticias.json"
     for fonte, url in FEEDS:
         try:
-            for it in ET.fromstring(baixar(url)).iter("item"):
+            raiz = ET.fromstring(baixar(url))
+            feeds_ok += 1
+            for it in raiz.iter("item"):
                 t = (it.findtext("title") or "").strip()
+                link = (it.findtext("link") or "").strip()
+                if not t or not link:
+                    continue
                 try:
                     d = parsedate_to_datetime(it.findtext("pubDate")).astimezone(timezone.utc).isoformat(timespec="minutes")
                 except Exception:
                     d = ""
                 itens.append({"titulo": t, "fonte": it.findtext("source") or fonte,
-                              "link": it.findtext("link") or "", "data": d, "sentimento": sentimento(t)})
+                              "link": link, "data": d, "sentimento": sentimento(t)})
         except Exception as e:
             print("feed falhou:", fonte, e)
-    itens.sort(key=lambda x: x["data"], reverse=True)
-    salvar("noticias.json", {"atualizado": AGORA, "itens": itens[:40]})
+
+    # Se todos os feeds falharem, não sobrescreve notícias válidas com lista vazia.
+    if feeds_ok == 0:
+        print("Todos os feeds falharam; mantendo noticias.json anterior.")
+        return
+
+    # Deduplicação por link, mantendo o item mais recente encontrado.
+    unicos = {}
+    for item in itens:
+        unicos[item["link"]] = item
+    itens = sorted(unicos.values(), key=lambda x: x["data"], reverse=True)[:40]
+
+    # Um feed respondeu, mas não trouxe itens: preservar a última versão não vazia.
+    if not itens and anterior.exists():
+        try:
+            antigo = json.loads(anterior.read_text(encoding="utf-8"))
+            itens = antigo.get("itens", [])
+        except Exception:
+            itens = []
+
+    payload = {"atualizado": AGORA, "itens": itens}
+    salvar("noticias.json", payload)
+
+    # Saída agregada e aditiva para o painel/integração dos Genomas.
+    valores = [float(x.get("sentimento", 0)) for x in itens if isinstance(x.get("sentimento"), (int, float))]
+    media = round(sum(valores) / len(valores), 3) if valores else 0.0
+    if media > 0.15:
+        sinal = "positivo"
+    elif media < -0.15:
+        sinal = "negativo"
+    else:
+        sinal = "neutro"
+    salvar("sentimento.json", {
+        "atualizado": AGORA,
+        "origem": "noticias.json",
+        "metodo": "média de pontuações por palavras-chave; sinal informativo, não previsão",
+        "quantidade": len(valores),
+        "media": media,
+        "sinal": sinal,
+    })
 
 
 if __name__ == "__main__":

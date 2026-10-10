@@ -151,7 +151,7 @@ async function caixa(){
  const c=demo?{saldo:CX.reduce((t,x)=>t+(x.destino=="caixa"?x.valor:0)-(x.origem=="caixa"?x.valor:0),0),transacoes:[...CX].reverse()}:await(await fetch("/api/caixa")).json();
  $("v4").innerHTML=`<div class="strip"><div class="s"><b class="num">${brl(c.saldo)}</b><span>Saldo do caixa geral</span></div><div class="s"><b class="num">${c.transacoes.length}</b><span>Transações registradas</span></div></div><div class="tw"><table><thead><tr><th>Data</th><th>Origem</th><th>Destino</th><th>Valor</th><th>Motivo</th></tr></thead><tbody>${c.transacoes.map(t=>`<tr><td>${e(t.data)}</td><td>${e(t.origem)}</td><td>${e(t.destino)}</td><td>${brl(t.valor)}</td><td>${e(t.motivo)}</td></tr>`).join("")}</tbody></table></div>`}
 
-const J=async f=>{try{const r=await fetch("data/"+f+"?t="+Date.now());if(!r.ok)throw 0;return await r.json()}catch(_){return null}};
+const J=async f=>{try{const r=await fetch("data/"+f+"?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw 0;return await r.json()}catch(_){return null}};
 const vazio='<p class="sub">Ainda não há dados reais exportados. No GitHub, abra Actions, escolha "Exportar dados" e clique em Run workflow.</p>';
 const dh=i=>i?new Date(i).toLocaleString("pt-BR",{dateStyle:"short",timeStyle:"short"}):"",url=l=>/^https?:\/\//.test(l)?e(l):"#";
 async function analise(){const a=await J("analise.json");if(!a){$("v5").innerHTML=vazio;return}
@@ -162,8 +162,21 @@ async function analise(){const a=await J("analise.json");if(!a){$("v5").innerHTM
  <p class="sub"><b>Últimos 120 pregões, por regime</b></p><svg viewBox="0 0 480 120" width="100%" role="img" aria-label="Ibovespa e regimes">${s.map((x,k)=>`<rect x="${(k*w).toFixed(1)}" y="0" width="${(w+.5).toFixed(1)}" height="120" fill="${cor[x.regime]}" opacity=".2"/>`).join("")}<path d="${p}" fill="none" stroke="var(--ink)" stroke-width="1.6"/></svg>
  <div class="sub">${Object.keys(cor).map(k=>`<span style="color:${cor[k]};margin-right:14px">■ ${k}</span>`).join("")}</div>
  <p class="sub">${a.regras.map(e).join("<br>")}</p><p class="sub">Dados reais do Ibovespa, atualizados em ${dh(a.atualizado)}.</p>`}
-async function noticias(){const n=await J("noticias.json");if(!n){$("v6").innerHTML=vazio;return}
- $("v6").innerHTML=`<p class="sub">Manchetes reais. O sentimento é uma pontuação simples por palavras-chave (de -1 a +1), não uma análise profunda. Atualizado em ${dh(n.atualizado)}.</p><div class="tw"><table><thead><tr><th>Data</th><th>Manchete</th><th>Fonte</th><th>Sentimento</th></tr></thead><tbody>${n.itens.map(x=>`<tr><td>${dh(x.data)}</td><td style="white-space:normal;min-width:260px"><a href="${url(x.link)}" target="_blank" rel="noopener">${e(x.titulo)}</a></td><td>${e(x.fonte)}</td><td class="${cl(x.sentimento)}">${x.sentimento}</td></tr>`).join("")}</tbody></table></div>`}
+let newsBusy=false;
+async function noticias(){
+ if(newsBusy)return;
+ newsBusy=true;
+ try{
+  const [n,s]=await Promise.all([J("noticias.json"),J("sentimento.json")]);
+  if(!n){$("v6").innerHTML=vazio;return}
+  const itens=Array.isArray(n.itens)?n.itens:[];
+  const resumo=s?`<div class="strip"><div class="s"><b class="num ${s.media>0?"ok":s.media<0?"bad":""}">${Number(s.media||0).toFixed(3)}</b><span>Sentimento agregado das notícias</span></div><div class="s"><b class="num">${e(s.sinal||"indisponível")}</b><span>Sinal informativo para o painel dos Genomas</span></div><div class="s"><b class="num">${Number(s.quantidade||0)}</b><span>Manchetes consideradas</span></div></div><p class="sub">${e(s.metodo||"Pontuação simples por palavras-chave.")} Atualizado em ${dh(s.atualizado)}. Este sinal é exibido como informação e não altera regras de negociação.</p>`:"";
+  $("v6").innerHTML=`${resumo}<p class="sub">Manchetes. O sentimento individual é uma pontuação simples por palavras-chave (de -1 a +1), não uma análise profunda. Última coleta: ${dh(n.atualizado)}. A página verifica atualizações a cada 3 minutos enquanto esta aba está aberta.</p><div class="tw"><table><thead><tr><th>Data</th><th>Manchete</th><th>Fonte</th><th>Sentimento</th></tr></thead><tbody>${itens.map(x=>`<tr><td>${dh(x.data)}</td><td style="white-space:normal;min-width:260px"><a href="${url(x.link)}" target="_blank" rel="noopener">${e(x.titulo)}</a></td><td>${e(x.fonte)}</td><td class="${cl(Number(x.sentimento||0))}">${Number(x.sentimento||0).toFixed(2)}</td></tr>`).join("")||`<tr><td colspan="4">Nenhuma notícia disponível no arquivo atual.</td></tr>`}</tbody></table></div>`;
+ }finally{newsBusy=false}
+}
+const NEWS_REFRESH_MS=3*60*1000;
+setInterval(()=>{if(document.visibilityState==="visible"&&$("v6")?.classList.contains("on"))noticias()},NEWS_REFRESH_MS);
+document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="visible"&&$("v6")?.classList.contains("on"))noticias()});
 let LT=null;
 function live(){clearInterval(LT);liveRender();LT=setInterval(()=>{if($("v7").classList.contains("on"))liveRender()},60000)}
 async function liveRender(){const m=await J("mercado.json"),q={};let fonte="arquivo exportado pelo GitHub Actions";

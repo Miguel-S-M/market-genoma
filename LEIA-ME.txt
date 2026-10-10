@@ -1,0 +1,27 @@
+MARKET-GENOMA — ATUALIZAÇÃO SEGURA DE NOTÍCIAS E SENTIMENTO
+
+Arquivos deste pacote:
+- index.html: preserva as abas existentes e consulta notícias a cada 3 minutos enquanto a aba Notícias está aberta.
+- scripts/exportar.py: versão baseada no exportar.py recebido; mantém as rotinas de mercado/análise e acrescenta deduplicação, preservação de notícias quando os feeds falham e gera data/sentimento.json.
+
+COMO APLICAR SEM SUBSTITUIR O PROJETO TODO
+1. Baixe uma cópia/backup do repositório antes de alterar qualquer arquivo.
+2. Substitua o index.html do repositório pelo index.html deste pacote.
+3. Substitua scripts/exportar.py pelo scripts/exportar.py deste pacote.
+4. Mantenha os arquivos atuais data/mercado.json, data/analise.json, data/noticias.json, data/estado.json, data/genomas.json, main.py, motor.py e paper.py. Não os apague.
+5. Faça commit e teste o site e a aba Actions.
+
+WORKFLOW / AGENDAMENTO
+Este pacote NÃO substitui .github/workflows/dados.yml porque o conteúdo desse workflow não foi fornecido; substituí-lo às cegas poderia quebrar a execução atual. O workflow existente precisa continuar chamando `python scripts/exportar.py` e ter permissão de escrita em `data/` se ele já publica os JSON por commit. Confirme que o workflow faz commit de `data/sentimento.json` junto com os demais dados; caso ele use `git add data/*.json`, isso já inclui o novo arquivo. Caso liste arquivos explicitamente, acrescente `data/sentimento.json` à lista.
+
+FREQUÊNCIA
+- A interface verifica o JSON a cada 3 minutos enquanto a aba Notícias está visível.
+- A coleta no servidor continua dependendo do agendamento existente do GitHub Actions. O GitHub não garante execução exata a cada 3 minutos; atrasos são possíveis.
+
+INTEGRAÇÃO COM GENOMAS
+O arquivo data/sentimento.json publica um resumo agregado compatível para leitura pelo painel. Esta atualização NÃO altera os genes, o estado persistente, o motor evolutivo ou decisões de compra/venda. Ligar o sentimento diretamente às decisões dos Genomas exigiria uma mudança deliberada e teste separado no paper.py/motor.py; não foi feito automaticamente para não alterar a operação sem validação.
+
+VALIDAÇÃO REALIZADA
+- Python compilado sem erro de sintaxe.
+- O HTML foi alterado por substituição pontual nas funções de notícias; demais abas foram mantidas.
+- Não foi possível executar o workflow no seu GitHub nem testar os feeds de rede nesta sessão.
