@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Laboratório de agentes evolutivos</title>
+<style>
+:root{--bg:#eef1f5;--pp:#fff;--ink:#14213d;--mu:#5b6780;--line:#d5dbe6;--ac:#3b4cca;--up:#0b7a6b;--dn:#c2255c;--wait:#b7791f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+header,main{max-width:1100px;margin:auto;padding:0 16px}
+header{padding-top:24px}
+h1,h2,.num{font-family:"Iowan Old Style",Georgia,serif;font-weight:600}
+h1{margin:0;font-size:1.7rem}
+.sub{color:var(--mu);font-size:.88rem}
+#aviso{margin-top:12px;padding:8px 12px;border-left:3px solid var(--wait);background:#fbf3e2;font-size:.85rem}
+.strip{display:flex;flex-wrap:wrap;border-block:1px solid var(--line);margin:18px 0}
+.s{flex:1 1 150px;padding:12px 16px;border-left:1px solid var(--line)}
+.s:first-child{border-left:0}
+.s .num{display:block;font-size:1.5rem}
+.s span{color:var(--mu);font-size:.82rem}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.chip{background:var(--pp);border:1px solid var(--line);color:var(--mu);padding:6px 14px;border-radius:6px;cursor:pointer;font:inherit}
+.chip.on{background:var(--ink);border-color:var(--ink);color:#fff}
+.tw{overflow-x:auto;background:var(--pp);border:1px solid var(--line);border-radius:6px}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+th,td{padding:10px 14px;text-align:left;white-space:nowrap;border-bottom:1px solid var(--line)}
+th{color:var(--mu);font-weight:500;font-size:.82rem;cursor:pointer}
+tbody tr{cursor:pointer}tbody tr:hover{background:#f4f6fb}
+.ok{color:var(--up)}.bad{color:var(--dn)}
+.campo{color:var(--up)}.treino{color:var(--ac)}.hibernado{color:var(--wait)}.eliminado{color:var(--dn)}
+.st{color:var(--ink)}.st:before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;background:currentColor;margin-right:7px}
+.st.campo:before{background:var(--up)}.st.treino:before{background:var(--ac)}.st.hibernado:before{background:var(--wait)}.st.eliminado:before{background:var(--dn)}
+.lv i{display:inline-block;height:8px;border-radius:2px;background:currentColor;vertical-align:middle;margin-right:6px}
+aside{position:fixed;inset:0 0 0 auto;width:min(440px,100%);background:var(--pp);box-shadow:-8px 0 24px #14213d22;padding:20px;overflow:auto;transform:translateX(105%);transition:transform .2s;z-index:5}
+aside.on{transform:none}
+aside h3{margin:20px 0 6px;font-size:.9rem;color:var(--mu);font-weight:600}
+aside table td{padding:5px 8px;font-size:.85rem}
+.x{float:right;background:none;border:0;font-size:1.6rem;cursor:pointer;color:var(--ink)}
+.gene{display:flex;align-items:center;gap:10px;font-size:.85rem;margin:5px 0}
+.gene em{width:96px;font-style:normal;color:var(--mu)}
+.gene i{flex:1;height:6px;background:var(--line);border-radius:3px;overflow:hidden}
+.gene u{display:block;height:100%;background:var(--ac)}
+footer{color:var(--mu);font-size:.78rem;text-align:center;padding:24px 16px}
+.v{display:none}.v.on{display:block}
+.tree,.tree ul{list-style:none;margin:0;padding-left:22px;border-left:1px solid var(--line)}
+.tree{padding:0;border:0}.tree li{margin:7px 0}.tree a{color:var(--ink);text-decoration:none;font-weight:600}.tree small{color:var(--mu)}
+.hn{border-left:2px solid var(--ac);padding:4px 0 4px 14px;margin:10px 0 10px 16px}
+.hn>b{display:block}.hn a{color:var(--ink);text-decoration:none}
+
+/* Visual refresh: botanical genealogy + financial newsroom */
+:root{--bg:#0b1118;--pp:#111a24;--ink:#e8eef5;--mu:#93a4b8;--line:#263545;--ac:#8bbf8b;--up:#4cc38a;--dn:#ff727c;--wait:#e4b96b}
+body{background:radial-gradient(ellipse at 50% -20%,#1c2c35 0,transparent 55%),var(--bg);color:var(--ink)}
+header,main{max-width:1320px}
+header{padding-top:30px}h1{font-size:clamp(1.8rem,3vw,2.5rem);letter-spacing:-.035em}
+.sub{color:var(--mu)}#aviso{background:#241f17;color:#f2d8a0;border-left-color:var(--wait);border-radius:0 8px 8px 0}
+.strip{background:#101923;border:1px solid var(--line);border-radius:12px;overflow:hidden}.s{border-color:var(--line)}
+.chips{gap:8px}.chip{background:#111a24;border-color:#2a3b4d;color:#c1cfdd;border-radius:999px;padding:8px 15px;transition:background .18s,border-color .18s}
+.chip:hover{border-color:#83b58d}.chip.on{background:#c4f0cc;border-color:#c4f0cc;color:#13251b}
+.tw{background:var(--pp);border-color:var(--line);border-radius:12px;overflow:hidden}th,td{border-color:var(--line)}tbody tr:hover{background:#1a2733}aside{background:#101923;color:var(--ink);border-left:1px solid var(--line);box-shadow:-12px 0 38px #0008}aside table td{border-color:var(--line)}
+.tree{padding:0;border:0}.tree li{margin:0}.tree a{color:var(--ink)}
+.hn{border-left-color:#7cae86}.hn a{color:var(--ink)}footer{color:#77889b}
+/* Genealogy tree */
+.genealogy-wrap{position:relative;overflow:auto;border:1px solid #2b453c;border-radius:18px;background:linear-gradient(180deg,#12231f 0%,#14231e 42%,#1d2922 100%);padding:28px 22px 36px;min-height:540px;isolation:isolate}
+.genealogy-wrap:before{content:"";position:absolute;z-index:-1;left:50%;top:20%;bottom:0;width:clamp(90px,15vw,190px);transform:translateX(-50%);background:linear-gradient(90deg,#38291f,#76513a 35%,#8a6242 52%,#3d2c20);clip-path:polygon(40% 0,62% 0,66% 25%,80% 48%,100% 72%,90% 77%,62% 61%,59% 100%,42% 100%,42% 62%,18% 78%,0 72%,27% 48%,36% 25%);opacity:.92}
+.genealogy-wrap:after{content:"";position:absolute;inset:0;z-index:-2;background:radial-gradient(ellipse at 50% 55%,#36533a88,transparent 55%),radial-gradient(ellipse at 25% 30%,#3a6a3a30,transparent 28%),radial-gradient(ellipse at 75% 34%,#3a6a3a30,transparent 28%)}
+.tree-head{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:20px}.tree-head h2{margin:0;color:#f1f7ed}.tree-legend{display:flex;flex-wrap:wrap;gap:8px}.legend-item{font-size:.78rem;color:#d1dfd3;background:#0e1a16c9;border:1px solid #476050;border-radius:99px;padding:5px 9px}
+.gen-level{display:flex;justify-content:center;align-items:flex-start;gap:clamp(8px,2.4vw,30px);position:relative;padding:22px 0 12px;min-width:max-content}.gen-level:before{content:"";position:absolute;top:0;left:8%;right:8%;height:2px;background:#9b7856aa}.gen-branch{display:flex;flex-direction:column;align-items:center;position:relative;min-width:104px;padding:0 7px}.gen-branch:before{content:"";height:22px;width:2px;background:#9b7856aa;position:absolute;top:-22px}.gen-branch.root:before{display:none}.gen-branch.has-children>.fruit-node:after{content:"";position:absolute;left:50%;top:100%;height:18px;width:2px;background:#9b7856aa}.fruit-node{position:relative;display:flex;flex-direction:column;align-items:center;gap:3px;min-width:104px;max-width:142px;border:1px solid #64816a;background:#13251fd9;color:#eff7ef;border-radius:14px;padding:8px 7px 9px;cursor:pointer;font:inherit;box-shadow:0 8px 22px #0003;transition:transform .16s,border-color .16s,background .16s}.fruit-node:hover{transform:translateY(-4px);border-color:#c5e8c4;background:#1b3528}.fruit-emoji{font-size:40px;line-height:1.15;filter:drop-shadow(0 4px 3px #0005);position:relative}.fruit-node .fruit-name{font-size:.78rem;font-weight:750;max-width:125px;overflow-wrap:anywhere}.fruit-node .fruit-value{font-size:.7rem;color:#b8cbbb}.fruit-node .fruit-status{font-size:.65rem;color:#b8cbbb;text-transform:uppercase;letter-spacing:.06em}.fruit-node.status-treino .fruit-emoji{filter:drop-shadow(0 4px 3px #0005) saturate(1.12)}.fruit-node.status-hibernado .fruit-emoji{filter:grayscale(.15) brightness(.82)}.fruit-node.status-eliminado .fruit-emoji{filter:grayscale(.75) sepia(.8) brightness(.75)}
+.fruit-wrap{position:relative;display:inline-block}.fruit-cloth{position:absolute;left:-5px;right:-5px;top:-3px;height:31px;border-radius:45% 45% 12% 12%;background:repeating-linear-gradient(135deg,#d8c7a5 0 5px,#b7a17c 5px 9px);border:1px solid #e3d5b9;box-shadow:0 2px 4px #0006}.fruit-cloth:after{content:"";position:absolute;left:20%;right:20%;bottom:-5px;height:8px;border-radius:0 0 50% 50%;background:#b7a17c;border-bottom:1px solid #e3d5b9}
+.gen-children{display:flex;justify-content:center;align-items:flex-start;gap:12px;padding-top:24px;position:relative}.gen-children:before{content:"";position:absolute;top:0;left:50%;height:24px;width:2px;background:#9b7856aa}.tree-empty{padding:40px;text-align:center;color:#d1dfd3}
+/* Newsroom / impact pyramid */
+.newsroom{display:grid;gap:20px}.news-masthead{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;border-bottom:2px solid #c6efcf;padding:0 0 14px}.news-brand{font-family:Georgia,serif;font-weight:800;font-size:clamp(1.5rem,3vw,2.25rem);letter-spacing:-.04em}.news-brand span{color:#8cc89b}.news-meta{color:var(--mu);font-size:.82rem}.news-section-title{display:flex;align-items:center;gap:10px;font-size:.83rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#a8d9b2;margin:0 0 12px}.news-section-title:after{content:"";height:1px;flex:1;background:var(--line)}.news-lead{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(260px,1fr);gap:18px;background:linear-gradient(140deg,#182a32,#111a24 70%);border:1px solid #344b4b;border-radius:16px;overflow:hidden}.news-lead-copy{padding:clamp(18px,3vw,32px);display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:12px}.news-kicker{color:#a8d9b2;text-transform:uppercase;letter-spacing:.12em;font-size:.72rem;font-weight:800}.news-lead h2{font-size:clamp(1.45rem,3vw,2.5rem);line-height:1.12;margin:0;letter-spacing:-.035em}.news-lead h2 a,.news-card h3 a,.news-row h3 a{color:inherit;text-decoration:none}.news-lead h2 a:hover,.news-card h3 a:hover,.news-row h3 a:hover{color:#b8eac1}.news-summary{color:#b3c0ce;margin:0}.news-byline{display:flex;flex-wrap:wrap;gap:10px;color:#8fa2b5;font-size:.78rem}.news-score{border:1px solid #466253;background:#1b3529;color:#bcebc6;border-radius:99px;padding:4px 9px;font-size:.75rem}.news-side-image{min-height:250px;background:radial-gradient(ellipse at 50% 30%,#315f4d,#142a2a 60%,#111a24);display:grid;place-items:center;font-size:clamp(4rem,10vw,8rem);position:relative;overflow:hidden}.news-side-image:before{content:"";position:absolute;width:60%;aspect-ratio:1;border:1px solid #8fc6a233;border-radius:50%;box-shadow:0 0 0 35px #8fc6a20a,0 0 0 70px #8fc6a20a}.news-side-image span{position:relative;filter:drop-shadow(0 8px 12px #0007)}.news-secondary{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.news-card{padding:18px;border:1px solid var(--line);border-radius:12px;background:#111a24;display:flex;flex-direction:column;gap:9px;min-width:0}.news-card h3{font-size:1.05rem;line-height:1.3;margin:0}.news-card p{margin:0;color:var(--mu);font-size:.86rem}.news-card .news-byline{margin-top:auto;padding-top:5px}.news-list{display:grid;gap:0;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#111a24}.news-row{display:grid;grid-template-columns:82px minmax(0,1fr) auto;gap:14px;align-items:start;padding:15px 17px;border-bottom:1px solid var(--line)}.news-row:last-child{border-bottom:0}.news-time{font-size:.75rem;color:#93a4b8;padding-top:3px}.news-row h3{font-size:.98rem;line-height:1.35;margin:0 0 6px}.news-row p{font-size:.83rem;color:var(--mu);margin:0}.news-filter{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 12px}.news-empty{padding:24px;color:var(--mu);border:1px dashed var(--line);border-radius:12px}.sentiment-pill{display:inline-flex;align-items:center;gap:5px;font-size:.73rem;border-radius:99px;padding:3px 8px;background:#1c2934;color:#b8c7d5;white-space:nowrap}.sentiment-pill.positive{color:#8de0ae;background:#173326}.sentiment-pill.negative{color:#ff9ba1;background:#3a2027}.sentiment-pill.neutral{color:#d6c18b;background:#342e1d}
+@media(max-width:720px){.news-lead{grid-template-columns:1fr}.news-side-image{min-height:130px;grid-row:1}.news-side-image span{font-size:4.5rem}.news-secondary{grid-template-columns:1fr}.news-row{grid-template-columns:1fr auto;gap:5px 10px}.news-time{grid-column:1/-1}.news-row .sentiment-pill{grid-column:2;grid-row:2}.genealogy-wrap{padding:20px 12px}.gen-branch{min-width:88px}.fruit-node{min-width:88px}.gen-children{gap:6px}}
+
+:focus-visible{outline:2px solid var(--ac);outline-offset:2px}
+</style></head>
+<body>
+<header>
+<h1>Laboratório de agentes evolutivos</h1>
+<div class="sub">Acompanhe cada genoma: resultado, vida, linhagem e melhor mercado.</div>
+<div id="aviso" hidden></div>
+<div class="strip" id="strip"></div>
+</header>
+<main>
+<nav class="chips" id="tabs"></nav>
+<section class="v on" id="v0"><div class="chips" id="chips"></div>
+<div class="tw"><table><thead><tr id="th"></tr></thead><tbody id="tb"></tbody></table></div></section>
+<section class="v" id="v1"></section><section class="v" id="v2"></section><section class="v" id="v3"></section><section class="v" id="v4"></section><section class="v" id="v5"></section><section class="v" id="v6"></section><section class="v" id="v7"></section>
+</main>
+<aside id="ps"></aside>
+<footer>Ambiente de simulação educacional. Não é recomendação de investimento.</footer>
+<script>
+const REG=["alta calma","alta volátil","lateral","queda","crise"];
+const COL=[["nome","Genoma"],["equipe","Equipe e setor"],["status","Status"],["lucro","Lucro ou perda"],["ret","Retorno"],["vida","Vida"],["clonagens","Clonagens"],["melhor_regime","Melhor mercado"]];
+let CX=[],SEED=+new URLSearchParams(location.search).get("seed")||7,G=[],demo=false,ord=["lucro",-1],fil="todos";
+const $=i=>document.getElementById(i);
+const e=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const brl=v=>v.toLocaleString("pt-BR",{style:"currency",currency:"BRL"});
+const pct=v=>(v>0?"+":"")+(v*100).toFixed(1)+"%";
+const cl=v=>v>=0?"ok":"bad";
+const vida=g=>Math.round(((g.morte?new Date(g.morte):new Date())-new Date(g.nascimento))/864e5);
+const prep=()=>G.forEach(g=>{g.lucro=g.capital_atual-g.capital_inicial;g.ret=g.lucro/g.capital_inicial;g.vida=vida(g);g.reputacao??=+(g.ret*8).toFixed(2)});
+const srt=k=>{ord=ord[0]==k?[k,-ord[1]]:[k,-1];render()};
+
+function simular(seed){
+ let q=seed>>>0;const R=()=>{q=(q+0x6D2B79F5)>>>0;let t=q;t=Math.imul(t^t>>>15,t|1);t^=t+Math.imul(t^t>>>7,t|61);return((t^t>>>14)>>>0)/4294967296},
+ N=(m,sd)=>m+sd*Math.sqrt(-2*Math.log(1-R()))*Math.cos(2*Math.PI*R()),U=(a,b)=>a+(b-a)*R(),pick=a=>a[Math.floor(R()*a.length)],r2=x=>Math.round(x*100)/100,
+ sum=l=>l.reduce((p,c)=>p+c,0),avg=l=>sum(l)/l.length,
+ REGS={"alta calma":[.0008,.006],"alta volátil":[.0008,.02],"lateral":[0,.008],"queda":[-.001,.012],"crise":[-.003,.03]},SET={tecnologia:1.3,energia:.9,financeiro:1,varejo:1.1},EQ={5:"curto",20:"medio",60:"longo"},K=Object.keys(REGS),SK=Object.keys(SET),
+ E=8,D=40,now=Date.now(),d2=d=>new Date(now-(E*D-d)*864e5).toISOString().slice(0,10),ags=[],led=[],cx={v:4e4},
+ gn0=()=>({tendencia:r2(U(-1,1)),risco:r2(U(.2,1)),horizonte_dias:pick([5,20,60])}),
+ mut=g=>({tendencia:r2(Math.max(-1,Math.min(1,g.tendencia+N(0,.15)))),risco:r2(Math.max(.1,Math.min(1,g.risco+N(0,.1)))),horizonte_dias:R()<.2?pick([5,20,60]):g.horizonte_dias}),
+ rep=a=>{const r=a.rets;if(r.length<40)return 0;const m=avg(r),sd=Math.sqrt(avg(r.map(x=>(x-m)**2)));return sd?r2(m/sd*15.8):0},
+ mov=(d,o,t,v,m)=>led.push({data:d2(d),origem:o,destino:t,valor:r2(v),motivo:m}),
+ vivos=()=>ags.filter(x=>x.status=="treino"||x.status=="campo"),
+ novo=(d,g,pai,ev,cap)=>{const a={id:ags.length+1,genes:g,setor:pick(SK),equipe:EQ[g.horizonte_dias],ev,status:"treino",nasc:d,morte:null,pai_id:pai,v:cap,capital_inicial:cap,pos:0,ent:cap,rets:[],curva:[],operacoes:[],reg:{},clonagens:0,ep0:cap};
+  a.nome="G-"+String(a.id).padStart(3,"0");ags.push(a);cx.v-=cap;mov(d,"caixa",a.nome,cap,pai?"clonagem":"capital inicial");return a};
+ mov(0,"externo","caixa",4e4,"aporte inicial (simulado)");
+ for(let i=0;i<20;i++){const a=novo(0,gn0(),null,i<16,1000);if(i>=16)a.equipe="generalista"}
+ const px={};SK.forEach(s=>px[s]=[100]);let d=0;
+ for(let ep=0;ep<E;ep++){
+  const x=R()*12,reg=K[x<4?0:x<6?1:x<9?2:x<11?3:4],[mu,sg]=REGS[reg];
+  for(let t=0;t<D;t++){
+   const m=N(mu,sg);SK.forEach(s=>px[s].push(px[s].at(-1)*(1+SET[s]*m+N(0,.004))));d++;
+   vivos().forEach(a=>{const sr=px[a.setor],h=a.genes.horizonte_dias,r=sr.at(-1)/sr.at(-2)-1;
+    a.v*=1+a.pos*r;a.rets.push(a.pos*r);
+    const mom=sr.length>h?sr.at(-1)/sr.at(-1-h)-1:0,nova=mom*a.genes.tendencia>0?a.genes.risco:0;
+    if((nova>0)!=(a.pos>0)){a.v*=.999;const p=r2(sr.at(-1)),qt=Math.max(1,Math.floor(a.v*Math.max(nova,a.pos)/p)),at="SIM-"+a.setor.slice(0,4).toUpperCase();
+     if(nova>0){a.ent=a.v;a.operacoes.push({data:d2(d),ativo:at,lado:"compra",qtd:qt,preco:p,resultado:0})}
+     else a.operacoes.push({data:d2(d),ativo:at,lado:"venda",qtd:qt,preco:p,resultado:r2(a.v-a.ent)})}
+    a.pos=nova;if(d%4==0)a.curva.push(a.v)})}
+  vivos().forEach(a=>{(a.reg[reg]??=[]).push(a.v/a.ep0-1);a.ep0=a.v;if(!a.ev)return;
+   if(a.status=="treino"&&rep(a)>0)a.status="campo";
+   if(a.v<a.capital_inicial*.85){const hib=Object.values(a.reg).some(l=>l.length>1&&sum(l)>0);
+    a.status=hib?"hibernado":"eliminado";a.morte=d;cx.v+=a.v;mov(d,a.nome,"caixa",a.v,hib?"hibernação":"desligamento")}
+   else if(a.clonagens<3&&a.v-a.capital_inicial>=[100,300,900][a.clonagens]&&cx.v>=2500){novo(d,mut(a.genes),a.id,true,500);a.clonagens++}});
+  while(ags.filter(x=>x.ev&&(x.status=="treino"||x.status=="campo")).length<8&&cx.v>=3000)novo(d,gn0(),null,true,1000)}
+ return{G:ags.map(a=>{const ks=Object.keys(a.reg),mr=ks.length?ks.reduce((b,k)=>avg(a.reg[k])>avg(a.reg[b])?k:b):"sem dados";
+  return{id:a.id,nome:a.nome,equipe:a.equipe,setor:a.setor,status:a.status,nascimento:d2(a.nasc),morte:a.morte?d2(a.morte):null,pai_id:a.pai_id,clonagens:a.clonagens,genes:a.genes,capital_inicial:a.capital_inicial,capital_atual:a.v,melhor_regime:mr,reputacao:rep(a),curva:a.curva.length?a.curva:[a.v],operacoes:a.operacoes.slice(-30).reverse()}}),caixa:led}}
+
+function render(){
+ const vivos=G.filter(g=>g.status=="campo"||g.status=="treino"),n=s=>G.filter(g=>g.status==s).length,sum=(a,f)=>a.reduce((t,g)=>t+f(g),0),L=sum(G,g=>g.lucro),mx=Math.max(...G.map(g=>g.vida),1);
+ $("strip").innerHTML=[["Patrimônio dos vivos",brl(sum(vivos,g=>g.capital_atual))],["Lucro ou perda total",brl(L),cl(L)],["Genomas vivos",vivos.length],["Hibernados",n("hibernado")],["Eliminados",n("eliminado")],["Clonagens",sum(G,g=>g.clonagens)]].map(([a,b,c])=>`<div class="s"><b class="num ${c||""}">${b}</b><span>${a}</span></div>`).join("");
+ $("chips").innerHTML=["todos","campo","treino","hibernado","eliminado"].map(s=>`<button class="chip ${s==fil?"on":""}" onclick="fil='${s}';render()">${s}</button>`).join("");
+ $("th").innerHTML=COL.map(([k,t])=>`<th onclick="srt('${k}')">${t}${ord[0]==k?(ord[1]<0?" ▾":" ▴"):""}</th>`).join("");
+ const[k,d]=ord;
+ $("tb").innerHTML=G.filter(g=>fil=="todos"||g.status==fil).sort((a,b)=>(a[k]>b[k]?1:a[k]<b[k]?-1:0)*d).map(g=>`<tr onclick="abrir(${g.id})"><td>${e(g.nome)}</td><td>${e(g.equipe)}, ${e(g.setor)}</td><td><span class="st">${g.status}</span></td><td class="${cl(g.lucro)}">${brl(g.lucro)}</td><td class="${cl(g.ret)}">${pct(g.ret)}</td><td class="lv ${g.status}"><i style="width:${g.vida/mx*70}px"></i><span style="color:var(--ink)">${g.vida} dias</span></td><td>${g.clonagens}</td><td>${e(g.melhor_regime)}</td></tr>`).join("")}
+
+function chart(c){const w=380,h=120,a=Math.min(...c),b=Math.max(...c),f=v=>h-6-(v-a)/(b-a||1)*(h-12),p=c.map((v,i)=>(i?"L":"M")+(i*w/(c.length-1)).toFixed(1)+" "+f(v).toFixed(1)).join("");
+ return`<svg viewBox="0 0 ${w} ${h}" width="100%" role="img" aria-label="Curva de patrimônio"><path d="${p}" fill="none" stroke="${c.at(-1)>=c[0]?"var(--up)":"var(--dn)"}" stroke-width="2"/></svg>`}
+
+async function abrir(id){
+ let g=G.find(x=>x.id==id);
+ if(!demo){try{g={...g,...await(await fetch("/api/genomas/"+id)).json()}}catch(_){}}
+ const gen=Object.entries(g.genes).filter(([k])=>k!="horizonte_dias");
+ $("ps").innerHTML=`<button class="x" onclick="$('ps').classList.remove('on')" aria-label="Fechar">×</button>
+ <h2 style="margin:0">${e(g.nome)}</h2><span class="st ${g.status}">${g.status}</span>
+ <div class="sub">Equipe ${e(g.equipe)}, setor ${e(g.setor)}</div>
+ <h3>Resultado</h3><div class="num" style="font-size:1.4rem">${brl(g.capital_atual)} <span class="${cl(g.lucro)}" style="font-size:.95rem">${brl(g.lucro)} (${pct(g.ret)})</span></div>
+ <div class="sub" style="margin-top:6px">Vida: ${g.vida} dias, nasceu em ${e(g.nascimento)}${g.morte?", encerrou em "+e(g.morte):""}.<br>Origem: ${g.pai_id?"descendente de G-"+String(g.pai_id).padStart(3,"0"):"geração inicial"}. Clonagens: ${g.clonagens}.<br>Melhor mercado: <b>${e(g.melhor_regime)}</b>. Horizonte: ${g.genes.horizonte_dias} dias.</div>
+ <h3>Patrimônio ao longo do tempo</h3>${chart(g.curva)}
+ <h3>Genes</h3>${gen.map(([k,v])=>`<div class="gene"><em>${e(k)}</em><i><u style="width:${v*100}%"></u></i>${v}</div>`).join("")}
+ <h3>Histórico de operações</h3><table>${g.operacoes.map(o=>`<tr><td>${e(o.data)}</td><td>${e(o.ativo)}</td><td>${e(o.lado)}</td><td class="${cl(o.resultado)}">${brl(o.resultado)}</td></tr>`).join("")}</table>`;
+ $("ps").classList.add("on")}
+
+const TABS=["Genomas","Árvore genealógica","Hierarquia","Reputação","Caixa geral","Análise de mercado","Notícias","Mercado ao vivo"];
+function aba(i){document.querySelectorAll(".v").forEach((v,k)=>v.classList.toggle("on",k==i));
+ $("tabs").innerHTML=TABS.map((t,k)=>`<button class="chip ${k==i?"on":""}" onclick="aba(${k})">${t}</button>`).join("");if(i==4)caixa();if(i==5)analise();if(i==6)noticias();if(i==7)live()}
+function fruta(g){
+ const status=String(g.status||'treino').toLowerCase();
+ if(status==='campo'||status==='ativo'||status==='ativa')return {emoji:'🍎',label:'Ativo',cls:'campo'};
+ if(status==='treino'||status==='treinamento')return {emoji:'🍏',label:'Treinamento',cls:'treino'};
+ if(status==='hibernado'||status==='hibernacao'||status==='hibernação')return {emoji:'🍎',label:'Hibernação',cls:'hibernado',cloth:true};
+ return {emoji:'🍎',label:'Eliminado',cls:'eliminado'};
+}
+function arvore(){
+ const children=new Map();G.forEach(g=>{const k=g.pai_id==null?'root':String(g.pai_id);if(!children.has(k))children.set(k,[]);children.get(k).push(g)});
+ const node=(g,root=false)=>{const f=fruta(g),kids=children.get(String(g.id))||[];
+  return `<div class="gen-branch ${root?'root':''} ${kids.length?'has-children':''}"><button class="fruit-node status-${f.cls}" onclick="abrir(${Number(g.id)})" title="Ver dados de ${e(g.nome)}"><span class="fruit-wrap"><span class="fruit-emoji" aria-hidden="true">${f.emoji}</span>${f.cloth?'<span class="fruit-cloth" aria-label="Coberto durante a hibernação"></span>':''}</span><span class="fruit-name">${e(g.nome)}</span><span class="fruit-value">${brl(g.capital_atual)}</span><span class="fruit-status">${f.label}</span></button>${kids.length?`<div class="gen-children">${kids.map(x=>node(x)).join('')}</div>`:''}</div>`;
+ };
+ const roots=G.filter(g=>g.pai_id==null||!G.some(x=>String(x.id)===String(g.pai_id)));
+ const count=s=>G.filter(g=>fruta(g).cls===s).length;
+ $('v1').innerHTML=`<div class="tree-head"><div><h2>Árvore genealógica</h2><p class="sub">Cada fruta é um genoma. Clique nela para abrir patrimônio, genes, operações e linhagem.</p></div><div class="tree-legend"><span class="legend-item">🍎 Ativo: ${count('campo')}</span><span class="legend-item">🍏 Treinamento: ${count('treino')}</span><span class="legend-item">🧺 Hibernação: ${count('hibernado')}</span><span class="legend-item">🥀 Eliminado: ${count('eliminado')}</span></div></div><div class="genealogy-wrap"><div class="gen-level">${roots.length?roots.map(g=>node(g,true)).join(''):'<div class="tree-empty">Nenhum genoma encontrado nos dados atuais.</div>'}</div></div>`;
+}
+function hier(){const lst=a=>a.map(g=>`<a href="#" onclick="abrir(${g.id});return false" class="st ${g.status}" style="margin-right:16px">${e(g.nome)}</a>`).join(""),set=[...new Set(G.map(g=>g.setor))];
+ $("v2").innerHTML=`<div class="hn"><b>Arquiteto de operações</b><span class="sub">Define capital e limites de risco (regras fixas por enquanto).</span>
+ <div class="hn"><b>Analistas de mercado</b><span class="sub">Classificam o regime atual. Entram na próxima etapa.</span></div>
+ ${["longo","medio","curto"].map(q=>`<div class="hn"><b>Arquiteto de mercado, ${q} prazo</b>${set.map(s=>{const a=G.filter(g=>g.equipe==q&&g.setor==s);return a.length?`<div class="hn"><b>Mercado ${e(s)}</b>${lst(a)}</div>`:""}).join("")}</div>`).join("")}
+ <div class="hn"><b>Grupo generalista (controle, não evolui)</b>${lst(G.filter(g=>g.equipe=="generalista"))}</div></div>`}
+function rank(){$("v3").innerHTML=`<p class="sub">Reputação é o retorno ajustado ao risco (tipo Sharpe). Só conta depois de 40 dias de vida.</p><div class="tw"><table><thead><tr><th>Posição</th><th>Genoma</th><th>Reputação</th><th>Equipe</th><th>Lucro ou perda</th><th>Status</th></tr></thead><tbody>${[...G].sort((a,b)=>b.reputacao-a.reputacao).map((g,i)=>`<tr onclick="abrir(${g.id})"><td>${i+1}</td><td>${e(g.nome)}</td><td class="${cl(g.reputacao)}">${g.reputacao}</td><td>${e(g.equipe)}</td><td class="${cl(g.lucro)}">${brl(g.lucro)}</td><td><span class="st ${g.status}">${g.status}</span></td></tr>`).join("")}</tbody></table></div>`}
+async function caixa(){
+ const c=demo?{saldo:CX.reduce((t,x)=>t+(x.destino=="caixa"?x.valor:0)-(x.origem=="caixa"?x.valor:0),0),transacoes:[...CX].reverse()}:await(await fetch("/api/caixa")).json();
+ $("v4").innerHTML=`<div class="strip"><div class="s"><b class="num">${brl(c.saldo)}</b><span>Saldo do caixa geral</span></div><div class="s"><b class="num">${c.transacoes.length}</b><span>Transações registradas</span></div></div><div class="tw"><table><thead><tr><th>Data</th><th>Origem</th><th>Destino</th><th>Valor</th><th>Motivo</th></tr></thead><tbody>${c.transacoes.map(t=>`<tr><td>${e(t.data)}</td><td>${e(t.origem)}</td><td>${e(t.destino)}</td><td>${brl(t.valor)}</td><td>${e(t.motivo)}</td></tr>`).join("")}</tbody></table></div>`}
+
+const J=async f=>{try{const r=await fetch("data/"+f+"?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw 0;return await r.json()}catch(_){return null}};
+const vazio='<p class="sub">Ainda não há dados reais exportados. No GitHub, abra Actions, escolha "Exportar dados" e clique em Run workflow.</p>';
+const dh=i=>i?new Date(i).toLocaleString("pt-BR",{dateStyle:"short",timeStyle:"short"}):"",url=l=>/^https?:\/\//.test(l)?e(l):"#";
+async function analise(){const a=await J("analise.json");if(!a){$("v5").innerHTML=vazio;return}
+ const s=a.serie,cs=s.map(x=>x.fechamento),cor={"alta calma":"var(--up)","alta volátil":"var(--ac)","lateral":"var(--wait)","queda":"var(--dn)","crise":"#7a1030"},
+ w=480/s.length,mn=Math.min(...cs),mx=Math.max(...cs),f=v=>110-(v-mn)/(mx-mn||1)*100,i=a.indicadores,
+ p=cs.map((v,k)=>(k?"L":"M")+(k*w+w/2).toFixed(1)+" "+f(v).toFixed(1)).join("");
+ $("v5").innerHTML=`<div class="strip"><div class="s"><b class="num">${e(a.regime_atual)}</b><span>Regime atual do mercado</span></div><div class="s"><b class="num ${cl(i.retorno_20d)}">${i.retorno_20d}%</b><span>Ibovespa em 20 dias</span></div><div class="s"><b class="num">${i.vol_20d}%</b><span>Volatilidade anual (20 dias)</span></div><div class="s"><b class="num ${cl(i.vs_media200)}">${i.vs_media200}%</b><span>Ibovespa vs média de 200 dias</span></div></div>
+ <p class="sub"><b>Últimos 120 pregões, por regime</b></p><svg viewBox="0 0 480 120" width="100%" role="img" aria-label="Ibovespa e regimes">${s.map((x,k)=>`<rect x="${(k*w).toFixed(1)}" y="0" width="${(w+.5).toFixed(1)}" height="120" fill="${cor[x.regime]}" opacity=".2"/>`).join("")}<path d="${p}" fill="none" stroke="var(--ink)" stroke-width="1.6"/></svg>
+ <div class="sub">${Object.keys(cor).map(k=>`<span style="color:${cor[k]};margin-right:14px">■ ${k}</span>`).join("")}</div>
+ <p class="sub">${a.regras.map(e).join("<br>")}</p><p class="sub">Dados reais do Ibovespa, atualizados em ${dh(a.atualizado)}.</p>`}
+let newsBusy=false,newsFilter='todas';
+const impacto=x=>{const t=String(x.titulo||'').toLowerCase(),kw=['fed','banco central','juros','selic','inflação','inflação','ibovespa','bolsa','crise','recessão','tarifa','guerra','petróleo','dólar','recorde','falência','resultado','lucro','prejuízo','ações','mercado'];return kw.reduce((s,w)=>s+(t.includes(w)?1:0),0)+Math.abs(Number(x.sentimento)||0)*2};
+const sentimentoLabel=v=>Number(v)>0?'positivo':Number(v)<0?'negativo':'neutro';
+const sentimentoPill=v=>{const s=sentimentoLabel(v);return `<span class="sentiment-pill ${s==='positivo'?'positive':s==='negativo'?'negative':'neutral'}">${s==='positivo'?'↗':s==='negativo'?'↘':'•'} ${s}</span>`};
+function noticiaCard(x,kind='row'){const href=url(x.link),title=e(x.titulo||'Sem título'),source=e(x.fonte||'Fonte não identificada'),date=dh(x.data);return {href,title,source,date,score:impacto(x),sent:Number(x.sentimento)||0,raw:x}}
+async function noticias(){
+ if(newsBusy)return;newsBusy=true;
+ try{
+ const [n,sent]=await Promise.all([J('noticias.json'),J('sentimento.json')]);
+ if(!n||!Array.isArray(n.itens)){ $('v6').innerHTML=`<div class="newsroom"><div class="news-masthead"><div class="news-brand">GENOMA<span> / NEWS</span></div><div class="news-meta">Central de notícias financeiras</div></div><div class="news-empty">Ainda não há notícias disponíveis. Confira a publicação dos dados em GitHub Actions.</div></div>`;return; }
+ const itens=n.itens.filter(x=>x&&x.titulo).map(noticiaCard).sort((a,b)=>new Date(b.raw.data||0)-new Date(a.raw.data||0));
+ const ranked=[...itens].sort((a,b)=>b.score-a.score||new Date(b.raw.data||0)-new Date(a.raw.data||0));
+ const lead=ranked[0],second=ranked.filter(x=>x!==lead).slice(0,2),used=new Set([lead,...second].filter(Boolean));
+ const recentes=itens.filter(x=>!used.has(x)).slice(0,8);recentes.forEach(x=>used.add(x));
+ const outras=itens.filter(x=>!used.has(x));
+ const card=x=>`<article class="news-card"><span class="news-kicker">${x.score>=3?'Impacto estimado alto':'Em destaque'}</span><h3><a href="${x.href}" target="_blank" rel="noopener noreferrer">${x.title}</a></h3><p>${x.source} · ${x.date||'Data indisponível'}</p><div class="news-byline">${sentimentoPill(x.sent)}<span class="news-score">Relevância ${x.score.toFixed(1)}</span></div></article>`;
+ const row=x=>`<article class="news-row"><div class="news-time">${x.date||'Data n/d'}</div><div><h3><a href="${x.href}" target="_blank" rel="noopener noreferrer">${x.title}</a></h3><p>${x.source}</p></div>${sentimentoPill(x.sent)}</article>`;
+ const filterBar=`<div class="news-filter"><button class="chip ${newsFilter==='todas'?'on':''}" onclick="newsFilter='todas';noticias()">Todas</button><button class="chip ${newsFilter==='positivo'?'on':''}" onclick="newsFilter='positivo';noticias()">Sentimento positivo</button><button class="chip ${newsFilter==='neutro'?'on':''}" onclick="newsFilter='neutro';noticias()">Neutro</button><button class="chip ${newsFilter==='negativo'?'on':''}" onclick="newsFilter='negativo';noticias()">Sentimento negativo</button></div>`;
+ const allFilter=items=>newsFilter==='todas'?items:items.filter(x=>sentimentoLabel(x.sent)===newsFilter);
+ const filteredLead=allFilter([lead])[0],filteredSecond=allFilter(second),filteredRecent=allFilter(recentes),filteredOther=allFilter(outras);
+ const leadHtml=filteredLead?`<article class="news-lead"><div class="news-lead-copy"><span class="news-kicker">Principal destaque · relevância estimada ${filteredLead.score.toFixed(1)}</span><h2><a href="${filteredLead.href}" target="_blank" rel="noopener noreferrer">${filteredLead.title}</a></h2><p class="news-summary">${filteredLead.source} publicou esta manchete. Abra a matéria original para ler o conteúdo completo.</p><div class="news-byline"><span>${filteredLead.date||'Data indisponível'}</span>${sentimentoPill(filteredLead.sent)}</div></div><div class="news-side-image" aria-hidden="true"><span>◉</span></div></article>`:'';
+ const mood=sent?`${sent.sinal||'neutro'} (${Number(sent.media||0).toFixed(2)})`:'calculado pelas manchetes';
+ $('v6').innerHTML=`<div class="newsroom"><div class="news-masthead"><div><div class="news-brand">GENOMA<span> / NEWS</span></div><div class="news-meta">Informação financeira para acompanhar o mercado</div></div><div class="news-meta">Atualizado em ${dh(n.atualizado)}<br>Sentimento agregado: ${e(mood)}</div></div><p class="sub">A relevância é uma estimativa por palavras-chave e sentimento, não uma avaliação editorial nem recomendação de investimento. A classificação de sentimento também é simples e automatizada.</p>${filterBar}<section><h2 class="news-section-title">01 · Mais impactantes</h2>${leadHtml}${filteredSecond.length?`<div class="news-secondary" style="margin-top:12px">${filteredSecond.map(card).join('')}</div>`:''}${!leadHtml&&!filteredSecond.length?'<div class="news-empty">Nenhuma notícia corresponde a este filtro.</div>':''}</section><section><h2 class="news-section-title">02 · Mais recentes</h2><div class="news-list">${filteredRecent.length?filteredRecent.map(row).join(''):'<div class="news-empty">Não há outras notícias recentes para este filtro.</div>'}</div></section><section><h2 class="news-section-title">03 · Outras notícias</h2><div class="news-list">${filteredOther.length?filteredOther.map(row).join(''):'<div class="news-empty">Não há notícias adicionais para este filtro.</div>'}</div></section></div>`;
+ } finally {newsBusy=false;}
+}
+let LT=null;
+function live(){clearInterval(LT);liveRender();LT=setInterval(()=>{if($("v7").classList.contains("on"))liveRender()},60000)}
+async function liveRender(){const m=await J("mercado.json"),q={};let fonte="arquivo exportado pelo GitHub Actions";
+ try{const r=await fetch("https://brapi.dev/api/quote/PETR4,VALE3,ITUB4,MGLU3");if(!r.ok)throw 0;(await r.json()).results.forEach(x=>q[x.symbol]={preco:x.regularMarketPrice,var_dia:x.regularMarketChangePercent/100});fonte="brapi (atraso de cerca de 15 min) e arquivo exportado"}catch(_){}
+ if(!m&&!Object.keys(q).length){$("v7").innerHTML=vazio;return}
+ const L=m?[m.ibovespa,...m.acoes]:Object.keys(q).map(k=>({ticker:k})),mc=m?.macro||{},
+ spk=c=>{if(!c)return"";const a=Math.min(...c),b=Math.max(...c);return`<svg viewBox="0 0 90 24" width="90" height="24"><path d="${c.map((v,k)=>(k?"L":"M")+(k*90/(c.length-1)).toFixed(1)+" "+(22-(v-a)/(b-a||1)*20).toFixed(1)).join("")}" fill="none" stroke="${c.at(-1)>=c[0]?"var(--up)":"var(--dn)"}" stroke-width="1.5"/></svg>`};
+ $("v7").innerHTML=`<div class="strip"><div class="s"><b class="num">${mc.selic_meta??"n/d"}%</b><span>Selic meta ao ano</span></div><div class="s"><b class="num">${mc.dolar?brl(mc.dolar):"n/d"}</b><span>Dólar (Banco Central)</span></div></div>
+ <p class="sub">Atualiza a cada 60 segundos enquanto esta aba estiver aberta. Fonte: ${fonte}. Os preços têm atraso. Ações acompanhadas: os agentes ainda operam só no mercado simulado.</p>
+ <div class="tw"><table><thead><tr><th>Ativo</th><th>Preço</th><th>Variação no dia</th><th>Últimos 60 pregões</th></tr></thead><tbody>${L.map(x=>{const pr=q[x.ticker]?.preco??x.preco,v=q[x.ticker]?.var_dia??x.var_dia;return`<tr><td>${e(x.ticker)}</td><td>${pr!=null?(x.ticker=="IBOV"?pr.toLocaleString("pt-BR"):brl(pr)):"n/d"}</td><td class="${cl(v||0)}">${v!=null?pct(v):"n/d"}</td><td>${spk(x.hist)}</td></tr>`}).join("")}</tbody></table></div>
+ <p class="sub">${m?"Arquivo exportado em "+dh(m.atualizado)+".":""}</p>`}
+
+function iniciar(){prep();render();arvore();hier();rank();aba(0);
+ const a=$("aviso");a.hidden=false;
+ a.innerHTML=demo?`Simulação rodando no seu navegador, com dados fictícios (semente ${SEED}). <button class="chip" onclick="nova()">Nova simulação</button>`:"Conectado ao backend. Os dados são de exemplo (simulação), não resultados reais."}
+function nova(){SEED=Math.floor(Math.random()*1e9);({G,caixa:CX}=simular(SEED));iniciar()}
+(async()=>{try{const r=await fetch("/api/genomas");if(!r.ok)throw 0;G=await r.json()}catch(_){demo=true;({G,caixa:CX}=simular(SEED))}iniciar()})();
+// Reconsulta notícias a cada 3 minutos somente quando a aba está visível; não recarrega a página.
+setInterval(()=>{if(document.visibilityState==='visible'&&$('v6')?.classList.contains('on'))noticias()},180000);
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible'&&$('v6')?.classList.contains('on'))noticias()});
+</script>
+</body></html>
