@@ -1,0 +1,618 @@
+{
+ "atualizado": "2026-10-10T21:34:00+00:00",
+ "regime_atual": "alta volátil",
+ "indicadores": {
+  "retorno_20d": 11.7,
+  "vol_20d": 30.4,
+  "vs_media200": 16.7
+ },
+ "serie": [
+  {
+   "data": "2026-04-22",
+   "fechamento": 192889,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-04-23",
+   "fechamento": 191378,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-04-24",
+   "fechamento": 190745,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-04-27",
+   "fechamento": 189579,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-04-28",
+   "fechamento": 188619,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-04-29",
+   "fechamento": 184750,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-04-30",
+   "fechamento": 187318,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-05-04",
+   "fechamento": 185600,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-05-05",
+   "fechamento": 186754,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-05-06",
+   "fechamento": 187691,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-05-07",
+   "fechamento": 183218,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-05-08",
+   "fechamento": 184108,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-05-11",
+   "fechamento": 181909,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-05-12",
+   "fechamento": 180342,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-05-13",
+   "fechamento": 177098,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-05-14",
+   "fechamento": 178366,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-05-15",
+   "fechamento": 177284,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-05-18",
+   "fechamento": 176976,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-05-19",
+   "fechamento": 174279,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-05-20",
+   "fechamento": 177356,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-05-21",
+   "fechamento": 177650,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-05-22",
+   "fechamento": 176210,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-05-25",
+   "fechamento": 177359,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-05-26",
+   "fechamento": 176589,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-05-27",
+   "fechamento": 175744,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-05-28",
+   "fechamento": 175063,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-05-29",
+   "fechamento": 173788,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-06-01",
+   "fechamento": 172198,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-06-02",
+   "fechamento": 174198,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-06-03",
+   "fechamento": 170331,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-06-05",
+   "fechamento": 169019,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-06-08",
+   "fechamento": 168669,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-06-09",
+   "fechamento": 169813,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-06-10",
+   "fechamento": 168619,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-06-11",
+   "fechamento": 171497,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-06-12",
+   "fechamento": 171133,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-06-15",
+   "fechamento": 170415,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-06-16",
+   "fechamento": 169649,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-06-17",
+   "fechamento": 168454,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-06-18",
+   "fechamento": 168278,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-06-19",
+   "fechamento": 168576,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-06-22",
+   "fechamento": 170370,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-06-23",
+   "fechamento": 171259,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-06-24",
+   "fechamento": 170507,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-06-25",
+   "fechamento": 171990,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-06-26",
+   "fechamento": 173295,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-06-29",
+   "fechamento": 173205,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-06-30",
+   "fechamento": 172024,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-07-01",
+   "fechamento": 171689,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-07-02",
+   "fechamento": 172788,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-07-03",
+   "fechamento": 174266,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-07-06",
+   "fechamento": 172448,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-07-07",
+   "fechamento": 172021,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-07-08",
+   "fechamento": 170654,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-07-09",
+   "fechamento": 172742,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-07-10",
+   "fechamento": 177866,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-07-13",
+   "fechamento": 175739,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-07-14",
+   "fechamento": 176641,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-07-15",
+   "fechamento": 176011,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-07-16",
+   "fechamento": 173825,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-07-17",
+   "fechamento": 173714,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-07-20",
+   "fechamento": 173371,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-07-21",
+   "fechamento": 173326,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-07-22",
+   "fechamento": 177548,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-07-23",
+   "fechamento": 176724,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-07-24",
+   "fechamento": 174042,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-07-27",
+   "fechamento": 175335,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-07-28",
+   "fechamento": 176565,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-07-29",
+   "fechamento": 173885,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-07-30",
+   "fechamento": 177159,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-07-31",
+   "fechamento": 177999,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-08-03",
+   "fechamento": 178000,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-08-04",
+   "fechamento": 177895,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-08-05",
+   "fechamento": 177726,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-08-06",
+   "fechamento": 175546,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-08-07",
+   "fechamento": 172513,
+   "regime": "queda"
+  },
+  {
+   "data": "2026-08-10",
+   "fechamento": 172180,
+   "regime": "queda"
+  },
+  {
+   "data": "2026-08-11",
+   "fechamento": 167875,
+   "regime": "queda"
+  },
+  {
+   "data": "2026-08-12",
+   "fechamento": 167491,
+   "regime": "queda"
+  },
+  {
+   "data": "2026-08-13",
+   "fechamento": 167101,
+   "regime": "queda"
+  },
+  {
+   "data": "2026-08-14",
+   "fechamento": 166934,
+   "regime": "queda"
+  },
+  {
+   "data": "2026-08-17",
+   "fechamento": 166784,
+   "regime": "queda"
+  },
+  {
+   "data": "2026-08-18",
+   "fechamento": 166335,
+   "regime": "queda"
+  },
+  {
+   "data": "2026-08-19",
+   "fechamento": 167830,
+   "regime": "queda"
+  },
+  {
+   "data": "2026-08-20",
+   "fechamento": 167927,
+   "regime": "queda"
+  },
+  {
+   "data": "2026-08-21",
+   "fechamento": 171032,
+   "regime": "queda"
+  },
+  {
+   "data": "2026-08-24",
+   "fechamento": 171907,
+   "regime": "queda"
+  },
+  {
+   "data": "2026-08-25",
+   "fechamento": 174577,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-08-26",
+   "fechamento": 174586,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-08-27",
+   "fechamento": 175135,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-08-28",
+   "fechamento": 175665,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-08-31",
+   "fechamento": 177419,
+   "regime": "lateral"
+  },
+  {
+   "data": "2026-09-01",
+   "fechamento": 179723,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-09-02",
+   "fechamento": 185205,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-09-03",
+   "fechamento": 185188,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-09-04",
+   "fechamento": 185147,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-09-08",
+   "fechamento": 187367,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-09-09",
+   "fechamento": 185629,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-09-10",
+   "fechamento": 188269,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-09-11",
+   "fechamento": 187207,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-09-14",
+   "fechamento": 185501,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-09-15",
+   "fechamento": 186503,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-09-16",
+   "fechamento": 185548,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-09-17",
+   "fechamento": 185992,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-09-18",
+   "fechamento": 185229,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-09-21",
+   "fechamento": 186596,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-09-22",
+   "fechamento": 187423,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-09-23",
+   "fechamento": 185814,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-09-24",
+   "fechamento": 183966,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-09-25",
+   "fechamento": 183477,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-09-28",
+   "fechamento": 182991,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-09-29",
+   "fechamento": 183828,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-09-30",
+   "fechamento": 186340,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-10-01",
+   "fechamento": 187198,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-10-02",
+   "fechamento": 192115,
+   "regime": "alta calma"
+  },
+  {
+   "data": "2026-10-05",
+   "fechamento": 206912,
+   "regime": "alta volátil"
+  },
+  {
+   "data": "2026-10-06",
+   "fechamento": 205835,
+   "regime": "alta volátil"
+  },
+  {
+   "data": "2026-10-07",
+   "fechamento": 204302,
+   "regime": "alta volátil"
+  },
+  {
+   "data": "2026-10-08",
+   "fechamento": 206220,
+   "regime": "alta volátil"
+  },
+  {
+   "data": "2026-10-09",
+   "fechamento": 209067,
+   "regime": "alta volátil"
+  }
+ ],
+ "regras": [
+  "Regras simples sobre o Ibovespa (ponto de partida, para você ajustar e testar):",
+  "Crise: volatilidade acima de 35% ao ano e queda maior que 8% em 20 dias.",
+  "Queda: abaixo da média de 200 dias e com retorno negativo em 20 dias.",
+  "Alta: acima da média de 200 dias e com retorno positivo; volátil se a volatilidade passa de 25%.",
+  "Lateral: todo o resto."
+ ]
+}
