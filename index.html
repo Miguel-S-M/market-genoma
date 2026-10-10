@@ -95,6 +95,40 @@ body.theme-botanical .genealogy-wrap{background:linear-gradient(180deg,#12231f,#
 .setting-card:hover,.setting-card.selected{border-color:var(--ac);outline:1px solid var(--ac)}.setting-card h3{margin:0 0 8px}.setting-card p{color:var(--mu);font-size:.88rem;margin:0}.setting-card .setting-label{display:inline-block;font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--ac);margin-bottom:10px}
 .audit-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px;margin:16px 0}.audit-card{border:1px solid var(--line);background:var(--pp);border-radius:10px;padding:14px}.audit-card strong{display:block;font-size:1.2rem}.audit-card small{color:var(--mu)}.metric-note{font-size:.8rem;color:var(--mu);margin:10px 0}
 @media(max-width:640px){.setting-card{min-height:unset}}
+
+/* Compact genealogy and immersive amber/DNA profile */
+.genealogy-wrap{overflow:hidden;min-height:0;padding:22px clamp(10px,2vw,24px);background:radial-gradient(ellipse at 50% 0%,#263c36 0,transparent 62%),#101b1b}
+.genealogy-wrap:before{display:none}.genealogy-wrap:after{background:radial-gradient(ellipse at 50% 15%,#b18a3c18,transparent 65%)}
+.gen-level{display:flex;flex-direction:column;align-items:stretch;gap:16px;min-width:0;padding:8px 0}
+.gen-level:before{display:none}
+.gen-generation{position:relative;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,170px),1fr));gap:10px;max-width:100%;padding:18px 0 0;border-top:1px solid #9b785655}
+.gen-generation:first-child{border-top:0;padding-top:0}
+.gen-generation:before{content:attr(data-generation);position:absolute;left:0;top:-12px;padding:0 8px;background:#14231e;color:#c5b18b;font-size:.67rem;letter-spacing:.12em;text-transform:uppercase}
+.gen-generation:first-child:before{display:none}
+.gen-branch{min-width:0;width:100%;padding:0;align-items:stretch}
+.gen-branch:before,.gen-branch.has-children>.fruit-node:after{display:none}
+.fruit-node{width:100%;min-width:0;max-width:none;min-height:90px;display:grid;grid-template-columns:38px minmax(0,1fr);grid-template-rows:auto auto auto;column-gap:9px;text-align:left;align-items:center;padding:10px;border-radius:12px}
+.fruit-wrap{grid-column:1;grid-row:1/4;align-self:center}.fruit-emoji{font-size:30px}.fruit-node .fruit-name{max-width:none;font-size:.8rem}.fruit-node .fruit-value,.fruit-node .fruit-status{grid-column:2;max-width:100%;overflow-wrap:anywhere}
+.tree-head{align-items:flex-start}.tree-legend{max-width:100%}
+.dna-panel{display:grid;gap:12px;margin:10px 0 18px;padding:14px;border:1px solid #43564d;border-radius:14px;background:linear-gradient(130deg,#18271f,#111b1a)}
+.dna-title{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap}.dna-title strong{letter-spacing:.04em}.dna-helix{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.dna-gene{position:relative;min-width:0;display:grid;gap:7px;text-align:left;padding:12px 10px;border:1px solid #6d7c53;border-radius:10px;color:#f4edcf;background:linear-gradient(145deg,#253b2a,#17221e);cursor:pointer;transition:transform .16s,border-color .16s,box-shadow .16s}
+.dna-gene:before{content:"";position:absolute;left:10px;right:10px;top:7px;height:3px;border-radius:3px;background:linear-gradient(90deg,#d4a84e,#f0d78c,#698f58);opacity:.9}
+.dna-gene:hover,.dna-gene:focus-visible{transform:translateY(-2px);border-color:#f0ce70;box-shadow:0 0 18px #d4a84e24;outline:none}
+.dna-gene small{color:#b7c5ad;text-transform:uppercase;font-size:.65rem;letter-spacing:.1em;margin-top:3px}.dna-gene b{font-size:.88rem;overflow-wrap:anywhere}.dna-bases{display:flex;gap:3px;flex-wrap:wrap}.dna-bases i{display:block;width:10px;height:17px;border-radius:3px;background:#b68a3b;border:1px solid #f0ce70aa}.dna-gene:nth-child(2) .dna-bases i{background:#537c54;border-color:#a4c486aa}.dna-gene:nth-child(3) .dna-bases i{background:#8e7841;border-color:#e2c66eaa}
+.dna-explainer{padding:12px 14px;border-left:3px solid #d5ad52;background:#1c2a22;border-radius:0 9px 9px 0;color:#e7ead7}.dna-explainer h4{margin:0 0 5px;color:#f0d18a}.dna-explainer p{margin:0;color:#c7d0bd;font-size:.86rem}
+body.theme-botanical .dna-panel{background:linear-gradient(140deg,#142b20,#253a24);border-color:#668b54}body.theme-botanical .dna-gene{background:linear-gradient(145deg,#29452c,#182b20);border-color:#6b9259}
+body.theme-amber{--bg:#100f0a;--pp:#1b1a12;--ink:#f4e8c7;--mu:#b8aa86;--line:#51432a;--ac:#d6a846;--up:#9fc36b;--dn:#e77b55;--wait:#e4bd62;background:radial-gradient(ellipse at 50% -20%,#77521f66,transparent 55%),#100f0a;color:var(--ink)}
+body.theme-amber .chip{background:#211d12;border-color:#6d5426;color:#e8d8ad}body.theme-amber .chip.on{background:#d7aa4c;color:#211707;border-color:#f0d184}
+body.theme-amber .strip,body.theme-amber .tw{background:#1b1a12;border-color:#574629}body.theme-amber aside{background:#1b1a12;border-color:#715627}
+body.theme-amber .genealogy-wrap{background:radial-gradient(ellipse at 50% 0%,#6b4b1d 0,transparent 62%),linear-gradient(180deg,#1b1a12,#13150f);border-color:#8b692b;box-shadow:inset 0 0 45px #d5a23b12}
+body.theme-amber .genealogy-wrap:after{background:radial-gradient(ellipse at 50% 45%,#d6a84616,transparent 65%)}body.theme-amber .tree-head h2{color:#f3dfa7}body.theme-amber .legend-item{background:#201c12;border-color:#745a2d;color:#e8d8ad}
+body.theme-amber .fruit-node{background:linear-gradient(145deg,#332817,#1b1a12);border-color:#9d7838;color:#f5e8c8}body.theme-amber .fruit-node:hover{background:#44331b;border-color:#f0ce70}body.theme-amber .fruit-node .fruit-value,body.theme-amber .fruit-node .fruit-status{color:#c8b78c}
+body.theme-amber .dna-panel{background:linear-gradient(135deg,#332717,#171b12);border-color:#a17b31;box-shadow:inset 0 0 25px #e0ae4214}body.theme-amber .dna-gene{background:linear-gradient(145deg,#47351a,#202116);border-color:#b58a39;color:#ffedbe}body.theme-amber .dna-explainer{background:#2a2417;border-color:#e0b34d;color:#f5e8c8}body.theme-amber .dna-explainer h4{color:#f0c96d}body.theme-amber .dna-explainer p{color:#d8caa6}
+body.theme-amber .news-lead{background:linear-gradient(140deg,#332817,#1b1a12);border-color:#6c5228}body.theme-amber .news-section-title,body.theme-amber .news-kicker{color:#e5bd65}
+body.theme-serious .genealogy-wrap{background:#111a24;border-color:var(--line)}body.theme-serious .genealogy-wrap:after{opacity:.15}
+@media(max-width:620px){.dna-helix{grid-template-columns:1fr}.gen-generation{grid-template-columns:repeat(auto-fit,minmax(min(100%,145px),1fr))}.fruit-node{min-height:80px}.genealogy-wrap{padding:16px 10px}}
+
 </style></head>
 <body>
 <header>
@@ -183,9 +217,9 @@ async function abrir(id){
  <h3>Resultado</h3><div class="num" style="font-size:1.4rem">${brl(g.capital_atual)} <span class="${cl(g.lucro)}" style="font-size:.95rem">${brl(g.lucro)} (${pct(g.ret)})</span></div>
  <div class="sub" style="margin-top:6px">Vida: ${g.vida} dias, nasceu em ${e(g.nascimento)}${g.morte?", encerrou em "+e(g.morte):""}.<br>Origem: ${g.pai_id?"descendente de G-"+String(g.pai_id).padStart(3,"0"):"geração inicial"}. Clonagens: ${g.clonagens}.<br>Melhor mercado: <b>${e(g.melhor_regime)}</b>. Horizonte: ${g.genes.horizonte_dias} dias.</div>
  <h3>Patrimônio ao longo do tempo</h3>${chart(g.curva)}
- <h3>Genes</h3>${gen.map(([k,v])=>`<div class="gene"><em>${e(k)}</em><i><u style="width:${v*100}%"></u></i>${v}</div>`).join("")}
+ <h3>Genes e mutações</h3>${geneDisplay(g)}
  <h3>Histórico de operações</h3><table>${g.operacoes.map(o=>`<tr><td>${e(o.data)}</td><td>${e(o.ativo)}</td><td>${e(o.lado)}</td><td class="${cl(o.resultado)}">${brl(o.resultado)}</td></tr>`).join("")}</table>`;
- $("ps").classList.add("on")}
+ $("ps").dataset.genomeId=String(g.id);$("ps").classList.add("on")}
 
 const TABS=["Genomas","Árvore genealógica","Hierarquia","Reputação","Caixa geral","Análise de mercado","Notícias","Mercado ao vivo","Configurações"];
 function aba(i){document.querySelectorAll(".v").forEach((v,k)=>v.classList.toggle("on",k==i));
@@ -198,13 +232,15 @@ function fruta(g){
  return {emoji:'🥀',label:'Eliminado',cls:'eliminado'};
 }
 function arvore(){
- const children=new Map();G.forEach(g=>{const k=g.pai_id==null?'root':String(g.pai_id);if(!children.has(k))children.set(k,[]);children.get(k).push(g)});
- const node=(g,root=false)=>{const f=fruta(g),kids=children.get(String(g.id))||[];
-  return `<div class="gen-branch ${root?'root':''} ${kids.length?'has-children':''}"><button class="fruit-node status-${f.cls}" onclick="abrir(${Number(g.id)})" title="Ver dados de ${e(g.nome)}"><span class="fruit-wrap"><span class="fruit-emoji" aria-hidden="true">${f.emoji}</span>${f.cloth?'<span class="fruit-cloth" aria-label="Coberto durante a hibernação"></span>':''}</span><span class="fruit-name">${e(g.nome)}</span><span class="fruit-value">${brl(g.capital_atual)}</span><span class="fruit-status">${f.label}</span></button>${kids.length?`<div class="gen-children">${kids.map(x=>node(x)).join('')}</div>`:''}</div>`;
- };
- const roots=G.filter(g=>g.pai_id==null||!G.some(x=>String(x.id)===String(g.pai_id)));
+ const byId=new Map(G.map(g=>[String(g.id),g]));
+ const roots=G.filter(g=>g.pai_id==null||!byId.has(String(g.pai_id)));
+ const depthCache=new Map();
+ const depthOf=(g,seen=new Set())=>{const id=String(g.id);if(depthCache.has(id))return depthCache.get(id);if(seen.has(id)||g.pai_id==null||!byId.has(String(g.pai_id)))return 0;seen.add(id);const d=1+depthOf(byId.get(String(g.pai_id)),seen);depthCache.set(id,d);return d};
+ const maxDepth=Math.max(0,...G.map(g=>depthOf(g)));
+ const node=g=>{const f=fruta(g),parent=g.pai_id!=null?byId.get(String(g.pai_id)):null;return `<div class="gen-branch"><button class="fruit-node status-${f.cls}" onclick="abrir(${Number(g.id)})" title="Ver dados de ${e(g.nome)}"><span class="fruit-wrap"><span class="fruit-emoji" aria-hidden="true">${f.emoji}</span>${f.cloth?'<span class="fruit-cloth" aria-label="Coberto durante a hibernação"></span>':''}</span><span class="fruit-name">${e(g.nome)}</span><span class="fruit-value">${brl(g.capital_atual)}</span><span class="fruit-status">${f.label}${parent?` · pai G-${String(parent.id).padStart(3,'0')}`:''}</span></button></div>`};
+ const generations=Array.from({length:maxDepth+1},(_,d)=>G.filter(g=>depthOf(g)===d));
  const count=s=>G.filter(g=>fruta(g).cls===s).length;
- $('v1').innerHTML=`<div class="tree-head"><div><h2>Árvore genealógica</h2><p class="sub">Cada fruta é um genoma. Clique nela para abrir patrimônio, genes, operações e linhagem.</p></div><div class="tree-legend"><span class="legend-item">🍎 Ativo: ${count('campo')}</span><span class="legend-item">🍏 Treinamento: ${count('treino')}</span><span class="legend-item">🍎 com pano · Hibernação: ${count('hibernado')}</span><span class="legend-item">🥀 Eliminado: ${count('eliminado')}</span></div></div><div class="genealogy-wrap"><div class="gen-level">${roots.length?roots.map(g=>node(g,true)).join(''):'<div class="tree-empty">Nenhum genoma encontrado nos dados atuais.</div>'}</div></div>`;
+ $('v1').innerHTML=`<div class="tree-head"><div><h2>Árvore genealógica</h2><p class="sub">Linhagens agrupadas por geração para reduzir a largura. Cada cartão mantém o acesso ao painel do genoma; a referência ao progenitor aparece no cartão descendente.</p></div><div class="tree-legend"><span class="legend-item">🍎 Ativo: ${count('campo')}</span><span class="legend-item">🍏 Treinamento: ${count('treino')}</span><span class="legend-item">🍎 com pano · Hibernação: ${count('hibernado')}</span><span class="legend-item">🥀 Eliminado: ${count('eliminado')}</span></div></div><div class="genealogy-wrap"><div class="gen-level">${G.length?generations.map((gs,d)=>gs.length?`<section class="gen-generation" data-generation="Geração ${d+1}">${gs.map(node).join('')}</section>`:'').join(''):'<div class="tree-empty">Nenhum genoma encontrado nos dados atuais.</div>'}</div></div>`;
 }
 function abrirGrupo(titulo, emoji, descricao, membros){
  const lista=membros.map(g=>`<button class="group-member" onclick="abrir(${Number(g.id)})"><span>${fruta(g).emoji}</span><span><b>${e(g.nome)}</b><small>${e(g.equipe||'generalista')} · ${e(g.setor||'sem setor')}</small></span><strong class="${cl(g.lucro)}">${brl(g.lucro||0)}</strong></button>`).join('');
@@ -235,14 +271,33 @@ function hier(){
  $('v2').appendChild(audit);
 }
 function rank(){$("v3").innerHTML=`<p class="sub">Reputação é o retorno ajustado ao risco (tipo Sharpe). Só conta depois de 40 dias de vida.</p><div class="tw"><table><thead><tr><th>Posição</th><th>Genoma</th><th>Reputação</th><th>Equipe</th><th>Lucro ou perda</th><th>Status</th></tr></thead><tbody>${[...G].sort((a,b)=>b.reputacao-a.reputacao).map((g,i)=>`<tr onclick="abrir(${g.id})"><td>${i+1}</td><td>${e(g.nome)}</td><td class="${cl(g.reputacao)}">${g.reputacao}</td><td>${e(g.equipe)}</td><td class="${cl(g.lucro)}">${brl(g.lucro)}</td><td><span class="st ${g.status}">${g.status}</span></td></tr>`).join("")}</tbody></table></div>`}
+function geneMeta(gene,value,all){
+ const horizon=Number(all?.horizonte_dias||value||0);
+ if(gene==='tendencia'){
+  const n=Number(value)||0,dir=n>.15?'seguimento de alta':n<-.15?'sensibilidade à queda':'tendência neutra';
+  return {label:'Tendência',value:`${n.toFixed(3)} · ${dir}`,impact:n>.15?'O genoma dá mais peso a movimentos de preço alinhados com a tendência positiva. Isso pode ampliar a participação em períodos de alta e também aumentar a exposição a reversões.':n<-.15?'O genoma reage de forma distinta a movimentos de tendência positiva; dependendo do sinal do mercado, pode reduzir a exposição a altas ou favorecer decisões alinhadas com a tendência negativa.':'O gene está próximo de neutro, então a tendência tem influência limitada sobre a resposta do genoma.'};
+ }
+ if(gene==='risco'){
+  const n=Number(value)||0;return {label:'Risco',value:`${n.toFixed(3)} · ${n>.7?'alto':n<.35?'baixo':'moderado'} relativo`,impact:`Este gene controla a intensidade de exposição calculada pelo motor quando há sinal de negociação. Valor maior pode amplificar ganhos e perdas; não representa uma probabilidade de perda.`};
+ }
+ return {label:'Horizonte',value:`${horizon} dias`,impact:`Define a janela temporal usada para medir o movimento do mercado. Horizontes curtos tendem a reagir mais rápido e a sofrer mais ruído; horizontes longos privilegiam movimentos mais amplos e podem reagir com atraso.`};
+}
+function geneDisplay(g){
+ const genes=g.genes||{},items=[['tendencia',genes.tendencia],['risco',genes.risco],['horizonte_dias',genes.horizonte_dias]].filter(x=>x[1]!==undefined);
+ const dnaMode=document.body.classList.contains('theme-botanical')||document.body.classList.contains('theme-amber');
+ if(!dnaMode)return items.filter(([k])=>k!=='horizonte_dias').map(([k,v])=>{const percent=k==='tendencia'?(Number(v)+1)*50:Number(v)*100;return `<div class="gene"><em>${e(k)}</em><i><u style="width:${Math.max(0,Math.min(100,percent))}%"></u></i>${e(v)}</div>`}).join('');
+ return `<div class="dna-panel"><div class="dna-title"><strong>▥ SEQUÊNCIA DE DNA · GENOMA ${e(g.id)}</strong><span class="sub">Selecione um nucleotídeo para interpretar a mutação</span></div><div class="dna-helix">${items.map(([k,v])=>{const m=geneMeta(k,v,genes),n=k==='horizonte_dias'?Math.max(2,Math.min(8,Math.round(Number(v)/10))):Math.max(2,Math.min(8,Math.round(Math.abs(Number(v))*8)));return `<button class="dna-gene" onclick="explainGene(${Number(g.id)},'${k}')" aria-label="Explicar gene ${m.label}"><small>${m.label}</small><b>${e(m.value)}</b><span class="dna-bases" aria-hidden="true">${Array.from({length:n},(_,i)=>`<i style="opacity:${.55+(i/n)*.45}"></i>`).join('')}</span></button>`}).join('')}</div><div class="dna-explainer" id="dna-explainer"><h4>Como ler a sequência</h4><p>Clique em Tendência, Risco ou Horizonte para ver o significado do gene e seu possível impacto no comportamento de investimento. A visualização não modifica os valores da simulação.</p></div></div>`;
+}
+function explainGene(id,key){const g=G.find(x=>String(x.id)===String(id));if(!g)return;const value=g.genes?.[key],m=geneMeta(key,value,g.genes);const box=document.getElementById('dna-explainer');if(box)box.innerHTML=`<h4>${e(m.label)} · ${e(m.value)}</h4><p>${e(m.impact)}</p>`;}
 function settings(){
  let current='serious';try{current=localStorage.getItem('lae-theme')||'serious'}catch(_){}
  $('v8').innerHTML=`<span class="org-eyebrow">PREFERÊNCIAS DE INTERFACE</span><h2>Configurações visuais</h2><p class="sub">O perfil fica salvo neste navegador e altera somente a apresentação, não o motor, os genes nem as regras de negociação.</p><div class="settings-grid">
  <button class="setting-card ${current==='serious'?'selected':''}" onclick="setTheme('serious')"><span class="setting-label">Padrão recomendado</span><h3>Sério / Quantitativo</h3><p>Visual corporativo denso, badges funcionais, tipografia técnica e foco em governança.</p></button>
  <button class="setting-card ${current==='minimal'?'selected':''}" onclick="setTheme('minimal')"><span class="setting-label">Baixo ruído visual</span><h3>Minimalista</h3><p>Monocromático, linhas finas, tabelas limpas e destaque para estatísticas.</p></button>
- <button class="setting-card ${current==='botanical'?'selected':''}" onclick="setTheme('botanical')"><span class="setting-label">Modo didático</span><h3>Pomar botânico</h3><p>Metáfora de frutas para apresentações educacionais da hierarquia e da linhagem.</p></button></div><p class="metric-note">Limpar os dados do navegador restaura o perfil padrão.</p>`;
+ <button class="setting-card ${current==='botanical'?'selected':''}" onclick="setTheme('botanical')"><span class="setting-label">Modo didático</span><h3>Pomar Botânico</h3><p>Metáfora de frutas e sequência de genes em blocos interativos.</p></button>
+ <button class="setting-card ${current==='amber'?'selected':''}" onclick="setTheme('amber')"><span class="setting-label">Laboratório imersivo</span><h3>Genoma (Âmbar)</h3><p>Âmbar fóssil, dourado escuro, verde-laboratório e efeitos translúcidos; sequência genética interativa.</p></button></div><p class="metric-note">Limpar os dados do navegador restaura o perfil padrão.</p>`;
 }
-function setTheme(theme){if(!['serious','minimal','botanical'].includes(theme))theme='serious';document.body.classList.remove('theme-serious','theme-minimal','theme-botanical');document.body.classList.add('theme-'+theme);try{localStorage.setItem('lae-theme',theme)}catch(_){}if($('v8').classList.contains('on'))settings();if($('v1').classList.contains('on'))arvore();if($('v2').classList.contains('on'))hier();}
+function setTheme(theme){if(!['serious','minimal','botanical','amber'].includes(theme))theme='serious';document.body.classList.remove('theme-serious','theme-minimal','theme-botanical','theme-amber');document.body.classList.add('theme-'+theme);try{localStorage.setItem('lae-theme',theme)}catch(_){}if($('v8').classList.contains('on'))settings();if($('v1').classList.contains('on'))arvore();if($('v2').classList.contains('on'))hier();if($('ps').classList.contains('on')&&$('ps').dataset.genomeId)abrir($('ps').dataset.genomeId);}
 function applySavedTheme(){let theme='serious';try{theme=localStorage.getItem('lae-theme')||'serious'}catch(_){}setTheme(theme)}
 function genotypeMetrics(){
  const avg=a=>a.length?a.reduce((x,y)=>x+y,0)/a.length:0;
