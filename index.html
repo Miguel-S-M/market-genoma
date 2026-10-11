@@ -621,9 +621,13 @@ async function liveRender(){const m=await J("mercado.json"),q={};let fonte="arqu
 
 function iniciar(){applySavedTheme();prep();render();arvore();hier();rank();aba(0);
  const a=$("aviso");a.hidden=false;
- a.innerHTML=demo?`Simulação rodando no seu navegador, com dados fictícios (semente ${SEED}). <button class="chip" onclick="nova()">Nova simulação</button>`:"Conectado ao backend. Os dados são de exemplo (simulação), não resultados reais."}
+ a.innerHTML=REAL?`Paper trading: preços reais da B3, dinheiro fictício. Último pregão processado: ${e(REAL.ultimo_pregao||"?")}. Atualizado em ${e(dh(REAL.atualizado))}.`:demo?`Simulação rodando no seu navegador, com dados fictícios (semente ${SEED}). <button class="chip" onclick="nova()">Nova simulação</button>`:"Conectado ao backend. Os dados são de exemplo (simulação), não resultados reais."}
 function nova(){SEED=Math.floor(Math.random()*1e9);({G,caixa:CX}=simular(SEED));iniciar()}
-(async()=>{try{const r=await fetch("/api/genomas");if(!r.ok)throw 0;G=await r.json()}catch(_){demo=true;({G,caixa:CX}=simular(SEED))}iniciar()})();
+let REAL=false;
+(async()=>{
+ try{const j=await J("genomas.json");if(j&&Array.isArray(j.G)&&j.G.length){G=j.G;CX=j.caixa||[];demo=true;REAL=j}else throw 0}
+ catch(_){try{const r=await fetch("/api/genomas");if(!r.ok)throw 0;G=await r.json()}catch(_2){demo=true;({G,caixa:CX}=simular(SEED))}}
+ iniciar()})();
 // Reconsulta notícias a cada 3 minutos somente quando a aba está visível; não recarrega a página.
 setInterval(()=>{if(document.visibilityState==='visible'&&$('v6')?.classList.contains('on'))noticias()},180000);
 document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible'&&$('v6')?.classList.contains('on'))noticias()});
