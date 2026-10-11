@@ -1,0 +1,25 @@
+name: Atualizar noticias
+on:
+  schedule:
+    - cron: "7,22,37,52 * * * *"   # de 15 em 15 minutos, 24h (fora dos minutos do workflow de dados)
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:                        # mesmo grupo do dados.yml: nunca rodam ao mesmo tempo
+  group: dados
+  cancel-in-progress: false
+jobs:
+  noticias:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install yfinance numpy
+      - run: python scripts/exportar.py noticias
+      - run: |
+          git config user.name "dados-bot"
+          git config user.email "dados-bot@users.noreply.github.com"
+          git add data
+          git diff --staged --quiet || (git commit -m "noticias: $(date -u +%FT%TZ)" && git pull --rebase && git push)
