@@ -309,13 +309,13 @@ body.theme-minimal .st.eliminado{color:#bf3849;background:#bf384913;border-color
 <div class="sub">Acompanhe cada genoma: resultado, vida, linhagem e melhor mercado.</div>
 <div id="aviso" hidden></div>
 <div id="bench" class="tw" hidden style="padding:14px 16px;margin:12px 0"></div>
-<div class="strip" id="strip"></div>
+<div id="cart"></div><div class="strip" id="strip"></div>
 </header>
 <main>
 <nav class="chips" id="tabs"></nav>
 <section class="v on" id="v0"><div class="chips" id="chips"></div>
 <div class="tw"><table><thead><tr id="th"></tr></thead><tbody id="tb"></tbody></table></div><div id="genotype-metrics"></div></section>
-<section class="v" id="v1"></section><section class="v" id="v2"></section><section class="v" id="v3"></section><section class="v" id="v4"></section><section class="v" id="v5"></section><section class="v" id="v6"></section><section class="v" id="v7"></section><section class="v" id="v8"></section>
+<section class="v" id="v1"></section><section class="v" id="v2"></section><section class="v" id="v3"></section><section class="v" id="v4"></section><section class="v" id="v5"></section><section class="v" id="v6"></section><section class="v" id="v7"></section><section class="v" id="v8"></section><section class="v" id="v9"></section>
 </main>
 <aside id="ps"></aside>
 <footer>Ambiente de simulação educacional. Não é recomendação de investimento.</footer>
@@ -395,9 +395,9 @@ async function abrir(id){
  <h3>Histórico de operações</h3><table>${g.operacoes.map(o=>`<tr><td>${e(o.data)}</td><td>${e(o.ativo)}</td><td>${e(o.lado)}</td><td class="${cl(o.resultado)}">${brl(o.resultado)}</td></tr>`).join("")}</table>`;
  $("ps").dataset.genomeId=String(g.id);$("ps").classList.add("on")}
 
-const TABS=["Genomas","Árvore genealógica","Hierarquia","Reputação","Caixa geral","Análise de mercado","Notícias","Mercado ao vivo","Configurações"];
+const TABS=["Genomas","Árvore genealógica","Hierarquia","Reputação","Caixa geral","Análise de mercado","Notícias","Mercado ao vivo","Configurações","Fórum"];
 function aba(i){document.querySelectorAll(".v").forEach((v,k)=>v.classList.toggle("on",k==i));
- $("tabs").innerHTML=TABS.map((t,k)=>`<button class="chip ${k==i?"on":""}" onclick="aba(${k})">${t}</button>`).join("");if(i==4)caixa();if(i==5)analise();if(i==6)noticias();if(i==7)live();if(i==8)settings()}
+ $("tabs").innerHTML=TABS.map((t,k)=>`<button class="chip ${k==i?"on":""}" onclick="aba(${k})">${t}</button>`).join("");if(i==4)caixa();if(i==5)analise();if(i==6)noticias();if(i==7)live();if(i==8)settings();if(i==9)forumTab()}
 function svgIcon(kind,cls='icon-svg'){
  const paths={
   shield:'<path d="M12 3 20 6v5c0 5-3.5 8.2-8 10-4.5-1.8-8-5-8-10V6z"/><path d="m8.5 12 2.2 2.2 4.8-5"/>',
@@ -620,7 +620,12 @@ async function liveRender(){const m=await J("mercado.json"),q={};let fonte="arqu
  <div class="tw"><table><thead><tr><th>Ativo</th><th>Preço</th><th>Variação no dia</th><th>Últimos 60 pregões</th></tr></thead><tbody>${L.map(x=>{const pr=q[x.ticker]?.preco??x.preco,v=q[x.ticker]?.var_dia??x.var_dia;return`<tr><td>${e(x.ticker)}</td><td>${pr!=null?(x.ticker=="IBOV"?pr.toLocaleString("pt-BR"):brl(pr)):"n/d"}</td><td class="${cl(v||0)}">${v!=null?pct(v):"n/d"}</td><td>${spk(x.hist)}</td></tr>`}).join("")}</tbody></table></div>
  <p class="sub">${m?"Arquivo exportado em "+dh(m.atualizado)+".":""}</p>`}
 
-function iniciar(){applySavedTheme();prep();render();arvore();hier();rank();bench();ordensPainel();aba(0);
+function cartPainel(){const c=REAL&&REAL.carteiras,h=REAL&&REAL.saude;if(!c){$("cart").innerHTML="";return}
+ $("cart").innerHTML=`<div class="strip"><div class="s"><b class="num">${brl(c.campo.caixa+c.campo.investido)}</b><span>Campo, dinheiro real simulado: ${c.campo.n} genomas com ${brl(c.campo.capital_por_genoma)} cada. Caixa de campo ${brl(c.campo.caixa)}.</span></div><div class="s"><b class="num ${cl(c.treino.pontuacao)}">${brl(c.treino.pontuacao)}</b><span>Treino, dinheiro fictício: pontuação de ${c.treino.n} genomas (não vira capital).</span></div><div class="s"><b class="num ${h&&h.ledger_fecha?"ok":"bad"}">${h&&h.ledger_fecha?"Saudável":"ALERTA"}</b><span>${h&&h.ledger_fecha?"Livro-razão de campo fecha.":"Livro-razão não fecha: diferença "+brl(h?h.diferenca:0)+"."} Corte: ${e((h&&h.corte)||"?")}. Pregões: ${h?h.pregoes_processados:"?"}.</span></div></div>`}
+function forumTab(){const F=(REAL&&REAL.forum)||[],nm=id=>(G.find(x=>x.id==id)||{}).nome||("G-"+id),lst=a=>a.length?a.join(", "):"ninguém";
+ $("v9").innerHTML=`<p class="sub">Mensagens dos genomas (colmeia). Cada mensagem vale no pregão seguinte para quem negocia a mesma classe. O impacto compara a decisão com e sem a mensagem e mede a diferença em R$ no retorno do dia. Clique numa mensagem para ver quem viu, seguiu, foi impactado e ignorou.</p>`+(F.length?F.slice().reverse().slice(0,60).map(m=>`<details class="hn"><summary><b>${e(m.autor)}</b> em ${e(m.data)} (${e(m.carteira)}). Nível ${e(m.nivel||"baixo")}, impacto ${brl(m.impacto_rs)}<br>${e(m.texto)}<br><span class="sub">${m.vistos.length} viram, ${m.seguiram.length} seguiram, ${m.impactados.length} impactados, ${m.ignoraram.length} ignoraram</span></summary>
+ <p class="sub"><b>Viram:</b> ${lst(m.vistos.map(nm))}</p><p class="sub"><b>Seguiram:</b> ${lst(m.seguiram.map(nm))}</p><p class="sub"><b>Impactados:</b> ${lst(m.impactados.map(x=>nm(x.id)+" ("+(x.delta>0?"+":"")+x.delta+" de exposição, "+brl(x.rs)+")"))}</p><p class="sub"><b>Ignoraram:</b> ${lst(m.ignoraram.map(x=>nm(x.id)+" ("+e(x.motivo)+")"))}</p></details>`).join(""):'<p class="sub">Ainda não há mensagens. O fórum começa a registrar depois que a versão 3.1 rodar no GitHub.</p>')}
+function iniciar(){applySavedTheme();prep();render();arvore();hier();rank();bench();ordensPainel();cartPainel();aba(0);
  fetch("data/base/genomas.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{if(j&&j.benchmark&&j.benchmark.serie){window.BASE=j.benchmark.serie;bench()}}).catch(()=>{});
  const a=$("aviso");a.hidden=false;
  a.innerHTML=REAL?`Paper trading ${e(REAL.versao?"v"+REAL.versao+" · ":"")}preços reais da B3, dinheiro fictício. Último pregão processado: ${e(REAL.ultimo_pregao||"?")}. Atualizado em ${e(dh(REAL.atualizado))}.`:demo?`Simulação rodando no seu navegador, com dados fictícios (semente ${SEED}). <button class="chip" onclick="nova()">Nova simulação</button>`:"Conectado ao backend. Os dados são de exemplo (simulação), não resultados reais."}
