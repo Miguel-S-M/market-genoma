@@ -2,7 +2,8 @@ name: Exportar dados
 on:
   schedule:
     - cron: "*/15 13-21 * * 1-5"   # pregão (UTC), a cada 15 min, dias úteis
-    - cron: "0 0,6 * * *"          # fora do pregão: notícias 2x ao dia
+    - cron: "5 22,23 * * 1-5"      # reforço depois do fechamento (19h05 e 20h05): garante o pregão do dia
+    - cron: "0 0,6 * * *"          # fora do pregão: dados 2x ao dia
   workflow_dispatch:                # botão "Run workflow" para rodar na hora
 permissions:
   contents: write
@@ -19,8 +20,10 @@ jobs:
           python-version: "3.12"
       - run: pip install yfinance numpy
       - run: python scripts/exportar.py
-      - name: Paper trading dos genomas
+      - name: Paper trading dos genomas (laboratório completo)
         run: python scripts/paper.py
+      - name: Laboratório BASE (controle, sem as camadas novas)
+        run: LAB_BASE=1 python scripts/paper.py
       - run: |
           git config user.name "dados-bot"
           git config user.email "dados-bot@users.noreply.github.com"
