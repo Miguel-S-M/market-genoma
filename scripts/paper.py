@@ -48,7 +48,7 @@ import yfinance as yf
 from exportar import AGORA, IBOV, baixar, regime
 
 DATA = Path(__file__).resolve().parent.parent / "data"
-VERSAO = "3.0"
+VERSAO = "3.1"
 USD = "USDBRL=X"
 ATIVOS = {
     "PETR4": dict(t="PETR4.SA", classe="acoes", setor="energia"),
@@ -77,15 +77,15 @@ DISP = []
 EQ = {5: "curto", 20: "medio", 60: "longo"}
 REGIMES = ["alta calma", "alta volátil", "lateral", "queda", "crise"]
 P = dict(
-    treino=260, epoca=20, pop=16, controle=4, capital=1000.0, caixa0=40000.0, filho=500.0,
-    reserva=2000.0, degraus=[100, 300, 900], limite=0.15,
+    treino=260, epoca=20, pop=16, controle=4, capital=1000.0, capital_treino=1000.0, capital_campo=200.0, caixa0=5000.0, filho=500.0,
+    reserva=500.0, prom_dias=20, prom_rep=0.5, forum_escala=0.05, degraus=[100, 300, 900], limite=0.15,
     custo=dict(acoes=0.001, imobiliario=0.001, exterior=0.001, moedas=0.002, cripto=0.003),
     confirma=3, min_dias=15, min_ret=0.02, espera=10, max_reat=3,
     rec=dict(hierarquia=True, emprestimo=True, teto=True, resgate=True, prazos=True,
-             cruzamento=True, medianos=True, migracao=True, noticias=True, colmeia=True),
+             cruzamento=True, medianos=True, migracao=False, noticias=True, colmeia=True, forum=True),
     emp_pct=0.05, rep_emp=1.0, emp_max_x=1.0,
-    teto=5000.0, teto_div=(0.25, 0.65, 0.10),
-    resgate_1d=-0.03, resgate_5d=-0.06, capital_seguro=2000.0, resgate_frac=0.5, resgate_espera=10,
+    teto=600.0, teto_div=(0.25, 0.65, 0.10),
+    resgate_1d=-0.03, resgate_5d=-0.06, capital_seguro=300.0, resgate_frac=0.5, resgate_espera=10,
     prazo_base=5, prazo_rep=10, prazo_max=60, stop=0.10,
     med_lucro=0.03, filho_med=300.0, max_vivos=60,
     rep_migra=0.5, p_migra=0.3, peso_noticia_escala=0.02, vol_alvo=0.25,
@@ -119,7 +119,8 @@ def hoje_fechado():
 def genes():
     return {"tendencia": round(random.uniform(-1, 1), 2), "risco": round(random.uniform(0.2, 1), 2),
             "horizonte_dias": random.choice([5, 20, 60]), "prazo": random.choice([0, 3, 5, 10, 20]),
-            "peso_noticias": round(random.uniform(0, 1), 2)}
+            "peso_noticias": round(random.uniform(0, 1), 2),
+            "peso_forum": round(random.uniform(0, 1), 2)}
 
 
 def mutar(g):
@@ -131,6 +132,7 @@ def mutar(g):
     if random.random() < 0.3:
         f["prazo"] = random.choice([0, 3, 5, 10, 20])
     f["peso_noticias"] = round(max(0, min(1, f.get("peso_noticias", 0.5) + random.gauss(0, 0.1))), 2)
+    f["peso_forum"] = round(max(0, min(1, f.get("peso_forum", 0.5) + random.gauss(0, 0.1))), 2)
     return f
 
 
@@ -161,8 +163,9 @@ def prazo_efetivo(a):
     return int(min(a["genes"].get("prazo", 0), pmax))
 
 
-def mov(est, d, origem, destino, v, motivo):
-    est["led"].append({"data": d, "origem": origem, "destino": destino, "valor": round(v, 2), "motivo": motivo})
+def mov(est, d, origem, destino, v, motivo, cart="campo"):
+    est["led"].append({"data": d, "origem": origem, "destino": destino, "valor": round(v, 2), "motivo": motivo,
+                       "carteira": cart})
 
 
 # ---------------------------------------------------------------- população
@@ -189,7 +192,7 @@ def novo(est, d, gn, pai, ev, cap, ativo=None, de_fundo=None, motivo=None):
              morte=None, pai_id=pai, genes=gn, v0=cap, v=cap, pos=0.0, alvo=0.0, ent=cap, px=0.0,
              rets=[], curva=[], ops=[], rd={}, clones=0, clones_med=0, v_hib=0.0, hib_dias=0, reat=0,
              cap_in=cap, cap_out=0.0, fundo=0.0, banco=0.0, banco_usado=0.0, divida=0.0, juros=0.0,
-             dias_pos=0, migrou=False)
+             dias_pos=0, migrou=False, rets_f=[], pts_treino=0.0)
     ags.append(a)
     if de_fundo and de_fundo[0] is not None:
         pai_a, usado = de_fundo
@@ -198,9 +201,8 @@ def novo(est, d, gn, pai, ev, cap, ativo=None, de_fundo=None, motivo=None):
         if cap - usado > 0.005:
             est["cx"] -= cap - usado
             mov(est, d, "caixa", a["nome"], cap - usado, motivo or "clonagem")
-    else:
-        est["cx"] -= cap
-        mov(est, d, "caixa", a["nome"], cap, motivo or ("clonagem" if pai else "capital inicial"))
+    else:   # todo genoma nasce no TREINO, com dinheiro fictício que não sai do caixa de campo
+        mov(est, d, "treino (fictício)", a["nome"], cap, motivo or ("clonagem" if pai else "capital inicial"), "treino")
     return a
 
 
@@ -289,6 +291,43 @@ def forum(est):
     return round(num / den, 3) if den else 0.5
 
 
+def postar(est, d, a, direcao):
+    est["mid"] = est.get("mid", 0) + 1
+    forca = round(min(1.0, max(rep(a), 0) / 2), 2)
+    est.setdefault("msgs", []).append({
+        "id": est["mid"], "data": d, "autor": a["nome"], "autor_id": a["id"], "carteira": a["status"],
+        "classe": a["classe"], "ativo": a["ativo"], "dir": direcao, "forca": forca,
+        "texto": f"{a['nome']} ({a['equipe']}, reputação {rep(a):.2f}) {'comprou' if direcao > 0 else 'saiu de'} "
+                 f"{a['ativo']}: sinal de {'alta' if direcao > 0 else 'cautela'} para {a['classe']}.",
+        "vistos": [], "seguiram": [], "impactados": [], "ignoraram": [], "impacto_rs": 0.0})
+
+
+def forum_efeito(est, a, vis, score, decide):
+    """Decide com e sem as mensagens do dia anterior; a diferença é o impacto (medido em R$ no dia seguinte)."""
+    sem = decide(score)
+    if not vis:
+        return sem
+    pf = a["genes"].get("peso_forum", 0.5)
+    cs = [(m, pf * P["forum_escala"] * m["dir"] * m["forca"]) for m in vis]
+    com = decide(score + sum(c for _, c in cs))
+    delta = round(com - sem, 4)
+    tot = sum(abs(c) for _, c in cs) or 1.0
+    partes = []
+    for m, c in cs:
+        m["vistos"].append(a["id"])
+        if c != 0 and ((m["dir"] > 0 and com > 0) or (m["dir"] < 0 and com == 0)):
+            m["seguiram"].append(a["id"])
+            if delta != 0 and c * delta > 0:
+                m["impactados"].append({"id": a["id"], "delta": delta, "rs": 0.0})
+                partes.append((m["id"], abs(c) / tot))
+        else:
+            m["ignoraram"].append({"id": a["id"], "motivo": "peso do genoma baixo" if abs(c) < 1e-3
+                                   else "decisão própria prevaleceu"})
+    if partes:
+        a["pend"] = {"delta": delta, "v": a["v"], "m": partes}
+    return com
+
+
 def hierarquia(est, arr, ibov, k):
     """Retorna (regime bruto votado, ordens do dia). Os arquitetos só veem os votos, não os preços."""
     s = ibov
@@ -366,7 +405,7 @@ def quitar(est, d, a):
 def tomar_credito(est, d, a, reg):
     """Ao abrir posição considerada lucrativa: usa o banco próprio e, se a reputação permite, empréstimo do caixa."""
     fluxo = 0.0
-    if reg not in bons_regimes(a):
+    if a["status"] != "campo" or reg not in bons_regimes(a):
         return fluxo
     if rec("teto") and a["banco"] > 0.005:
         x = a["banco"]
@@ -388,7 +427,7 @@ def tomar_credito(est, d, a, reg):
 
 
 def aplicar_teto(est, d, a):
-    if not rec("teto") or a["divida"] > 0 or a["banco_usado"] > 0 or a["v"] <= P["teto"]:
+    if not rec("teto") or a["status"] != "campo" or a["divida"] > 0 or a["banco_usado"] > 0 or a["v"] <= P["teto"]:
         return
     ex = a["v"] - P["teto"]
     f, c, b = (ex * x for x in P["teto_div"])
@@ -405,12 +444,16 @@ def aplicar_teto(est, d, a):
 def encerrar(est, d, a, status, motivo):
     vender_posicao(est, d, a)
     quitar(est, d, a)
+    cart = "campo" if a["status"] == "campo" else "treino"
     a["status"], a["morte"] = status, d
     if status == "hibernado":
         a["v_hib"], a["hib_dias"] = a["v"], 0
     a["cap_out"] += a["v"]
-    est["cx"] += a["v"]
-    mov(est, d, a["nome"], "caixa", a["v"], motivo)
+    if cart == "campo":
+        est["cx"] += a["v"]
+        mov(est, d, a["nome"], "caixa", a["v"], motivo)
+    else:   # dinheiro de treino é fictício: não volta ao caixa de campo
+        mov(est, d, a["nome"], "treino (descartado)", a["v"], motivo, "treino")
     for nome, chave in (("fundo", "fundo"), ("banco", "banco")):
         if a[chave] > 0.005:
             est["cx"] += a[chave]
@@ -422,15 +465,12 @@ def reativar(est, d, reg):
     cand = [a for a in est["ags"] if a["status"] == "hibernado" and a["ev"]
             and a["hib_dias"] >= P["espera"] and a["reat"] < P["max_reat"] and reg in bons_regimes(a)]
     cand.sort(key=lambda a: -bons_regimes(a)[reg])
-    for a in cand:
-        cap = max(P["filho"], min(a["v_hib"], P["capital"]))
-        if est["cx"] < cap + P["reserva"]:
-            break
-        est["cx"] -= cap
-        mov(est, d, "caixa", a["nome"], cap, f"reativação (mercado em {reg})")
-        a.update(status="campo", morte=None, v=cap, v0=cap, pos=0.0, alvo=0.0, ent=cap, hib_dias=0, dias_pos=0)
+    for a in cand:      # volta sempre pelo TREINO, sem pular a prova fora da amostra
+        cap = P["capital_treino"]
+        mov(est, d, "treino (fictício)", a["nome"], cap, f"reativação no treino (mercado em {reg})", "treino")
+        a.update(status="treino", morte=None, v=cap, v0=cap, pos=0.0, alvo=0.0, ent=cap, hib_dias=0, dias_pos=0,
+                 rets_f=[], cap_in=cap, cap_out=0.0)
         a["reat"] += 1
-        a["cap_in"] += cap
 
 
 def flush_cdi(est, d):
@@ -456,7 +496,7 @@ def resgate(est, d, k, ibov):
     melhor = max(campo, key=rep)
     if melhor["v"] >= P["capital_seguro"] or melhor["divida"] > 0:
         return
-    pool = [a for a in est["ags"] if vivo(a) and a["ev"] and a is not melhor and a["divida"] == 0 and len(a["rets"]) >= 20]
+    pool = [a for a in est["ags"] if a["status"] == "campo" and a["ev"] and a is not melhor and a["divida"] == 0 and len(a["rets"]) >= 20]
     pool.sort(key=lambda a: sum(a["rets"][-20:]))
     est["ult_resgate"] = k
     for a in pool[: max(1, len(pool) // 4)]:
@@ -477,14 +517,44 @@ def resgate(est, d, k, ibov):
         mov(est, d, a["nome"], melhor["nome"], x, f"resgate em queda brusca (para {melhor['nome']})")
 
 
+def rep_f(a):
+    """Reputação só com o que aconteceu DEPOIS do corte (fora da amostra)."""
+    r = a["rets_f"]
+    if len(r) < P["prom_dias"]:
+        return None
+    sd = st.pstdev(r)
+    return round(st.mean(r) / sd * 15.8, 2) if sd else 0.0
+
+
+def promover(est, d, a):
+    """Treino -> campo: só com prova depois do corte (dias mínimos, reputação, retorno > 0) e caixa de campo."""
+    r = rep_f(a)
+    if r is None or r < P["prom_rep"] or sum(a["rets_f"]) <= 0:
+        return
+    cap = P["capital_campo"]
+    pai = next((x for x in est["ags"] if x["id"] == a["pai_id"]), None)
+    usado = min(pai["fundo"], cap) if pai else 0.0
+    if est["cx"] < cap - usado + P["reserva"]:
+        return
+    vender_posicao(est, d, a)
+    a["pts_treino"] = round(a["v"] - a["v0"], 2)      # o ganho do treino fica só como pontuação
+    mov(est, d, a["nome"], "treino (descartado)", a["v"], "fim do treino: ganho vira pontuação, não capital", "treino")
+    if usado > 0.005:
+        pai["fundo"] -= usado
+        mov(est, d, f"fundo {pai['nome']}", a["nome"], usado, "promoção a campo (fundo de descendentes)")
+    est["cx"] -= cap - usado
+    mov(est, d, "caixa", a["nome"], cap - usado, "promoção a campo (capital de campo)")
+    a.update(status="campo", v=cap, v0=cap, ent=cap, cap_in=cap, cap_out=0.0, dias_pos=0)
+
+
 # ---------------------------------------------------------------- fim de época
 def fim_epoca(est, d, reg):
     ags = est["ags"]
     flush_cdi(est, d)
     cloned = set()
     for a in [x for x in ags if vivo(x) and x["ev"]]:
-        if a["status"] == "treino" and rep(a) > 0:
-            a["status"] = "campo"
+        if a["status"] == "treino":
+            promover(est, d, a)
         lim = P["limite"] * (1 + min(max(rep(a), 0), 2) / 2)
         if a["v"] < a["v0"] * (1 - lim):
             if bons_regimes(a):
@@ -493,12 +563,10 @@ def fim_epoca(est, d, reg):
                 encerrar(est, d, a, "eliminado", "desligamento (sem regime bom)")
             continue
         nvivos = sum(1 for x in ags if vivo(x) and x["ev"])
-        if (a["clones"] < len(P["degraus"]) and a["v"] - a["v0"] >= P["degraus"][a["clones"]]
+        if (a["clones"] < len(P["degraus"]) and a["v"] - a["v0"] >= P["degraus"][a["clones"]] * a["v0"] / P["capital_treino"]
                 and nvivos < P["max_vivos"]):
-            usado = min(a["fundo"], P["filho"])
-            if est["cx"] >= P["filho"] - usado + P["reserva"]:
-                clonar(est, d, a, P["filho"], usado, "clones")
-                cloned.add(a["id"])
+            clonar(est, d, a, P["capital_treino"], 0.0, "clones")
+            cloned.add(a["id"])
     if rec("medianos"):
         campo = [x for x in ags if x["status"] == "campo" and x["ev"] and rep(x) > 0]
         if len(campo) >= 4:
@@ -508,17 +576,15 @@ def fim_epoca(est, d, reg):
                 nvivos = sum(1 for x in ags if vivo(x) and x["ev"])
                 if (a["id"] not in cloned and a["clones_med"] < 2 and q25 <= rep(a) < q75 and nvivos < P["max_vivos"]
                         and a["v"] - a["v0"] >= P["med_lucro"] * a["v0"]):
-                    usado = min(a["fundo"], P["filho_med"])
-                    if est["cx"] >= P["filho_med"] - usado + P["reserva"]:
-                        clonar(est, d, a, P["filho_med"], usado, "clones_med")
+                    clonar(est, d, a, P["capital_treino"], 0.0, "clones_med")
     if rec("migracao"):
         for a in [x for x in ags if x["status"] == "campo" and x["ev"] and x["classe"] in SEGURAS and not x["migrou"]]:
             if rep(a) >= P["rep_migra"] and random.random() < P["p_migra"]:
                 alvos = [n for n in DISP if ATIVOS[n]["classe"] in RISCO]
                 if alvos:
                     migrar(est, d, a, random.choice(alvos))
-    while sum(1 for x in ags if x["ev"] and vivo(x)) < 8 and est["cx"] >= P["capital"] + P["reserva"]:
-        novo(est, d, genes(), None, True, P["capital"])
+    while sum(1 for x in ags if x["ev"] and vivo(x)) < 8:
+        novo(est, d, genes(), None, True, P["capital_treino"])
 
 
 def clonar(est, d, a, cap, usado, campo_contador):
@@ -613,9 +679,21 @@ def dia(est, arr, opn, datas, ibov, k):
         if a["status"] == "hibernado":
             a["hib_dias"] += 1
     usa_sent = rec("noticias") and ultimo_dia and bool(SENT)
+    fila = [m for m in est.get("msgs", []) if m["data"] == datas[k - 1]] if rec("forum") else []
+    msgs_id = {m["id"]: m for m in est.get("msgs", [])}
     for a in [x for x in est["ags"] if vivo(x) and x["ativo"] in arr]:
         s, o, h = arr[a["ativo"]], opn[a["ativo"]], a["genes"]["horizonte_dias"]
         pos, alvo, v_ini, fluxo = a["pos"], a["alvo"], a["v"], 0.0
+        pend = a.pop("pend", None)       # impacto (R$) das mensagens da véspera, medido no retorno de hoje
+        if pend:
+            imp = pend["delta"] * float(s[k] / s[k - 1] - 1) * pend["v"]
+            for mid, sh in pend["m"]:
+                m = msgs_id.get(mid)
+                if m:
+                    m["impacto_rs"] = round(m["impacto_rs"] + imp * sh, 2)
+                    for x in m["impactados"]:
+                        if x["id"] == a["id"]:
+                            x["rs"] = round(x["rs"] + imp * sh, 2)
         if a["divida"] > 0:
             a["juros"] += a["divida"] * taxa_cdi(d)
         a["v"] *= 1 + pos * float(o[k] / s[k - 1] - 1)
@@ -635,6 +713,8 @@ def dia(est, arr, opn, datas, ibov, k):
         a["v"] *= 1 + alvo * float(s[k] / o[k] - 1)
         ret = (a["v"] - fluxo) / v_ini - 1
         a["rets"].append(ret)
+        if d > est["corte"]:
+            a["rets_f"].append(ret)
         x = a["rd"].setdefault(reg, [0.0, 0])
         x[0] += ret
         x[1] += 1
@@ -645,13 +725,16 @@ def dia(est, arr, opn, datas, ibov, k):
         if usa_sent:
             sent = SENT.get(a["classe"], 0.0)
             score += a["genes"].get("peso_noticias", 0.0) * sent * P["peso_noticia_escala"]
-        novo_alvo = a["genes"]["risco"] if score > 0 else 0.0
         cap = cap_efetivo(a, ordens)
-        novo_alvo = min(novo_alvo, cap)
+        decide = lambda sc: min(a["genes"]["risco"] if sc > 0 else 0.0, cap)
+        vis = [m for m in fila if m["autor_id"] != a["id"] and m["classe"] == a["classe"]]
+        novo_alvo = forum_efeito(est, a, vis, score, decide) if a["ev"] else decide(score)
         if (rec("prazos") and a["pos"] > 0 and novo_alvo == 0 and a["dias_pos"] < prazo_efetivo(a)
                 and a["v"] > a["ent"] * (1 - P["stop"])):
             novo_alvo = min(a["pos"], cap)             # prazo pedido: mantém a posição
         a["alvo"] = novo_alvo
+        if rec("forum") and a["ev"] and (novo_alvo > 0) != (a["pos"] > 0) and rep(a) > 0.2:
+            postar(est, d, a, 1 if novo_alvo > 0 else -1)
         a["curva"].append(round(a["v"], 2))
         aplicar_teto(est, d, a)
     if usa_sent:
@@ -663,9 +746,10 @@ def dia(est, arr, opn, datas, ibov, k):
                 encerrar(est, d, a, "hibernado", f"hibernação (mercado virou para {reg})")
     reativar(est, d, reg)
     colmeia_pesos(est)
+    est["msgs"] = est.get("msgs", [])[-150:]
     est["ordens"] = ordens
     est["forum"] = ordens["arquiteto_operacoes"]["forum"] if ordens else None
-    total = est["cx"] + sum(x["v"] + x["fundo"] + x["banco"] for x in est["ags"] if vivo(x))
+    total = est["cx"] + sum(x["v"] + x["fundo"] + x["banco"] for x in est["ags"] if x["status"] == "campo")
     est.setdefault("serie", []).append({"data": d, "lab": round(total, 2), "ibov": round(float(ibov.iloc[k]), 2),
                                         "colmeia": round(est["colmeia"]["v"], 2)})
     est["dias_ep"] += 1
@@ -701,11 +785,32 @@ def exportar(est, arr, datas):
                   "capital_investido": round(a["cap_in"], 2), "lucro_total": round(lt, 2), "bh": bh,
                   "fundo": round(a["fundo"], 2), "banco": round(a["banco"], 2), "divida": round(a["divida"], 2),
                   "melhor_regime": melhor, "regimes_bons": sorted(bons), "reputacao": rep(a),
-                  "curva": cv, "operacoes": a["ops"][-30:][::-1]})
+                  "curva": cv, "operacoes": a["ops"][-30:][::-1],
+                  "carteira": "campo" if a["status"] == "campo" else "treino",
+                  "pts_treino": round(a["v"] - a["v0"], 2) if a["status"] == "treino" else a["pts_treino"]})
     saida = {"atualizado": AGORA, "ultimo_pregao": est["ultimo"], "G": G, "caixa": est["led"],
              "regime_atual": est.get("regime", {}).get("atual"), "versao": VERSAO + (" (base)" if os.environ.get("LAB_BASE") == "1" else ""), "params": P,
              "hierarquia": est.get("ordens"),
              "colmeia": {"valor": round(est["colmeia"]["v"], 2), "pesos": est["colmeia"]["pesos"]}}
+    campo = [a for a in est["ags"] if a["status"] == "campo"]
+    treino = [a for a in est["ags"] if a["status"] == "treino"]
+    fl = [x for x in est["led"] if x.get("carteira", "campo") == "campo"]
+    dif = round(est["cx"] - (sum(x["valor"] for x in fl if x["destino"] == "caixa")
+                             - sum(x["valor"] for x in fl if x["origem"] == "caixa")), 2)
+    saida["carteiras"] = {
+        "campo": {"caixa": round(est["cx"], 2), "investido": round(sum(a["v"] + a["fundo"] + a["banco"] for a in campo), 2),
+                  "n": len(campo), "capital_por_genoma": P["capital_campo"]},
+        "treino": {"pontuacao": round(sum(a["v"] - a["v0"] for a in treino), 2), "n": len(treino),
+                   "capital_ficticio": P["capital_treino"]}}
+    saida["saude"] = {"ledger_fecha": abs(dif) < 1.0, "diferenca": dif, "corte": est.get("corte"),
+                      "pregoes_processados": len(est.get("serie", []))}
+    if not saida["saude"]["ledger_fecha"]:
+        print("ALERTA: o livro-razão de campo não fecha:", dif)
+    msgs = est.get("msgs", [])[-100:]
+    for m in msgs:
+        n = len(m["impactados"])
+        m["nivel"] = "alto" if n >= 3 or abs(m["impacto_rs"]) >= 5 else ("médio" if n >= 1 else "baixo")
+    saida["forum"] = msgs
     if est.get("serie"):
         cdi = cdi_acumulado([x["data"] for x in est["serie"]])
         saida["benchmark"] = {"corte": est.get("corte"), "serie": [{**x, "cdi": c} for x, c in zip(est["serie"], cdi)]}
@@ -769,7 +874,7 @@ def main():
                "corte": datas[-1], "versao": VERSAO}
         mov(est, est["ultimo"], "externo", "caixa", P["caixa0"], "aporte inicial (simulado)")
         for i in range(P["pop"] + P["controle"]):
-            novo(est, est["ultimo"], genes(), None, i < P["pop"], P["capital"])
+            novo(est, est["ultimo"], genes(), None, i < P["pop"], P["capital_treino"])
             if i >= P["pop"]:
                 est["ags"][-1]["equipe"] = "generalista"
     if "serie" not in est:
