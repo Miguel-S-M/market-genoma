@@ -5,6 +5,7 @@ mercado por regras simples) e data/noticias.json (manchetes + sentimento por pal
 Para testar na sua máquina: pip install yfinance numpy  e  python scripts/exportar.py
 """
 import json
+import sys
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
@@ -22,7 +23,17 @@ AGORA = datetime.now(timezone.utc).isoformat(timespec="seconds")
 FEEDS = [
     ("Google Notícias", "https://news.google.com/rss/search?q=Ibovespa+OR+bolsa+OR+mercado+financeiro+when:2d&hl=pt-BR&gl=BR&ceid=BR:pt-419"),
     ("InfoMoney", "https://www.infomoney.com.br/feed/"),
+    ("Google Notícias", "https://news.google.com/rss/search?q=bitcoin+OR+criptomoedas+when:2d&hl=pt-BR&gl=BR&ceid=BR:pt-419"),
+    ("Google Notícias", "https://news.google.com/rss/search?q=d%C3%B3lar+OR+c%C3%A2mbio+OR+euro+when:2d&hl=pt-BR&gl=BR&ceid=BR:pt-419"),
+    ("Google Notícias", "https://news.google.com/rss/search?q=fundos+imobili%C3%A1rios+OR+FII+when:2d&hl=pt-BR&gl=BR&ceid=BR:pt-419"),
+    ("Google Notícias", "https://news.google.com/rss/search?q=Wall+Street+OR+Nasdaq+OR+Fed+when:2d&hl=pt-BR&gl=BR&ceid=BR:pt-419"),
 ]
+CLASSES = {
+    "cripto": ["bitcoin", "cripto", "ethereum", "btc"],
+    "moedas": ["dólar", "dolar", "euro", "câmbio", "cambio"],
+    "imobiliario": ["fii", "imobiliári", "imobiliari"],
+    "exterior": ["wall street", "nasdaq", "s&p", "fed ", "nova york"],
+}
 POS = ["alta", "sobe", "dispara", "lucro", "recorde", "avança", "ganha", "otimismo", "valoriza"]
 NEG = ["queda", "cai", "despenca", "prejuízo", "perde", "recua", "crise", "pessimismo", "desvaloriza", "risco"]
 
@@ -92,6 +103,12 @@ def analise(c):
                    "Lateral: todo o resto."]})
 
 
+def classes_da_noticia(t):
+    t = t.lower()
+    achadas = [c for c, ws in CLASSES.items() if any(w in t for w in ws)]
+    return achadas or ["acoes"]
+
+
 def sentimento(t):
     t = t.lower()
     p, n = sum(w in t for w in POS), sum(w in t for w in NEG)
@@ -116,7 +133,8 @@ def noticias():
                 except Exception:
                     d = ""
                 itens.append({"titulo": t, "fonte": it.findtext("source") or fonte,
-                              "link": link, "data": d, "sentimento": sentimento(t)})
+                              "link": link, "data": d, "sentimento": sentimento(t),
+                              "classes": classes_da_noticia(t)})
         except Exception as e:
             print("feed falhou:", fonte, e)
 
@@ -129,7 +147,7 @@ def noticias():
     unicos = {}
     for item in itens:
         unicos[item["link"]] = item
-    itens = sorted(unicos.values(), key=lambda x: x["data"], reverse=True)[:40]
+    itens = sorted(unicos.values(), key=lambda x: x["data"], reverse=True)[:60]
 
     # Um feed respondeu, mas não trouxe itens: preservar a última versão não vazia.
     if not itens and anterior.exists():
@@ -145,6 +163,10 @@ def noticias():
     # Saída agregada e aditiva para o painel/integração dos Genomas.
     valores = [float(x.get("sentimento", 0)) for x in itens if isinstance(x.get("sentimento"), (int, float))]
     media = round(sum(valores) / len(valores), 3) if valores else 0.0
+    por_classe = {}
+    for c in list(CLASSES) + ["acoes"]:
+        v = [float(x["sentimento"]) for x in itens if c in x.get("classes", []) and isinstance(x.get("sentimento"), (int, float))]
+        por_classe[c] = {"quantidade": len(v), "media": round(sum(v) / len(v), 3) if v else 0.0}
     if media > 0.15:
         sinal = "positivo"
     elif media < -0.15:
@@ -157,11 +179,15 @@ def noticias():
         "metodo": "média de pontuações por palavras-chave; sinal informativo, não previsão",
         "quantidade": len(valores),
         "media": media,
+        "por_classe": por_classe,
         "sinal": sinal,
     })
 
 
 if __name__ == "__main__":
+    if len(sys.argv) > 1 and sys.argv[1] == "noticias":   # modo leve, usado de 15 em 15 minutos
+        noticias()
+        sys.exit(0)
     try:
         analise(mercado())
     except Exception as e:
