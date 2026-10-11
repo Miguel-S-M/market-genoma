@@ -18,7 +18,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 import yfinance as yf
-from exportar import ACOES, AGORA, IBOV, regime
+from exportar import ACOES, AGORA, IBOV, baixar, regime
 
 DATA = Path(__file__).resolve().parent.parent / "data"
 SETOR = {"PETR4": "energia", "VALE3": "mineração", "ITUB4": "financeiro", "BBDC4": "financeiro",
@@ -121,10 +121,33 @@ def dia(est, arr, opn, datas, ibov, k):
         mom = float(s[k] / s[k - h] - 1)             # nova decisão, executada amanhã na abertura
         a["alvo"] = a["genes"]["risco"] if mom * a["genes"]["tendencia"] > 0 else 0.0
         a["curva"].append(round(a["v"], 2))
+    total = est["cx"] + sum(x["v"] for x in est["ags"] if vivo(x))   # caixa + patrimônio dos vivos
+    est.setdefault("serie", []).append({"data": d, "lab": round(total, 2), "ibov": round(float(ibov.iloc[k]), 2)})
     est["dias_ep"] += 1
     if est["dias_ep"] >= P["epoca"]:
         est["dias_ep"] = 0
         fim_epoca(est, d, regime(ibov, k))
+
+
+def cdi_acumulado(datas):
+    """CDI acumulado (base 1) para cada data da série, via Banco Central (SGS 12, % ao dia)."""
+    try:
+        d0 = datetime.strptime(datas[0], "%Y-%m-%d").strftime("%d/%m/%Y")
+        d1 = datetime.strptime(datas[-1], "%Y-%m-%d").strftime("%d/%m/%Y")
+        url = f"https://api.bcb.gov.br/dados/serie/bcdata.sgs.12/dados?formato=json&dataInicial={d0}&dataFinal={d1}"
+        taxa = {datetime.strptime(x["data"], "%d/%m/%Y").strftime("%Y-%m-%d"): float(x["valor"]) / 100
+                for x in json.loads(baixar(url))}
+    except Exception as e:
+        print("CDI falhou:", e)
+        return [None] * len(datas)
+    f, out = 1.0, []
+    for i, d in enumerate(datas):
+        if i:
+            for dd, t in taxa.items():
+                if datas[i - 1] < dd <= d:
+                    f *= 1 + t
+        out.append(round(f, 6))
+    return out
 
 
 def exportar(est):
@@ -141,6 +164,9 @@ def exportar(est):
                   "capital_atual": round(a["v"], 2), "melhor_regime": melhor, "reputacao": rep(a),
                   "curva": cv, "operacoes": a["ops"][-30:][::-1]})
     saida = {"atualizado": AGORA, "ultimo_pregao": est["ultimo"], "G": G, "caixa": est["led"]}
+    if est.get("serie"):
+        cdi = cdi_acumulado([x["data"] for x in est["serie"]])
+        saida["benchmark"] = {"corte": est.get("corte"), "serie": [{**x, "cdi": c} for x, c in zip(est["serie"], cdi)]}
     (DATA / "genomas.json").write_text(json.dumps(saida, ensure_ascii=False), encoding="utf-8")
     (DATA / "estado.json").write_text(json.dumps(est, ensure_ascii=False), encoding="utf-8")
 
@@ -163,11 +189,15 @@ def main():
     else:  # primeira vez: cria a população e treina com o histórico real
         random.seed(7)
         est = {"ultimo": datas[-P["treino"] - 1], "ags": [], "led": [], "cx": P["caixa0"], "dias_ep": 0}
+        est["corte"] = datas[-1]      # a partir daqui é teste de verdade; antes é treino retroativo
         mov(est, est["ultimo"], "externo", "caixa", P["caixa0"], "aporte inicial (simulado)")
         for i in range(P["pop"] + P["controle"]):
             a = novo(est, est["ultimo"], genes(), None, i < P["pop"], P["capital"])
             if i >= P["pop"]:
                 a["equipe"] = "generalista"
+    if "serie" not in est:
+        i0 = datas.index(est["ultimo"])
+        est["serie"] = [{"data": est["ultimo"], "lab": P["caixa0"], "ibov": round(float(px[IBOV].iloc[i0]), 2)}]
     novos = [k for k, d in enumerate(datas) if d > est["ultimo"]]
     if not novos:
         print("Sem pregões novos.")
