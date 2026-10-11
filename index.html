@@ -308,6 +308,7 @@ body.theme-minimal .st.eliminado{color:#bf3849;background:#bf384913;border-color
 <div class="header-status" role="status" aria-label="Sistema online e sincronizado"><span class="status-led" aria-hidden="true"></span><span>Sistema online <span aria-hidden="true">·</span> sincronizado</span></div>
 <div class="sub">Acompanhe cada genoma: resultado, vida, linhagem e melhor mercado.</div>
 <div id="aviso" hidden></div>
+<div id="bench" class="tw" hidden style="padding:14px 16px;margin:12px 0"></div>
 <div class="strip" id="strip"></div>
 </header>
 <main>
@@ -619,9 +620,26 @@ async function liveRender(){const m=await J("mercado.json"),q={};let fonte="arqu
  <div class="tw"><table><thead><tr><th>Ativo</th><th>Preço</th><th>Variação no dia</th><th>Últimos 60 pregões</th></tr></thead><tbody>${L.map(x=>{const pr=q[x.ticker]?.preco??x.preco,v=q[x.ticker]?.var_dia??x.var_dia;return`<tr><td>${e(x.ticker)}</td><td>${pr!=null?(x.ticker=="IBOV"?pr.toLocaleString("pt-BR"):brl(pr)):"n/d"}</td><td class="${cl(v||0)}">${v!=null?pct(v):"n/d"}</td><td>${spk(x.hist)}</td></tr>`}).join("")}</tbody></table></div>
  <p class="sub">${m?"Arquivo exportado em "+dh(m.atualizado)+".":""}</p>`}
 
-function iniciar(){applySavedTheme();prep();render();arvore();hier();rank();aba(0);
+function iniciar(){applySavedTheme();prep();render();arvore();hier();rank();bench();aba(0);
  const a=$("aviso");a.hidden=false;
  a.innerHTML=REAL?`Paper trading: preços reais da B3, dinheiro fictício. Último pregão processado: ${e(REAL.ultimo_pregao||"?")}. Atualizado em ${e(dh(REAL.atualizado))}.`:demo?`Simulação rodando no seu navegador, com dados fictícios (semente ${SEED}). <button class="chip" onclick="nova()">Nova simulação</button>`:"Conectado ao backend. Os dados são de exemplo (simulação), não resultados reais."}
+
+function bench(){const el=$("bench"),B=REAL&&REAL.benchmark;if(!B||!B.serie||B.serie.length<2){el.hidden=true;return}
+ const S=B.serie,iN=S.length-1,iC=Math.max(0,S.findIndex(x=>x.data>=B.corte));
+ const pc=(k,i0)=>{const a=S[i0][k],b=S[iN][k];return a&&b?(b/a-1)*100:null};
+ const f=v=>v==null?"–":(v>=0?"+":"")+v.toFixed(1).replace(".",",")+"%";
+ const row=(t,i0)=>`<tr><td>${t}</td>${["lab","ibov","cdi"].map(k=>{const v=pc(k,i0);return `<td class="${v==null?"":cl(v)}">${f(v)}</td>`}).join("")}</tr>`;
+ const teste=iC<iN?row("Teste real (desde "+e(S[iC].data)+")",iC):`<tr><td>Teste real (desde ${e(S[iC].data)})</td><td colspan="3">aguardando os próximos pregões</td></tr>`;
+ const cores={lab:"#e0b84a",ibov:"#6aa0d8",cdi:"#8bc48a"},w=700,h=150;
+ const ser=k=>S.map(x=>x[k]?x[k]/S[0][k]*100:null);
+ const all=["lab","ibov","cdi"].flatMap(ser).filter(v=>v!=null),a=Math.min(...all),b=Math.max(...all);
+ const X=i=>(i*w/(S.length-1)).toFixed(1),Y=v=>(h-8-(v-a)/(b-a||1)*(h-16)).toFixed(1);
+ const path=k=>{let p="",on=false;ser(k).forEach((v,i)=>{if(v==null){on=false;return}p+=(on?"L":"M")+X(i)+" "+Y(v);on=true});return p};
+ el.hidden=false;
+ el.innerHTML=`<b>Resultado honesto do laboratório</b> <span class="sub">caixa geral + patrimônio dos vivos (hibernados e eliminados já voltaram ao caixa), comparado ao Ibovespa e ao CDI. Antes da data de corte é treino retroativo.</span>
+ <div class="tw"><table><thead><tr><th>Período</th><th>Laboratório</th><th>Ibovespa</th><th>CDI</th></tr></thead><tbody>${row("Treino retroativo",0).replace(/<td>.*?<\/td>/,"<td>Tudo (treino + teste)</td>")}${teste}</tbody></table></div>
+ <svg viewBox="0 0 ${w} ${h}" style="width:100%;height:auto;margin-top:8px"><line x1="${X(iC)}" x2="${X(iC)}" y1="0" y2="${h}" stroke="currentColor" stroke-dasharray="4 4" opacity=".4"/>${["lab","ibov","cdi"].map(k=>`<path d="${path(k)}" fill="none" stroke="${cores[k]}" stroke-width="2"/>`).join("")}</svg>
+ <div class="sub"><span style="color:${cores.lab}">● Laboratório</span> &nbsp; <span style="color:${cores.ibov}">● Ibovespa</span> &nbsp; <span style="color:${cores.cdi}">● CDI</span> &nbsp; (base 100 no início; linha tracejada = início do teste real)</div>`}
 function nova(){SEED=Math.floor(Math.random()*1e9);({G,caixa:CX}=simular(SEED));iniciar()}
 let REAL=false;
 (async()=>{
