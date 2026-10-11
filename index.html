@@ -234,6 +234,47 @@ body.theme-amber .mini-tendencia{background:#20301a;color:#bfe58f;border-color:#
 
 
 body.theme-serious .org-role-emoji{display:flex}body.theme-serious .fruit-node:before{content:none}
+
+
+/* Árvore por clãs: camada de apresentação, sem alterações no motor. */
+.clan-genealogy{overflow:hidden;min-height:0;padding:clamp(12px,2vw,24px);background:radial-gradient(ellipse at 50% 0%,color-mix(in srgb,var(--ac) 9%,transparent),transparent 64%),var(--pp);border-color:var(--line)}
+.clan-genealogy:after{background:radial-gradient(ellipse at 50% 0%,color-mix(in srgb,var(--up) 9%,transparent),transparent 68%)}
+.clan-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,330px),1fr));align-items:start;gap:16px;min-width:0}
+.clan-card{min-width:0;overflow:hidden;border:1px solid color-mix(in srgb,var(--ac) 33%,var(--line));border-radius:16px;padding:14px;background:linear-gradient(155deg,color-mix(in srgb,var(--pp) 93%,var(--ac) 7%),var(--pp));box-shadow:0 10px 26px #0002;transition:border-color .22s ease,box-shadow .22s ease,transform .22s ease}
+.clan-card:hover{border-color:color-mix(in srgb,var(--ac) 65%,var(--line));box-shadow:0 14px 30px #0003}
+.clan-card-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin:0 0 13px;padding:0 0 12px;border-bottom:1px solid color-mix(in srgb,var(--ac) 24%,var(--line))}
+.clan-card-title{min-width:0}.clan-eyebrow{display:block;margin-bottom:3px;color:var(--ac);font-size:.62rem;font-weight:800;letter-spacing:.13em;text-transform:uppercase}
+.clan-card-title h3{margin:0;font-size:1.02rem;overflow-wrap:anywhere}.clan-card-title p{margin:4px 0 0;color:var(--mu);font-size:.76rem}
+.clan-card-count{display:grid;justify-items:end;flex:none;min-width:72px}.clan-card-count strong{font:600 1.35rem/1.1 Georgia,serif;color:var(--ink)}.clan-card-count span{color:var(--mu);font-size:.66rem;text-transform:uppercase;letter-spacing:.08em}.clan-card-count small{margin-top:5px;color:var(--mu);font-size:.62rem;text-align:right}
+.clan-lineage{min-width:0}.clan-tree-node{position:relative;min-width:0}.clan-tree-node+.clan-tree-node{margin-top:9px}
+.clan-children-list{position:relative;display:flex;flex-direction:column;gap:9px;min-width:0;margin:9px 0 0 14px;padding:9px 0 0 14px;border-left:1px solid color-mix(in srgb,var(--ac) 48%,var(--line))}
+.clan-children-list>.clan-tree-node:before{content:"";position:absolute;left:-15px;top:23px;width:14px;height:1px;background:color-mix(in srgb,var(--ac) 52%,var(--line))}
+.clan-lineage>.clan-tree-node>.fruit-node{border-width:1px}
+.fruit-node{position:relative;grid-template-columns:38px minmax(0,1fr);grid-template-rows:auto auto auto auto;column-gap:10px;row-gap:2px;align-items:center;min-width:0;min-height:0;padding:10px 11px;text-align:left;border-radius:12px;overflow:hidden}
+.fruit-node .fruit-wrap{grid-column:1;grid-row:1/5;align-self:center;min-width:32px;min-height:32px}
+.fruit-node .fruit-name{grid-column:2;grid-row:1;max-width:none;line-height:1.25;overflow-wrap:anywhere}
+.fruit-node .fruit-value{grid-column:2;grid-row:2;line-height:1.25}
+.fruit-node .fruit-status{grid-column:2;grid-row:3;display:flex;flex-wrap:wrap;align-items:center;gap:4px;line-height:1.3}
+.clan-node-meta{grid-column:2;grid-row:4;display:block;max-width:100%;overflow-wrap:anywhere;color:var(--mu);font-size:.62rem;line-height:1.3}
+.fruit-node .tree-mini-dna{grid-column:1/-1;grid-row:auto;margin-top:7px;padding-top:7px;min-width:0;flex-wrap:wrap}
+.clan-root-node>.fruit-node{min-height:96px;border-width:2px;border-color:color-mix(in srgb,var(--ac) 72%,var(--line));background:linear-gradient(145deg,color-mix(in srgb,var(--pp) 82%,var(--ac) 18%),var(--pp));box-shadow:0 0 0 1px color-mix(in srgb,var(--ac) 15%,transparent),0 8px 22px #0002}
+.clan-root-node>.fruit-node:after{content:"RAIZ ANCESTRAL";position:absolute;right:8px;top:6px;max-width:calc(100% - 70px);font-size:.52rem;line-height:1.2;letter-spacing:.1em;font-weight:850;color:var(--ac);opacity:.9}
+.clan-root-node>.fruit-node .fruit-name{padding-right:3px}
+.clan-living>.fruit-node{border-color:color-mix(in srgb,var(--up) 48%,var(--line));box-shadow:0 0 0 1px color-mix(in srgb,var(--up) 9%,transparent),0 5px 16px color-mix(in srgb,var(--up) 9%,transparent)}
+.clan-living>.fruit-node:hover{box-shadow:0 0 0 1px color-mix(in srgb,var(--up) 38%,transparent),0 8px 21px color-mix(in srgb,var(--up) 15%,transparent)}
+.clan-archived>.fruit-node{opacity:.57;filter:saturate(.62) brightness(.84);box-shadow:none!important;border-color:color-mix(in srgb,var(--mu) 42%,var(--line))!important;background:linear-gradient(145deg,color-mix(in srgb,var(--pp) 70%,#000),var(--pp))!important}
+.clan-archived>.fruit-node:hover{opacity:.78;filter:saturate(.8) brightness(.94)}
+.clan-archived .fruit-node .st{filter:saturate(1.15);opacity:1}
+.clan-disconnected{margin-top:12px;padding-top:10px;border-top:1px dashed var(--line);color:var(--mu);font-size:.68rem}
+.clan-disconnected .clan-children-list{margin-top:5px}
+body.theme-serious .clan-card{border-radius:8px;box-shadow:none;background:var(--pp)}body.theme-serious .clan-root-node>.fruit-node{box-shadow:inset 3px 0 0 var(--ac);border-radius:6px;background:#182431}
+body.theme-serious .clan-root-node>.fruit-node:after{letter-spacing:.06em}
+body.theme-minimal .clan-card{border-radius:3px;background:transparent;box-shadow:none}body.theme-minimal .clan-card-head{border-bottom:1px solid var(--line)}body.theme-minimal .clan-root-node>.fruit-node{box-shadow:none;border-radius:3px;background:#141a21}
+body.theme-botanical .clan-card{border-color:#466b4c;background:linear-gradient(150deg,#172b20,#101c18);box-shadow:0 9px 22px #06110955}body.theme-botanical .clan-card-head{border-color:#426347}body.theme-botanical .clan-root-node>.fruit-node{border-color:#99c68b;background:linear-gradient(145deg,#23452a,#14251c);box-shadow:0 0 0 1px #9ac78d20,0 0 22px #73aa6522}body.theme-botanical .clan-children-list{border-left-color:#688e64}body.theme-botanical .clan-children-list>.clan-tree-node:before{background:#688e64}
+body.theme-amber .clan-card{border-color:#6d5426;background:linear-gradient(152deg,#211f15ed,#14150fef);box-shadow:inset 0 0 25px #d6a84608,0 10px 26px #0005}body.theme-amber .clan-card-head{border-color:#5b4827}body.theme-amber .clan-card-count strong{color:#ead08a}body.theme-amber .clan-root-node>.fruit-node{border-color:#d6a846;background:radial-gradient(ellipse at 17% 15%,#d6a84620,transparent 46%),linear-gradient(145deg,#302817,#191a12);box-shadow:0 0 0 1px #d6a84620,0 0 24px #d6a84614}body.theme-amber .clan-root-node>.fruit-node:after{color:#d6a846}body.theme-amber .clan-living>.fruit-node{border-color:#9fc36b;background:linear-gradient(145deg,#21271a,#171811);box-shadow:0 0 16px #9fc36b0e}body.theme-amber .clan-children-list{border-left-color:#8b6a31}body.theme-amber .clan-children-list>.clan-tree-node:before{background:#8b6a31}body.theme-amber .clan-archived>.fruit-node{border-color:#6b5b3d!important}
+@media(max-width:620px){.clan-grid{grid-template-columns:minmax(0,1fr);gap:12px}.clan-card{padding:11px}.clan-card-head{gap:7px}.clan-card-count{min-width:60px}.clan-children-list{margin-left:8px;padding-left:10px}.clan-children-list>.clan-tree-node:before{left:-11px;width:10px}.fruit-node{grid-template-columns:34px minmax(0,1fr);padding:9px}.fruit-node .fruit-wrap{min-width:28px;min-height:28px}}
+body.theme-serious .fruit-node:before{content:none!important;display:none!important}
+
 </style></head>
 <body>
 <header>
@@ -358,15 +399,58 @@ function fruta(g){
  return {emoji:'🥀',label:'Eliminado',cls:'eliminado'};
 }
 function arvore(){
+ // Renderização visual da árvore em clãs; não modifica G nem os dados do motor.
  const byId=new Map(G.map(g=>[String(g.id),g]));
- const roots=G.filter(g=>g.pai_id==null||!byId.has(String(g.pai_id)));
- const depthCache=new Map();
- const depthOf=(g,seen=new Set())=>{const id=String(g.id);if(depthCache.has(id))return depthCache.get(id);if(seen.has(id)||g.pai_id==null||!byId.has(String(g.pai_id)))return 0;seen.add(id);const d=1+depthOf(byId.get(String(g.pai_id)),seen);depthCache.set(id,d);return d};
- const maxDepth=Math.max(0,...G.map(g=>depthOf(g)));
- const node=g=>{const f=fruta(g),parent=g.pai_id!=null?byId.get(String(g.pai_id)):null,mini=(document.body.classList.contains('theme-amber')||document.body.classList.contains('theme-botanical'))?`<span class="tree-mini-dna">${[['tendencia','T'],['risco','R'],['horizonte_dias','H']].filter(([k])=>g.genes?.[k]!==undefined).map(([k,label])=>`<button type="button" class="mini-base mini-${k}" title="Abrir ${k==='horizonte_dias'?'Horizonte':k==='tendencia'?'Tendência':'Risco'} no painel lateral" aria-label="Explicar gene ${k}" onclick="event.stopPropagation();openGene(${Number(g.id)},'${k}')">${label}</button>`).join('')}</span>`:'';return `<div class="gen-branch"><div class="fruit-node status-${f.cls}" role="button" tabindex="0" onclick="if(event.target.closest('.mini-base'))return;abrir(${Number(g.id)})" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();abrir(${Number(g.id)})}" title="Ver dados de ${e(g.nome)}"><span class="fruit-wrap">${genomeVisual(g)}${f.cloth?'<span class="fruit-cloth" aria-label="Coberto durante a hibernação"></span>':''}</span><span class="fruit-name">${e(g.nome)}</span><span class="fruit-value">${brl(g.capital_atual)}</span><span class="fruit-status"><span class="st ${f.cls}">${f.label}</span>${parent?` · pai G-${String(parent.id).padStart(3,'0')}`:''}</span>${mini}</div></div>`};
- const generations=Array.from({length:maxDepth+1},(_,d)=>G.filter(g=>depthOf(g)===d));
+ const children=new Map(G.map(g=>[String(g.id),[]]));
+ G.forEach(g=>{
+  const parent=g.pai_id==null?null:byId.get(String(g.pai_id));
+  if(parent && String(parent.id)!==String(g.id)) children.get(String(parent.id)).push(g);
+ });
+ children.forEach(list=>list.sort((a,b)=>Number(a.id)-Number(b.id)));
+ const rootOf=g=>{
+  let current=g;const path=[],seen=new Map();
+  while(current){
+   const id=String(current.id);
+   if(seen.has(id)){
+    const cycle=path.slice(seen.get(id));
+    return cycle.sort((a,b)=>Number(a.id)-Number(b.id))[0]||current;
+   }
+   seen.set(id,path.length);path.push(current);
+   const parent=current.pai_id==null?null:byId.get(String(current.pai_id));
+   if(!parent||String(parent.id)===id)return current;
+   current=parent;
+  }
+  return g;
+ };
+ const groups=new Map();
+ G.forEach(g=>{const root=rootOf(g),key=String(root.id);if(!groups.has(key))groups.set(key,{root,members:[]});groups.get(key).members.push(g)});
+ const theme=document.body.classList.contains('theme-amber')?'amber':document.body.classList.contains('theme-botanical')?'botanical':'other';
+ const withDNA=theme==='amber'||theme==='botanical';
+ const isArchived=g=>['hibernado','eliminado'].includes(fruta(g).cls)||Boolean(g.morte);
+ const miniDNA=g=>withDNA?`<span class="tree-mini-dna" aria-label="Genes interativos">${[['tendencia','T'],['risco','R'],['horizonte_dias','H']].filter(([k])=>g.genes?.[k]!==undefined).map(([k,label])=>`<button type="button" class="mini-base mini-${k}" title="Abrir ${k==='horizonte_dias'?'Horizonte':k==='tendencia'?'Tendência':'Risco'} no painel lateral" aria-label="Explicar gene ${k} de ${e(g.nome)}" onclick="event.stopPropagation();openGene(${Number(g.id)},'${k}')">${label}</button>`).join('')}</span>`:'';
+ const renderNode=(g,rootId,visited,path,isRoot=false)=>{
+  const id=String(g.id);
+  if(path.has(id)||visited.has(id))return '';
+  visited.add(id);
+  const nextPath=new Set(path);nextPath.add(id);
+  const f=fruta(g),parent=g.pai_id!=null?byId.get(String(g.pai_id)):null,archived=isArchived(g);
+  const childrenHTML=(children.get(id)||[]).filter(c=>String(rootOf(c).id)===String(rootId)&&!nextPath.has(String(c.id))&&!visited.has(String(c.id))).map(c=>renderNode(c,rootId,visited,nextPath,false)).join('');
+  const cover=f.cloth&&theme==='botanical'?'<span class="fruit-cloth" aria-label="Coberto durante a hibernação"></span>':'';
+  const nodeClass=`clan-tree-node ${isRoot?'clan-root-node':''} ${archived?'clan-archived':'clan-living'}`;
+  const label=isRoot?'Ancestral raiz':(parent?`Descendente de ${e(parent.nome)}`:'Ramo de linhagem');
+  return `<div class="${nodeClass}"><div class="fruit-node status-${f.cls} ${isRoot?'is-clan-root':''}" role="button" tabindex="0" onclick="if(event.target.closest('.mini-base'))return;abrir(${Number(g.id)})" onkeydown="if(!event.target.closest('.mini-base')&&(event.key==='Enter'||event.key===' ')){event.preventDefault();abrir(${Number(g.id)})}" title="Ver dados de ${e(g.nome)}"><span class="fruit-wrap">${genomeVisual(g)}${cover}</span><span class="fruit-name">${e(g.nome)}</span><span class="fruit-value">${brl(g.capital_atual)}</span><span class="fruit-status"><span class="st ${f.cls}">${f.label}</span></span><span class="clan-node-meta">${label}</span>${miniDNA(g)}</div>${childrenHTML?`<div class="clan-children-list" aria-label="Descendentes de ${e(g.nome)}">${childrenHTML}</div>`:''}</div>`;
+ };
+ const sorted=[...groups.values()].sort((a,b)=>Number(a.root.id)-Number(b.root.id));
  const count=s=>G.filter(g=>fruta(g).cls===s).length;
- $('v1').innerHTML=`<div class="tree-head"><div><h2>Árvore genealógica</h2><p class="sub">Linhagens agrupadas por geração para reduzir a largura. Cada cartão mantém o acesso ao painel do genoma; a referência ao progenitor aparece no cartão descendente.</p></div><div class="tree-legend"><span class="legend-item"><span class="st campo">Ativo</span> ${count('campo')}</span><span class="legend-item"><span class="st treino">Treinamento</span> ${count('treino')}</span><span class="legend-item"><span class="st hibernado">Hibernação</span> ${count('hibernado')}</span><span class="legend-item"><span class="st eliminado">Eliminado</span> ${count('eliminado')}</span></div></div><div class="genealogy-wrap"><div class="gen-level">${G.length?generations.map((gs,d)=>gs.length?`<section class="gen-generation" data-generation="Geração ${d+1}">${gs.map(node).join('')}</section>`:'').join(''):'<div class="tree-empty">Nenhum genoma encontrado nos dados atuais.</div>'}</div></div>`;
+ const clanHTML=sorted.map(({root,members})=>{
+  const visited=new Set(),inside=new Set(members.map(g=>String(g.id)));
+  let tree=renderNode(root,String(root.id),visited,new Set(),true);
+  const leftovers=members.filter(g=>!visited.has(String(g.id)));
+  if(leftovers.length)tree+=`<div class="clan-disconnected"><span>Ramo sem conexão reconhecida</span><div class="clan-children-list">${leftovers.map(g=>renderNode(g,String(root.id),visited,new Set(),false)).join('')}</div></div>`;
+  const live=members.filter(g=>!isArchived(g)).length,archived=members.length-live;
+  return `<article class="clan-card"><header class="clan-card-head"><div class="clan-card-title"><span class="clan-eyebrow">LINHAGEM · ${e(root.nome)}</span><h3>Clã ${e(root.nome)}</h3><p>Raiz ancestral e seus descendentes</p></div><div class="clan-card-count"><strong>${members.length}</strong><span>genomas</span><small>${live} ativos · ${archived} arquivados</small></div></header><div class="clan-lineage">${tree}</div></article>`;
+ }).join('');
+ $('v1').innerHTML=`<div class="tree-head"><div><h2>Árvore genealógica · Clãs</h2><p class="sub">Cada clã reúne os descendentes pelo genoma raiz original. A raiz fica destacada no topo; filhos e netos seguem em níveis verticais conectados. Genomas hibernados ou eliminados aparecem arquivados, enquanto os vivos recebem realce visual.</p></div><div class="tree-legend"><span class="legend-item"><span class="st campo">Ativo</span> ${count('campo')}</span><span class="legend-item"><span class="st treino">Treinamento</span> ${count('treino')}</span><span class="legend-item"><span class="st hibernado">Hibernação</span> ${count('hibernado')}</span><span class="legend-item"><span class="st eliminado">Eliminado</span> ${count('eliminado')}</span></div></div><div class="genealogy-wrap clan-genealogy"><div class="clan-grid">${clanHTML||'<div class="tree-empty">Nenhum genoma encontrado nos dados atuais.</div>'}</div></div>`;
 }
 function abrirGrupo(titulo, emoji, descricao, membros){
  const lista=membros.map(g=>`<button class="group-member" onclick="abrir(${Number(g.id)})"><span>${genomeVisual(g)}</span><span><b>${e(g.nome)}</b><small>${e(g.equipe||'generalista')} · ${e(g.setor||'sem setor')}</small></span><strong class="${cl(g.lucro)}">${brl(g.lucro||0)}</strong></button>`).join('');
