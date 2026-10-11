@@ -4,14 +4,18 @@
 cerca de 1 ano de histórico real da B3. Depois, cada execução processa só os pregões
 novos (o que acontece depois da data de corte é o teste de verdade, ninguém viu antes).
 Estado completo em data/estado.json; para o site, gera data/genomas.json.
-Regras iguais às do motor.py: decide com dados até ontem, ganha/perde com o retorno de
-hoje, e a cada 20 pregões avalia (campo, clonar, hibernar ou eliminar).
+Regras: o genoma decide no FECHAMENTO do dia k-1 e a ordem é executada na ABERTURA do dia k
+(preço real de abertura, custo de 0,1%). Só entram pregões já encerrados: o candle do dia
+em andamento é ignorado até as 18h30 (Brasília). A cada 20 pregões avalia (campo, clonar,
+hibernar ou eliminar).
 Ainda não tem: acordar genomas hibernados quando o regime volta.
 """
 import json
 import random
 import statistics as st
+from datetime import datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 import yfinance as yf
 from exportar import ACOES, AGORA, IBOV, regime
@@ -22,6 +26,12 @@ SETOR = {"PETR4": "energia", "VALE3": "mineração", "ITUB4": "financeiro", "BBD
 EQ = {5: "curto", 20: "medio", 60: "longo"}
 P = dict(treino=260, epoca=20, pop=16, controle=4, capital=1000.0, caixa0=40000.0, filho=500.0,
          reserva=2000.0, degraus=[100, 300, 900], limite=0.15, custo=0.001)
+
+
+def hoje_fechado():
+    """Retorna (data de hoje em Brasília, True se o pregão de hoje já pode ser considerado fechado)."""
+    agora = datetime.now(ZoneInfo("America/Sao_Paulo"))
+    return agora.strftime("%Y-%m-%d"), agora.hour * 60 + agora.minute >= 18 * 60 + 30
 
 
 def genes():
@@ -87,26 +97,29 @@ def fim_epoca(est, d, reg):
         novo(est, d, genes(), None, True, P["capital"])
 
 
-def dia(est, arr, datas, ibov, k):
+def dia(est, arr, opn, datas, ibov, k):
     d = datas[k]
     for a in [x for x in est["ags"] if vivo(x)]:
-        s, h = arr[a["ativo"]], a["genes"]["horizonte_dias"]
-        r = float(s[k] / s[k - 1] - 1)
-        a["v"] *= 1 + a["pos"] * r                   # posição decidida ontem
-        a["rets"].append(a["pos"] * r)
-        mom = float(s[k] / s[k - h] - 1)
-        nova = a["genes"]["risco"] if mom * a["genes"]["tendencia"] > 0 else 0.0
-        if (nova > 0) != (a["pos"] > 0):             # abriu ou fechou posição
+        s, o, h = arr[a["ativo"]], opn[a["ativo"]], a["genes"]["horizonte_dias"]
+        pos = a["pos"]
+        alvo = a.get("alvo", pos)                    # decidido no fechamento de ontem
+        v_ini = a["v"]
+        a["v"] *= 1 + pos * float(o[k] / s[k - 1] - 1)   # noite: posição antiga até a abertura
+        if (alvo > 0) != (pos > 0):                  # abriu ou fechou posição, na abertura
             a["v"] *= 1 - P["custo"]
-            p = round(float(s[k]), 2)
-            q = max(1, int(a["v"] * max(nova, a["pos"]) / p))
+            p = round(float(o[k]), 2)
+            q = max(1, int(a["v"] * max(alvo, pos) / p))
             op = {"data": d, "ativo": a["ativo"], "qtd": q, "preco": p}
-            if nova > 0:
+            if alvo > 0:
                 a["ent"] = a["v"]
                 a["ops"].append({**op, "lado": "compra", "resultado": 0.0})
             else:
                 a["ops"].append({**op, "lado": "venda", "resultado": round(a["v"] - a["ent"], 2)})
-        a["pos"] = nova
+        a["v"] *= 1 + alvo * float(s[k] / o[k] - 1)  # dia: posição nova da abertura ao fechamento
+        a["rets"].append(a["v"] / v_ini - 1)
+        a["pos"] = alvo
+        mom = float(s[k] / s[k - h] - 1)             # nova decisão, executada amanhã na abertura
+        a["alvo"] = a["genes"]["risco"] if mom * a["genes"]["tendencia"] > 0 else 0.0
         a["curva"].append(round(a["v"], 2))
     est["dias_ep"] += 1
     if est["dias_ep"] >= P["epoca"]:
@@ -134,10 +147,16 @@ def exportar(est):
 
 def main():
     tk = [a + ".SA" for a in ACOES]
-    px = yf.download(tk + [IBOV], period="2y", interval="1d", auto_adjust=True, progress=False)["Close"]
-    px = px.dropna(subset=tk).ffill()
+    bruto = yf.download(tk + [IBOV], period="2y", interval="1d", auto_adjust=True, progress=False)
+    px = bruto["Close"].dropna(subset=tk).ffill()
+    op = bruto["Open"].reindex(px.index).ffill()
+    op = op.where(op.notna(), px)                    # sem abertura: usa o fechamento
+    hoje, fechado = hoje_fechado()
+    if not fechado and px.index[-1].strftime("%Y-%m-%d") >= hoje:
+        px, op = px.iloc[:-1], op.iloc[:-1]          # candle de hoje ainda em andamento
     datas = [d.strftime("%Y-%m-%d") for d in px.index]
     arr = {a: px[a + ".SA"].to_numpy() for a in ACOES}
+    opn = {a: op[a + ".SA"].to_numpy() for a in ACOES}
     f = DATA / "estado.json"
     if f.exists():
         est = json.loads(f.read_text(encoding="utf-8"))
@@ -155,7 +174,7 @@ def main():
         return
     random.seed(novos[-1])
     for k in novos:
-        dia(est, arr, datas, px[IBOV], k)
+        dia(est, arr, opn, datas, px[IBOV], k)
     est["ultimo"] = datas[-1]
     exportar(est)
     print("Processados", len(novos), "pregões; último:", est["ultimo"])
