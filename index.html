@@ -275,6 +275,32 @@ body.theme-amber .clan-card{border-color:#6d5426;background:linear-gradient(152d
 @media(max-width:620px){.clan-grid{grid-template-columns:minmax(0,1fr);gap:12px}.clan-card{padding:11px}.clan-card-head{gap:7px}.clan-card-count{min-width:60px}.clan-children-list{margin-left:8px;padding-left:10px}.clan-children-list>.clan-tree-node:before{left:-11px;width:10px}.fruit-node{grid-template-columns:34px minmax(0,1fr);padding:9px}.fruit-node .fruit-wrap{min-width:28px;min-height:28px}}
 body.theme-serious .fruit-node:before{content:none!important;display:none!important}
 
+
+/* Ajustes finais da árvore por clãs e do ícone amber-fossil — apenas apresentação. */
+.fruit-node{display:grid;grid-template-columns:38px minmax(0,1fr);grid-template-rows:auto auto auto auto;column-gap:10px;row-gap:3px;align-items:center}
+.fruit-node .fruit-wrap{grid-column:1;grid-row:1/5}
+.fruit-node .tree-mini-dna{grid-column:1/-1;grid-row:auto}
+.amber-fossil,.amber-sphere{width:38px;height:40px;display:inline-block;flex:none;overflow:visible;filter:drop-shadow(0 3px 6px #d6a84642) drop-shadow(0 0 3px #9fc36b18)}
+body.theme-amber .amber-fossil,body.theme-amber .amber-sphere{animation:amber-resin-breathe 4.6s ease-in-out infinite;filter:drop-shadow(0 3px 6px #d6a84642) drop-shadow(0 0 4px #9fc36b20)}
+@keyframes amber-resin-breathe{0%,100%{filter:drop-shadow(0 2px 5px #d6a84628) drop-shadow(0 0 3px #9fc36b16)}50%{filter:drop-shadow(0 3px 10px #d6a84675) drop-shadow(0 0 7px #9fc36b35)}}
+.org-agent-fruit .amber-fossil,.group-member .amber-fossil,.org-agent-fruit .amber-sphere,.group-member .amber-sphere{width:30px;height:32px}
+.org-agent-copy .st{justify-self:start;margin-top:3px;font-size:.62rem;padding:2px 7px}
+.group-member>span:nth-child(2) .st{justify-self:start;margin-top:4px;font-size:.62rem;padding:2px 7px}
+.status-label.campo{background:color-mix(in srgb,#35ba83 13%,transparent);border-color:#35ba8380}
+.status-label.treino{background:color-mix(in srgb,#e0b54d 14%,transparent);border-color:#e0b54d88}
+.status-label.hibernado{background:color-mix(in srgb,#a68b68 16%,transparent);border-color:#a68b6888}
+.status-label.eliminado{background:color-mix(in srgb,#e15d62 13%,transparent);border-color:#e15d6288}
+body.theme-amber .st.campo{color:#b7e986;background:#20351b;border-color:#6f9d46}
+body.theme-amber .st.treino{color:#ffd66f;background:#3b2d13;border-color:#c79b3a}
+body.theme-amber .st.hibernado{color:#d1ad78;background:#30261c;border-color:#95744c}
+body.theme-amber .st.eliminado{color:#ff9a84;background:#3d211d;border-color:#b45342}
+body.theme-minimal .st.campo{color:#168a65;background:#168a6513;border-color:#168a656b}
+body.theme-minimal .st.treino{color:#ad7915;background:#ad791513;border-color:#ad79156b}
+body.theme-minimal .st.hibernado{color:#8b7354;background:#8b735413;border-color:#8b73546b}
+body.theme-minimal .st.eliminado{color:#bf3849;background:#bf384913;border-color:#bf38496b}
+@media(max-width:620px){.fruit-node{grid-template-columns:34px minmax(0,1fr);column-gap:8px}.amber-fossil,.amber-sphere{width:31px;height:33px}}
+@media(prefers-reduced-motion:reduce){.amber-fossil,.amber-sphere{animation:none!important}}
+
 </style></head>
 <body>
 <header>
@@ -381,7 +407,33 @@ function svgIcon(kind,cls='icon-svg'){
  };
  return `<svg class="${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${paths[kind]||paths.genome}</svg>`;
 }
-function amberSphere(){return `<svg class="amber-sphere" viewBox="0 0 40 40" role="img" aria-label="Esfera de âmbar biológico"><defs><radialGradient id="amberCore" cx="32%" cy="24%" r="78%"><stop offset="0" stop-color="#fff1b5" stop-opacity=".98"/><stop offset=".22" stop-color="#e6bd57" stop-opacity=".92"/><stop offset=".62" stop-color="#a86a1e" stop-opacity=".9"/><stop offset="1" stop-color="#3a2912" stop-opacity=".98"/></radialGradient><linearGradient id="amberGlint" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff9d8" stop-opacity=".95"/><stop offset="1" stop-color="#fff9d8" stop-opacity="0"/></linearGradient></defs><circle cx="20" cy="20" r="17" fill="url(#amberCore)" stroke="#e7c56c" stroke-opacity=".78"/><path d="M9 13c2-5 7-8 12-7" fill="none" stroke="url(#amberGlint)" stroke-width="3.2" stroke-linecap="round"/><path d="M13 23c3-5 8-6 12-2-2 6-7 9-12 2Z" fill="#9fc36b" fill-opacity=".25" stroke="#d5e5a0" stroke-opacity=".5"/><circle cx="14" cy="12" r="2" fill="#fff8d2" fill-opacity=".8"/></svg>`}
+let AMBER_ICON_SEQ=0;
+function amberSphere(){
+ const uid=`amber-fossil-${++AMBER_ICON_SEQ}`;
+ const shard='M10 3 31 5 41 15 38 35 26 44 7 39 3 21 6 9 Z';
+ return `<svg class="amber-fossil amber-sphere" viewBox="0 0 44 48" role="img" aria-label="Bloco de âmbar fóssil com inclusão genética">
+ <defs>
+  <linearGradient id="${uid}-resin" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff2bc" stop-opacity=".96"/><stop offset=".22" stop-color="#e3bd5c" stop-opacity=".94"/><stop offset=".56" stop-color="#a96e27" stop-opacity=".94"/><stop offset="1" stop-color="#302212" stop-opacity=".98"/></linearGradient>
+  <linearGradient id="${uid}-facet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff8d7" stop-opacity=".72"/><stop offset="1" stop-color="#d6a846" stop-opacity=".02"/></linearGradient>
+  <linearGradient id="${uid}-green" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d7ef9c" stop-opacity=".92"/><stop offset="1" stop-color="#79a64e" stop-opacity=".16"/></linearGradient>
+  <clipPath id="${uid}-clip"><path d="${shard}"/></clipPath>
+ </defs>
+ <path d="${shard}" fill="url(#${uid}-resin)" stroke="#f1d27c" stroke-opacity=".88" stroke-width="1.1"/>
+ <g clip-path="url(#${uid}-clip)">
+  <path d="M8 5 29 7 14 24 4 20Z" fill="url(#${uid}-facet)" opacity=".76"/>
+  <path d="M30 6 40 16 27 24 18 18Z" fill="#ffedb0" fill-opacity=".18"/>
+  <path d="M6 29 23 24 38 35 27 44 8 39Z" fill="#3d3217" fill-opacity=".36"/>
+  <path d="M14 12 C28 16 28 30 14 35 M26 11 C12 17 12 29 26 36" fill="none" stroke="url(#${uid}-green)" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M15 15 25 15 M13 20 27 20 M13 27 27 27 M15 32 25 32" fill="none" stroke="#d7eb9c" stroke-opacity=".8" stroke-width="1.3" stroke-linecap="round"/>
+  <circle cx="19.5" cy="22.5" r="2.1" fill="#e8efb6" fill-opacity=".74"/>
+  <circle cx="29.5" cy="30.5" r="1.5" fill="#fff2c0" fill-opacity=".72"/>
+  <circle cx="10" cy="14" r="1.2" fill="#fdf1bb" fill-opacity=".76"/>
+  <path d="M8 12 Q12 5 20 6" fill="none" stroke="#fff9dd" stroke-opacity=".92" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M5 22 8 35" fill="none" stroke="#9fc36b" stroke-opacity=".32" stroke-width="2"/>
+ </g>
+ <path d="M10 3 31 5 41 15" fill="none" stroke="#fff3c2" stroke-opacity=".72" stroke-width="1.1"/>
+ </svg>`;
+}
 function roleIcon(kind){if(document.body.classList.contains('theme-serious'))return `<span class="genome-mark text-mark">${kind==='shield'?'GOV':kind==='search'?'EST':'R/M'}</span>`;return svgIcon(kind,'role-svg')}
 function genomeVisual(g){
  const f=fruta(g),theme=[...document.body.classList].find(x=>x.startsWith('theme-'))||'theme-serious';
@@ -453,7 +505,7 @@ function arvore(){
  $('v1').innerHTML=`<div class="tree-head"><div><h2>Árvore genealógica · Clãs</h2><p class="sub">Cada clã reúne os descendentes pelo genoma raiz original. A raiz fica destacada no topo; filhos e netos seguem em níveis verticais conectados. Genomas hibernados ou eliminados aparecem arquivados, enquanto os vivos recebem realce visual.</p></div><div class="tree-legend"><span class="legend-item"><span class="st campo">Ativo</span> ${count('campo')}</span><span class="legend-item"><span class="st treino">Treinamento</span> ${count('treino')}</span><span class="legend-item"><span class="st hibernado">Hibernação</span> ${count('hibernado')}</span><span class="legend-item"><span class="st eliminado">Eliminado</span> ${count('eliminado')}</span></div></div><div class="genealogy-wrap clan-genealogy"><div class="clan-grid">${clanHTML||'<div class="tree-empty">Nenhum genoma encontrado nos dados atuais.</div>'}</div></div>`;
 }
 function abrirGrupo(titulo, emoji, descricao, membros){
- const lista=membros.map(g=>`<button class="group-member" onclick="abrir(${Number(g.id)})"><span>${genomeVisual(g)}</span><span><b>${e(g.nome)}</b><small>${e(g.equipe||'generalista')} · ${e(g.setor||'sem setor')}</small></span><strong class="${cl(g.lucro)}">${brl(g.lucro||0)}</strong></button>`).join('');
+ const lista=membros.map(g=>{const st=fruta(g);return `<button class="group-member" onclick="abrir(${Number(g.id)})"><span>${genomeVisual(g)}</span><span><b>${e(g.nome)}</b><small>${e(g.equipe||'generalista')} · ${e(g.setor||'sem setor')}</small><span class="st ${st.cls}">${st.label}</span></span><strong class="${cl(g.lucro)}">${brl(g.lucro||0)}</strong></button>`}).join('');
  $('ps').innerHTML=`<button class="x" onclick="$('ps').classList.remove('on')" aria-label="Fechar">×</button><div class="role-modal-icon">${roleIcon(emoji)}</div><h2 style="margin:4px 0">${e(titulo)}</h2><p class="sub">${e(descricao)}</p><h3>Agentes e grupos associados (${membros.length})</h3>${lista||'<p class="sub">Este cargo representa uma função estrutural do modelo. Ainda não existe um agente independente associado a ele nos dados atuais.</p>'}`;
  $('ps').classList.add('on');
 }
@@ -463,7 +515,7 @@ function hier(){
  const hib=G.filter(g=>['hibernado','hibernacao','hibernação'].includes(String(g.status).toLowerCase()));
  const mortos=G.filter(g=>!ativos.includes(g)&&!treino.includes(g)&&!hib.includes(g));
  const aq=s=>String(s).replace(/\\/g,'\\\\').replace(/'/g,"\\'").replace(/</g,'\\x3c');
- const membros=gs=>gs.map(g=>`<button class="org-agent" title="Abrir dados de ${e(g.nome)}" onclick="abrir(${Number(g.id)})"><span class="org-agent-fruit">${genomeVisual(g)}</span><span class="org-agent-copy"><b>${e(g.nome)}</b><small>${e(g.setor||'Setor não informado')} · ${e(g.status)}</small></span><span class="org-agent-value ${cl(g.lucro)}">${brl(g.lucro||0)}</span></button>`).join('');
+ const membros=gs=>gs.map(g=>{const st=fruta(g);return `<button class="org-agent" title="Abrir dados de ${e(g.nome)}" onclick="abrir(${Number(g.id)})"><span class="org-agent-fruit">${genomeVisual(g)}</span><span class="org-agent-copy"><b>${e(g.nome)}</b><small>${e(g.setor||'Setor não informado')}</small><span class="st ${st.cls}">${st.label}</span></span><span class="org-agent-value ${cl(g.lucro)}">${brl(g.lucro||0)}</span></button>`}).join('');
  const setores=[...new Set(G.map(g=>g.setor||'Sem setor'))];
  const grupos=setores.map(setor=>{const gs=G.filter(g=>(g.setor||'Sem setor')===setor);return `<div class="org-sector"><button class="org-sector-title" onclick="abrirGrupo('Equipe de ${aq(setor)}','molecule','Agentes operacionais agrupados por mercado/setor.',${JSON.stringify(gs.map(g=>g.id))}.map(id=>G.find(g=>g.id==id)).filter(Boolean))"><span>${roleIcon('molecule')}</span><span><b>${e(setor)}</b><small>${gs.length} genoma(s) vinculados</small></span><span class="org-chevron">↗</span></button><div class="org-agents">${membros(gs)}</div></div>`}).join('');
  $('v2').innerHTML=`<div class="org-shell"><div class="org-heading"><div><span class="org-eyebrow">MAPA DE COMANDO · V2</span><h2>Hierarquia do Jardim Evolutivo</h2><p class="sub">Estrutura funcional da simulação. Selecione um cargo para entender sua função ou clique em um genoma para inspecionar seus dados reais.</p></div><div class="org-stat"><strong>${G.length}</strong><span>genomas registrados</span></div></div>
