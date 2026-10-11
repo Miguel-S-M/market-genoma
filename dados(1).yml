@@ -1,0 +1,28 @@
+name: Exportar dados
+on:
+  schedule:
+    - cron: "*/15 13-21 * * 1-5"   # pregão (UTC), a cada 15 min, dias úteis
+    - cron: "0 0,6 * * *"          # fora do pregão: notícias 2x ao dia
+  workflow_dispatch:                # botão "Run workflow" para rodar na hora
+permissions:
+  contents: write
+concurrency:                        # evita duas execuções ao mesmo tempo (conflito no git push)
+  group: dados
+  cancel-in-progress: false
+jobs:
+  exportar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install yfinance numpy
+      - run: python scripts/exportar.py
+      - name: Paper trading dos genomas
+        run: python scripts/paper.py
+      - run: |
+          git config user.name "dados-bot"
+          git config user.email "dados-bot@users.noreply.github.com"
+          git add data
+          git diff --staged --quiet || (git commit -m "dados: $(date -u +%FT%TZ)" && git pull --rebase && git push)
