@@ -301,6 +301,15 @@ body.theme-minimal .st.eliminado{color:#bf3849;background:#bf384913;border-color
 @media(max-width:620px){.fruit-node{grid-template-columns:34px minmax(0,1fr);column-gap:8px}.amber-fossil,.amber-sphere{width:31px;height:33px}}
 @media(prefers-reduced-motion:reduce){.amber-fossil,.amber-sphere{animation:none!important}}
 
+
+/* ---- v4: abas Campo/Treinamento ---- */
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;margin:6px 0 14px}
+.seg button{background:transparent;color:var(--mu);border:0;padding:8px 18px;font:inherit;cursor:pointer}
+.seg button.on{background:var(--ac);color:#fff}
+.seg button:not(.on):hover{color:var(--ink)}
+.tag-treino{display:inline-block;padding:2px 9px;border-radius:999px;border:1px dashed var(--mu);color:var(--mu);font-size:.78rem}
+.tag-campo{display:inline-block;padding:2px 9px;border-radius:999px;border:1px solid var(--up);color:var(--up);font-size:.78rem}
+.aviso-sep{border-left:3px solid var(--wait);padding:8px 12px;margin:8px 0 14px;color:var(--mu);font-size:.88rem}
 </style></head>
 <body>
 <header>
@@ -390,7 +399,7 @@ async function abrir(id){
  <div class="sub">Equipe ${e(g.equipe)}, setor ${e(g.setor)}</div>
  <h3>Resultado</h3><div class="num" style="font-size:1.4rem">${brl(g.capital_atual)} <span class="${cl(g.lucro)}" style="font-size:.95rem">${brl(g.lucro)} (${pct(g.ret)})</span></div>
  <div class="sub" style="margin-top:6px">Vida: ${g.vida} dias, nasceu em ${e(g.nascimento)}${g.morte?", encerrou em "+e(g.morte):""}.<br>Origem: ${g.pai_id?"descendente de G-"+String(g.pai_id).padStart(3,"0"):"geração inicial"}. Clonagens: ${g.clonagens}.<br>Melhor mercado: <b>${e(g.melhor_regime)}</b>. Horizonte: ${g.genes.horizonte_dias} dias.</div>
- <h3>Patrimônio ao longo do tempo</h3>${chart(g.curva)}
+ ${carteiraHtml(g)}<h3>Patrimônio ao longo do tempo</h3>${chart(g.curva)}
  <h3>Genes e mutações</h3>${geneDisplay(g)}
  <h3>Histórico de operações</h3><table>${g.operacoes.map(o=>`<tr><td>${e(o.data)}</td><td>${e(o.ativo)}</td><td>${e(o.lado)}</td><td class="${cl(o.resultado)}">${brl(o.resultado)}</td></tr>`).join("")}</table>`;
  $("ps").dataset.genomeId=String(g.id);$("ps").classList.add("on")}
@@ -568,10 +577,39 @@ function genotypeMetrics(){
  return `<h3>Análise genotípica · indicadores exploratórios</h3><p class="metric-note">Sharpe e Sortino são aproximações sobre resultados de operações disponíveis, sem anualização. Max Drawdown usa a curva de patrimônio disponível. Não são métricas certificadas nem recomendações de investimento.</p><div class="tw"><table><thead><tr><th>Genoma</th><th>Sharpe aprox.</th><th>Sortino aprox.</th><th>Max drawdown</th><th>Tendência</th><th>Risco</th><th>Horizonte</th></tr></thead><tbody>${rows.map(x=>`<tr onclick="abrir(${Number(x.g.id)})"><td>${e(x.g.nome)}</td><td>${x.sharpe.toFixed(3)}</td><td>${x.sortino.toFixed(3)}</td><td>${pct(x.mdd)}</td><td>${x.g.genes?.tendencia??'n/d'}</td><td>${x.g.genes?.risco??'n/d'}</td><td>${x.g.genes?.horizonte_dias??'n/d'}</td></tr>`).join('')}</tbody></table></div>`;
 }
 
-async function caixa(){
+async function caixaAntigo(){
  const c=demo?{saldo:CX.reduce((t,x)=>t+(x.destino=="caixa"?x.valor:0)-(x.origem=="caixa"?x.valor:0),0),transacoes:[...CX].reverse()}:await(await fetch("/api/caixa")).json();
  $("v4").innerHTML=`<div class="strip"><div class="s"><b class="num">${brl(c.saldo)}</b><span>Saldo do caixa geral</span></div><div class="s"><b class="num">${c.transacoes.length}</b><span>Transações registradas</span></div></div><div class="tw"><table><thead><tr><th>Data</th><th>Origem</th><th>Destino</th><th>Valor</th><th>Motivo</th></tr></thead><tbody>${c.transacoes.map(t=>`<tr><td>${e(t.data)}</td><td>${e(t.origem)}</td><td>${e(t.destino)}</td><td>${brl(t.valor)}</td><td>${e(t.motivo)}</td></tr>`).join("")}</tbody></table></div>`}
 
+let cxTab="campo",fmTab="campo";
+function seg(kind,tab){const b=(v,t)=>`<button class="${tab==v?"on":""}" onclick="setSeg('${kind}','${v}')">${t}</button>`;return `<div class="seg">${b("campo","Campo (tempo real)")}${b("treino","Treinamento (fictício)")}</div>`}
+function setSeg(k,v){if(k=="cx"){cxTab=v;caixa()}else{fmTab=v;forumTab()}}
+function miniChart(S,keys,cores,raw){
+ const w=700,h=150,ser=k=>{const b=S.find(x=>x[k]!=null);return S.map(x=>x[k]!=null&&b?(raw?x[k]:x[k]/b[k]*100):null)};
+ const all=keys.flatMap(ser).filter(v=>v!=null);if(S.length<2||!all.length)return `<p class="sub">Ainda não há pontos suficientes para o gráfico.</p>`;
+ const a=Math.min(...all),b=Math.max(...all),X=i=>(i*w/(S.length-1)).toFixed(1),Y=v=>(h-8-(v-a)/(b-a||1)*(h-16)).toFixed(1);
+ const path=k=>{let p="",on=false;ser(k).forEach((v,i)=>{if(v==null){on=false;return}p+=(on?"L":"M")+X(i)+" "+Y(v);on=true});return p};
+ return `<svg viewBox="0 0 ${w} ${h}" style="width:100%;height:auto">${keys.map(k=>`<path d="${path(k)}" fill="none" stroke="${cores[k]}" stroke-width="2"/>`).join("")}</svg>`}
+const tabelaCx=L=>`<div class="tw"><table><thead><tr><th>Data</th><th>Origem</th><th>Destino</th><th>Valor</th><th>Motivo</th></tr></thead><tbody>${L.map(t=>`<tr><td>${e(t.data)}</td><td>${e(t.origem)}</td><td>${e(t.destino)}</td><td>${brl(t.valor)}</td><td>${e(t.motivo)}</td></tr>`).join("")||`<tr><td colspan="5" class="sub">Nenhuma transação nesta carteira.</td></tr>`}</tbody></table></div>`;
+async function caixa(){
+ if(!REAL)return caixaAntigo();
+ const T=[...(REAL.caixa||[])].reverse(),B=REAL.benchmark,C=REAL.carteiras||{},corte=B&&B.corte;
+ let h=seg("cx",cxTab);
+ if(cxTab=="campo"){
+  const L=T.filter(t=>(t.carteira||"campo")=="campo"),cp=C.campo||{},S=(B?B.serie:[]).filter(x=>x.data>=corte);
+  const saldo=cp.caixa!=null?cp.caixa:L.reduce((t,x)=>t+(x.destino=="caixa"?x.valor:0)-(x.origem=="caixa"?x.valor:0),0);
+  h+=`<div class="aviso-sep">Campo = dinheiro simulado em tempo real. Cada genoma promovido entra com ${brl(cp.capital_por_genoma||200)} e só conta depois da data de corte (${e(corte||"?")}). Nada do Treinamento aparece aqui.</div>
+  <div class="strip"><div class="s"><b class="num">${brl(saldo)}</b><span>Caixa de campo</span></div><div class="s"><b class="num">${brl(cp.investido||0)}</b><span>Em carteiras de genomas de campo</span></div><div class="s"><b class="num">${cp.n||0}</b><span>Genomas em campo</span></div><div class="s"><b class="num">${L.length}</b><span>Transações de campo</span></div></div>
+  <h3>Patrimônio do Campo desde o corte (base 100)</h3>${S.length>1?miniChart(S,["lab","cdi"],{lab:"#e0b84a",cdi:"#8bc48a"},false)+`<div class="sub"><span style="color:#e0b84a">● Campo</span> &nbsp; <span style="color:#8bc48a">● CDI</span> &nbsp; Sem genomas promovidos, o caixa de campo rende o CDI: as duas linhas coincidem até a primeira promoção.</div>`:`<p class="sub">Aguardando os primeiros pregões depois do corte (${e(corte||"?")}).</p>`}
+  <h3>Transações de campo</h3>${tabelaCx(L)}`;
+ }else{
+  const L=T.filter(t=>t.carteira=="treino"),tr=C.treino||{},S=(B?B.serie:[]).filter(x=>x.treino_pts!=null);
+  h+=`<div class="aviso-sep">Treinamento = dinheiro FICTÍCIO (${brl(tr.capital_ficticio||1000)} por genoma). Ele não sai do caixa de campo, não é somado ao patrimônio do Campo e nunca aparece nos gráficos do Campo. Serve só para um genoma provar valor antes da promoção.</div>
+  <div class="strip"><div class="s"><b class="num ${cl(tr.pontuacao||0)}">${brl(tr.pontuacao||0)}</b><span>Pontuação agregada (fictícia)</span></div><div class="s"><b class="num">${tr.n||0}</b><span>Genomas em treino</span></div><div class="s"><b class="num">${L.length}</b><span>Lançamentos de treino</span></div></div>
+  <h3>Pontuação do Treinamento ao longo do tempo (R$ fictícios)</h3>${miniChart(S,["treino_pts"],{treino_pts:"#9aa5b1"},true)}
+  <h3>Lançamentos de treino</h3>${tabelaCx(L.slice(0,200))}`;
+ }
+ $("v4").innerHTML=h}
 const J=async f=>{try{const r=await fetch("data/"+f+"?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw 0;return await r.json()}catch(_){return null}};
 const vazio='<p class="sub">Ainda não há dados reais exportados. No GitHub, abra Actions, escolha "Exportar dados" e clique em Run workflow.</p>';
 const dh=i=>i?new Date(i).toLocaleString("pt-BR",{dateStyle:"short",timeStyle:"short"}):"",url=l=>/^https?:\/\//.test(l)?e(l):"#";
@@ -622,32 +660,30 @@ async function liveRender(){const m=await J("mercado.json"),q={};let fonte="arqu
 
 function cartPainel(){const c=REAL&&REAL.carteiras,h=REAL&&REAL.saude;if(!c){$("cart").innerHTML="";return}
  $("cart").innerHTML=`<div class="strip"><div class="s"><b class="num">${brl(c.campo.caixa+c.campo.investido)}</b><span>Campo, dinheiro real simulado: ${c.campo.n} genomas com ${brl(c.campo.capital_por_genoma)} cada. Caixa de campo ${brl(c.campo.caixa)}.</span></div><div class="s"><b class="num ${cl(c.treino.pontuacao)}">${brl(c.treino.pontuacao)}</b><span>Treino, dinheiro fictício: pontuação de ${c.treino.n} genomas (não vira capital).</span></div><div class="s"><b class="num ${h&&h.ledger_fecha?"ok":"bad"}">${h&&h.ledger_fecha?"Saudável":"ALERTA"}</b><span>${h&&h.ledger_fecha?"Livro-razão de campo fecha.":"Livro-razão não fecha: diferença "+brl(h?h.diferenca:0)+"."} Corte: ${e((h&&h.corte)||"?")}. Pregões: ${h?h.pregoes_processados:"?"}.</span></div></div>`}
-function forumTab(){const F=(REAL&&REAL.forum)||[],nm=id=>(G.find(x=>x.id==id)||{}).nome||("G-"+id),lst=a=>a.length?a.join(", "):"ninguém";
- $("v9").innerHTML=`<p class="sub">Mensagens dos genomas (colmeia). Cada mensagem vale no pregão seguinte para quem negocia a mesma classe. O impacto compara a decisão com e sem a mensagem e mede a diferença em R$ no retorno do dia. Clique numa mensagem para ver quem viu, seguiu, foi impactado e ignorou.</p>`+(F.length?F.slice().reverse().slice(0,60).map(m=>`<details class="hn"><summary><b>${e(m.autor)}</b> em ${e(m.data)} (${e(m.carteira)}). Nível ${e(m.nivel||"baixo")}, impacto ${brl(m.impacto_rs)}<br>${e(m.texto)}<br><span class="sub">${m.vistos.length} viram, ${m.seguiram.length} seguiram, ${m.impactados.length} impactados, ${m.ignoraram.length} ignoraram</span></summary>
+function forumTab(){const F=((REAL&&REAL.forum)||[]).filter(m=>m.carteira===fmTab),nm=id=>(G.find(x=>x.id==id)||{}).nome||("G-"+id),lst=a=>a.length?a.join(", "):"ninguém";
+ $("v9").innerHTML=`${seg("fm",fmTab)}<div class="aviso-sep">Cada carteira tem o seu próprio fórum: genomas de Treinamento nunca leem nem são lidos por genomas de Campo. ${fmTab=="campo"?"O Campo só tem mensagens depois das primeiras promoções.":"Mensagens do Treinamento são fictícias."}</div><p class="sub">Mensagens dos genomas (colmeia). Cada mensagem vale no pregão seguinte para quem negocia a mesma classe. O impacto compara a decisão com e sem a mensagem e mede a diferença em R$ no retorno do dia. Clique numa mensagem para ver quem viu, seguiu, foi impactado e ignorou.</p>`+(F.length?F.slice().reverse().slice(0,60).map(m=>`<details class="hn"><summary><b>${e(m.autor)}</b> em ${e(m.data)} (${e(m.carteira)}). Nível ${e(m.nivel||"baixo")}, impacto ${brl(m.impacto_rs)}<br>${e(m.texto)}<br><span class="sub">${m.vistos.length} viram, ${m.seguiram.length} seguiram, ${m.impactados.length} impactados, ${m.ignoraram.length} ignoraram</span></summary>
  <p class="sub"><b>Viram:</b> ${lst(m.vistos.map(nm))}</p><p class="sub"><b>Seguiram:</b> ${lst(m.seguiram.map(nm))}</p><p class="sub"><b>Impactados:</b> ${lst(m.impactados.map(x=>nm(x.id)+" ("+(x.delta>0?"+":"")+x.delta+" de exposição, "+brl(x.rs)+")"))}</p><p class="sub"><b>Ignoraram:</b> ${lst(m.ignoraram.map(x=>nm(x.id)+" ("+e(x.motivo)+")"))}</p></details>`).join(""):'<p class="sub">Ainda não há mensagens. O fórum começa a registrar depois que a versão 3.1 rodar no GitHub.</p>')}
 function iniciar(){applySavedTheme();prep();render();arvore();hier();rank();bench();ordensPainel();cartPainel();aba(0);
  fetch("data/base/genomas.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{if(j&&j.benchmark&&j.benchmark.serie){window.BASE=j.benchmark.serie;bench()}}).catch(()=>{});
  const a=$("aviso");a.hidden=false;
  a.innerHTML=REAL?`Paper trading ${e(REAL.versao?"v"+REAL.versao+" · ":"")}preços reais da B3, dinheiro fictício. Último pregão processado: ${e(REAL.ultimo_pregao||"?")}. Atualizado em ${e(dh(REAL.atualizado))}.`:demo?`Simulação rodando no seu navegador, com dados fictícios (semente ${SEED}). <button class="chip" onclick="nova()">Nova simulação</button>`:"Conectado ao backend. Os dados são de exemplo (simulação), não resultados reais."}
 
+function carteiraHtml(g){
+ if(!g.ativos||!g.ativos.length)return "";const P=g.carteira_atual||{};
+ return `<h3>Carteira (${g.ativos.length} ativos no universo)</h3><div class="tw"><table><thead><tr><th>Ativo</th><th>Peso atual</th></tr></thead><tbody>${g.ativos.map(n=>`<tr><td>${e(n)}</td><td>${P[n]?Math.round(P[n]*100)+"%":"fora da carteira"}</td></tr>`).join("")}</tbody></table></div><p class="sub">Caixa (não investido): ${Math.round((1-Object.values(P).reduce((a,b)=>a+b,0))*100)}% do patrimônio.</p>`}
 function bench(){const el=$("bench"),B=REAL&&REAL.benchmark;if(!B||!B.serie||B.serie.length<2){el.hidden=true;return}
- const S=B.serie;if(window.BASE){const m=Object.fromEntries(window.BASE.map(x=>[x.data,x.lab]));S.forEach(x=>x.base=m[x.data]??null)}
- const K=["lab","ibov","cdi"].concat(S[0].colmeia!=null?["colmeia"]:[]).concat(S.some(x=>x.base!=null)?["base"]:[]),iN=S.length-1,iC=Math.max(0,S.findIndex(x=>x.data>=B.corte));
- const pc=(k,i0)=>{const a=S[i0][k],b=S[iN][k];return a&&b?(b/a-1)*100:null};
- const f=v=>v==null?"–":(v>=0?"+":"")+v.toFixed(1).replace(".",",")+"%";
- const row=(t,i0)=>`<tr><td>${t}</td>${K.map(k=>{const v=pc(k,i0);return `<td class="${v==null?"":cl(v)}">${f(v)}</td>`}).join("")}</tr>`;
- const teste=iC<iN?row("Teste real (desde "+e(S[iC].data)+")",iC):`<tr><td>Teste real (desde ${e(S[iC].data)})</td><td colspan="${K.length}">aguardando os próximos pregões</td></tr>`;
- const cores={lab:"#e0b84a",ibov:"#6aa0d8",cdi:"#8bc48a",colmeia:"#c58ad8",base:"#9aa5b1"},w=700,h=150;
- const ser=k=>S.map(x=>x[k]?x[k]/S[0][k]*100:null);
- const all=K.flatMap(ser).filter(v=>v!=null),a=Math.min(...all),b=Math.max(...all);
- const X=i=>(i*w/(S.length-1)).toFixed(1),Y=v=>(h-8-(v-a)/(b-a||1)*(h-16)).toFixed(1);
- const path=k=>{let p="",on=false;ser(k).forEach((v,i)=>{if(v==null){on=false;return}p+=(on?"L":"M")+X(i)+" "+Y(v);on=true});return p};
+ const S=B.serie.filter(x=>x.data>=B.corte);       // Campo: só depois do corte; nada do treino retroativo
+ if(window.BASE){const m=Object.fromEntries(window.BASE.map(x=>[x.data,x.lab]));S.forEach(x=>x.base=m[x.data]??null)}
  el.hidden=false;
- el.innerHTML=`<b>Resultado honesto do laboratório</b> <span class="sub">caixa geral + patrimônio dos vivos (hibernados e eliminados já voltaram ao caixa), comparado ao Ibovespa e ao CDI. Antes da data de corte é treino retroativo.</span>
- <div class="tw"><table><thead><tr><th>Período</th><th>Laboratório</th><th>Ibovespa</th><th>CDI</th>${K.includes("colmeia")?"<th>Colmeia</th>":""}${K.includes("base")?"<th>Lab. base</th>":""}</tr></thead><tbody>${row("Treino retroativo",0).replace(/<td>.*?<\/td>/,"<td>Tudo (treino + teste)</td>")}${teste}</tbody></table></div>
- <svg viewBox="0 0 ${w} ${h}" style="width:100%;height:auto;margin-top:8px"><line x1="${X(iC)}" x2="${X(iC)}" y1="0" y2="${h}" stroke="currentColor" stroke-dasharray="4 4" opacity=".4"/>${K.map(k=>`<path d="${path(k)}" fill="none" stroke="${cores[k]}" stroke-width="2"/>`).join("")}</svg>
- <div class="sub"><span style="color:${cores.lab}">● Laboratório</span> &nbsp; <span style="color:${cores.ibov}">● Ibovespa</span> &nbsp; <span style="color:${cores.cdi}">● CDI</span> ${K.includes("colmeia")?`&nbsp; <span style="color:${cores.colmeia}">● Colmeia</span>`:""}${K.includes("base")?`&nbsp; <span style="color:${cores.base}">● Laboratório base (sem camadas)</span>`:""} &nbsp; (base 100 no início; linha tracejada = início do teste real)</div>`}
-
+ if(S.length<2){el.innerHTML=`<b>Resultado do Campo (tempo real)</b> <span class="sub">Aguardando os primeiros pregões depois da data de corte (${e(B.corte||"?")}). O Treinamento não entra neste gráfico.</span>`;return}
+ const K=["lab","ibov","cdi"].concat(S[0].colmeia!=null?["colmeia"]:[]).concat(S.some(x=>x.base!=null)?["base"]:[]),iN=S.length-1;
+ const pc=k=>{const a=S[0][k],b=S[iN][k];return a&&b?(b/a-1)*100:null};
+ const f=v=>v==null?"–":(v>=0?"+":"")+v.toFixed(1).replace(".",",")+"%";
+ const cores={lab:"#e0b84a",ibov:"#6aa0d8",cdi:"#8bc48a",colmeia:"#c58ad8",base:"#9aa5b1"};
+ el.innerHTML=`<b>Resultado do Campo (tempo real)</b> <span class="sub">caixa de campo + carteiras dos genomas promovidos, desde ${e(S[0].data)}, comparado ao Ibovespa e ao CDI. O Treinamento (dinheiro fictício) não entra aqui.</span>
+ <div class="tw"><table><thead><tr><th>Período</th><th>Campo</th><th>Ibovespa</th><th>CDI</th>${K.includes("colmeia")?"<th>Colmeia</th>":""}${K.includes("base")?"<th>Lab. base</th>":""}</tr></thead><tbody><tr><td>Desde o corte (${e(S[0].data)})</td>${K.map(k=>{const v=pc(k);return `<td class="${v==null?"":cl(v)}">${f(v)}</td>`}).join("")}</tr></tbody></table></div>
+ ${miniChart(S,K,cores,false)}
+ <div class="sub"><span style="color:${cores.lab}">● Campo</span> &nbsp; <span style="color:${cores.ibov}">● Ibovespa</span> &nbsp; <span style="color:${cores.cdi}">● CDI</span> ${K.includes("colmeia")?`&nbsp; <span style="color:${cores.colmeia}">● Colmeia</span>`:""}${K.includes("base")?`&nbsp; <span style="color:${cores.base}">● Laboratório base</span>`:""} &nbsp; (base 100 no corte)</div>`}
 function ordensPainel(){
  const H=REAL&&REAL.hierarquia,v=$("v2");if(!H||!v)return;
  const pct1=x=>Math.round(x*100)+"%",rg=REAL.params&&REAL.params.rec||{};
