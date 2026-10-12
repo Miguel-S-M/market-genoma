@@ -5,6 +5,7 @@ mercado por regras simples) e data/noticias.json (manchetes + sentimento por pal
 Para testar na sua máquina: pip install yfinance numpy  e  python scripts/exportar.py
 """
 import json
+import re
 import sys
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -103,6 +104,45 @@ def analise(c):
                    "Lateral: todo o resto."]})
 
 
+PESO_PALAVRAS = {"selic": 3, "copom": 3, "banco central": 2, "juros": 2, "inflação": 2, "ipca": 2, "pib": 2,
+                 "recessão": 3, "fed": 3, "guerra": 3, "tarifa": 2, "petróleo": 2, "opep": 2, "crise": 3,
+                 "calote": 3, "rebaixa": 2, "eleição": 2, "recorde": 2, "dividendos": 1, "balanço": 1,
+                 "bitcoin": 1, "dólar": 1, "petrobras": 1, "vale": 1}
+PARADAS = {"para", "como", "mais", "sobre", "após", "pelo", "pela", "este", "esta", "isso", "seus", "suas", "quando", "entre"}
+
+
+def _tokens(t):
+    return {w for w in re.findall(r"[a-zà-ú0-9]{4,}", t.lower()) if w not in PARADAS}
+
+
+def pontuar_impacto(itens, agora):
+    """Dá a cada notícia um índice de impacto e as razões, de forma transparente (sem prometer previsão)."""
+    toks = [_tokens(i["titulo"]) for i in itens]
+    for n, it in enumerate(itens):
+        similares = {itens[m]["fonte"] for m in range(len(itens)) if m != n and toks[n] and toks[m]
+                     and len(toks[n] & toks[m]) / len(toks[n] | toks[m]) >= 0.3}
+        cobertura = 1 + len(similares)
+        try:
+            horas = max(0.0, (agora - datetime.fromisoformat(it["data"])).total_seconds() / 3600)
+        except Exception:
+            horas = 48.0
+        recencia = 1 / (1 + horas / 12)
+        achadas = [w for w in PESO_PALAVRAS if w in it["titulo"].lower()]
+        kw = min(6, sum(PESO_PALAVRAS[w] for w in achadas))
+        sent = abs(float(it.get("sentimento", 0)))
+        score = (1 + 2 * sent + 0.4 * kw) * (1 + 0.5 * (cobertura - 1)) * (0.5 + recencia)
+        motivos = []
+        if cobertura > 1:
+            motivos.append(f"tema coberto por {cobertura} veículos")
+        if achadas:
+            motivos.append("palavras de alto impacto: " + ", ".join(achadas[:3]))
+        if sent > 0:
+            motivos.append(f"sentimento {'positivo' if it['sentimento'] > 0 else 'negativo'} ({it['sentimento']:+.2f})")
+        motivos.append("publicada há %s" % (f"{horas:.0f} h" if horas >= 1 else "menos de 1 h") if horas < 48 else "data não informada ou antiga")
+        it["impacto"], it["cobertura"], it["motivos"] = round(score, 2), cobertura, motivos
+    return itens
+
+
 def classes_da_noticia(t):
     t = t.lower()
     achadas = [c for c, ws in CLASSES.items() if any(w in t for w in ws)]
@@ -157,7 +197,9 @@ def noticias():
         except Exception:
             itens = []
 
-    payload = {"atualizado": AGORA, "itens": itens}
+    itens = pontuar_impacto(itens, datetime.now(timezone.utc))
+    destaque = max(itens, key=lambda x: x["impacto"]) if itens else None   # a notícia mais impactante do momento
+    payload = {"atualizado": AGORA, "destaque": destaque, "itens": itens}
     salvar("noticias.json", payload)
 
     # Saída agregada e aditiva para o painel/integração dos Genomas.
