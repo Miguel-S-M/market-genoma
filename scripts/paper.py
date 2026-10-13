@@ -74,6 +74,7 @@ ATIVOS = {
     "EUR": dict(t="EURBRL=X", classe="moedas", setor="moeda"),
     "IVVB11": dict(t="IVVB11.SA", classe="exterior", setor="exterior"),
 }
+NOMES_CLASSE = {"acoes": "ações", "imobiliario": "imobiliário"}
 H24 = {"cripto", "moedas"}
 SEGURAS = {"acoes", "imobiliario", "exterior"}
 RISCO = {"cripto", "moedas"}
@@ -324,7 +325,7 @@ def postar(est, d, a, ativo, direcao):
         "id": est["mid"], "data": d, "autor": a["nome"], "autor_id": a["id"], "carteira": a["status"],
         "classe": cl, "ativo": ativo, "dir": direcao, "forca": forca,
         "texto": f"{a['nome']} ({a['equipe']}, reputação {rep(a):.2f}) {'comprou' if direcao > 0 else 'saiu de'} "
-                 f"{ativo}: sinal de {'alta' if direcao > 0 else 'cautela'} para {cl}.",
+                 f"{ativo}: sinal de {'alta' if direcao > 0 else 'cautela'} para {NOMES_CLASSE.get(cl, cl)}.",
         "vistos": [], "seguiram": [], "impactados": [], "ignoraram": [], "impacto_rs": 0.0})
 
 
