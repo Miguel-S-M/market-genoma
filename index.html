@@ -310,6 +310,21 @@ body.theme-minimal .st.eliminado{color:#bf3849;background:#bf384913;border-color
 .tag-treino{display:inline-block;padding:2px 9px;border-radius:999px;border:1px dashed var(--mu);color:var(--mu);font-size:.78rem}
 .tag-campo{display:inline-block;padding:2px 9px;border-radius:999px;border:1px solid var(--up);color:var(--up);font-size:.78rem}
 .aviso-sep{border-left:3px solid var(--wait);padding:8px 12px;margin:8px 0 14px;color:var(--mu);font-size:.88rem}
+
+/* ---- v4: Teia de Relações ---- */
+.teia-ctl{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:8px 0}
+.teia-ctl label{color:var(--mu);font-size:.85rem;cursor:pointer;margin-right:10px}
+.teia-sep{width:1px;height:22px;background:var(--line);margin:0 4px}
+.teia-wrap{position:relative;border:1px solid var(--line);border-radius:14px;background:var(--pp);overflow:hidden}
+.teia-wrap svg{display:block;width:100%;height:auto;touch-action:pan-y pinch-zoom;user-select:none}
+.teia-wrap svg text{font-family:inherit;pointer-events:none}
+.teia-tip{position:absolute;pointer-events:none;background:var(--pp);color:var(--ink);border:1px solid var(--line);padding:8px 10px;border-radius:8px;font-size:.8rem;max-width:270px;box-shadow:0 8px 24px rgba(0,0,0,.28);z-index:3;line-height:1.45}
+.teia-det{margin-top:14px;border:1px solid var(--line);border-radius:12px;padding:12px 16px}
+.teia-leg{display:flex;flex-wrap:wrap;gap:6px 18px;margin:10px 2px;color:var(--mu);font-size:.8rem}
+.teia-leg i{display:inline-block;width:22px;height:0;border-top:3px solid;vertical-align:middle;margin-right:6px}
+.teia-leg b.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px;vertical-align:middle}
+.teia-vazio{padding:40px 20px;text-align:center;color:var(--mu)}
+.tn{cursor:grab}.tn:active{cursor:grabbing}
 </style></head>
 <body>
 <header>
@@ -660,9 +675,122 @@ async function liveRender(){const m=await J("mercado.json"),q={};let fonte="arqu
 
 function cartPainel(){const c=REAL&&REAL.carteiras,h=REAL&&REAL.saude;if(!c){$("cart").innerHTML="";return}
  $("cart").innerHTML=`<div class="strip"><div class="s"><b class="num">${brl(c.campo.caixa+c.campo.investido)}</b><span>Campo, dinheiro real simulado: ${c.campo.n} genomas com ${brl(c.campo.capital_por_genoma)} cada. Caixa de campo ${brl(c.campo.caixa)}.</span></div><div class="s"><b class="num ${cl(c.treino.pontuacao)}">${brl(c.treino.pontuacao)}</b><span>Treino, dinheiro fictício: pontuação de ${c.treino.n} genomas (não vira capital).</span></div><div class="s"><b class="num ${h&&h.ledger_fecha?"ok":"bad"}">${h&&h.ledger_fecha?"Saudável":"ALERTA"}</b><span>${h&&h.ledger_fecha?"Livro-razão de campo fecha.":"Livro-razão não fecha: diferença "+brl(h?h.diferenca:0)+"."} Corte: ${e((h&&h.corte)||"?")}. Pregões: ${h?h.pregoes_processados:"?"}.</span></div></div>`}
-function forumTab(){const F=((REAL&&REAL.forum)||[]).filter(m=>m.carteira===fmTab),nm=id=>(G.find(x=>x.id==id)||{}).nome||("G-"+id),lst=a=>a.length?a.join(", "):"ninguém";
- $("v9").innerHTML=`${seg("fm",fmTab)}<div class="aviso-sep">Cada carteira tem o seu próprio fórum: genomas de Treinamento nunca leem nem são lidos por genomas de Campo. ${fmTab=="campo"?"O Campo só tem mensagens depois das primeiras promoções.":"Mensagens do Treinamento são fictícias."}</div><p class="sub">Mensagens dos genomas (colmeia). Cada mensagem vale no pregão seguinte para quem negocia a mesma classe. O impacto compara a decisão com e sem a mensagem e mede a diferença em R$ no retorno do dia. Clique numa mensagem para ver quem viu, seguiu, foi impactado e ignorou.</p>`+(F.length?F.slice().reverse().slice(0,60).map(m=>`<details class="hn"><summary><b>${e(m.autor)}</b> em ${e(m.data)} (${e(m.carteira)}). Nível ${e(m.nivel||"baixo")}, impacto ${brl(m.impacto_rs)}<br>${e(m.texto)}<br><span class="sub">${m.vistos.length} viram, ${m.seguiram.length} seguiram, ${m.impactados.length} impactados, ${m.ignoraram.length} ignoraram</span></summary>
- <p class="sub"><b>Viram:</b> ${lst(m.vistos.map(nm))}</p><p class="sub"><b>Seguiram:</b> ${lst(m.seguiram.map(nm))}</p><p class="sub"><b>Impactados:</b> ${lst(m.impactados.map(x=>nm(x.id)+" ("+(x.delta>0?"+":"")+x.delta+" de exposição, "+brl(x.rs)+")"))}</p><p class="sub"><b>Ignoraram:</b> ${lst(m.ignoraram.map(x=>nm(x.id)+" ("+e(x.motivo)+")"))}</p></details>`).join(""):'<p class="sub">Ainda não há mensagens. O fórum começa a registrar depois que a versão 3.1 rodar no GitHub.</p>')}
+const CLS={PETR4:"acoes",VALE3:"acoes",ITUB4:"acoes",BBDC4:"acoes",WEGE3:"acoes",MGLU3:"acoes",B3SA3:"acoes",ABEV3:"acoes",HGLG11:"imobiliario",KNRI11:"imobiliario",MXRF11:"imobiliario",BTC:"cripto",ETH:"cripto",USD:"moedas",EUR:"moedas",IVVB11:"exterior"};
+const COR={acoes:"#5b9bd5",imobiliario:"#d4a72c",cripto:"#e8803a",moedas:"#6fbf86",exterior:"#b985d6"};
+const NOMEC={acoes:"ações",imobiliario:"imobiliário",cripto:"cripto",moedas:"moedas",exterior:"exterior"};
+let teiaFiltro={classe:"todas",janela:20,carteiras:true,geneal:false,todos:true},TEIA=null;
+function teiaSet(k,v){teiaFiltro[k]=v;forumTab()}
+
+function teiaDados(){
+ const F=((REAL&&REAL.forum)||[]).filter(m=>m.carteira===fmTab);
+ const datas=[...new Set(F.map(m=>m.data))].sort(),ok=new Set(teiaFiltro.janela=="todas"?datas:datas.slice(-teiaFiltro.janela));
+ const M=F.filter(m=>ok.has(m.data)&&(teiaFiltro.classe=="todas"||m.classe==teiaFiltro.classe));
+ const byId=Object.fromEntries(G.map(g=>[g.id,g])),byNome=Object.fromEntries(G.map(g=>[g.nome,g]));
+ const nodes=new Map(),links=new Map();
+ const nG=id=>{const k="g"+id;if(!nodes.has(k)){const g=byId[id];nodes.set(k,{k,tipo:"agente",id,label:g?g.nome:"G-"+id,g,classe:g?g.classe:"acoes"})}return nodes.get(k)};
+ const nA=t=>{const k="a"+t;if(!nodes.has(k))nodes.set(k,{k,tipo:"ativo",label:t,classe:CLS[t]||"acoes",msgs:0,comp:0,saida:0,holders:[]});return nodes.get(k)};
+ const lk=(a,b,tipo,w)=>{const k=a+"|"+b+"|"+tipo;let l=links.get(k);if(!l){l={k,a,b,tipo,w:0,dirs:0,rs:0};links.set(k,l)}l.w+=w;return l};
+ M.forEach(m=>{
+  const au=nG(m.autor_id),as=nA(m.ativo);as.msgs++;m.dir>0?as.comp++:as.saida++;
+  const l=lk(au.k,as.k,"sinal",1);l.dirs+=m.dir;
+  m.seguiram.forEach(r=>{const x=lk(au.k,nG(r).k,"seguiu",1);x.rs+=(m.impactados.find(i=>i.id==r)||{}).rs||0});
+  m.vistos.filter(r=>!m.seguiram.includes(r)).forEach(r=>lk(au.k,nG(r).k,"viu",1));
+ });
+ if(teiaFiltro.todos)G.filter(g=>g.status===fmTab).forEach(g=>nG(g.id));
+ if(teiaFiltro.carteiras)[...nodes.values()].filter(n=>n.tipo=="agente"&&n.g).forEach(n=>{
+  Object.entries(n.g.carteira_atual||{}).forEach(([t,w])=>{
+   if(teiaFiltro.classe!="todas"&&(CLS[t]||"acoes")!=teiaFiltro.classe)return;
+   const as=nA(t);as.holders.push({nome:n.label,w});lk(n.k,as.k,"carteira",w)})});
+ if(teiaFiltro.geneal)[...nodes.values()].filter(n=>n.tipo=="agente"&&n.g&&n.g.pai_id).forEach(n=>{if(nodes.has("g"+n.g.pai_id))lk("g"+n.g.pai_id,n.k,"heranca",1)});
+ if(fmTab=="campo")((REAL&&REAL.caixa)||[]).filter(t=>/^resgate/.test(t.motivo)&&byNome[t.origem]&&byNome[t.destino]).forEach(t=>{
+  const a=byNome[t.origem],b=byNome[t.destino];if(nodes.has("g"+a.id)&&nodes.has("g"+b.id))lk("g"+a.id,"g"+b.id,"resgate",t.valor)});
+ const deg={};links.forEach(l=>{deg[l.a]=(deg[l.a]||0)+1;deg[l.b]=(deg[l.b]||0)+1});
+ const N=[...nodes.values()].filter(n=>deg[n.k]||(n.tipo=="agente"&&teiaFiltro.classe=="todas"&&teiaFiltro.todos));
+ const ks=new Set(N.map(n=>n.k));
+ return{nodes:N,links:[...links.values()].filter(l=>ks.has(l.a)&&ks.has(l.b)),M,datas:[...ok].sort(),F}}
+
+const rad=n=>n.tipo=="agente"?7+Math.min((n.g&&n.g.reputacao)||0,3)*2.2:11+Math.sqrt((n.msgs||0)+n.holders.length)*2.2;
+function teiaLayout(T,W,H,seed){
+ let s=seed||7;const rnd=()=>(s=(s*16807)%2147483647)/2147483647;
+ const ag=T.nodes.filter(n=>n.tipo=="agente"),at=T.nodes.filter(n=>n.tipo=="ativo"),m=Math.min(W,H);
+ ag.forEach((n,i)=>{const a=i/ag.length*6.283+rnd()*.3;n.x=W/2+m*.38*Math.cos(a);n.y=H/2+m*.38*Math.sin(a);n.vx=n.vy=0});
+ at.forEach((n,i)=>{const a=i/Math.max(at.length,1)*6.283;n.x=W/2+m*.15*Math.cos(a)+rnd()*12;n.y=H/2+m*.15*Math.sin(a)+rnd()*12;n.vx=n.vy=0});
+ const idx=new Map(T.nodes.map((n,i)=>[n.k,i]));
+ T.L=T.links.map(l=>({l,i:idx.get(l.a),j:idx.get(l.b)}));T.W=W;T.H=H;teiaTick(T,360)}
+function teiaTick(T,n){
+ const N=T.nodes,W=T.W,H=T.H;
+ for(let it=0;it<n;it++){
+  for(let i=0;i<N.length;i++)for(let j=i+1;j<N.length;j++){
+   const dx=N[i].x-N[j].x,dy=N[i].y-N[j].y,d2=dx*dx+dy*dy+.01,d=Math.sqrt(d2),min=rad(N[i])+rad(N[j])+14;
+   const f=(7500/d2)+(d<min?(min-d)*.3:0),fx=dx/d*f,fy=dy/d*f;N[i].vx+=fx;N[i].vy+=fy;N[j].vx-=fx;N[j].vy-=fy}
+  T.L.forEach(({l,i,j})=>{const a=N[i],b=N[j],dx=b.x-a.x,dy=b.y-a.y,d=Math.sqrt(dx*dx+dy*dy)+.01;
+   const rest={sinal:135,carteira:150,seguiu:170,resgate:160,heranca:110}[l.tipo]||200,k={viu:.0015,seguiu:.005}[l.tipo]||.018,f=(d-rest)*k;
+   a.vx+=dx/d*f;a.vy+=dy/d*f;b.vx-=dx/d*f;b.vy-=dy/d*f});
+  N.forEach(n=>{if(n.fixo){n.vx=n.vy=0;return}
+   n.vx+=(W/2-n.x)*.0025;n.vy+=(H/2-n.y)*.0025;n.vx=Math.max(-18,Math.min(18,n.vx*.82));n.vy=Math.max(-18,Math.min(18,n.vy*.82));
+   n.x=Math.max(26,Math.min(W-26,n.x+n.vx));n.y=Math.max(26,Math.min(H-26,n.y+n.vy))})}}
+
+function teiaPintar(){
+ const T=TEIA,sel=T.sel,nb=new Set();if(sel){nb.add(sel);T.links.forEach(l=>{if(l.a==sel)nb.add(l.b);if(l.b==sel)nb.add(l.a)})}
+ const N=Object.fromEntries(T.nodes.map(n=>[n.k,n])),muitos=T.nodes.length>46;
+ const cor=l=>l.tipo=="sinal"?(l.dirs>0?"var(--up)":l.dirs<0?"var(--dn)":"var(--wait)"):l.tipo=="seguiu"?"var(--ac)":l.tipo=="resgate"?"var(--wait)":l.tipo=="carteira"?COR[N[l.b].classe]:"var(--mu)";
+ const lw=l=>l.tipo=="carteira"?1+l.w*7:l.tipo=="viu"?1:l.tipo=="seguiu"?Math.min(1+l.w*.5,4):Math.min(1.5+l.w*.9,7);
+ const lo=l=>sel?(l.a==sel||l.b==sel?(l.tipo=="viu"?.7:1):.04):({viu:0,seguiu:.34,carteira:.5,heranca:.6}[l.tipo]??.85);
+ $("teiaL").innerHTML=T.links.map(l=>{const a=N[l.a],b=N[l.b],dx=b.x-a.x,dy=b.y-a.y,d=Math.hypot(dx,dy)||1,seta=l.tipo=="resgate"||(l.tipo=="seguiu"&&sel&&(l.a==sel||l.b==sel)),
+   ex=b.x-dx/d*(rad(b)+(seta?5:0)),ey=b.y-dy/d*(rad(b)+(seta?5:0)),cx=(a.x+ex)/2-dy*.12,cy=(a.y+ey)/2+dx*.12;
+  return `<path d="M${a.x.toFixed(1)} ${a.y.toFixed(1)}Q${cx.toFixed(1)} ${cy.toFixed(1)} ${ex.toFixed(1)} ${ey.toFixed(1)}" fill="none" style="stroke:${cor(l)};stroke-width:${lw(l).toFixed(1)};opacity:${lo(l)}${l.tipo=="heranca"?";stroke-dasharray:4 4":""}" ${seta?`marker-end="url(#${l.tipo=="resgate"?"sRes":"sSeg"})"`:""}/>`}).join("");
+ $("teiaN").innerHTML=T.nodes.map(n=>{const r=rad(n),o=!sel||nb.has(n.k)?1:.14,mostra=n.tipo=="ativo"||!muitos||sel&&nb.has(n.k),
+   forma=n.tipo=="agente"?`<circle r="${r.toFixed(1)}" style="fill:${COR[n.classe]};stroke:var(--ink);stroke-width:${n.g&&n.g.status=="campo"?2.4:1.4};${n.g&&n.g.status=="treino"?"stroke-dasharray:3 2;":""}${n.k==sel?"stroke-width:3.5;":""}"/>`
+    :`<rect x="${-r}" y="${-r}" width="${2*r}" height="${2*r}" rx="5" style="fill:${COR[n.classe]};fill-opacity:.28;stroke:${COR[n.classe]};stroke-width:${n.k==sel?3.5:2}"/>`;
+  return `<g class="tn" data-k="${n.k}" transform="translate(${n.x.toFixed(1)},${n.y.toFixed(1)})" style="opacity:${o}">${forma}${mostra?`<text y="${n.tipo=="agente"?r+11:4}" text-anchor="middle" font-size="${n.tipo=="agente"?9.5:11}" ${n.tipo=="ativo"?'font-weight="700"':""} style="fill:var(--ink)">${e(n.label)}</text>`:""}</g>`}).join("")}
+
+function teiaDetalhe(){
+ const T=TEIA,el=$("teiaDet"),n=T.sel&&T.nodes.find(x=>x.k==T.sel),F=T.M;
+ if(!n){el.innerHTML=`<span class="sub">Clique num genoma ou num ativo para destacar as conexões e ver as mensagens. Arraste os nós para reorganizar. ${T.nodes.filter(x=>x.tipo=="agente").length} genomas, ${T.nodes.filter(x=>x.tipo=="ativo").length} ativos, ${T.links.length} conexões, ${F.length} mensagens na janela.</span>`;return}
+ const msgs=n.tipo=="ativo"?F.filter(m=>m.ativo==n.label):F.filter(m=>m.autor_id==n.id||m.seguiram.includes(n.id)||m.vistos.includes(n.id));
+ const li=msgs.slice(-6).reverse().map(m=>`<li>${e(m.data)}: ${e(m.texto)} <span class="sub">(${m.seguiram.length} seguiram, impacto ${brl(m.impacto_rs)})</span></li>`).join("")||"<li class='sub'>Sem mensagens nesta janela.</li>";
+ if(n.tipo=="ativo"){
+  el.innerHTML=`<b>${e(n.label)}</b> <span class="sub">${e(NOMEC[n.classe])}. ${n.msgs} mensagens: ${n.comp} de compra, ${n.saida} de saída. Em carteira de ${n.holders.length} genomas${n.holders.length?": "+n.holders.map(h=>e(h.nome)+" "+Math.round(h.w*100)+"%").join(", "):""}.</span><ul class="sub" style="margin:8px 0 0 18px">${li}</ul>`}
+ else{const g=n.g||{},aut=F.filter(m=>m.autor_id==n.id).length,seg=F.filter(m=>m.seguiram.includes(n.id)).length,rs=F.filter(m=>m.autor_id==n.id).reduce((t,m)=>t+m.impacto_rs,0);
+  el.innerHTML=`<b>${e(n.label)}</b> <span class="sub">${e(g.equipe||"")}, ${e(g.setor||"")}. Status ${e(g.status||"?")}, reputação ${g.reputacao!=null?g.reputacao:"?"}, patrimônio ${brl(g.capital_atual||0)}. Carteira: ${Object.entries(g.carteira_atual||{}).map(([t,w])=>e(t)+" "+Math.round(w*100)+"%").join(", ")||"fora do mercado"}. Escreveu ${aut} mensagens (impacto ${brl(rs)}) e seguiu ${seg}.</span><ul class="sub" style="margin:8px 0 0 18px">${li}</ul>`}}
+
+function teiaSel(k){TEIA.sel=TEIA.sel==k?null:k;teiaPintar();teiaDetalhe()}
+function teiaBind(){
+ const svg=$("teiaSvg"),tip=$("teiaTip");if(!svg)return;
+ const pt=ev=>{const p=svg.createSVGPoint();p.x=ev.clientX;p.y=ev.clientY;return p.matrixTransform(svg.getScreenCTM().inverse())};
+ let drag=null,moved=false;
+ svg.addEventListener("pointerdown",ev=>{const g=ev.target.closest("[data-k]");if(!g){if(TEIA.sel){TEIA.sel=null;teiaPintar();teiaDetalhe()}return}
+  drag=TEIA.nodes.find(n=>n.k==g.dataset.k);moved=false;drag.fixo=true;svg.setPointerCapture(ev.pointerId)});
+ svg.addEventListener("pointermove",ev=>{
+  if(drag){const q=pt(ev);drag.x=q.x;drag.y=q.y;moved=true;teiaTick(TEIA,2);teiaPintar();return}
+  const g=ev.target.closest&&ev.target.closest("[data-k]");if(!g){tip.hidden=true;return}
+  const n=TEIA.nodes.find(x=>x.k==g.dataset.k),r=svg.parentElement.getBoundingClientRect();
+  tip.innerHTML=n.tipo=="ativo"?`<b>${e(n.label)}</b><br>${e(NOMEC[n.classe])}<br>${n.msgs} mensagens (${n.comp} compra, ${n.saida} saída)<br>${n.holders.length} genomas em carteira`
+   :`<b>${e(n.label)}</b><br>${e((n.g&&n.g.equipe)||"")}, ${e(NOMEC[n.classe]||n.classe)}<br>reputação ${n.g?n.g.reputacao:"?"} · ${e(n.g?n.g.status:"")}`;
+  tip.hidden=false;tip.style.left=Math.min(ev.clientX-r.left+14,r.width-280)+"px";tip.style.top=(ev.clientY-r.top+14)+"px"});
+ svg.addEventListener("pointerup",()=>{if(drag){drag.fixo=false;if(!moved)teiaSel(drag.k);drag=null}});
+ svg.addEventListener("pointerleave",()=>{tip.hidden=true})}
+function teiaReorg(){teiaLayout(TEIA,TEIA.W,TEIA.H,Math.floor(Math.random()*9000)+1);teiaPintar()}
+
+function forumTab(){
+ if(!REAL){$("v9").innerHTML=seg("fm",fmTab)+'<p class="sub">O fórum só existe com dados reais do paper trading.</p>';return}
+ const T=teiaDados(),nm=id=>(G.find(x=>x.id==id)||{}).nome||("G-"+id),lst=a=>a.length?a.join(", "):"ninguém";
+ const chip=(t,on,fn)=>`<button class="chip ${on?"on":""}" onclick="${fn}">${t}</button>`,cls=["todas","acoes","imobiliario","cripto","moedas","exterior"];
+ const chk=(k,t)=>`<label><input type="checkbox" ${teiaFiltro[k]?"checked":""} onchange="teiaSet('${k}',this.checked)"> ${t}</label>`;
+ let h=seg("fm",fmTab)+`<div class="aviso-sep">Cada carteira tem o seu próprio fórum: genomas de Treinamento nunca leem nem são lidos por genomas de Campo. ${fmTab=="campo"?"O Campo só tem mensagens depois das primeiras promoções.":"Mensagens do Treinamento são fictícias."}</div>
+ <div class="teia-ctl">${cls.map(c=>chip(c=="todas"?"todas as classes":NOMEC[c],teiaFiltro.classe==c,`teiaSet('classe','${c}')`)).join("")}<span class="teia-sep"></span>${[5,20,"todas"].map(j=>chip(j=="todas"?"todo o período":"últimos "+j+" pregões",teiaFiltro.janela==j,`teiaSet('janela',${typeof j=="string"?`'${j}'`:j})`)).join("")}</div>
+ <div class="teia-ctl">${chk("carteiras","carteiras (genoma → ativo)")}${chk("geneal","genealogia")}${chk("todos","mostrar todos os genomas")}<button class="chip" onclick="teiaReorg()">Reorganizar</button></div>`;
+ const estreito=window.innerWidth<700,TW=estreito?480:920,TH=estreito?640:560;
+ if(!T.nodes.length||!T.links.length){h+=`<div class="teia-wrap"><div class="teia-vazio">${fmTab=="campo"?"Ainda não há genomas em Campo. A primeira promoção só acontece depois de 20 pregões de prova depois do corte.":"Ainda não há conexões para desenhar: a teia aparece quando os genomas têm carteira ou trocam mensagens (e a versão 4.0 do motor precisa ter rodado)."}</div></div>`}
+ else{TEIA=T;teiaLayout(T,TW,TH,7);
+  h+=`<div class="teia-wrap"><svg id="teiaSvg" viewBox="0 0 ${TW} ${TH}" role="img" aria-label="Teia de relações entre genomas e ativos"><defs><marker id="sSeg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" style="fill:var(--ac)"/></marker><marker id="sRes" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" style="fill:var(--wait)"/></marker></defs><g id="teiaL"></g><g id="teiaN"></g></svg><div id="teiaTip" class="teia-tip" hidden></div></div>
+  <div class="teia-leg">${Object.keys(COR).map(c=>`<span><b class="dot" style="background:${COR[c]}"></b>${NOMEC[c]}</span>`).join("")}<span><i style="border-color:var(--up)"></i>sinal de compra</span><span><i style="border-color:var(--dn)"></i>sinal de saída</span><span><i style="border-color:var(--ac)"></i>seguiu a mensagem</span><span><i style="border-color:var(--mu);opacity:.4"></i>viu (só aparece ao selecionar)</span><span><i style="border-color:var(--wait)"></i>resgate de capital</span><span>círculo = genoma (borda cheia: campo, tracejada: treino; tamanho = reputação) · quadrado = ativo</span></div>
+  <div id="teiaDet" class="teia-det"></div>`}
+ const L=T.F.slice().reverse().slice(0,60);
+ h+=`<details style="margin-top:16px"><summary class="sub" style="cursor:pointer">Lista de mensagens (auditoria, ${T.F.length} no total)</summary>`+(L.length?L.map(m=>`<details class="hn"><summary><b>${e(m.autor)}</b> em ${e(m.data)} (${e(m.carteira)}). Impacto ${brl(m.impacto_rs)}<br>${e(m.texto)}<br><span class="sub">${m.vistos.length} viram, ${m.seguiram.length} seguiram, ${m.impactados.length} impactados, ${m.ignoraram.length} ignoraram</span></summary>
+  <p class="sub"><b>Viram:</b> ${lst(m.vistos.map(nm))}</p><p class="sub"><b>Seguiram:</b> ${lst(m.seguiram.map(nm))}</p><p class="sub"><b>Impactados:</b> ${lst(m.impactados.map(x=>nm(x.id)+" ("+(x.delta>0?"+":"")+x.delta+" de exposição, "+brl(x.rs)+")"))}</p><p class="sub"><b>Ignoraram:</b> ${lst(m.ignoraram.map(x=>nm(x.id)+" ("+e(x.motivo)+")"))}</p></details>`).join(""):'<p class="sub">Ainda não há mensagens.</p>')+`</details>`;
+ $("v9").innerHTML=h;
+ if(T.nodes.length&&T.links.length){teiaPintar();teiaDetalhe();teiaBind()}}
 function iniciar(){applySavedTheme();prep();render();arvore();hier();rank();bench();ordensPainel();cartPainel();aba(0);
  fetch("data/base/genomas.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{if(j&&j.benchmark&&j.benchmark.serie){window.BASE=j.benchmark.serie;bench()}}).catch(()=>{});
  const a=$("aviso");a.hidden=false;
