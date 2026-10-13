@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-13T02:43:33+00:00",
+ "atualizado": "2026-10-13T02:58:39+00:00",
  "destaque": {
   "titulo": "Moedas globais: dólar opera em alta com tensões no Oriente Médio e na guerra da Ucrânia - Diário do Grande ABC",
   "fonte": "Diário do Grande ABC",
@@ -9,7 +9,7 @@
   "classes": [
    "moedas"
   ],
-  "impacto": 8.15,
+  "impacto": 8.09,
   "cobertura": 2,
   "motivos": [
    "tema coberto por 2 veículos",
@@ -20,6 +20,54 @@
  },
  "itens": [
   {
+   "titulo": "FMI prevê crescimento global de 3,1% em 2026 e zona euro com 1,1% - Euronews.com",
+   "fonte": "Euronews.com",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdGNwU1BQWExHVWVtWnJHN1gyWjFMQUsxV1JLYzBjRmQwdjBFSHRSZXNkS3NqaGxlbzJzSFA1WFpKRWlhaGl1Q3VLNGo1MGJxVlpLZjlabGo0SlV1RFdsYzd2NFBOeDhuTHpNX1NWaTNQRjdNWWIyM2NEZm52YXlwdll5aVh6d05fVEhnWEZfRzg4U28xSE55Vkp0c3U?oc=5",
+   "data": "2026-10-13T02:51+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 1.49,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "A inteligência artificial resolve problemas matemáticos em velocidade impressionante, alertam especialistas sobre os riscos para a internet e as criptomoedas. - Vietnam.vn",
+   "fonte": "Vietnam.vn",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUHdfNjB1OGI1OHF6eFVKekxjZUdWTVNTYTkyUkV3RVBSaHdpSklKRGRnX2FrS3BBWWxVYndVQVRiTlhQYkVlNTdjVGk1S0dTWkktQkwtQmlWQVFmcmhrd21WR2FXSmlyR2FWVlBPT1FoS001bjNqc0N2VlhPcms2QU5BWGx2a2V5OGl0OTNVYmI4Y2NTTG0wamN2T0JkOTF5?oc=5",
+   "data": "2026-10-13T02:49+00:00",
+   "sentimento": -1.0,
+   "classes": [
+    "cripto"
+   ],
+   "impacto": 4.46,
+   "cobertura": 1,
+   "motivos": [
+    "sentimento negativo (-1.00)",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Taxas de câmbio, taxa de câmbio USD/VND hoje, 13 de outubro: O dólar americano atinge a maior cotação em 18 meses. - Vietnam.vn",
+   "fonte": "Vietnam.vn",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZVd6cEtKaXVBMG1YYU90OWY1XzI0T0tXS1F2aUdjcGxCVjRCdTRDaXczWFhvc3dhX2FvcXpDcjhMd1UxYjBEM2lzOVlUeks3MXZGblgzcUN1WlAtN01HN2JUU25BMndDWGxYbFdnaXp4LVMycV9wTVQzTkNvZ1lQejgwTW1WUTF2S2gyXzRXLXgyUnRrMS1nN28zRkpOelM0dV84bE1XMA?oc=5",
+   "data": "2026-10-13T02:49+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 3.12,
+   "cobertura": 2,
+   "motivos": [
+    "tema coberto por 2 veículos",
+    "palavras de alto impacto: dólar",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
    "titulo": "Cotação do dólar americano hoje, 13 de outubro de 2026: Bancos registram forte alta. - Vietnam.vn",
    "fonte": "Vietnam.vn",
    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNkpwdWE5X2FIM2kyVi1YNnZIMzdHMGhhemNEZ0ZQUkhWV2dHWEo5aEdhTHFnOE1zSjlSRVVDamV2OEpoQ0ZBenhsbmdkN2dCdG52MU1feHZTZXNOUGZHZ2plQ3djVmQtQS1QbExxSDN0X1U0SE5DVy1uMHlYWmU0Tl9n?oc=5",
@@ -28,7 +76,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 7.45,
+   "impacto": 7.36,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -46,7 +94,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.45,
+   "impacto": 1.43,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -61,12 +109,29 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.91,
+   "impacto": 4.84,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
     "sentimento negativo (-1.00)",
     "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Dólar sobe com alta do petróleo e expectativa por pesquisa eleitoral - O Alto Acre",
+   "fonte": "O Alto Acre",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOLWZhYTdyc1pGdGtzdzVGZlN2dGF4NEQzck9RLXU5T0o3MUFvb0M0dlVneFFUVFRMU0l0UExkdmFLMmdvSE5md0ZzdW9Ya2lJNnJ3VTV1NDE3R1dXQUlUSmpLd0V3T1JQWE1BZkhnMkJXc0phU2hod0Q4VFNxb1hqYUV3cUVKLUFTZE92c2xwWmN4MjMzMzVmem05d9IBmwFBVV95cUxOLWZhYTdyc1pGdGtzdzVGZlN2dGF4NEQzck9RLXU5T0o3MUFvb0M0dlVneFFUVFRMU0l0UExkdmFLMmdvSE5md0ZzdW9Ya2lJNnJ3VTV1NDE3R1dXQUlUSmpLd0V3T1JQWE1BZkhnMkJXc0phU2hod0Q4VFNxb1hqYUV3cUVKLUFTZE92c2xwWmN4MjMzMzVmem05dw?oc=5",
+   "data": "2026-10-13T01:33+00:00",
+   "sentimento": 1.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 5.85,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: petróleo, dólar",
+    "sentimento positivo (+1.00)",
+    "publicada há 1 h"
    ]
   },
   {
@@ -78,11 +143,11 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 3.08,
+   "impacto": 3.04,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: petróleo, dólar",
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -94,10 +159,25 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.4,
+   "impacto": 1.38,
    "cobertura": 1,
    "motivos": [
-    "publicada há 1 h"
+    "publicada há 2 h"
+   ]
+  },
+  {
+   "titulo": "Criptomoedas no banco ou na exchange? Entenda o que muda para o investidor - Estadão",
+   "fonte": "Estadão",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUm03MlIxeFUwaWFpR3hCcWFkSTItR3dwQkh2V09GcTEtYzRYMVg3enB1TGNTVE1tbFhhcVVPVjBqNENGMkV6ZXNOWGNoMEx1algxR1E1akF4TTVEQ1BULXpwQkhWS3RyTlNiRGxySEtaWjNSbmk1eWFyekxaN1BOdzBsalpZTHpfeWxmVk5BVHlJdXNWRkQ3STA4VXBiYThTbTlveVBFQWM0dVYtVUlxOEpwYXdtNGJoZGVzbVNaZzJjdXRDTGNv?oc=5",
+   "data": "2026-10-13T01:11+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "cripto"
+   ],
+   "impacto": 1.37,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há 2 h"
    ]
   },
   {
@@ -109,7 +189,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 7.05,
+   "impacto": 6.96,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -127,27 +207,10 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 2.46,
+   "impacto": 2.43,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: petróleo",
-    "publicada há 2 h"
-   ]
-  },
-  {
-   "titulo": "Dólar sobe com alta do petróleo e expectativa por pesquisa eleitoral - O Alto Acre",
-   "fonte": "O Alto Acre",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUktLX1JlOU1vblh0TnV4em1pQk04Vk0zMnFmYzdRY0NuZkVYNm1fbndQdU91UEVCUy1ucDZWYW4xdEw2UmhhUkJMMHZuZXJsOTNNTDdZTmlwUnhGQ0V0VG1VX1VZdjJ2WndJdnB0dEJfdG5LUjM3WE8wU2ZmMzM5RmNITWxtOGtmRU40c0VoVS03dUo5eGfSAZsBQVVfeXFMTi1mYWE3cnNaRnRrc3c1RmZTdnRheDREM3JPUS11OU9KNzFBb29DNHZVZ3hRVFRUTFNJdFBMZHZhSzJnb0hOZndGc3VvWGtpSTZyd1U1dTQxN0dXV0FJVEpqS3dFd09SUFhNQWZIZzJCV3NKYVNoaHdEOFRTcW9YamFFd3FFSi1BU2RPdnNscFpjeDIzMzM1ZnptOXc?oc=5",
-   "data": "2026-10-13T00:31+00:00",
-   "sentimento": 1.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 5.65,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: petróleo, dólar",
-    "sentimento positivo (+1.00)",
     "publicada há 2 h"
    ]
   },
@@ -160,11 +223,11 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.88,
+   "impacto": 1.85,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -176,28 +239,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.87,
+   "impacto": 1.85,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dividendos",
-    "publicada há 2 h"
-   ]
-  },
-  {
-   "titulo": "Bitcoin cai abaixo de US$ 82 mil; liquidações somam US$ 406 mi - Bitcoin News",
-   "fonte": "Bitcoin News",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMk15bXhIRW1NQlNCNHpLY05uZnpmcmxzaVdobTFCY2FiNjZXUzd1RTh6NnkwMm12aV85ZlJTQnM0MkROTF91SktHTGV6Rlc3aW9RLXh0RUFFZUlGSi1LZ3pOWkZvTnc4RWhGdWhZTlgwcGZiWGRJRUxGZ0ZOSE84VmM3X0s0WlJ4Nm1HS3ZwS2RJQTNEem9ONEhmUlp3blUzamJZZ01n?oc=5",
-   "data": "2026-10-13T00:16+00:00",
-   "sentimento": -1.0,
-   "classes": [
-    "cripto"
-   ],
-   "impacto": 4.52,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: bitcoin",
-    "sentimento negativo (-1.00)",
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -209,7 +255,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 1.93,
+   "impacto": 1.91,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -225,7 +271,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 1.93,
+   "impacto": 1.91,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -241,12 +287,12 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 4.37,
+   "impacto": 4.33,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
     "sentimento positivo (+1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -258,12 +304,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 2.7,
+   "impacto": 2.67,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "palavras de alto impacto: dólar",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -275,10 +321,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.28,
+   "impacto": 1.26,
    "cobertura": 1,
    "motivos": [
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -290,7 +336,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.27,
+   "impacto": 1.26,
    "cobertura": 1,
    "motivos": [
     "publicada há 4 h"
@@ -305,9 +351,26 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.26,
+   "impacto": 1.25,
    "cobertura": 1,
    "motivos": [
+    "publicada há 4 h"
+   ]
+  },
+  {
+   "titulo": "Bitcoin sobe com cenário geopolítico e alta do petróleo - CNN Brasil",
+   "fonte": "CNN Brasil",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcTdvcWlaYmRrWTlLUVNsaWZtZEtQTFBxUU5qRDI0YWc3RWt0d00xVElmUUpIcUJzLWxRZFhQZjk3emdIMURnNldXUU9IWFVRUll6U0RqRVlKTVNLZnBQV1dQUDFRTElMdEdja3Q5XzgyY2ZrMlVZSEtYSTdJMUZrU1lQaEhTSjFVWDhBdHlYNzBvSTFBelhUOTBRZHN5VEdzcHp1cjh2em5jaXpC?oc=5",
+   "data": "2026-10-12T22:51+00:00",
+   "sentimento": 1.0,
+   "classes": [
+    "cripto"
+   ],
+   "impacto": 5.22,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: petróleo, bitcoin",
+    "sentimento positivo (+1.00)",
     "publicada há 4 h"
    ]
   },
@@ -320,7 +383,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.25,
+   "impacto": 1.24,
    "cobertura": 1,
    "motivos": [
     "publicada há 4 h"
@@ -335,25 +398,9 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.25,
+   "impacto": 1.24,
    "cobertura": 1,
    "motivos": [
-    "publicada há 4 h"
-   ]
-  },
-  {
-   "titulo": "Banco sul-coreano libera crédito com Bitcoin como garantia - BitNotícias",
-   "fonte": "BitNotícias",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQM3dHN1dGTkg0bjVzNGp6VDVRMnVrajktV093Y0Q5OS1OSDBJUUdILUFNTGE2ZFVTYXBCMGU5T1A2LXhwd0YxdGpIWm1fZzRDTi0xVm1kQmo3cnNWV0xQWEQyMVdYcktuWFZMT3JKSlZUbng5aUJ3eWJGNWlaWkNvSUxzTkVrekhUbXZ4STZhQWlqZw?oc=5",
-   "data": "2026-10-12T22:39+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "cripto"
-   ],
-   "impacto": 1.74,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: bitcoin",
     "publicada há 4 h"
    ]
   },
@@ -366,7 +413,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.24,
+   "impacto": 1.23,
    "cobertura": 1,
    "motivos": [
     "publicada há 4 h"
@@ -381,7 +428,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.24,
+   "impacto": 1.23,
    "cobertura": 1,
    "motivos": [
     "publicada há 4 h"
@@ -397,11 +444,11 @@
     "moedas",
     "exterior"
    ],
-   "impacto": 2.23,
+   "impacto": 2.21,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: petróleo",
-    "publicada há 4 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -413,10 +460,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.23,
+   "impacto": 1.22,
    "cobertura": 1,
    "motivos": [
-    "publicada há 4 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -428,7 +475,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 1.23,
+   "impacto": 1.22,
    "cobertura": 1,
    "motivos": [
     "publicada há 5 h"
@@ -443,7 +490,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.22,
+   "impacto": 1.21,
    "cobertura": 1,
    "motivos": [
     "publicada há 5 h"
@@ -458,7 +505,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 2.2,
+   "impacto": 2.18,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: inflação",
@@ -474,7 +521,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.71,
+   "impacto": 1.69,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -490,7 +537,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.71,
+   "impacto": 1.69,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: vale",
@@ -506,7 +553,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 1.22,
+   "impacto": 1.21,
    "cobertura": 1,
    "motivos": [
     "publicada há 5 h"
@@ -521,7 +568,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 5.12,
+   "impacto": 5.08,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: recorde, dólar",
@@ -538,7 +585,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 5.11,
+   "impacto": 5.07,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: petróleo, dólar",
@@ -555,7 +602,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.21,
+   "impacto": 1.2,
    "cobertura": 1,
    "motivos": [
     "publicada há 5 h"
@@ -570,7 +617,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.69,
+   "impacto": 1.67,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -586,7 +633,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.2,
+   "impacto": 1.19,
    "cobertura": 1,
    "motivos": [
     "publicada há 5 h"
@@ -601,7 +648,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 1.8,
+   "impacto": 1.78,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -617,7 +664,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 3.23,
+   "impacto": 3.21,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -634,7 +681,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 2.15,
+   "impacto": 2.13,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: inflação",
@@ -650,10 +697,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.19,
+   "impacto": 1.18,
    "cobertura": 1,
    "motivos": [
-    "publicada há 5 h"
+    "publicada há 6 h"
    ]
   },
   {
@@ -665,7 +712,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.18,
+   "impacto": 1.17,
    "cobertura": 1,
    "motivos": [
     "publicada há 6 h"
@@ -680,7 +727,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 8.15,
+   "impacto": 8.09,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -698,7 +745,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 4.49,
+   "impacto": 4.45,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: petróleo",
@@ -715,10 +762,27 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.48,
+   "impacto": 4.44,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: recorde",
+    "sentimento positivo (+1.00)",
+    "publicada há 6 h"
+   ]
+  },
+  {
+   "titulo": "Temporada de balanços testa a alta de Wall Street - SpaceMoney",
+   "fonte": "SpaceMoney",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVkNRR3hRYnZHNkd3elhLQm5RWERkcmFfaFhOQWhWY2RCUkREUUFPMlR0NjR4T2Y0eVowZThTWmQxUmlhdTlDV0tFMW10eGdZX2h2ZWM2ZlhyaHlPakJTVXpNSldwVGgzNl9hVzZmbG84SkJRRGt4UTRublJxRXBWWnBlRTBsYUpTaEhqaEZYUXQtQlgy?oc=5",
+   "data": "2026-10-12T20:49+00:00",
+   "sentimento": 1.0,
+   "classes": [
+    "exterior"
+   ],
+   "impacto": 3.95,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: balanço",
     "sentimento positivo (+1.00)",
     "publicada há 6 h"
    ]
@@ -732,7 +796,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.17,
+   "impacto": 1.16,
    "cobertura": 1,
    "motivos": [
     "publicada há 6 h"
@@ -747,7 +811,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.16,
+   "impacto": 1.15,
    "cobertura": 1,
    "motivos": [
     "publicada há 6 h"
@@ -762,11 +826,11 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 3.47,
+   "impacto": 3.44,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
-    "publicada há 6 h"
+    "publicada há 7 h"
    ]
   },
   {
@@ -778,11 +842,11 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.61,
+   "impacto": 1.6,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
-    "publicada há 6 h"
+    "publicada há 7 h"
    ]
   },
   {
@@ -794,12 +858,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 3.8,
+   "impacto": 3.77,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "palavras de alto impacto: inflação, dólar",
-    "publicada há 6 h"
+    "publicada há 7 h"
    ]
   },
   {
@@ -811,12 +875,12 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 4.37,
+   "impacto": 4.33,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: petróleo",
     "sentimento positivo (+1.00)",
-    "publicada há 6 h"
+    "publicada há 7 h"
    ]
   },
   {
@@ -828,11 +892,11 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 3.45,
+   "impacto": 3.42,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
-    "publicada há 6 h"
+    "publicada há 7 h"
    ]
   },
   {
@@ -844,7 +908,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 7.92,
+   "impacto": 7.86,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -862,7 +926,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 3.44,
+   "impacto": 3.41,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
@@ -893,7 +957,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 3.77,
+   "impacto": 3.74,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -909,69 +973,6 @@
    "sentimento": 0.0,
    "classes": [
     "moedas"
-   ],
-   "impacto": 1.14,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 7 h"
-   ]
-  },
-  {
-   "titulo": "EWZ sobe no feriado com cautela otimista sobre bolsa - SpaceMoney",
-   "fonte": "SpaceMoney",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPN2JFSEJLd3NvTFk1V2dfV1k5RHRRb0JyNkFoV0lLTEU4aHYxakg4dWFDT0FsdVZ6QjFmcjVIaXpHWDFzVzRtVkZKVXVvUlhxblBDUjdNSlpSd01SdEpUSlBlb3UzMVB1VjAxY1dwQkxpbWYwR3NHckpuZTNhMTZwZHkwdzFRM0c4UjFhZzF0dlIxcEFCOWdz?oc=5",
-   "data": "2026-10-12T19:59+00:00",
-   "sentimento": 1.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 3.42,
-   "cobertura": 1,
-   "motivos": [
-    "sentimento positivo (+1.00)",
-    "publicada há 7 h"
-   ]
-  },
-  {
-   "titulo": "Bitcoin hoje: cripto cai com cenário geopolítico incerto e petróleo em alta - InfoMoney",
-   "fonte": "InfoMoney",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTWJQNXpSWS1EdGhobEpYVUlobDQxa09sX28zR2VnejRwN1M2NWt6cUFoeWRuVF85MzYxVGpqckRRREZ1YXhPUGkwSDdVTkpqTjdtWklNVWduMTlJX1pocWVqOVhwYWNrN1A3bFRfZVpvWGJqNVFhZlgyVWhjR3pTS2ktNmgtZndqMmlLTVNiajVrcTc1aHdxZXlmRWJXUDE0MEV3OUUybnpYV05WenFsNm9sNNIBuAFBVV95cUxQRk4yb2hXNXE5ZzdLRGhVbmFjTTJCNDltcHJBVjFkbldZSGpUUjBzRXVBUUlvanlILTZJMUYtdjM4Tk9VYVVLVjRMbEhPa3BwcmxVYkxLbVhtR202NnEwalktWTZ5X1dfeDNLa3I3SVNYSTM5bTR5b2RETHVCRVNJZXh5T0w4RUgtamJQclZHc1dScElQeXNsd0xLZnJ3M3FId2pUVDBlWWpabWJCdmtzQzYyYjV5ckNK?oc=5",
-   "data": "2026-10-12T19:51+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "cripto"
-   ],
-   "impacto": 2.5,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: petróleo, bitcoin",
-    "publicada há 7 h"
-   ]
-  },
-  {
-   "titulo": "Faria Lima vive \"lua de mel\" eleitoral, mas alerta para risco fiscal - Canal MyNews",
-   "fonte": "Canal MyNews",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNaFliWVRCc1VQVFh4U0FlUndLZjd3Y0ZTTW9fOUYtWWFDU2VBZEhzQnVFdWlkX0FjZzBuZy1tczk2V2kyV3VwUzVGN1hCUjNBNTRRNWRPSU5UWHp4MUpROXl3LTVJeDNuNENiWnF3NG5rVW1xNUR0dHdKd0gycFF0bkJaUnZJMGZSWUdqQUd6Vm5HUzdJS1doWklIcFZpcGEyT1l5SW5FcUlodlh3?oc=5",
-   "data": "2026-10-12T19:48+00:00",
-   "sentimento": -1.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 3.4,
-   "cobertura": 1,
-   "motivos": [
-    "sentimento negativo (-1.00)",
-    "publicada há 7 h"
-   ]
-  },
-  {
-   "titulo": "O primeiro dia do resto de nossas vidas: o que muda no mercado de criptomoedas com a regulação - Estadão",
-   "fonte": "Estadão",
-   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOSENkb1NiaUlKX0NHZUY1RlRSRFNvemFJTm9xNERYeHZ5dG1aQ1p3ZjhfMUZkdVlEd09seDVYUENkNC10ajhQY0IwZlI1b3dmRUdyS210eEJpNHJiZU5HZWVvaC1hVkJkZUlaMlM5LXo4ZlRSTDZGU2MtMXJrNXNacENIVGlOemlOdGpOcFRsMjdrMTZjXzZnQVc4RjJIcGdHeTNCTTVYYVNGOVdPOFEtN1hsV1VyVGR4RlhneUYtaVBITHM4SzRXbE81ZzRxYjN6SDlkTk1HV0NhTi13UkE3akxKWExGcG8wcnJZ?oc=5",
-   "data": "2026-10-12T19:46+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "cripto"
    ],
    "impacto": 1.13,
    "cobertura": 1,
