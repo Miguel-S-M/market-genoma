@@ -1,10 +1,10 @@
 {
- "atualizado": "2026-10-13T19:46:14+00:00",
+ "atualizado": "2026-10-13T23:37:42+00:00",
  "regime_atual": "alta volátil",
  "indicadores": {
-  "retorno_20d": 11.4,
-  "vol_20d": 30.6,
-  "vs_media200": 15.2
+  "retorno_20d": 11.5,
+  "vol_20d": 30.5,
+  "vs_media200": 15.3
  },
  "serie": [
   {
@@ -604,7 +604,7 @@
   },
   {
    "data": "2026-10-13",
-   "fechamento": 206726,
+   "fechamento": 206888,
    "regime": "alta volátil"
   }
  ],
