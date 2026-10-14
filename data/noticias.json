@@ -1,29 +1,124 @@
 {
- "atualizado": "2026-10-14T10:51:15+00:00",
+ "atualizado": "2026-10-14T14:41:45+00:00",
  "destaque": {
-  "titulo": "Dólar recua; investidores aguardam dados do IPC e declarações de representantes do Fed - TradingView",
-  "fonte": "TradingView",
-  "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9DRk91aEpYQnZBNmxXTFZPYzNHNng3VDBMZ0NjSDVXblQyb1k2ejNqREJCMFZ3RU5WR3NPTldaM2FvM3dBcUJqYkpqc0RCNXQxMjRvanp4U0s4UHRYMm93RHlJTi1PNUhHV0hSN2M2dndyaWtUOUNn?oc=5",
-  "data": "2026-10-14T10:18+00:00",
+  "titulo": "Ibovespa Hoje Ao Vivo: Bolsa cai com exterior e dados de inflação dos EUA em foco",
+  "fonte": "InfoMoney",
+  "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-14102026/",
+  "data": "2026-10-14T14:39+00:00",
   "sentimento": -1.0,
   "classes": [
-   "moedas",
-   "exterior"
+   "acoes"
   ],
-  "impacto": 6.7,
-  "cobertura": 1,
+  "impacto": 8.53,
+  "cobertura": 2,
   "motivos": [
-   "palavras de alto impacto: fed, dólar",
+   "tema coberto por 2 veículos",
+   "palavras de alto impacto: inflação",
    "sentimento negativo (-1.00)",
    "publicada há menos de 1 h"
   ]
  },
  "itens": [
   {
-   "titulo": "AXIA Energia (AXIA3) abre prazo para conversão ou resgate de ações PNC",
+   "titulo": "Gestão cambial ganha peso nas decisões de empresas importadoras e exportadoras, diz Saygo Group - Comex do Brasil",
+   "fonte": "Comex do Brasil",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWEZzWVd6MHJmWGtxTzVMd2wwTFFBaTFfOVk1VDVSeU9JRFJtX0k0MXZ0cUFldG13LUh3Ylc1RkFHYTdFSVRjdjdyX0RfTVhfNzdBa2dLdldFbGZQVzZWbFYxUnhCMGNLbHNLeVZQYUVycGlyOExIQUtpUzFlWkNnMHd6blZMcURGTjJRaWZ6T0RiVWlzR2ZKMXB2ZG5oU3lJdHZzMGEzMzl1RUR4ZG5ER3J5XzVYWmxiNDhSb1BR?oc=5",
+   "data": "2026-10-14T14:41+00:00",
+   "sentimento": 1.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 4.5,
+   "cobertura": 1,
+   "motivos": [
+    "sentimento positivo (+1.00)",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Fim da escala 6×1: Senado deve votar o texto hoje, após última sessão de debates",
    "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/mercados/axia-energia-axia3-abre-prazo-para-conversao-ou-resgate-de-acoes-pnc/",
-   "data": "2026-10-14T10:47+00:00",
+   "link": "https://www.infomoney.com.br/politica/fim-da-escala-6x1-senado-deve-votar-o-texto-hoje-apos-ultima-sessao-de-debates/",
+   "data": "2026-10-14T14:40+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.5,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Pix MEI e perdão de dívidas: o que se sabe sobre as medidas lançadas pelo governo",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/politica/pix-mei-e-perdao-de-dividas-o-que-se-sabe-sobre-as-medidas-lancadas-pelo-governo/",
+   "data": "2026-10-14T14:40+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.5,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Fim da escala 6×1: entenda o que diz o texto e a regra de transição",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/politica/fim-da-escala-6x1-entenda-o-que-diz-o-texto-e-a-regra-de-transicao/",
+   "data": "2026-10-14T14:40+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.5,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Ibovespa Hoje Ao Vivo: Bolsa cai com exterior e dados de inflação dos EUA em foco",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-14102026/",
+   "data": "2026-10-14T14:39+00:00",
+   "sentimento": -1.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 8.53,
+   "cobertura": 2,
+   "motivos": [
+    "tema coberto por 2 veículos",
+    "palavras de alto impacto: inflação",
+    "sentimento negativo (-1.00)",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Empresária do mercado financeiro de SC faz palestra em Dubai e participa de missão em Portugal - Informe Floripa",
+   "fonte": "Informe Floripa",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbjV5NWRVV2xRNmFtZ0Z3ZmM2Vmp5a1FkcDVERVFHR2ZTRDhwQjZIb2xxSDd0UTRIZTBlSWRTMkxycUpBS212V0dITEFkaVRsZEVFTWxWUkwxN0wydGFUQ3VuSk82TGRzSG1sV1MzejVwSHlqb3BvSmg4bkR5ZUtscllRZkdKaWJuNTVod0FKaWtDVEM5UjBhbjlld2drVDlMc05SSmwtWTVFMHJGODBNdnk0a0daSzlBYk1rWnRKTQ?oc=5",
+   "data": "2026-10-14T14:34+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 2.23,
+   "cobertura": 2,
+   "motivos": [
+    "tema coberto por 2 veículos",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Aliados de Lula avaliam que virada depende de melhora nas pesquisas até sexta-feira",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/politica/aliados-de-lula-avaliam-que-virada-depende-de-melhora-nas-pesquisas-ate-sexta-feira/",
+   "data": "2026-10-14T14:32+00:00",
    "sentimento": 0.0,
    "classes": [
     "acoes"
@@ -35,10 +130,121 @@
    ]
   },
   {
-   "titulo": "Papa Leão XIV tem noite tranquila após cirurgia para retirada de tumor, diz Vaticano",
+   "titulo": "FIIs pagam dividendos nesta quarta-feira; veja os 7 fundos que distribuem proventos - BPMoney",
+   "fonte": "BPMoney",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQk1HY19KbE9UZDBWbXlRY0YxNng5RlNxRU1CejczbEc4TFRmNlpXR0tPRUZOTnVrTFUwVHE3SVJ6SUMtaDJqMHl2aVI0amZqbWJrVHpuU0RwUkprb3lJMzVXeGRqWTJUaHB0bzlSVGIyTVVIZ0hRbHR2X0s5ZUFmWUdZR2E3Q051SlR3ZQ?oc=5",
+   "data": "2026-10-14T14:30+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "imobiliario"
+   ],
+   "impacto": 3.12,
+   "cobertura": 2,
+   "motivos": [
+    "tema coberto por 2 veículos",
+    "palavras de alto impacto: dividendos",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Wall Street opera em queda após CPI acima do esperado - Money Times",
+   "fonte": "Money Times",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE80SGxkdmR4V1lTaGREczd2azV3a1ZxR05qVUwwZ0NXUkZ4cE1icUFUWE93RjJwQzQ0OEhON2JiVkJVVkJMX01pMUgyS3JDSEM4LXBUa19iX05jRndvM1BGOVlsMnFiVWJjbE5UNmZpX09tZms?oc=5",
+   "data": "2026-10-14T14:28+00:00",
+   "sentimento": -1.0,
+   "classes": [
+    "exterior"
+   ],
+   "impacto": 4.44,
+   "cobertura": 1,
+   "motivos": [
+    "sentimento negativo (-1.00)",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "B3 registra alta de 45,7% no volume negociado em setembro de 2026 - ADVFN",
+   "fonte": "ADVFN",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRThMbDNKeXJBYmNWVDdjWFdUMmVGOVQycjg5NlBOLVVHU0pVQlVHVXZCUXpNZzN3dXRyZ1ppSDRyTFBRNzA1MF9wWWVQN2NWcUFVUVg0dFlOQzI2S3h1MkF6STd6elVJanNpMFFTYmZGZDVjeWcxcEFYSkx4MXVtT0ZIazUwWWIzY19sNXN2Zm1JTDVUOWpUdlQ1SXhrc2FsOVE?oc=5",
+   "data": "2026-10-14T14:27+00:00",
+   "sentimento": 1.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 4.44,
+   "cobertura": 1,
+   "motivos": [
+    "sentimento positivo (+1.00)",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Jerônimo mobiliza prefeitos e ex-prefeitos em prol de Lula para reduzir abstenção",
    "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/mundo/papa-leao-xiv-tem-noite-tranquila-apos-cirurgia-para-retirada-de-tumor-diz-vaticano/",
-   "data": "2026-10-14T10:32+00:00",
+   "link": "https://www.infomoney.com.br/politica/jeronimo-mobiliza-prefeitos-e-ex-prefeitos-em-prol-de-lula-para-reduzir-abstencao/",
+   "data": "2026-10-14T14:27+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.48,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Startups: Imersa capta R$ 250 mil e busca mais R$ 500 mil para copiloto de vendas",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/business/startups-imersa-capta-r-250-mil-e-busca-mais-r-500-mil-para-copiloto-de-vendas/",
+   "data": "2026-10-14T14:27+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.48,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "DXY a 102 pontos: Por que o dólar voltou a ganhar força e o que esperar daqui para frente - Money Times",
+   "fonte": "Money Times",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQUpHQkRWTmJ3UHVlbFRGZTFKbWdNVklMUmswMFMwT2gzc2FqNV9YZV92cXpNQUFXTWY5SE9oZTZjLWJSNFp5WWlVOTlQcTJaczFFU01vLXF0YzNta1Vya1dTVjBtNUIwc1NtSFFySDBNRll1eVk2RUpRM3lQQktjcWJSOWpjR1ZSajJZd204VkFHemhPX1ZGLWh5NWtGODNWN2dFVXN0YmVwWUlYdURVWFAtdWs4by1aeG9iS1BQaGxKdw?oc=5",
+   "data": "2026-10-14T14:27+00:00",
+   "sentimento": 1.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 5.03,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: dólar",
+    "sentimento positivo (+1.00)",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Fim da escala 6×1: entenda o que acontece se o Senado aprovar a proposta",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/politica/fim-da-escala-6x1-entenda-o-que-acontece-se-o-senado-aprovar-a-proposta/",
+   "data": "2026-10-14T14:24+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.48,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Conta-salário poderá pagar contas automaticamente por Pix a partir de 2027 - Monitor Mercantil",
+   "fonte": "Monitor Mercantil",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdjJkRVI4SHpmbEpEY0RvMVlUOExwUTh6RHI1YXhabGVoS0xfaFlXRDBBdXZLOFpHb1hQTXVjT3lScVY0UjAxUmJlSjJpTEdVekNsOHcwdWp5bDFCYzRvb09melliOXg3SG9haEM3VDNrcHJxUHpTMkdfMUhMalJYV19KaTJSejV3aE0weXVZbFkxZVBZMEo5RElDci02ZEtfelVnVGdya3llWjg?oc=5",
+   "data": "2026-10-14T14:21+00:00",
    "sentimento": 0.0,
    "classes": [
     "acoes"
@@ -50,108 +256,138 @@
    ]
   },
   {
-   "titulo": "China: Inflação ao produtor sobe com alta de commodities; IPC fica abaixo do esperado",
+   "titulo": "TVRI11 compra imóvel em Salvador e entra em educação - SpaceMoney",
+   "fonte": "SpaceMoney",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdjk4aFhrRWx2MmZTZGNpNkVWWGpsSXNWLTZoRV80MkpHNGVfZ2RCRkU4ZXphc05kN0RGZnJ5aTYtT0w3bU5iT1h0YlU2R1ZaY1gzaDl1ZGpUY0kxeFU5elZWZXk2eGktQ21OZGZGNXFqX2pzTGhGX3VlS3Q0UnFqOFFSUzQ0dTdpcFRZVzV6eVZoNVFVY1NBWHRtQVlNd3RpeUQ4aF9Pdk9YSGtiVExGQ0tIX1I?oc=5",
+   "data": "2026-10-14T14:19+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 2.2,
+   "cobertura": 2,
+   "motivos": [
+    "tema coberto por 2 veículos",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Ações com alta acima de 50% em 2026 crescem 140% após 1º turno, diz Elos Ayta",
    "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/economia/china-inflacao-ao-produtor-sobe-com-alta-de-commodities-ipc-fica-abaixo-do-esperado/",
-   "data": "2026-10-14T10:29+00:00",
+   "link": "https://www.infomoney.com.br/mercados/acoes-com-alta-acima-de-50-em-2026-crescem-140-apos-1o-turno-diz-elos-ayta/",
+   "data": "2026-10-14T14:14+00:00",
    "sentimento": 1.0,
    "classes": [
     "acoes"
    ],
-   "impacto": 5.59,
+   "impacto": 4.39,
    "cobertura": 1,
    "motivos": [
-    "palavras de alto impacto: inflação",
     "sentimento positivo (+1.00)",
     "publicada há menos de 1 h"
    ]
   },
   {
-   "titulo": "Bitcoin se tornará “menos volátil” e maior que o ouro, diz autor de “The Bitcoin Standard” - TradingView",
-   "fonte": "TradingView",
-   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBwcWJsNkNpVS1jQ0NYN09WQWh0Mm0ycDJYVl9KSDItenRmNWNEeG9vNHc1anpwb0pMMUpRdlFzUFFIMXQtN2IwaFZ5NDRTZE1HcmlEVjF0UEFZazJCMk1HMV9RcjAxOVpfZ0ZMZW53OA?oc=5",
-   "data": "2026-10-14T10:25+00:00",
+   "titulo": "FII TVRI11 compra imóvel em Salvador por R$ 39,1 milhões com desconto de 17,5%",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/onde-investir/fii-tvri11-compra-imovel-em-salvador-por-r-391-milhoes-com-desconto-de-175/",
+   "data": "2026-10-14T14:13+00:00",
    "sentimento": 0.0,
-   "classes": [
-    "cripto"
-   ],
-   "impacto": 2.05,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: bitcoin",
-    "publicada há menos de 1 h"
-   ]
-  },
-  {
-   "titulo": "Mais de 50 buscas foram realizadas esta manhã a bancos, empresas e residências. Em causa está um esquema de fuga ao IMT através de fundos imobiliários, que terá causado prejuízos de milhões ao Estado. - Facebook",
-   "fonte": "Facebook",
-   "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOZDNXaWk2VGx0cnEwd0QzQU1icEk1QXhOdlZkYmpvcThQMVVzQmsxQlNRRE1JRGc3MEFGNTh1Q0JaNFRPVHlsc3hZYVRjMHBKUHVqcG9Qdm5QS01hUE9iUlotcmFzR3JEMHI4MmNNNkhSME1EaTItUVZKMmhXcmVUaHBPWmtnZG9Oc1V5ZWcxMXhwbUpQTW80RXdVUHgwcE1DcW1VSUlfSkdXTmViSFVla2NvLVhWZ2F3QnpjaEhlT1VDMU9wM0E1SmJVZzhYN1RTZEJBT2U0S2tyU1hQakk5VHFPQlpaR3JNTFp3bA?oc=5",
-   "data": "2026-10-14T10:23+00:00",
-   "sentimento": -1.0,
    "classes": [
     "imobiliario"
    ],
-   "impacto": 4.39,
-   "cobertura": 1,
+   "impacto": 2.92,
+   "cobertura": 3,
    "motivos": [
-    "sentimento negativo (-1.00)",
+    "tema coberto por 3 veículos",
     "publicada há menos de 1 h"
    ]
   },
   {
-   "titulo": "Petrobras (PETR4) vai receber até novembro US$ 859 mi de parceiras de consórcio",
+   "titulo": "FII TVRI11 compra imóvel em Salvador por R$ 39,1 milhões com desconto de 17,5% - InfoMoney",
    "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/mercados/petrobras-petr4-vai-receber-ate-novembro-us-859-mi-de-parceiras-de-consorcio/",
-   "data": "2026-10-14T10:21+00:00",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMkVpSHhfSWhfZVZSaGJ4NDk1TjFGN0FOck94enZZUEhoVUN6X0RDeXB4SUoxc2JWQXlLelBKdUo5ZkhPTzN1d01ZVkNxNy1TdGhOVkJHWWF6akVSMDloRERnZ3RzREZfSGFvWHhUd0s5MEtJUzlUMkJXOFRqd1N5b1ZKalNWY3pZZzI1SjVmUGYyWU5FcmtmY2NVLVNBSVVucjZIall4ejlnLVBsUUVGYnlfZ0tNUVdlSmfSAb8BQVVfeXFMTUVsdG1WUkN2eHFpSjN5YTRnRG9WRkFSRUpQYUsxRXdoX3RFOHlqODRWUmdlUVVsb1R3Z3djLVlVdjg5M3RKblJHYUZVUk0zZEV6ajg1b20zb1hPU1NUc0tEd0lpdmxvWXFuQzhPWFZiVXFXWFhYZm9HbmlZSjNCcWlIdVBpc1VLQzd4cDRRZDFXcXVSSVRCdzJ6MUV2Mk5WcEd5YzJGbFQxNUVhQndGaks4ejBWNTBIVEdDWnkxamc?oc=5",
+   "data": "2026-10-14T14:13+00:00",
    "sentimento": 0.0,
    "classes": [
-    "acoes"
+    "imobiliario"
    ],
-   "impacto": 2.04,
-   "cobertura": 1,
+   "impacto": 2.92,
+   "cobertura": 3,
    "motivos": [
-    "palavras de alto impacto: petrobras",
+    "tema coberto por 3 veículos",
     "publicada há menos de 1 h"
    ]
   },
   {
-   "titulo": "Mitre (MTRE3) tem vendas menores no 3º trimestre",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/mercados/mitre-mtre3-tem-vendas-menores-no-3o-trimestre/",
-   "data": "2026-10-14T10:19+00:00",
+   "titulo": "Inflação dos EUA acelera em setembro e reacende debate sobre juros do Fed - BPMoney",
+   "fonte": "BPMoney",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQnF2UE9IMGZRT2ZQU1Q2dk9hMGdWN2Y0Q3h5YVNvZTJlU3ZUT0xIalBKM2pCQ1pDWHRXMF92QlRLakxmQTJsNTJubjlTZldyUkpUczdxdW1OQ05NeHJaQVllUFNtY2ZLamk1RG1odmcwVHh6bmNtRDItV0VxOEJWSjdlVURQV3JlaXRlRlQwQmJTaUE?oc=5",
+   "data": "2026-10-14T14:11+00:00",
    "sentimento": 0.0,
    "classes": [
-    "acoes"
-   ],
-   "impacto": 1.46,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há menos de 1 h"
-   ]
-  },
-  {
-   "titulo": "Dólar recua; investidores aguardam dados do IPC e declarações de representantes do Fed - TradingView",
-   "fonte": "TradingView",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9DRk91aEpYQnZBNmxXTFZPYzNHNng3VDBMZ0NjSDVXblQyb1k2ejNqREJCMFZ3RU5WR3NPTldaM2FvM3dBcUJqYkpqc0RCNXQxMjRvanp4U0s4UHRYMm93RHlJTi1PNUhHV0hSN2M2dndyaWtUOUNn?oc=5",
-   "data": "2026-10-14T10:18+00:00",
-   "sentimento": -1.0,
-   "classes": [
-    "moedas",
     "exterior"
    ],
-   "impacto": 6.7,
+   "impacto": 4.96,
    "cobertura": 1,
    "motivos": [
-    "palavras de alto impacto: fed, dólar",
+    "palavras de alto impacto: juros, inflação, fed",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "SEQR11 busca encerrar ação de despejo após quitação - SpaceMoney",
+   "fonte": "SpaceMoney",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbDZKQjYxalI1a3BLWjRSUEhVNzZuRkZTLUdycWcwRVBKeDRiUFlqMFJraXB1a2N2X0pKQ1VfNFNRWEFHZjVMb1M4QndZdWxFRXVoZnFZRXBVcVZpSXFXOUxzcWRDSjZMbktMWld3akMtY3BQM2pwNXk1cmN3UFVfUEs0WkZsamh6TVBiUTBUZGEzQzRmZDlZWUJ1RQ?oc=5",
+   "data": "2026-10-14T14:07+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.45,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "VGHF11 paga R$ 0,06 por cota após resultado em agosto - SpaceMoney",
+   "fonte": "SpaceMoney",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxON21JakUyX3pqdWlDSEpyV09XenJ3Z0FZWkJQOFZqb2tteUF0RUZTeFNzVklIR2NPT0Q2UnpQcjFzVXhBYjRQMTNnTElSaXVLUjV5S0FJbmJIQk5yaG5KeDVHQi1KSG41ZlBSSmcyU2plTDJ0TDFRc2hBcHI1UGw1QnF0cmZNckhXeW1QQ0dWVVMyLXlJLVhjZlY3dUlvdzloLTBZYU1R?oc=5",
+   "data": "2026-10-14T14:07+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 2.18,
+   "cobertura": 2,
+   "motivos": [
+    "tema coberto por 2 veículos",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "UBS mantém recomendação de comprar dólar nas quedas; entenda o motivo - Investing.com Brasil - Finanças, Câmbio e Investimentos",
+   "fonte": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZ3l1eEItUmJQS3ZVMlVBU3FJcVBBZEJYd1U2Y1NKcWpnNGd5c2xNOHlvQ25VRmdnMjBhTUZqellwcUZMZ1FQcFRoWGp6eHVfMGNlSG5mSHNKRG1YNkcteWljX2E2SkNBVXpBV29OTWVVQmtuWUdsSWVINWp3YWlQMTJQUHJVc3BXREcyV2xUbVZBNlc5V0xXWGhzSVhzWFhYejhiWFlsZnBiSFdDMUpHUTdFUzVnZnBs?oc=5",
+   "data": "2026-10-14T14:05+00:00",
+   "sentimento": -1.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 4.93,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: dólar",
     "sentimento negativo (-1.00)",
     "publicada há menos de 1 h"
    ]
   },
   {
-   "titulo": "Dólar sobe 0,74%, supera R$ 5 e Ibovespa cai 1,04% - Folha de Cianorte",
-   "fonte": "Folha de Cianorte",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYnpLMm1tRXlaeVZJWU1kTGRibjdUdW85QUZ4MDFPUDJVUFY3TENyTndoeE9VZ1RLNkNFdjZDbTBtbmp1R3gxT25reGxtdkZCN0QycjZkaTk1czVSRVBLRXBzaFliTXpVLVhkRjlwZ1lXQ1JtcEdrdkNzZFZJekV1WFk2QnktUXVM?oc=5",
-   "data": "2026-10-14T10:13+00:00",
+   "titulo": "Dólar em baixa pressiona mercado de etanol e açúcar - Canal Rural",
+   "fonte": "Canal Rural",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWjRlODdoZUxUTHJPSEd0UmZZUC16MmlqcmxJMHE5cHM0WEs5Y3UxTDc3YkZOYk1MeEMyR0xidjQwZDY1T3o0aWc3TW5MbHkxY1I1YTN0LU8tQTV4czhtYmk4bTI3ZXZDRXlOVm9pQjZsb1o4aldpWktoNjNVYS1JbU01b3JQbDJ2VVJtUkx4ZEw4dlNiMWZJMENQd08?oc=5",
+   "data": "2026-10-14T14:02+00:00",
    "sentimento": 0.0,
    "classes": [
     "moedas"
@@ -164,13 +400,13 @@
    ]
   },
   {
-   "titulo": "Mitre (MTRE3) firma parceria com Construtora Basilar para projeto no ABC Paulista",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/mercados/mitre-mtre3-firma-parceria-com-construtora-basilar-para-projeto-no-abc-paulista/",
-   "data": "2026-10-14T10:12+00:00",
+   "titulo": "VW Tera 200 TSI 2027: como ficou o consumo do SUV com novo motor e câmbio - Motor1.com Brasil",
+   "fonte": "Motor1.com Brasil",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9vRnBmVGwtTVljMk44V3pnbmdxYTBON2F2dGg5by1haENQVU1FQ3MwM2RjMlNWNFFFZlZzcEdONld4d1oyYmY0M1V0bWVsTlp2T3pvV3c2enIxclkzZlFtcG5kRTE5aXA2SjZFQk5XZllLRjMy?oc=5",
+   "data": "2026-10-14T14:00+00:00",
    "sentimento": 0.0,
    "classes": [
-    "acoes"
+    "moedas"
    ],
    "impacto": 1.45,
    "cobertura": 1,
@@ -179,82 +415,82 @@
    ]
   },
   {
-   "titulo": "Minidólar (WDOX26): CPI dos EUA e eleição podem ampliar volatilidade",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/mercados/minidolar-hoje-futuro-do-dolar-wdox26-14102026/",
-   "data": "2026-10-14T10:12+00:00",
+   "titulo": "Inflação dos EUA reacende alerta para o Fed, dizem economistas - Money Times",
+   "fonte": "Money Times",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUFRpV1h6Y0xlU0RJN0Z0R0J0c2YyYXJLenN0eGFmb0ozVEpEUi1oWTZlMmRQcm11ZjJKVmViT1Z0YnpxckFCeklRU0lWb2xxNkhvbUhRQzU2Y0JtS2tWZkZPQVRPS1NwSGo2SXRsUXhDNEY1dlVLNnJhZWtHazZCLVo2aWNMcE5ia1QxQnlmMnBGTFBhbEtB?oc=5",
+   "data": "2026-10-14T13:59+00:00",
    "sentimento": 0.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 4.78,
-   "cobertura": 2,
-   "motivos": [
-    "tema coberto por 2 veículos",
-    "palavras de alto impacto: eleição, dólar",
-    "publicada há menos de 1 h"
-   ]
-  },
-  {
-   "titulo": "Minidólar (WDOX26): CPI dos EUA e eleição podem ampliar volatilidade - InfoMoney",
-   "fonte": "InfoMoney",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSWJJendNeVZkRlY3UXEzRTVMcUFVUU1MQ1plZDRRWE9lS2NpcW94Qy05ei1xdHNmSl9Say0xeVdFY3hqTGNqRFVseU5pTDNYNGpQal9zcGVMczJrdWdTU0liR2VSdHVHc1pMdGZyMGNJcS14bC1kYUFFTjNNanJhaC13b3VsZTRsa1AxSWd30gGTAUFVX3lxTFA2OEh1alVpS3hjMmhIcHZEdTVSMmYxenFpWWtmeW1velFyMUx0VmlLNGJweDM4cVpaOWZ4XzNkbnNDSVphZjJITEJ1MHZKVm1qOWFSVUxBTTdJblFJcVZWWDJTZEhEejNGN1kzSXczS0tpYmZOS3BIMU45WER6ZDYxMXF1VjJya2JhcFBmNjVydHNjVQ?oc=5",
-   "data": "2026-10-14T10:12+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 4.78,
-   "cobertura": 2,
-   "motivos": [
-    "tema coberto por 2 veículos",
-    "palavras de alto impacto: eleição, dólar",
-    "publicada há menos de 1 h"
-   ]
-  },
-  {
-   "titulo": "Wall Street e Bolsas sobem com petróleo e dados econômicos dos EUA no radar - UOL Economia",
-   "fonte": "UOL Economia",
-   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNaTRSRUlJNG1EY2UzckFrZm91X0Jra1lyQ0NvVWZKRW5nYThvdk1rLWJjQVhfcmhOeWg2WldsRmVmS19oYnJPLVNFMlFKbHBMRkszOE5CY0oySmVzdkJoM0RsSVcwRWxGZXhjZ2V0bktYSjBTTklMMXhEMnZOckJzejh3ZHBEMl9GcUpPZFRjaFlnTk80R3ZmM0NBWERJaGo4X2xsaXo0bXFDNzZOLVY0dEZJWW5CbHJHUlp3T0l6a0g4VFJ2ZEZFMHgzZHNkRjQ3M1I2Mm53?oc=5",
-   "data": "2026-10-14T10:11+00:00",
-   "sentimento": 1.0,
-   "classes": [
-    "exterior"
-   ],
-   "impacto": 5.5,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: petróleo",
-    "sentimento positivo (+1.00)",
-    "publicada há menos de 1 h"
-   ]
-  },
-  {
-   "titulo": "Mini-índice (WINV26): correção segue, mas tendência principal ainda é de alta",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/mercados/mini-indice-hoje-futuro-ibovespa-winv26-14102026/",
-   "data": "2026-10-14T10:08+00:00",
-   "sentimento": 1.0,
    "classes": [
     "acoes"
    ],
    "impacto": 4.33,
    "cobertura": 1,
    "motivos": [
-    "sentimento positivo (+1.00)",
+    "palavras de alto impacto: inflação, fed",
     "publicada há menos de 1 h"
    ]
   },
   {
-   "titulo": "Standard Chartered amplia negociação de Bitcoin e Ether para investidores profissionais nos EAU - TradingView",
-   "fonte": "TradingView",
-   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE01ZVoyU0ljNHJ2OERSUU9Xak9VVTlMOUU5SXVHb09YVFJlemFWSEJRSExwcDNXSG9Qa2dFSVVoS1NJTFlHRzg3R3ByUnpoX3BZSkVHZC14UWtCM1Y4UUt0RGJ0RWNrd3VnWjE2QzZDSQ?oc=5",
-   "data": "2026-10-14T10:07+00:00",
+   "titulo": "Bitcoin cai para US$ 82 mil após inflação dos EUA acima do esperado - Valor Econômico",
+   "fonte": "Valor Econômico",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPMkhFNG9NZ0ZEa3pjNHZPWjVHQTBwRnFHVWZ0NElickNBcWtZV2JwMTdNa1R3dFp5VG5jNGhXbDNEUlhvVlpmTWV4X3FzRWhwT2ZDeElfUndTNENqWTAwbkF4UXFlaFMzZDNRdTJVb0dJTExaQ2swZm5DbEtEeHpDY3JBa2hGZ0RNUlJpVlBMZGxRTUZXejVMTVlKcU9tbXY3Y19ick44ejdjRy00SGVtM0ItNVFaOWxmaWhFOVBGWnVMUWRiTzUtUkdRUVliekg1QS1V0gHiAUFVX3lxTFBTN3Z6Nk9Na0lnUERBSHVJSF9yUmZLNUJlVXNJRE13VllHQVI4SkFNR2EzaFp2bWdLaXltWkFWUzhldk44eEx6SG1idEEyV3dCNXNGVG9sc3RYNEo2RnlaMFVPYzlIWXhpcHNxT0NkeW1Zak5pUmNPXzZhTXZLbDNsc1p4ckdyUXdkX0Z4NFBxS196c1I5dnhwSXJ0cnc3SkU4bnVUaWVaUkJSaVl2OXlVM1BESWpGd1FBdGJ3dkY4M0dwZnJ4ZWRSek90NkpDNG9YVjQ0VEhXYk9lUHgxNzlycGc?oc=5",
+   "data": "2026-10-14T13:58+00:00",
+   "sentimento": -1.0,
+   "classes": [
+    "cripto"
+   ],
+   "impacto": 6.06,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: inflação, bitcoin",
+    "sentimento negativo (-1.00)",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Ibovespa Hoje Ao Vivo: Bolsa cai com exterior e dados de inflação dos EUA em foco - InfoMoney",
+   "fonte": "InfoMoney",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWWVYdlozQTdvU19EaHVQdlBSVDVmM0pEUUlPU05Xb1MySDZKUzVqMm80RGVIU2g3QTI0WTVEcUxHemY0elNCcTdTMHlxSng4UzhvdU5jdkZVYmZHTGJ5dVZqRVZBb0h1bG1jV1piY21ZY0FldVA4eDd5Y1VrYzVqelZ2TzZ5RjhsTlZpcW5IQQ?oc=5",
+   "data": "2026-10-14T13:53+00:00",
+   "sentimento": -1.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 8.19,
+   "cobertura": 2,
+   "motivos": [
+    "tema coberto por 2 veículos",
+    "palavras de alto impacto: inflação",
+    "sentimento negativo (-1.00)",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Bolsa cai à espera de novas pesquisas eleitorais e dólar em alta - Metrópoles",
+   "fonte": "Metrópoles",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9YR2lUaUh6cm1JT09UMFZsVGVvV3JJcHd0Y2ZLaXJrODZDb2VuX21uZzJWRW5fQXB6UG1hZ2hHRkU5eGN6Um4wTUZmT0pWTTFuUFpQclNGUktSV0UyamNPbEZIelk?oc=5",
+   "data": "2026-10-14T13:52+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 2.01,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: dólar",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "O que aconteceu com o experimento de Bukele para transformar El Salvador no 'país do bitcoin' - Terra",
+   "fonte": "Terra",
+   "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNS3ZCZEhXYzlkU0hZZ1J5YnIyRnZaSDQ1b3pwbmhCOWdrYU1ZeXNaUGdiOXhseDdZQTluSUtBOU1sUzV2NWRxYmVxZk9RNlhtcVg5NXlCNlp6UDFGSzFVZ19lT2RnSUxoZnlnR2wtYTJSR1FQUEZyS0lJNlFlWEVwTjF4ZkN3S1FBZzJpMVNtX050V1lTRDlGczhzaU1PaHA5bGxBZV9OOXdyZjFIQ3F6REl6dzM1TlBUUG4weHpFU0YtU2dYUEVkMFgyUGhlaXozZEJLbjF4VWE2cFVlNGxieml6VEdOMXprZmFMUlpNTU1CM1FQU0phdm5LNXNJRU5h?oc=5",
+   "data": "2026-10-14T13:50+00:00",
    "sentimento": 0.0,
    "classes": [
     "cripto"
    ],
-   "impacto": 2.02,
+   "impacto": 2.01,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -262,28 +498,13 @@
    ]
   },
   {
-   "titulo": "Day Trade hoje (14): Ibovespa perde força; alta ainda pode continuar?",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/mercados/mercados-day-trade-hoje-analistas-14102026/",
-   "data": "2026-10-14T10:04+00:00",
+   "titulo": "Ledger confirma descoberta em carteira de criptomoedas vendida por revendedor, e relatos de perdas colocam uma alteração no hardware no centro das atenções - Estado de Minas",
+   "fonte": "Estado de Minas",
+   "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxPeGpkaUlvcVR6Vjh6Rmlia2dMSzFqZjJ1ZEpvYzZ0d1Y0Ri1LQk5qbnZmQlBUQXQ1OUw3TXl6N1VtRXQyX3Z0bDRraE5DcEN0Q3ptaUN0cnppSU05d3dLVHFzZmY1YUlLRlQtX3BfSXIxMk1ndy0yZ04tMGVITklKVlBqQU1TSDRRRXhYRFE0Mk90clVORlJuLWcxUU9Bdzd4QjdvZ0dhSkNDQTVZSGs1SUJNWWoyRTJ2TV9iLUxxd25XWjdNU1RZNW5TYmJJNFBwSGl6Nm5LX0kyem5UbUU1NGt5NURVbXA4bDJzT1NCWjYwWHhicGhUOUJhb1dKa3ZVV21BU0NxT09XeDNhWWFxazhsTi1Yb3Q3RThHZmZfVkxHT1cwMFR2Sms1ZHVlVlnSAbQCQVVfeXFMTjRTUmE0ODRYdUZ4c0xyNzVTWmdyNHRXRDNTQWU0RVNzWC1qQUw2NWNXQ3JIMy1ZRFZPTTVIS1V2UHBSaTVHRlBZXzcwbmM4VVNjTzh6TGh6cE1lbTdhRHV0OUZrNXF1MG9ka2IyMVZTY3pyeUZDSjA4X2VpUmE2YUxaTnp0U1VjS3ZINy1sdS1KUHQ4cS1YR1lXcWdOQjU2VVNCWEVubzdJcktTOHdpd3lhYWxGdVlKMk0xdDRYMHk1ZW8xX2szR2pOZ0M4aWNFQTAtb2VITXZ4SHNHZkNrd0kzSHJNa3hvOTlXaFdLTDJpcjZkSHJ0SF9vZ0lhTnprYjBEaEhldzgwQ0pZUXRxZktQbVdiNUdya3MxNTJYNlZRZTZ6R0ttTTdXY2M2U0FNWEZoQVo?oc=5",
+   "data": "2026-10-14T13:49+00:00",
    "sentimento": 0.0,
    "classes": [
-    "acoes"
-   ],
-   "impacto": 1.44,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há menos de 1 h"
-   ]
-  },
-  {
-   "titulo": "Sede da Saudi Aramco é atacada; ministério relata incêndio de pequena magnitude",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/mercados/sede-da-saudi-aramco-e-atacada-ministerio-relata-incendio-de-pequena-magnitude/",
-   "data": "2026-10-14T10:01+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
+    "cripto"
    ],
    "impacto": 1.43,
    "cobertura": 1,
@@ -292,110 +513,402 @@
    ]
   },
   {
-   "titulo": "Ibovespa B3 recua 1% após recorde e feriado, e dólar vai a R$ 5,02 - Rádio Guaíba",
-   "fonte": "Rádio Guaíba",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcmNiU0R1RXN3LVY4ejlLWVp0SzNnTVlyWDRqUGU2UU83eFlVS0w5cXlBa2JFS3FZUFZ1WTNQSzBSYmJTX2hjSXBoQlZhZVRSd2NJLVlUblRRU0EyczBqNmJMZFJ2NmtPYlR5UEdpTUNzVVNrcVFCLUxhcUFmaGFGdHRKRlFIdjVKTkN4TjZn?oc=5",
-   "data": "2026-10-14T10:00+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 3.15,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: recorde, dólar",
-    "publicada há menos de 1 h"
-   ]
-  },
-  {
-   "titulo": "Futuros de Wall Street sobem com cautela antes de dados de inflação e balanços nos EUA - Bloomberg Línea Brasil",
-   "fonte": "Bloomberg Línea Brasil",
-   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbkxiR0lHSTNOaU9YazBRYXdQTGRKdXFfRjVMS3dURjhmdS1HcWlCcUlUYnJVeGNFOERvT2gwRXdEM3ZmU0FzSmVNaTVCLUZScEV0ajB1N2JhQjdkZ1JEU1Fhd0RxM0FIdTdTSUFfdDNSdEJQemNCRkU0dTAxeTM0VXA0MWFWRk1aNUM1cU9ra280ZTdJQWUydXp2UTdLdzVfazlOQ25KMW50MU56VTRJTTUxRHd2VkVSUUMzR3hnSjZpN2pxUjZadlJR0gHeAUFVX3lxTFBnbXIxUlVpcWpTUHlRbmVEY1JRdi1jSmlaWEVGV2xkTkVhcTF2N0duemhsZ0lNRi02SGJjUFVrSktpVDNqeDVLSW54eDU3cHVrYVRkLXNZdS1GQVJiX0gxMldpU2JkZXoxVlgtcWpGcE56REw5NXVBMHYxWG9qYURlVWs4N05DYnlJVnlBbHhiTEpwYkczSU1VZVpaZFZtcEFtcWVKNWFSRGFEWUpYV2t1X3dOZkVHLXVVTE54Z05WQzY5QTh1UUFJU2ozcWNXdFQzWW1scmp3VTlrMnk5UQ?oc=5",
-   "data": "2026-10-14T09:57+00:00",
-   "sentimento": 1.0,
-   "classes": [
-    "exterior"
-   ],
-   "impacto": 6.01,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: inflação, balanço",
-    "sentimento positivo (+1.00)",
-    "publicada há menos de 1 h"
-   ]
-  },
-  {
-   "titulo": "PJ investiga esquema milionário para fugir ao IMT através de fundos imobiliários. Há buscas a bancos - CNN Portugal",
-   "fonte": "CNN Portugal",
-   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNTnkyaWtTRGdPWnZ2cW80b25xOTBheHJobHEzSm1FV2JKQk94MEI4VXYxclpKdkUxX3ZmbVB0My1hclBxSi1jZExsTlNMa3FOZENsNHcySnNyWERsQWN1TEZHaWMxd3hsVXZOMFpoY2o5dUV1UzdqS3p6U1hkNGJNQUlqUzF3alJqanNfb244Q1d5VUxFS0l4LUVHdDhQRmkwUE1EbGluT0UzT2R1bDN1cGpPNW9wSVZ3eGN1RWNjTjZqVjJFeXRRTm5uZ0FpS2h3VUdRVHFpS1Y5bzFyS3FGV0N6c2hBTy1BRFBJSUpRMA?oc=5",
-   "data": "2026-10-14T09:40+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "imobiliario"
-   ],
-   "impacto": 1.41,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 1 h"
-   ]
-  },
-  {
-   "titulo": "Mercado de capitais e seguro rural ampliam alternativas de financiamento do agro - O Presente Rural",
-   "fonte": "O Presente Rural",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbHRuTTNlQUhSazVYTDczQTlwUzUtcjBMdHBQYXpsZ2xQQ2FGS3pWMUdhSjR2UDJPam9TUEM3Vk9PRVBIcDVGRTRNNEY2ay0xQWVyNVdycF9sQ2tnaHNaT0Mya3FmNWtJS21TMEtTSVAwQ0pTbllsb3pzRERQMXJBdTI0OEszZUtKa3VMRmNCcnduNlk3MEViOUgtVnNZZC1raVdZaUplSXBJZkJ3M19xOA?oc=5",
-   "data": "2026-10-14T09:34+00:00",
+   "titulo": "Empresária catarinense leva experiência do mercado financeiro a agendas em Dubai e Portugal - Acontecendo Aqui",
+   "fonte": "Acontecendo Aqui",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNYzBaQXluY2ptaXdkdWRzUHA5REFOUV92eW8yclc1dWllU0tyQV9KSG8zTnRfLTNtUlctYVB6SU1hX24tM1pvR3N0TzQtLU9keFI0Wk8wdk1DQjdZa3ZVbE9nUEZraDU3U3VEdGhFbXJKUHA4YkttZzFxWjNrcHE1WDBZZ2tKQWhBcWFlME52Nk15d0NkX0VjYkJ6TG5TWDN5ZnZQck8yTTF0a3ZoUWpFZUNWdHhKa3RPeHMwMDduLTJiRDJ4ZU1LQVctQQ?oc=5",
+   "data": "2026-10-14T13:43+00:00",
    "sentimento": 0.0,
    "classes": [
     "acoes"
    ],
-   "impacto": 1.4,
+   "impacto": 2.14,
+   "cobertura": 2,
+   "motivos": [
+    "tema coberto por 2 veículos",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Dólar volta a subir e bolsa cai com inflação nos EUA e pesquisa no Brasil - Revista Oeste",
+   "fonte": "Revista Oeste",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZFVBN3pNNi1qd1JmNnFINW56UWZKSmxfcEY4RjZ1emdSdU84YlQ3MnNMaG9PS3RRV3YzeEwxTy1ZT0RJWEw0UHY2TVB2UFd1ay1KVFdIc1h3S2YtVk5CWTBQd3FOOFZuSUVkQkV1MDF1c1Vqckl0YVQ3SE5aY0dITEVWeHVDWnNqMXVPaW1aM3RpNlY1endSZF9jQUE2WlhoUEpSSVN6S1NPWmMx?oc=5",
+   "data": "2026-10-14T13:41+00:00",
+   "sentimento": -1.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 5.97,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: inflação, dólar",
+    "sentimento negativo (-1.00)",
+    "publicada há 1 h"
+   ]
+  },
+  {
+   "titulo": "Dólar abre em alta com cenário eleitoral e fim da escala 6x1 no radar - Jornal do Comércio",
+   "fonte": "Jornal do Comércio",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQVkNJbFlvTnRtWEtaYjJGalgxUE9qOG13b00zb2FLc2VuR0twSFQ0ZUQ5WG9VaWlVU1JxRkF2Q3JXZWFqS0V6dXRGb2x6WkYwejlnazNCdmo0UVYyTng3cGJMeFM0dW16bzE0eFU5cGtqVjJtamV3b3R2dnBWZjRqVl9DaFVuRlE1eWEzVE44cE5yd3dCNmpPN2JBdzVEY1NuLVQ4eVI2Wjl1TGVuVEdDWjNaMHBoaHB0ZS1iN2VuMXgyOVFKdnNGNUl2MDU?oc=5",
+   "data": "2026-10-14T13:41+00:00",
+   "sentimento": 1.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 4.84,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: dólar",
+    "sentimento positivo (+1.00)",
+    "publicada há 1 h"
+   ]
+  },
+  {
+   "titulo": "Abertura de Câmbio - StoneX",
+   "fonte": "StoneX",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8xeGI5ZUJqMjQxMld1d2owLVdTZGZOVWJsYW5xYjRMT2dkY0hvVDZSSDc2Z05tdEMzOUpSd3ozTFdpZ0U5dTFnaUZISG02RkhkcHZRWENkaEF4a0RCWkpmZlJvcnRPOVB5dlMwRjB1VjlNVjdXaVBR?oc=5",
+   "data": "2026-10-14T13:41+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 1.42,
    "cobertura": 1,
    "motivos": [
     "publicada há 1 h"
    ]
   },
   {
-   "titulo": "Libra sobe levemente com dólar em queda antes do CPI dos EUA - Investing.com Brasil - Finanças, Câmbio e Investimentos",
+   "titulo": "Wall Street abre em queda após dados de inflação reforçarem apostas em alta dos juros nos EUA Por Reuters - Investing.com Brasil - Finanças, Câmbio e Investimentos",
    "fonte": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZ3lyNW9wUUdWQ0VkSWI0UXZFX1duMjZKeDVrMTJnakVNUzRZcWVtOEd3eDZLSGhSSUZUT3h1V2dCS1NLYmp1UVZwX052N0ZrSWdvblpya2k3ZTB4dzliOHZLeW9pUU9CZS1ERG5Ucko0UFd4Q0hjNWtnYVE4bVZZd2tGY213clVYSEg2QUVSdDM0dlltR2p3YzFhTktZekdueDdnUXhDZzJtdnBwYkE?oc=5",
-   "data": "2026-10-14T09:12+00:00",
+   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNcHZSSXRLdW4zWGg5VHVsNi0yVW9STjBfZUdzLWxHMTlTLVB1ajk0dm1rUWRGbXVBVGx3VGxicHBUVjZqRjJMQ0xKM1A4Mk9rdjk2d1dtWGtWOVE3SmotdVpoV1lfd0lVSnlxWUZNWE1PYVhKR0xUSHZxWVNNWHg3VlNkczZBVDZ6VnhSeElrb3ozeFl6RUhJTC1EZkdyUlVfQ3pzNjNTRkFlYzhEck9DcXM5QWxfRjdOZ1pGZ2JyMnV6NjNHWXRwNjNXc3ZhamJTN0h0TE9xVWdBRU43VXM5M2JZQQ?oc=5",
+   "data": "2026-10-14T13:41+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "moedas",
+    "exterior"
+   ],
+   "impacto": 5.55,
+   "cobertura": 2,
+   "motivos": [
+    "tema coberto por 2 veículos",
+    "palavras de alto impacto: juros, inflação",
+    "publicada há 1 h"
+   ]
+  },
+  {
+   "titulo": "Wall Street abre em queda após dados de inflação reforçarem apostas em alta dos juros nos EUA - TradingView",
+   "fonte": "TradingView",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9MZkh0eWlRRGEzVEVEanlFbTZtaTFrdkxNQ1B3UUdtMjk0VzZKWVJIMUFLMkF1Nmcwc2ZvR2xIS1gxOVZ5Mmd0bmgzTkRuWGZrMTZISGJmQXE2ckJvX3JYX21oZVZsNkNnNXY3YlZFNkRtS3RhZ3Vv?oc=5",
+   "data": "2026-10-14T13:39+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "exterior"
+   ],
+   "impacto": 7.38,
+   "cobertura": 3,
+   "motivos": [
+    "tema coberto por 3 veículos",
+    "palavras de alto impacto: juros, inflação",
+    "publicada há 1 h"
+   ]
+  },
+  {
+   "titulo": "Informações Financeiras - Enfoque - Informações Financeiras",
+   "fonte": "Enfoque - Informações Financeiras",
+   "link": "https://news.google.com/rss/articles/CBMi-ANBVV95cUxQaUZnX0F5Nzg4bkJnenl6dFo3UXB2c3U0TFl2Z3p5ZDhHcUc5TG1KOUx0b0lscWdsYzZ0V2Vod3ZBZWpzUGI5TjNNQUplWWdJN0ZzQy1ZTWtsaXMyOWJuVHhWUHlSdmhvbV9sSFhkMW5HcDhCT0xWam80RExoRUs3dnRjb09kbWttLVZCbk5jZDFCUmlIMEZMZkx6RkxxM2Mwd3hEY3gyb0hfWlJuYXB3N2RfSV8zLTBXV2xOLTNHVzdlczJVdk9VT1Z4SXNMV2lKWk9CSnBYYjdvbEJDa2NNSXpLRzFxclBQVzg4QTQzWlItRVVtSS1BTHVSUHFmZE9Fa2tnb2dTUFVOSXNKVWRGampRM1EyQjF0OVdFc3hGTXBZYXN5QlN6RUNsdTd6S3lBYVpFSzBUdUdhMUNxTzhYVk9zdE9VZ1R1NDhiYl9Ud0c0WG9oNnhvMHREbWNLWWVCaEttOXNJSmZKSkNXMWdFc3pOSmI1OXhDMEFYM3BHbUE5d0dxcERLMUtCQ3g4OVAyWElfZ3dOdkt2U0k2amFPd1hmMG5PeXBVdUNQYmlTZHJkWlVMVWNicGwtTEI1WFF0cGQ2Mk05WG8yMXZUZU90UVpVRHQ1VXJYanJlOVdaYW5oNTN5bjJyRk9IN01TTWJoSVl2OE9zdFk?oc=5",
+   "data": "2026-10-14T13:38+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.42,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há 1 h"
+   ]
+  },
+  {
+   "titulo": "Bitcoin em US$ 84 mil: inflação dos EUA pode definir próximos movimentos da criptomoeda - BPMoney",
+   "fonte": "BPMoney",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPc1Y4dXRxTnJ6RF9ITlMtRGlsbC05YkxNenEwU0F5MldVQ3RmZ3JGOW5pRy1oLWctSWhvNkRqTEtMdkpxQWU3cFBTWW5BMllldmhGcXpKYzJ0SUF5TURxcF9SYTMydnRpQ1Q2cW5MR2htNXZnektTcFlyS3BsaEh5dGRlemRfN1JY?oc=5",
+   "data": "2026-10-14T13:35+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "cripto"
+   ],
+   "impacto": 3.11,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: inflação, bitcoin",
+    "publicada há 1 h"
+   ]
+  },
+  {
+   "titulo": "FII desiste de ação de despejo após receber pagamento; confira - Suno - Investimentos Inteligentes",
+   "fonte": "Suno - Investimentos Inteligentes",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPLWw4eV9rMkQ5NTdwZDZXVDhSUzdyUXFLdVI4ZUVsNDkwN2FFQ2E2MDh2VmhlVHJnZFplemFfMFdpdXdvbHhGZk9NRmVPVG9icjBxUXBPN0lqYVhKQ2tWNEgzSWZyLThLbGZGVWxxUlNhN2RNc01veHU2TEREcFpMdHNyRlJQdEnSAYwBQVVfeXFMT1g2UWN4UmdjZ3RvaWNIVTQ5ZmFmalZvWFN4VFlUWWFaN084WV8zSXVTZkQwd1RXUnBNVlRIWTRqVVQ1S01zZ2N2LUZiT0E3eDIwZFhIOEZXNWxZV19xRGhoQ0FIbW9hLWN0eDdmaWh3MHM3OXRTQWdKXzQtQU80VGxEVTdpUXRON1docnM?oc=5",
+   "data": "2026-10-14T13:35+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "imobiliario"
+   ],
+   "impacto": 1.42,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há 1 h"
+   ]
+  },
+  {
+   "titulo": "Inflação dos EUA pressiona Wall Street; Dow Jones, S&P 500 e Nasdaq caem nesta quarta-feira - ADVFN",
+   "fonte": "ADVFN",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPV1V4STNscXZoc0pmbWZ1TXBwbTlVTllOUU0zVDlfdFJ5YW1YMnZKVHhUTVB2NnVIMW9vUm0wOGNpU0szcmF4aE5fWVZ1c1hEZUJQTFBKT3dTSkctV1h6bEJyUG1MWWpMNks2NkE3OFVEc3dMLVgwdktWNDBweGNwOHNKQkVic2VZUWN3OGFxR2plR3ZxeEtmRmh3Z0ZjZV95ZkxCTjE3emtjMEM1Wi1uaQ?oc=5",
+   "data": "2026-10-14T13:32+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "exterior"
+   ],
+   "impacto": 2.54,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: inflação",
+    "publicada há 1 h"
+   ]
+  },
+  {
+   "titulo": "Setor de serviços brasileiro recua 0,1% em agosto e reforça desaceleração econômica - BPMoney",
+   "fonte": "BPMoney",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4zakZLWm9nVEtKcE12RW9iZFRQZEFveDVDTkZBWHZQLTB2MGQ0MDU4Y2ZYNnZwUy1yRlQ2VkpCSHh3ZVNUVVVoRnpiOHdZM0FQUmxWRDJacjBGQlo0LWkzV21rZ0hBZGZJZWJrZjJnd3IyREJsc2VQak1ac3hVQQ?oc=5",
+   "data": "2026-10-14T13:27+00:00",
+   "sentimento": -1.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 4.22,
+   "cobertura": 1,
+   "motivos": [
+    "sentimento negativo (-1.00)",
+    "publicada há 1 h"
+   ]
+  },
+  {
+   "titulo": "Futuros do Dow sobem 145 pontos: 5 pontos antes da abertura de Wall Street - Invezz",
+   "fonte": "Invezz",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWVNGSWp1V1MydVY1NFg1ejItZ3RuTnhIYkUySWhmNER0T0dqLVA5QzhUbUVTc1lMa2taMXNBTnVteFhxUUFya2F6SENLckJXUGpid2FlcHk1MVpMQnBQSzhfSXNRV2xESlZxMGppQUhCTjhVLTE3X2hLZjJFSTBLVEJiRm1LSmZGRURoWXJCVkxhOGxlM2haNzRlQXJIX3h0dERCZW5HS1JzaHNTOWtnb1RjYTJJWVE?oc=5",
+   "data": "2026-10-14T13:25+00:00",
+   "sentimento": 1.0,
+   "classes": [
+    "exterior"
+   ],
+   "impacto": 4.21,
+   "cobertura": 1,
+   "motivos": [
+    "sentimento positivo (+1.00)",
+    "publicada há 1 h"
+   ]
+  },
+  {
+   "titulo": "Últimos dias! Promoção da Nomad tem dólar ou euro com taxa zero mais acesso a sala VIP para novos clientes - Melhores Destinos",
+   "fonte": "Melhores Destinos",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOa2xsQUg1Zks3OEV3LWhpalpNX2ZwWjJPbmF1V2JHZUdEZy1pZldlUjFyYXA0cV9CcW9IdFkwZV8wcDI3cl9nWmtkTmNHODE5M2tEckVJeEgzVXEwT083TmhQQlpNaFhHTTRzemhGWWdocC1wM19UUW12eC1LV3hyTkpJODltVm96?oc=5",
+   "data": "2026-10-14T13:24+00:00",
    "sentimento": 0.0,
    "classes": [
     "moedas"
+   ],
+   "impacto": 1.96,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: dólar",
+    "publicada há 1 h"
+   ]
+  },
+  {
+   "titulo": "Binance vai desligar seu pool de mineração de Bitcoin em novembro, após seis anos - BPMoney",
+   "fonte": "BPMoney",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdG5OcTROR3EzRnhmVEpac1BBRkg4VDQwQzQ0cjRQVy1JODNzdGY2d1dlTnk5eGRZZG1pbTg1encxc0Q3Tm9tZDhsNldJdE1YZFFJc2RDbTRDWFVTcGNKRlB6eTNPWVNtam5aRnZoNlVUMk5rLWdzYzBzUVpDLXNHVXY1SXJzRWpSNzZHcjNIUFF6UlRrZnZJ?oc=5",
+   "data": "2026-10-14T13:22+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "cripto"
+   ],
+   "impacto": 1.96,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: bitcoin",
+    "publicada há 1 h"
+   ]
+  },
+  {
+   "titulo": "Criptomoedas despencam de forma generalizada, Bitcoin cai abaixo de US$ 83.000 com CPI de setembro dos EUA acima do esperado, desencadeando onda de vendas - TradingKey",
+   "fonte": "TradingKey",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNGJ5SkRGLXNsSExRRy1QLU5aUV9EYzRZbnY5NG4wNUs2YV8xQ1h2N0NYaE1JT1hmTXpIdFlkQVhMVE5KSTFHZDlraWMxYTBmanh1eVN3WUxYalI2RnU3SlNFWk5xdmlHd1Z6LW14WW9RVEJmNlM1Tm42TUtYR0dkbEdaWnB5QWhHcnFtTU9mdGdTWkN1ekFXelZmSEx2QXg0UjhfLWdRcVczYno3WFkwU0lRNFhHR0hreVZWQVJ6VQ?oc=5",
+   "data": "2026-10-14T13:21+00:00",
+   "sentimento": -1.0,
+   "classes": [
+    "cripto"
+   ],
+   "impacto": 4.76,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: bitcoin",
+    "sentimento negativo (-1.00)",
+    "publicada há 1 h"
+   ]
+  },
+  {
+   "titulo": "Dólar hoje fica perto da estabilidade com pesquisa eleitoral no radar - ISTOÉ DINHEIRO",
+   "fonte": "ISTOÉ DINHEIRO",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE82RDhfSFlyWnBnclJPT3F4X0xrd0NpdWpZcm0yVWhQbWFQQWRMNG9GS2tpa2FpOFE2eFFRTWhCUnQwR3dvMS1taWJqWmhlVWZPRmtRNWwzMmU0ZGpnelJKQ3lidVJ0UTlwZkFQWTVuUUNYRU8waldV?oc=5",
+   "data": "2026-10-14T13:20+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 1.96,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: dólar",
+    "publicada há 1 h"
+   ]
+  },
+  {
+   "titulo": "Wall Street deve abrir em baixa, já que dados de inflação mais quentes alimentam as apostas em um aumento das taxas de juros - TradingView",
+   "fonte": "TradingView",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE95M2s4RzFnNWRsaGs5RDBOX1k4QldHQlk2akMweUc1NVRaa3VkaGI2NEZKWHhnY2FlZk44YlNRWHQzV2xnTnloQ3Bwb3Z6eUMtUDRPN21jRUZXcUNIRVBZVVFNWW8xMWpTWWtpSWE3VzRsbmd1TjNr?oc=5",
+   "data": "2026-10-14T13:18+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "exterior"
+   ],
+   "impacto": 5.44,
+   "cobertura": 2,
+   "motivos": [
+    "tema coberto por 2 veículos",
+    "palavras de alto impacto: juros, inflação",
+    "publicada há 1 h"
+   ]
+  },
+  {
+   "titulo": "STJ analisa novo pedido de habeas corpus de Hytalo Santos e Euro - Band",
+   "fonte": "Band",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRHRxckVyc0ViU05iYVpTeU5lOHBMNGFIN21ZVnc3VVlYVmVxck50MkhTbEYtbFhxWUFMNFFlZGdaNlBDOUVXR2JiQnI3UlRFX3o1QVpVdDU5MGFSTjFDWHI5NXd0OVZoX2QyRlhNU2h6RjRZVTNFTEpqMjdvR2N3VWR2RE94TklYN1UzdW9ra2NHVVdCTVNzOHh1Z0VZVi15MC1KeUZSeVdmYTVJZjhZeXNLLXZINEE?oc=5",
+   "data": "2026-10-14T13:15+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 1.39,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há 1 h"
+   ]
+  },
+  {
+   "titulo": "VGHF11 tem resultado milionário e paga acima do lucro em agosto - Suno - Investimentos Inteligentes",
+   "fonte": "Suno - Investimentos Inteligentes",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE13WWN5dWNvMU5YSDZjVEVOQUxVR2E0dHMtODJqbDE3MDNKY3N0TkZheTBDcVVLekI1NGRCYi1Tb1pXSkxUaEQ2MTk1b2h4VEVJak1Nblk4cHZhbVg5Nk5sWndrUXg4NDRrOUhVbUNReXpPZ3Ywd0JaWmdyZ9IBgAFBVV95cUxOUHdON0NEVHRmelFYandIN0VpNzFvWjA0QlVEMm0zNFhUWjYxbmUwaHJmVU9ET0EyT3RMbEo3YnpSRFc0SE9hNEtqZW9jdW5jLXVSVHZOVUZidmU4ZWVXMlowQlRZTW9fX3AycGpBdTNBalBkYndkZElKMUxNRjVJRg?oc=5",
+   "data": "2026-10-14T13:15+00:00",
+   "sentimento": 1.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 6.27,
+   "cobertura": 2,
+   "motivos": [
+    "tema coberto por 2 veículos",
+    "sentimento positivo (+1.00)",
+    "publicada há 1 h"
+   ]
+  },
+  {
+   "titulo": "De pagamentos feitos por IA a títulos dos EUA: o que está mudando nas criptomoedas - Estadão",
+   "fonte": "Estadão",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNdUtoMWZWWUhvSUpzb3FGZnRTc3ZMbkhjY0VMSGJkcHY4bk5SWXQzV2swS3BnRk1JV3VDcDhMVGZyMGJ2UVhHSFBSYUpMYlZGTXgyUm9scjJzSnNRdjJRUVo3dGxYLXVQWWFHd3pmZ0s3MS03OXlMZ2lVa3RmcFNHdDlGbTBZbU0zN0lMMUlzdnI5cnFadXhnZzNSVVpwTzNnMXZTWExjOVNmcW0zWGVKR1B0Mk52NVhBMUNRNGVLdERzYUVROEthYVN0cXFTSU1VNDd6TUgxbw?oc=5",
+   "data": "2026-10-14T13:12+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "cripto"
+   ],
+   "impacto": 2.08,
+   "cobertura": 2,
+   "motivos": [
+    "tema coberto por 2 veículos",
+    "publicada há 1 h"
+   ]
+  },
+  {
+   "titulo": "Dólar abre a R$ 5,01 nesta quarta-feira em meio à cautela dos investidores - Vero Notícias",
+   "fonte": "Vero Notícias",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQd1ltb2RNYVlMMGhXZmNvNngyRkxnVXRocG9tODFMclNaZlBEWktnSWVqdm91eENIREdVTmJXQ3I2UWE0cDNwcTBmZTl5T3ZFNUFHVlFvcWswRko0d0NiU0tKMy1VT3hrOTJ4emVZYlkwRmVVWUdabE52UTZEUlFaQ19EcUZaczFPV0FFNlVnc2t6SThsLWduQnc4YUY3V1JOTDAzd0xTb0RQcTQ?oc=5",
+   "data": "2026-10-14T13:11+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 1.94,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: dólar",
+    "publicada há 2 h"
+   ]
+  },
+  {
+   "titulo": "Sete FIIs pagam dividendos nesta quarta-feira - SpaceMoney",
+   "fonte": "SpaceMoney",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdk4wbHN2LTNRM1k4QnFPSk9oeElwSlFwckNmN1Bkd2o3eElwM3dBdG5ld2FQOWtHRGFGZ2h6R0dNRXM5YjBKVm15eUFqaWViMzBVOG5BZ0h2LXpVaUUxUnNOTk1CRVA3Mk1JOUYtX1VpYk40aDh0eXFFcGJveVU4azNJVHdpY1FuNWozNVl6T0ozQ2JmU0QxRmZmUmUtNlpaRTRyVQ?oc=5",
+   "data": "2026-10-14T13:06+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "imobiliario"
    ],
    "impacto": 2.9,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
-    "palavras de alto impacto: dólar",
+    "palavras de alto impacto: dividendos",
     "publicada há 2 h"
    ]
   },
   {
-   "titulo": "A corretora de criptomoedas ligada ao Sr. Nguyen Duc Thuy aumenta seu capital para 10 trilhões de VND. - Vietnam.vn",
-   "fonte": "Vietnam.vn",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcFI4c2xUWnZ2bGpvYWVyNXpGNndKX1pTV2Q3dmQ4VDU2VXlOZTBOdVRHUHBSTEFxeE92Q1lwUFM2UVRlN1dRcFhpamtvSXpGUjVDcmlNWUl6cW1uRl9TZW41dXZwd0E0azBzZ0t5OWZCNHVDcnBsRFZaMFdiZXpRM1ZSbkJNZXRkNG5SZU1obEZpMWxGemVQWVZsMA?oc=5",
-   "data": "2026-10-14T08:46+00:00",
+   "titulo": "Oportunidade ou alerta? Cotações do algodão caem, mas mercado interno ainda supera exportação: Veja como proteger sua margem - Agronews",
+   "fonte": "Agronews",
+   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQb254M2hmV3gxbE1ENHEzMGdaUTMyTnl4NmxWMlpxUjI0TElrNUNjTVlOOEJmQzc4dFdSbEc4T1RBUzRWQTFydGF1bzNyY29HdklfbVp1TWRueVdjcDctMVBUSlp4QjJ6cHdJTlF0ZWZzeGNSQ3hFS2FVdDF6TjZLX3F0VHdyN0NsMzBaTWxSaE1oV2N5MHdwaDgwUllyVF9vR1dzdVZvUlZ0SjFLblFaZXBXZjVPVU9aSkFLYTFiU0NMWlpIcWRvSWhWTjN2VUJoRzZ6YXVCQXlFVW5CdDVaZEhn?oc=5",
+   "data": "2026-10-14T13:03+00:00",
    "sentimento": 0.0,
    "classes": [
-    "cripto"
+    "acoes"
    ],
-   "impacto": 1.35,
+   "impacto": 1.38,
    "cobertura": 1,
    "motivos": [
     "publicada há 2 h"
    ]
   },
   {
-   "titulo": "Banco Angolano de Investimentos e Carregosa alvo de buscas - Observador",
-   "fonte": "Observador",
-   "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPTDZDaVM3U0V3a3g3dmRqdHFPaXlDeU04RHpkWVB2YXNMODNQSzNCaWRHcnBTa2VYYXB5QjltZ0xRaHdHZExHYlRyUldJckVEak9nUHZxZWt2M1Z6a3pJcVIzSXNsNk1VTldZNFVGOVpBeDk4UUU0TXlodFEzODhjYnJ6bTNxZ3JBT2FpTGxUXzRfZ0REN1FWSjBITERPWlRLWTNVa1VoU3lUNHQ5SXBpR0RURnBheVAyVEUzYTJVM08zcF9rN21KUDJUcWNQSzhtWkQtQU0tdVJMeDBxeG1iNWRqN1ROMDZxX3YzQjZDbzF0QTNqa2Rzbm9ybC1fUQ?oc=5",
-   "data": "2026-10-14T08:40+00:00",
+   "titulo": "Uma em cada quatro empresas de Wall Street já leva domínio de IA em conta para bônus e promoções - Época Negócios",
+   "fonte": "Época Negócios",
+   "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQNUlHN1F6cmVRd1NGcmM4dkRLdm1Nb0RyZzZ0UTdVenFWdk10VXFkZ0tpbHpxWGpReUp2Nzh4V0FyYVo4NEZWRUhrOTRGY1lBa1dvMHhzYlFvbHBBYkd3a3daWTkxQkpwVl9YNDBFb1lDYVBRYlM3WXJrdUdRU0N4MGVsWnBpOENCcjhJby02OUg1bWE4eFdqS3c0c0kzbTROZEh6b3FMY2RobWxPdTE0RnVETG02aHpXaWFHcmxMSkZyaGNiYnZhaVlxTi11ZnNkd29hb0hkYWhIM043T1JSbVdnTXVMbzF4LTJSY3ZyTy1mdW0tTnloa3NhZF9pRzdtT1FHZdIBkwJBVV95cUxPNXZYWFZCQ21vNUdBMUJTX2gzTzFIdjBzWEJ6UnVSVWtRajZPeHplemdUSUJPRGVJRFdmN2JpVzRFQmNucnZSdkc1bllOU2NDUlpqR1kxZFlTeFdYcl9JaXhUVVVsdTFwdDFyZFdsVnFhVHNDbUk2UkFBNnBjVEJISndyR2ZpNzQ0ZnhhY0tfM2VnZVFxMTJlc09YV0c5NU5BRDJuVHFPQ0UweTFXMTAtV1lWMFVmTklkNVRmVUFuOHBvVWk2MXY1cmdtdXZDQkNweUxwWGFnWkpOVGl0Q1Bwd0hXcVdoVkdXUEFMNUd3VkNYRDJaRlhTWE5EWXR5WGZvS1ZiUV9CbGVXUFUySkFkeGJWZw?oc=5",
+   "data": "2026-10-14T13:01+00:00",
    "sentimento": 0.0,
    "classes": [
-    "acoes"
+    "exterior"
    ],
-   "impacto": 2.02,
+   "impacto": 1.38,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há 2 h"
+   ]
+  },
+  {
+   "titulo": "De pagamentos feitos por IA a títulos dos EUA: o que está mudando nas criptomoedas - Estadão",
+   "fonte": "Estadão",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPT0tyMV9pWFpHalBrWVRYUmMxZUJxOFRvY2dMNGVwck1oOUhib2lDbkwwZWJ1dURNaWZOMTMxcWVSSVFYMk1JeXB6WDJORUxYRHZjZWRUOUkzUXU1VG9KQ0dsTmdpazlKYVBaSWN3cnNwSlNwT3NWVy1CZ1VjajEzOFdMd0ZYUlV3ZnY4Q2xMN3dYNFhQR3NzdHNhWlNvaXNzQkFWQWt0anhiYlNqY2MydW9XNDI4QnJrdjFkbWFEUVZXa3FWNDFtUi13T0PSAdIBQVVfeXFMTzkyTE5UU0lmX21GbGVMNjNZLUZEYWVmLWNVM0ZGWXozNGhPVFBnbkh6RENQQnpwc3V4NVZ4aTJYUEVtVEtsU0xzVk5YalRmaUE0N3ZSZ29XdGQ0NkYzT2pqX3JGUUtsUmtaYmpraVl5SjU3bzRrUS14alU2d21mbGEzY3NJVi1HVlZCLTYyaDZvVW55V0FuSUtWMkVleEQxSzh3OTN5Y0tTMEZtcHlUUTYycHdSOHBPZkRUaHRWWlNtTlZVZDc2bkpib09HQ3lIWTBB?oc=5",
+   "data": "2026-10-14T13:00+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "cripto"
+   ],
+   "impacto": 2.06,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -403,577 +916,69 @@
    ]
   },
   {
-   "titulo": "Inflação nos EUA e balanços de Wall Street após queda do Ibovespa: o que move os mercados - Exame",
-   "fonte": "Exame",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQS2YtRk9fOFVPdmVrT1JiRmlpTmo5VHBDZFZ1V09SSXF3elRwUHZVaG1nbTZFd3BiTTZpOWVUUlYtdnVFNmJhWTlNbmx6V2FBUUNBU3k4eFlqdzNnckgta05EV3d2eXlDUWh0cG83WHhrM1h5alVfbFVNNXdXTUJIV2h6SVl4TkRjNWU0bWtHREgwVDg3d2tLbVJxZmRrMUVVcW0zZXF6TGhRV3lkMXNvcDBweWQ3UlJKTTN3TzZ2RmI?oc=5",
-   "data": "2026-10-14T08:34+00:00",
-   "sentimento": -1.0,
-   "classes": [
-    "exterior"
-   ],
-   "impacto": 5.63,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: inflação, balanço",
-    "sentimento negativo (-1.00)",
-    "publicada há 2 h"
-   ]
-  },
-  {
-   "titulo": "Dólar abaixo de R$ 5: especialistas veem oportunidade para ampliar investimentos internacionais - Estadão",
-   "fonte": "Estadão",
-   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQYkw4QUYydjBvZ24yREo2eW15Z1ZqeXpDRmxDSWFyYjI2MndGSDMzbWxLQmh6VDBWazc0Z2VxcVl6TUZpdVlJTE9BMVZveDFXUlJYclVzZHhUQjdEX3NpM2hWRzJ6emhTREt2V0p5d3JrMUZxRnpjdmtLbEtwQzlkS1dCbTYtamF5SlFIWnFZUVpjRUVyRGJhS0hhN0ZmME5NMDFTb2hrTlBQc3kwbWF4WHVvVTlVLWZIMDViZ0Fma2JUbEQ4ZWh6X2k4MzE1UFNxYVJtVFllVW1nZU5wY1RYTtIB5gFBVV95cUxPU0FjLXdudFZjSllTU1VKQ01wRzE4cHFWOUVJRUFzaUhmcE1tbHUyZVRKTE0zXzhoR2F5b1lrUHZadzNjc1Rob0JoUF9ISVNaYnVVYjJSWmxPQTBNZGljS2FzN3dubUFnX1U3X0VwX3ZDNUp5WjZLcjNaRUMwZS1SbHc0RmhNRG02d0w5cmRiNS1HSzdLVlNxTGFvcVFWZ2hoZzJlLVJZNE5XZUs2V0doS1JlZWhoTkN3c2dVQjl1NTlGeV9idkhDckNESklVM3RqZjRXUXJiZVU4dzdLQlZEOGMyaGhSZw?oc=5",
-   "data": "2026-10-14T08:30+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 1.87,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: dólar",
-    "publicada há 2 h"
-   ]
-  },
-  {
-   "titulo": "Antes do CPI de setembro dos EUA, o Bitcoin pode superar a máxima anterior de US$ 87.000? - TradingKey",
-   "fonte": "TradingKey",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRUZRN1hobS1BSlJUQ01OLUVONU9qODZzQkJTaXdPOHlhVDZhNWxUdmNPTmw3eXJuVGE4ZGI0NmdXSDkxb2wxMElITVNMMTBGem9FMm5MTlFqSUo0ZEV3UG1QcFdMR3NWNXVueDk4anNBMkY2WWpVVGNGbC1NSmYySkdoVkpING5QVXA0SDdRMkxqMUJ2eERQOVdPN0ZnbWtaUzBxRHV3SWxPdVVzZmNoR2J3?oc=5",
-   "data": "2026-10-14T08:26+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "cripto"
-   ],
-   "impacto": 1.86,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: bitcoin",
-    "publicada há 2 h"
-   ]
-  },
-  {
-   "titulo": "Dólar sobe a R$ 5,02 com cautela do mercado antes de novas pesquisas eleitorais - Bahia Na Política",
-   "fonte": "Bahia Na Política",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZ3lDcUpmLVprZEdTZWpYUjZoWTQyTGQ4Z2lRSVNSTzhISWdMMVEwREl3OUlJbk1HOFhYekszbmwtaEx2QThrR044d0N5UTVsVFVaTkxwZzlFRUZSdlppVVJNOWRTYWt3OU5GQUZWUVlmQjE4bWVueUZCRDlyWEFSNC1fb2dZcVBPYWlicG5qNXlGNTFhNnFrblJSVFlzR2JsZi1HQ29Vaks5QVdYc2c?oc=5",
-   "data": "2026-10-14T08:15+00:00",
+   "titulo": "Dólar à vista avança em linha com força global da moeda após dados mais fortes de inflação nos EUA - Valor Econômico",
+   "fonte": "Valor Econômico",
+   "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQREhCVmh2NE1fRVBydDV1STZrVDBPal9mVG1oejJuczdLbl9ieGFJcmpDb002M0lXYnZKM0VSOHVpUllGR243RXAxbkFsWHdub2VNemgtdDBURWxEeklrb1d1QnJWVVdkWjFBMXM0ZVQ5QlJHZmFnXzcyU3d3UGV1S0NQczJHZnZzS1hhczdTQUwtRGYtRTB4eU5jMFlmcTZqY0VzVXlfUUpQaThrV0ZhRE5LS2M3QTNRNmZKNFlFRVFuZ3d3dHJFOGVXVjZ3MmJ6WGpGdjZPMWttTUNaTEVoa2RWVHBocnFsd1pvTtIB-wFBVV95cUxPUjZsQXVGdjNhT1ItdS1NQ0ZhVmRPaWV3Wll5SnRmY0lORzctNkFmNlV1VllsSFNjcWJxMk5LWEswUjE3WWo1QlF4d2xVOGJKbjdGRnpiY0RSemE3eXpyV0tSZ0tRREU2NmVuQVZFSTd6VWttTUh3Y0VDTFBpNkxwUjlTYlc4OXhxQXR3TmR5aC1uUzVKS2ZBaDMySmlHN1JjMmRPSU9JeVdkalpReE5ITnc2VmJzSG9PYjZuZ0l3NFdJQ2xBRTJvcUVqaHoyRjBRTXhHbVk2V0k1RWpQNWstdVo0ejVMVW1SSkxoaGlNV2ExX2NDSUpYMkJUZw?oc=5",
+   "data": "2026-10-14T12:58+00:00",
    "sentimento": 1.0,
    "classes": [
     "moedas"
    ],
-   "impacto": 4.49,
+   "impacto": 5.77,
    "cobertura": 1,
    "motivos": [
-    "palavras de alto impacto: dólar",
+    "palavras de alto impacto: inflação, dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 3 h"
+    "publicada há 2 h"
    ]
   },
   {
-   "titulo": "PJ faz buscas às sedes do Banco Carregosa e Banco Angolano de Investimentos - CNN Portugal",
-   "fonte": "CNN Portugal",
-   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPUUdUNkVCR3RsWjVJSDd5ZWhlR2JodGFsUkU5ejZIU3h5a3FySWRxZ3FjYXFSWk5ET3RNREhCbUhFRDlfRjJfdldTU2FiYmJVSDljdjRTbUhKaXJnOF9wMTVRX1NVWE91eDdvcEthLTRNT0QyVkswWm9oV0FkQmNFcVZpcWZxV2ZjOHpBWU1ORXE0YzQ1OGd0SkZtc1NYMTFvQTJqUnVxYnMxZXZhOGl3UkJXdzBlNlUxTG1mWnJWcWdibXZ5a3Jab0ljek1RYTFtUGx6Z3JYTFlOLTZtTHlqSTFDb2pYYkVl?oc=5",
-   "data": "2026-10-14T08:15+00:00",
+   "titulo": "Inflação dos EUA chega a 3,7%, derrubando o Bitcoin e o ouro: o Fed vai aumentar os juros em outubro? - BeInCrypto",
+   "fonte": "BeInCrypto",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0ycFp0Y09LdEdjMjlFOFU0a3ZoNlFjTUh2dzJXNml6REE5WDhVZk1VYnJWN1UyNFJza01NdVNla2RiVFozQjVOcHBYSWxPN0lPXzU5UDNaYjJKbHFXOUxSMHpvX0R5WkpWR2I3NA?oc=5",
+   "data": "2026-10-14T12:56+00:00",
    "sentimento": 0.0,
    "classes": [
-    "acoes"
+    "cripto",
+    "exterior"
    ],
-   "impacto": 1.98,
-   "cobertura": 2,
-   "motivos": [
-    "tema coberto por 2 veículos",
-    "publicada há 3 h"
-   ]
-  },
-  {
-   "titulo": "Standard Chartered libera negociações diretas de bitcoin e ether para clientes abastados dos Emirados Árabes Unidos - CoinDesk",
-   "fonte": "CoinDesk",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNeGFJWl9oZzV0Yk1WUGx1VlhGbUFOUWdKd3lTT3hGSnR1cTBVT24wcHd0UGU1a2s3Q2h6UVEyVG5UTEJ2cy1Lc3VTV21RTUhaUEVuZm41MjlxRktqT244blJvTUVtMHVsWUFRcGNDbXNzaFNMYmd3TTZQWF9rOUpBSUtJS1ZPZTZ6NThXaHd5dHZZQ0NBbDZEbmlGVFhadmRDZGRuaGhrVUE4TXFiLVlxZjlIZ3BhRFlFbkRUb3ZDdVZYWWFyel9BVW1GLXZodno3?oc=5",
-   "data": "2026-10-14T08:10+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "cripto"
-   ],
-   "impacto": 1.84,
+   "impacto": 4.66,
    "cobertura": 1,
    "motivos": [
-    "palavras de alto impacto: bitcoin",
-    "publicada há 3 h"
+    "palavras de alto impacto: juros, inflação, fed",
+    "publicada há 2 h"
    ]
   },
   {
-   "titulo": "Mercado de capitais no agro: o que Flávio Bolsonaro e Lula propõem - brasilagro.com.br",
-   "fonte": "brasilagro.com.br",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMzVrbkgxT3dzMEMtdC1EUHNTM3FGcUprdExyaV9FLWxkamVjRC1zb1lQTWEtWmloUGd4elY4Z3FYMmRmWE5UNmdMUkNXZXN3Mkh3RW9jNWZkNEEzbC0wN0kya25CajJsYXdlQTdUZER4RmpDanlvSUlSSEkwM0Vab1JQR29YV08xUGk5Yl9YOUtQOEpuTXNLaDNWMzR4RlZrVWk0WjNVRUFZTWt1SUE?oc=5",
-   "data": "2026-10-14T08:09+00:00",
+   "titulo": "Dividendos pagam hoje; confira quais FIIS estão inclusos - Suno - Investimentos Inteligentes",
+   "fonte": "Suno - Investimentos Inteligentes",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5NSlpnZWNDUXR3XzVUaHJQaHJLZ1FyQXpNTlVwemQ1Y1FLQmlvRG5uRzBfVUxfeC1Ib19DWXIzQV9abE8tT1hmYjB3ekhFR2pKbjVNS3J4MGdpdk1IU1o1MGlzQVBELURtTE9EQUc1VHRON1B1VG5F0gF8QVVfeXFMT2dVekJEX2p0UWYyYVU2RHdXZHptV3pLUk55ZlpWVl9QTXpybWY4TE5BbF9MWUtKQVphMUNwaHB4MXNNc09XeU9wbnNpM3lnemg3ZThvbTZBVkdjMnd6OWZBbEF1a1pQbzJOcjY1ZU5KM2N3MkhtMERWNWFZaA?oc=5",
+   "data": "2026-10-14T12:55+00:00",
    "sentimento": 0.0,
    "classes": [
-    "acoes"
+    "imobiliario"
    ],
-   "impacto": 1.32,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 3 h"
-   ]
-  },
-  {
-   "titulo": "Carros chineses agora dominam o maior salão do automóvel da Europa. E o bloco reage - InvestNews",
-   "fonte": "InvestNews",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPM0ZFVW9iLWlKU01uTmIzeU8zRHJ6ekQ4ZUdaajZVd2pQWUJHMXVzbjRjbjhoeWxvcFdNSVZZUzc5LTU1UUNKSDVReVE0MFpBVzVSYmRaOGpoV0xQWGxwNFRZdXRVT3J0WHBQNUFnUzB2cHpsdEUzYWV4Sm5FWFQ3SmVUcUtpT0VVaTJZeDY2SWo0bzNRLXFoYlg1WmRhbHpSblVFU3N2Y1UxTGxCQ0E5X3JvcENCMzFwYjlwWmh30gG-AUFVX3lxTE8zRkVVb2ItaUpTTW5OYjN5TzNEcnp6RDhlR1pqNlV3alBZQkcxdXNuNGNuOGh5bG9wV01JVllTNzktNTVRQ0pINVF5UTQwWkFXNVJiZFo4amhXTFBYbHA0VFl1dFVPcnRYcFA1QWdTMHZwemx0RTNhZXhKbkVYVDdKZVRxS2lPRVVpMll4NjZJajRvM1EtcWhiWDVaZGFselJuVUVTc3ZjVTFMbEJDQTlfcm9wQ0IzMXBiOXBaaHc?oc=5",
-   "data": "2026-10-14T08:07+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 1.31,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 3 h"
-   ]
-  },
-  {
-   "titulo": "Bolsa de Serviços: nova infraestrutura para mercados organizados - Correio Braziliense",
-   "fonte": "Correio Braziliense",
-   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOSmNGX2RzNGplZ1huaEV0S1F4aUdDSFpDcmM5NkVVWmFzLTZMWnI0dWFuWHV1RnRlT2dvZ3lQWmU3WU1mY2YxU24xQVJnQjhWUzdHQUZJU0k0VURkTm10cUZjcmZ0VzVUS1VsSHluRktLZXc0QXNreWVobExTdWpqcDBmRkVTakl5bW1RMjBSQjBxX1VnYWozOGh0VlExZW5MUDYtcG95Q1JtQ002TFI0U1dZVVRoaTBhRWFtRHQ4YWFaWFpLY3ExOGZB0gHPAUFVX3lxTE40OVJ2WDZQTlRPZkpDVmhtSWY3dTI1cGE2TmJ6eGNhVVl0MlZfQk5KcHVITUJ0UXdBcEZqcXhrWGVvT0liV3F4UWRCTWVsOEd6dTlvSlpTbUpzRVBaTm1HRlE4VEFNYkxfR0l2X1JtMncxQXhCam5hWjFNYV9hdk5CLS1IYU9FdzI1ZlZYcE1DREtFdDhDZ2g5TU9uakRZUU4zcHJfakppUHlPMUNGSkNNNU5remplT0ZjZGhVcnlZWVk0YTRHVEh1enVrMHFqYw?oc=5",
-   "data": "2026-10-14T08:00+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.31,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 3 h"
-   ]
-  },
-  {
-   "titulo": "Descubra agora 3 ETFs que pagam dividendos mensais - Nord Investimentos",
-   "fonte": "Nord Investimentos",
-   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ZSHB2Y0xtbE4zU19qVEthb3c4ckdHTGktT1l4VnphSEN3VHBDZEgxQlRFcWI1UVlMdjVoTHhLb1ZrdmJOX3hkbU1ScVhNbkFnY2RjWXhteGt6dkwxM0FmeVNkaGdEUWRs0gFuQVVfeXFMUDJ5dEZIOE1qdWRYd1RfcGhLemk0dVM2Y25ERjZIX3RsS1d5TUpHU2hxYUdUY1dmNlRWcjVjdkNoY3Zfdy1pMS16a0JLdkNoOHZ0VmxfUFZJTUFQMGdEX3Z3ZTRLTTNRb3VHN0U5QUE?oc=5",
-   "data": "2026-10-14T08:00+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.83,
+   "impacto": 1.92,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dividendos",
-    "publicada há 3 h"
+    "publicada há 2 h"
    ]
   },
   {
-   "titulo": "Lagarde rejeita suporte ao mercado francês e yields da zona do euro se estabilizam - Investing.com Brasil - Finanças, Câmbio e Investimentos",
-   "fonte": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQcU1UekRyekQyemtwQzdKQ21vZEFjeDVIZ2N2WFlJWjZUems5R1NmRk55Q2daSEh0dk5TZ085UEdzZzZNMGYweUY4d2FkdlZPTEV6dWY5SEtXdTczVnRsUnk3UFU5U1pQZHhjSklEV1FpemNzc2lfWVEzbVhpOGlNa1RCLWgzWUo0QVYzX185dmJ4YVdrOHBFNzBfelV2Y2xDLXpaNmJvUDhzc1NNYzl4VnNCbEFOZXd0LU51ZVgza0QtNy1qbEtpeF9KRQ?oc=5",
-   "data": "2026-10-14T07:48+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 1.95,
-   "cobertura": 2,
-   "motivos": [
-    "tema coberto por 2 veículos",
-    "publicada há 3 h"
-   ]
-  },
-  {
-   "titulo": "Dólar sobe, de olho nas pesquisas eleitorais no Brasil; Ibovespa cai 1,04% - brasilagro.com.br",
-   "fonte": "brasilagro.com.br",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPLWZkUklBQUdVektzeFIxX3ZxLTRaMGRVTVpfVDN0UDM4aEJUOC00WTVzUy0zTzZFRHRWN3gtMVMzSEg2a1Z5YW9qRTdkWWdsbkFINFlkVDlacnlmajhuWHJIdHl1cGdDcmNVZWptc3cwTHJBdWM1WUxURlpfY1VONVVZOVRPSi0xMmM1clpJdnViMDhzdkJaSjBLNDJHekZlekFvZ1RWWUVYczVNV0lLVENIYVM?oc=5",
-   "data": "2026-10-14T07:34+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 1.8,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: dólar",
-    "publicada há 3 h"
-   ]
-  },
-  {
-   "titulo": "Por que o Bitcoin pode em breve cair abaixo de $80K - TradingView",
-   "fonte": "TradingView",
-   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE95ZTEwbWkxWjBVd01qUHNTZlE0aEFSSzJmSGFrQkI5RWZCSVl2Rjk5Z1hOTWY4ZjJyZ2QwR0xxaXFNQ1lwYUVGQWVhNnhDWTJEWjNsZjZtLUZTdlVxZTFmbjRyTHdCQQ?oc=5",
-   "data": "2026-10-14T06:59+00:00",
-   "sentimento": -1.0,
-   "classes": [
-    "cripto"
-   ],
-   "impacto": 4.27,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: bitcoin",
-    "sentimento negativo (-1.00)",
-    "publicada há 4 h"
-   ]
-  },
-  {
-   "titulo": "Bitcoin estável em US$ 83 mil enquanto mercados aguardam dados de inflação dos EUA - Investing.com Brasil - Finanças, Câmbio e Investimentos",
-   "fonte": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOeEhBeTBob0ZYNFplYTNvVmEzZkZtM3ZOSWx5M0gyVWt3OEd5MzRJbXpTRWRUTXBZbmk3S0o1OVpORW1iX3M0MUF0enRKYVJYTzBhd240UmJRV1dkTDE0dmsyaXY4bTlTTzhSTnN4ZlNwRGhSMUhkNHpmNXQ0dEFJeHNjZU1aTjExRGs5b0VVdlVpbmFtWlpyb3dXelhoVS1nU1RnVHEyaEVpSUstYmlJLVNRalhMdFlQbjFKd2lfMjNXZ1lXRW9abU52blRqNmZ4bndwYzRR?oc=5",
-   "data": "2026-10-14T06:57+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "cripto",
-    "moedas"
-   ],
-   "impacto": 4.14,
-   "cobertura": 2,
-   "motivos": [
-    "tema coberto por 2 veículos",
-    "palavras de alto impacto: inflação, bitcoin",
-    "publicada há 4 h"
-   ]
-  },
-  {
-   "titulo": "Ouro sustentado por queda do dólar segura US$ 4.150 no aguardo do CPI dos EUA - Mitrade",
-   "fonte": "Mitrade",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUXVBMGZKS3NmdEIyZDc5QnZHZzdpNzc1NWU0WENaQzFvQ1dtQnhRdV96MnVsOVBnSU91T3NIQkFXUzNDdjBlT2R1Q1BjMGxtcWJZcl9GMG9LcmZSMnRGMVluLUdzVFlWRS1VMmNkTUkwYjQxRk5hczBxUmRMVjMxN1VjYWc5SG4xRDBiVV9MSkdmd0FP?oc=5",
-   "data": "2026-10-14T06:54+00:00",
-   "sentimento": -1.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 4.26,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: dólar",
-    "sentimento negativo (-1.00)",
-    "publicada há 4 h"
-   ]
-  },
-  {
-   "titulo": "PVBI11: por que está caindo e se ainda vale a pena - Nord Investimentos",
-   "fonte": "Nord Investimentos",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSDkyWThITXBjLW1pT0JMWHQ4NzE0V0FJb241MXpMbGplMVJaMVlqTF9RbGxqblN2NDNSZjhEbGVyX2hqTmxiSTc2Q1gtajRuT29IU0gwLWJUNGJxVEVHM0NkTEpoNzdpRWs1WlRpNC1GQi1NdWpURVM0engyWEg4Y1hZWnZnWXpZ0gGOAUFVX3lxTE5EZDFyTWpCeTl6eGVtXzlLbkVocnNHVFZGU3VMZUppeTF2cWJnSXB0VzRqVnhrNGUxX0ZqNnZDcXFGUnYzRHZNVmQ3TzFHS1FyVFZKLU9PUzlFLUJ1c1VXUmgwaFlLUWJzTTRFUDVxb2N0d0RBZE1odG85YV9ERGU1NFpNWDJtYWJGbUxWRmc?oc=5",
-   "data": "2026-10-14T06:33+00:00",
-   "sentimento": -1.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 4.2,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: vale",
-    "sentimento negativo (-1.00)",
-    "publicada há 4 h"
-   ]
-  },
-  {
-   "titulo": "Wall Street Fecha em Queda na Estreia Dos Resultados Dos Bancos - Diario Economico",
-   "fonte": "Diario Economico",
-   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxORFBQSXJNOWFlQ21WTHNPbkJRM242V0ZIQ2JqU2NWZ3c4SkFuWmVCZ2poN2hJZzJhdkdHVlJMV2h0SGhYQXdib2V5Z0NGWnZjVi16Q1d1UmVmQjBHZkVtWnVVNlltWlNENjNsU2xfYkpuTWlfc09fUDJsM1dPbG15Yl9WR21peHlJM0NuVlk5SW4tV3lzMW82Nk1iOS1JcFNKb0puTndpQXBGLXU0TGd0RHVxS2d4SzVKSHBBLWJqRlU5bjNHNTVwLUZ5WXA3UTJRNlE?oc=5",
-   "data": "2026-10-14T06:30+00:00",
-   "sentimento": -1.0,
-   "classes": [
-    "exterior"
-   ],
-   "impacto": 3.7,
-   "cobertura": 1,
-   "motivos": [
-    "sentimento negativo (-1.00)",
-    "publicada há 4 h"
-   ]
-  },
-  {
-   "titulo": "Standard Chartered obtém licença para oferecer negociação de criptomoedas nos Emirados Árabes Unidos - Investing.com Brasil - Finanças, Câmbio e Investimentos",
-   "fonte": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-   "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNVmtJNTVXMmFfUml4MGFMRE5qVmFaZGF3ZzZYQUNnOUZoX2NjMVNvXzdSMGwtQmhlcnV3bkJBbmlYX3BvV0t3ekJGRTlObC1TVkNCTm9CdEJEazl0Zk1aUGZpRUJqWnF1R25YS2NuV0xONG1MNWUzVklhWFJScFc4V1V5eFNQVDV3QWt3R0dJbkd0aGhmS2gxQ1BIWXExdFF3WGFvcms0elFuY0t0dkpFaFVmaElXZFNhYzB5aWM2TGxVRjRZNWJWQUctTEd3Qk43QlFlOEFONWpfT0wtdUxfa1lPRWcxVkhEbE43X2M0dm9HZWs?oc=5",
-   "data": "2026-10-14T06:18+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "cripto",
-    "moedas"
-   ],
-   "impacto": 1.22,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 5 h"
-   ]
-  },
-  {
-   "titulo": "A Coinbase, que detém 5% de todo o bitcoin, deseja que a correção quântica seja iniciada agora - CoinDesk",
-   "fonte": "CoinDesk",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMnhCODBSREdmY1VZRUMwT253NzFfaGNFd3FtYjZCSV90UEhBZDFpYjVjY3AxdFNqSVNWcUc4QmhlODNTNVpVT0dKOWdoZ2NfZVdLTFB1LWhVM25GVkdxLUEzWHJVaFNoNXlHYUptajk3cl9KRFhOMFVxWm5UTG5hcUwyZWd4WXZXS3B3aXEta21RS0pqQ3J0VWdFOHNsdndERjJMQm9PNi1Qb1R4V1NTdmZtalpPM09tdlE?oc=5",
-   "data": "2026-10-14T05:44+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "cripto"
-   ],
-   "impacto": 1.68,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: bitcoin",
-    "publicada há 5 h"
-   ]
-  },
-  {
-   "titulo": "Altcoin: o que é, como funciona e quais as principais criptomoedas - Nord Investimentos",
-   "fonte": "Nord Investimentos",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOX0ZfaUhMYWhNSnlaWFFIQkdNV0hsTnJUMTV1bTQ1R2VPMExpRU96dnZOcU11MHVVQ0cwb1pUWUFEXzhiWWVHTWRoc0ExWTVZSnp5RUZxampPb3I0S1REMnJoODRyQ3F0eUc4d2xJb2pnWGFHV2RNQ09Bc3U1TC1xYlBEanh0alg0VXBYSFRBYm5WREhlOEpsWmEtM0hDWWtKTVl2NW4tQXhiRS110gGyAUFVX3lxTE5hWm1YSWVneXlteEhEcUhOck9CSW5oRmZJSTJmZ2JrWEphMWpzSVB3bmV3dFA0R0ZUTHVVODZiYnRORFBpeHVoZWRIcmpDRnpEUktlSFdnOUVzUHotczdaZm9haUVlS2VRUElwUWNSR0VHempYekNVS0JoR1VSR2RnakVxQ0lDUWlmU1diektReXRBTUVMR0pqWnlTeWNWRTdydTNhM0xkRG9hMUdGaFJRS1E?oc=5",
-   "data": "2026-10-14T05:25+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "cripto"
-   ],
-   "impacto": 1.19,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 5 h"
-   ]
-  },
-  {
-   "titulo": "Por que eleições mexem com a bolsa, o dólar e os juros? Entenda o que move o mercado - G1",
-   "fonte": "G1",
-   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPbThIRDMyV2dmMmZKbzJtVjV0Zm9lZnNpTUd3cHNFN3hTekJtQUVqX05Kai1ISHJPZG9PZmZIcEU1NEZMbDNDaUNRUEMxdDg3bS1PZXY5cWFMU0dGMmtsMkZqOWtIUVZKczczNDlwTVItX2hMVmxVY2lTaDRvdEdtY0QwVjZyZzNQY3JTbUhNUEF5clNpVWVERFpNci1oUTF2VjJKM05kSUFwOG1wODJLdVhXLXh3S1pfZXVoT2ZYQzd0dFpncDc2TUZ2UjZxUHJHaTd4STdn0gHkAUFVX3lxTE5LSGlpM3ZtNEpILWtVdDFNTUtEazQ5MkxUNHdyVFc0MWpxS21qTEQtQmRnSklQN2hDNWppMjF3dHhSS0hKQUE0WXQ5cXkzNEkxTTNVSmEwUVpPVVNtWVdaeWhsdjZPTmJibjk1eXN3d2pEUFE3bU81Z09SS3NiOTlJQVZhcXN0UHV3dXhkTUdwZE9fWEc2QzhxQ3Y0T0pscTA1a3V5M09tcG5uTERLTVh3QUNKNVBMNzhjLWpPVzlXa0RESlQteEU4WXF6TDFCQjJERUxxR0F0REtlNldNMVhtanUzTw?oc=5",
-   "data": "2026-10-14T05:00+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 2.58,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: juros, dólar",
-    "publicada há 6 h"
-   ]
-  },
-  {
-   "titulo": "Dólar recua enquanto mercado aguarda inflação; euro sobe com Lagarde - Investing.com Brasil - Finanças, Câmbio e Investimentos",
-   "fonte": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPcEpCd2hRZkFjZHBoeHBHVFB6MV9tUUZqTVFQUE9EV2FkbWtCbXE0ZzBRRmFseWNrWktDQ1Rrb2hXMGMyVVV3Y1J4dl9hSnZNaGttbXVxc1ZIQXBCZmJnWHdNR2w3TjJNR0doTG4taFhLekI5dExyZXFVeXAwV0Y5V2RPMXJMM0s2ak1PaC03OGFwS2FCS29FQWtUZUk1R0NQVnVibW5vY2stNlpsZ1NmWXpSNnU0S3otN3QwaHE4MFBBMTZ0RWpLSGRXWlNYc3d3dlRv?oc=5",
-   "data": "2026-10-14T04:10+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 3.77,
-   "cobertura": 2,
-   "motivos": [
-    "tema coberto por 2 veículos",
-    "palavras de alto impacto: inflação, dólar",
-    "publicada há 7 h"
-   ]
-  },
-  {
-   "titulo": "Ibovespa perde 1,04% após recorde e dólar volta a fechar acima de R$ 5 - Vero Notícias",
-   "fonte": "Vero Notícias",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMGFJYVpqZG50X09uZ3o0aU5KWERLXzdsMjVaNElOX0dEb1Ztb2EwUWZkRExiVmh4aVJHTTA2ZjhuTVRGbHBRUmNQQ0tiYTR0WFZ2SDBCTTRoeWJBUjliakhrTDI5UXRVcU5vSU5Fd3VyZ1lxc2xFUUlhOXVKczlNNWxlU3FIa2VkWUtXQXdwSjZqQ2JCVG95Z1Rmd0tBTlVjSlNmbA?oc=5",
-   "data": "2026-10-14T04:00+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 2.5,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: recorde, dólar",
-    "publicada há 7 h"
-   ]
-  },
-  {
-   "titulo": "Bancos de Wall Street veem \"fraquezas pontuais\" após trimestre de forte turbulência nos mercados - Jornal Económico",
-   "fonte": "Jornal Económico",
-   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNT0tJZVJpaFVYRnE1OGo0ZDMtSlpIcmdLRmktc2c5bjVldGVCX2ZycXdBREpvOUp5WXVxRjVLODkwRHVFOXJlaEFzWHFRbm5wY1gwV1FhTVFjaGdJbU1iYzdSa1RHa2dKdVU3QzZqaklmQXJHYXV5VzZxb1lSWGlsR0w2MkxrbVJabFhuc3VhQUlqVzJnLXMtU0hkYk16QXozQVU0T2hGdnNPOTNnSHNKY3NsSDZWY2cwLWx5dWFtUmsxVGNzQ2VJUlNUbTBKS3NPYVE?oc=5",
-   "data": "2026-10-14T04:00+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "exterior"
-   ],
-   "impacto": 1.14,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 7 h"
-   ]
-  },
-  {
-   "titulo": "Bitcoin sobe em direção a US$ 84.000 após Williams, do Fed, prever ausência de aumentos nas taxas em 2027 - CoinDesk",
-   "fonte": "CoinDesk",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdl9qQmxxWkhXalg3ZTlwcDJqV3MxdXRRVGtzZjRzd1N3UkxKMVpHZURPM0VadDAxVXBuUk1BMWJSNDREVk9VZkZJYVJTMDlRMDdEc2tiaE9CNFZaeFozM0hCQWg5WHRPUUR3bFFHT3hncnFpeEZLQjRseTdJcXE4SWs3YjVCOThvMWoxSzhDVjE4dHJPbWw4ai1XaV9fX2tqSFlIaGtNTjk0RVFZNDJKOVRqTzZYdmtrcWcyazdKZHc2VXplem85eg?oc=5",
-   "data": "2026-10-14T03:50+00:00",
+   "titulo": "AÇÚCAR: Preço do cristal avança pouco; câmbio limita efeito da alta externa - Agrolink",
+   "fonte": "Agrolink",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTDdTdXRFZ3pGaFpWNnViaGJwX2c3OWVHWHhiNlBXaUg5YkxsOUh2MlVZaVhUQkYxV3RPX3pWSVlNUVliclpKc3FqcjJZdkViNlFTbVlKWXJHMmw4cXQ1VVB1blBpd2VKMFVkUWRIR3MtbllpTVgtbDV0T3ZRanEtYjB0SV9zcnJGZ2puazhzRjctQXRrQWlMMkNuY0tmcW9OaWh2XzA3dTlBUkJqazBMN3ZPbmJrOGNRY3hDYU9Ccm1sUQ?oc=5",
+   "data": "2026-10-14T12:54+00:00",
    "sentimento": 1.0,
    "classes": [
-    "cripto"
-   ],
-   "impacto": 5.2,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: fed, bitcoin",
-    "sentimento positivo (+1.00)",
-    "publicada há 7 h"
-   ]
-  },
-  {
-   "titulo": "Ibovespa recua mais de 1% com acirramento da disputa eleitoral - Jornal do Comércio",
-   "fonte": "Jornal do Comércio",
-   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQXzlHU1doOW5qOS0xSTNzM3dLR2ZYMEhwVWRnZ3E4TFN6aGpyazhhVGQxck0zTFFtVWRxQVBpMXpDLVYwZkFzSnMwcm92WEg1MDU3Nm52dXdiQWpwSFhjZEd0MDNFaE50OWtkVGhEVEt5Nm0wdlV2V1BKWnJ2alVscmI5UElIdktJdGJPbnFjMXdkdE0zS0QyQjFHalZnUDEwQ0NnVkRZNzRtdVowanRoUVNOV3dWNlgzWTdUU3drVGhCUQ?oc=5",
-   "data": "2026-10-14T03:36+00:00",
-   "sentimento": -1.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 3.37,
-   "cobertura": 1,
-   "motivos": [
-    "sentimento negativo (-1.00)",
-    "publicada há 7 h"
-   ]
-  },
-  {
-   "titulo": "Por cerca de R$ 65 mil, hatch da Chevrolet tem câmbio automático e faz até 14 km/l - Diario de Pernambuco",
-   "fonte": "Diario de Pernambuco",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSWVIRlRlWXRtZk43SEY0eWNtV2h1V0hZeEQtT0VvcXlReHZFRWk2MDlxWGsydFJ5NWloNUlJZHd1UlVYN0hWNjNSU0x4LUlZdEFCWEhNdDlQOGItMkVnS0NiX1FhVlg5Smg3U1JYMGVObERnblFBYU40dmU1MXlvRWYwMXpScVBlMzZraUxVV0hkMmp6OFd2OEhDeUdQM2JEMmpkYnE3Q0EwMVo4WEhrblBRUFdmZjZ5UE9CUlRiNExpNjdJaEpN?oc=5",
-   "data": "2026-10-14T03:28+00:00",
-   "sentimento": 0.0,
-   "classes": [
     "moedas"
    ],
-   "impacto": 1.12,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 7 h"
-   ]
-  },
-  {
-   "titulo": "Bitcoin hoje: acompanhe ao vivo a cotação - GZH",
-   "fonte": "GZH",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPSjRUZlpjWkpBdmdLUjljQjdPYnlJV2hKRzZyUWdJQnN6Yl9kZWgzaU1ENmM4UmJaNkQ5cGt0SjhZTE9oOUNxYl9vaU5RRnEtSTYtblJBajJvS0Rvcng0WnpvNXRtMHRrei16X19paEdZOURsWGZkOVk0SW80SEtnemc0ZURmRGk2b2hJZ1ZobFJjNWd5S2k2S2g3a3h4RFBsOUotT0J3Uzg1SmpDcWM0WTZVSGxlcE1HQXpWcUZyUllpVkU?oc=5",
-   "data": "2026-10-14T03:01+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "cripto"
-   ],
-   "impacto": 1.55,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: bitcoin",
-    "publicada há 8 h"
-   ]
-  },
-  {
-   "titulo": "R$ 2.000 Todo Mês Com Apenas 4 Fundos Imobiliários! Curtis Jones (g0Sq35VFuy) - Unisba Media",
-   "fonte": "Unisba Media",
-   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5tdFlZaVZxNUJ4Z2ZLWXRCVmNfMXdySmZJNm5yZmJCZjUtU3RsWHUyYmJVenc4Vm5zWTM1a1dTRTlfT3cwMThTcHRnSHp2bldXSW9SaDRvQ3lGSVVHcVZNZ0t6Y1kyZw?oc=5",
-   "data": "2026-10-14T03:00+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "imobiliario"
-   ],
-   "impacto": 1.1,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 8 h"
-   ]
-  },
-  {
-   "titulo": "Justiça do Reino Unido dificulta recuperação de 61 mil bitcoins por vítimas de fraude na China - Livecoins",
-   "fonte": "Livecoins",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbnU2S0lONTVCWktDTzcyUXNrM2tRcjhLaWFaNVdjTjB5SjlxeGg2aU1pUDN1ay1LMFA0TjJiTk9zbnRta05rYVV5OUY5aVVvSXJEVDlTSWlvdXRkYnNtN3FMQ1ZwNjlXMHFaTE1NNjc2aDA5OTA2MjJQNVlaVWo2UTNoUjhlTUIyM08zWVFEQkdrQVJlQTQtRFc2Tmc0N1dxQ3VuTF9qbDBNRXdXSXRiRWhTSDdyaWQ3SWREddIBwgFBVV95cUxOdVQxdUVUWHRiZHB3VXhmSXo0SDFCc2Jfdl9uRmJlU0Rqa3pWVnJzYjBGWlVScHVrLTFFV19JbEZQT29kVEdCU1RfQlVQWlVOc0NQLUFZYll0bm1FNUFtVk9NWHJWQWxOQl9VdXczLWtOdm5uWmNDMWxuNGc2SFJ2MVVtLWN3OGszcXZmcG1rbUFZX3Uzc1Bqenl4NGZPVGgtc29RNVB2aUF4cHVETHgteEdnX2Z1M2ZMUlRmSG0tT2c3QQ?oc=5",
-   "data": "2026-10-14T02:46+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "cripto"
-   ],
-   "impacto": 1.54,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: bitcoin",
-    "publicada há 8 h"
-   ]
-  },
-  {
-   "titulo": "HGRU11 aprova 6ª emissão que pode movimentar R$ 1,87 bilhão - Nord Investimentos",
-   "fonte": "Nord Investimentos",
-   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQzB4LU1ySGdsLVhaZWN1ODVBWklsUTU0d1RBa2RaX290eVRYQTVvOG9JSkxUdU9nelVieEEzSHBIUjZtOXU4RDlETUFpVTBIaXgyZ21reTdBZDQyemwzOXF6MTBOZFk2cnkwOENkeTlIV1FGaU5oTUZnV2RMUnM3StIBhgFBVV95cUxQOTZNRExlQVk5VktubFJoT3VfaHFTeTN3cnlNaXh1cm5EUFY5dEJ0RGk1azhIdWJIc01tcnFqSnc1cFFvSFN3aG5BSUdCYVBrUGxzeXpPZXBfazVWcEIwenBtQzBJX0ZCb1BvejE4YTh4ZlFOSW4wN3VCZUFrNEJGS25yR2x5QQ?oc=5",
-   "data": "2026-10-14T02:32+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.09,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 8 h"
-   ]
-  },
-  {
-   "titulo": "SNME: FII atinge máxima histórica após otimismo dos investidores - Suno - Investimentos Inteligentes",
-   "fonte": "Suno - Investimentos Inteligentes",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYWl4cW1lQW1IeHhyaGtwVXNSMk9vSTktdUFiYzdISG1iV2xRV3NRdzgyMU1LTTB5X0FNbkg0U0VaLUdNSW1Ebl9tbEVKZzVhVUxNWlRlc3YwalItdkppTTRnejdmRklXazJuM3N0MVdnX20zRlV5OHF4RGQwMzk5QWkydmJCV0JWeUlTbF9sa1B4elhJV2Zxb1lxdWswT0k0cV9n0gGjAUFVX3lxTFBhaXhxbWVBbUh4eHJoa3BVc1IyT29JOS11QWJjN0hIbWJXbFFXc1F3ODIxTUtNMHlfQU1uSDRTRVotR01JbURuX21sRUpnNWFVTE1aVGVzdjBqUi12SmlNNGd6N2ZGSVdrMm4zc3QxV2dfbTNGVXk4cXhEZDAzOTlBaTJ2YkJXQlZ5SVNsX2xrUHh6WElXZnFvWXF1azBPSTRxX2c?oc=5",
-   "data": "2026-10-14T02:25+00:00",
-   "sentimento": 1.0,
-   "classes": [
-    "imobiliario"
-   ],
-   "impacto": 3.26,
+   "impacto": 4.11,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
-    "publicada há 8 h"
-   ]
-  },
-  {
-   "titulo": "Hougan, da Bitwise, diz que os gráficos do 3º trimestre apontam para uma “primavera cripto” - TradingView",
-   "fonte": "TradingView",
-   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1lano1Z29MOTM4OWdKa1VTVEk1STNBNWFwcWp1NW9iY0F1bjIxR1IyR2pyX0hfOXppOHNsVjV0d2UyR093NUdDRjlLSVVQNThGRjhLQ3lXT1dfZFVpSDd1S2ZEbmFDd0Zzb1pKMEhETQ?oc=5",
-   "data": "2026-10-14T02:19+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "cripto"
-   ],
-   "impacto": 1.08,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 9 h"
-   ]
-  },
-  {
-   "titulo": "ALZC11 conclui 4ª emissão e alcança 100% de alocação - SpaceMoney",
-   "fonte": "SpaceMoney",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSVJENU5POGpHYUVzRHFWaDZHQVhwVVljTWRlZ1pPZlhFVGtqdTdZUEQ4V0czWEIyMFd2WDlxQjVleDhRTi1xZWhFVExLbkhlR2pSLTlfeW1ZQ1pqNUlmTlNSNWFTa2dYZVZ6Vnc5aXFHMV9SZ3o5Z2dxUm9hMllPMC1OaHhlWWVtNGxQYlBpSGtXWHpLZ1h6UVY3Q2ZnNUIwdFY0WGN6LVpTUQ?oc=5",
-   "data": "2026-10-14T02:08+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.08,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 9 h"
-   ]
-  },
-  {
-   "titulo": "Dólar sobe e fecha acima de R$ 5, enquanto bolsa registra queda significativa - novarejo",
-   "fonte": "novarejo",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQOGpHN0w0SF9mYWkyM24yUWFFSjg4M0UwcTRYM24tSjVOUXB6a0pybF8zQXF5NnVoQmIzQ1g0YnZNMk9FQlJLN01qREJOeUhHY2RWeTc0R0RyZk1CbWFCdzRRTWpqcWx3bUlpN2JlZERzZk1pMVZFSVNjbHhIZ1dnUW1IWkpUUU9aQUdaNTlZSW9XcjlvX2VYUmtXYmFnTlptMzItdm00djIybzgwTEJaZVBhMlRtZw?oc=5",
-   "data": "2026-10-14T02:06+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 1.51,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: dólar",
-    "publicada há 9 h"
-   ]
-  },
-  {
-   "titulo": "Carvana Stock Falls Nearly 7% as Wall Street Models the Top of Its Guidance. Here’s Where the Stock Could Go - TIKR.com",
-   "fonte": "TIKR.com",
-   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOb0p1NFN0cFktM0JzU2FGVGRSaVYtZnk4MHd1aDM5OFk0QWJoM2JqQzhPWmk4MUxmUHZLUHRpVW9seUI0dUhLdlVyQ0FVRXlUSTBZamdBT2NoV0w4VTV4SGhOYzNfN1kxVy1TLUF0WUtVRU54RHdvSXpLUVpFT3ZIODJTUzBUMm1CdmkwSGtudlpvRmVlYWhiRWVLbVVqa3hkV3VZODJmaXVQSjBfc3ViUjZZbVJWYTZieGM2blh0SUY4TEt3R09NUDdGc3cwckk?oc=5",
-   "data": "2026-10-14T02:03+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "exterior"
-   ],
-   "impacto": 1.08,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 9 h"
+    "publicada há 2 h"
    ]
   }
  ]
