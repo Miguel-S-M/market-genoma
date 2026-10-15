@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-15T00:26:38+00:00",
+ "atualizado": "2026-10-15T00:34:04+00:00",
  "destaque": {
   "titulo": "Dólar fecha a R$ 5,02 e Ibovespa recua pressionado por inflação nos EUA - ICL Notícias",
   "fonte": "ICL Notícias",
@@ -9,16 +9,32 @@
   "classes": [
    "moedas"
   ],
-  "impacto": 16.07,
-  "cobertura": 5,
+  "impacto": 13.33,
+  "cobertura": 4,
   "motivos": [
-   "tema coberto por 5 veículos",
+   "tema coberto por 4 veículos",
    "palavras de alto impacto: inflação, dólar",
    "sentimento negativo (-1.00)",
-   "publicada há 3 h"
+   "publicada há 4 h"
   ]
  },
  "itens": [
+  {
+   "titulo": "Lotomania: confira o resultado do concurso 2987 sorteado nesta quarta-feira (14)",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/consumo/lotomania-confira-o-resultado-do-concurso-2987-sorteado-nesta-quarta-feira-14/",
+   "data": "2026-10-15T00:28+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 2.24,
+   "cobertura": 2,
+   "motivos": [
+    "tema coberto por 2 veículos",
+    "publicada há menos de 1 h"
+   ]
+  },
   {
    "titulo": "Lotofácil hoje, concurso 3804: confira o resultado sorteado nesta quarta-feira (14)",
    "fonte": "InfoMoney",
@@ -28,7 +44,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.22,
+   "impacto": 2.2,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -44,7 +60,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.21,
+   "impacto": 2.2,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -60,7 +76,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.21,
+   "impacto": 2.19,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -76,10 +92,10 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 9.95,
-   "cobertura": 3,
+   "impacto": 7.41,
+   "cobertura": 2,
    "motivos": [
-    "tema coberto por 3 veículos",
+    "tema coberto por 2 veículos",
     "palavras de alto impacto: dólar",
     "sentimento negativo (-1.00)",
     "publicada há menos de 1 h"
@@ -94,7 +110,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.46,
+   "impacto": 1.45,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -109,7 +125,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.44,
+   "impacto": 1.43,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -124,7 +140,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 2.98,
+   "impacto": 2.96,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -141,7 +157,7 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 2.55,
+   "impacto": 2.54,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: petróleo",
@@ -157,7 +173,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 8.85,
+   "impacto": 8.8,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -190,7 +206,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.4,
+   "impacto": 1.39,
    "cobertura": 1,
    "motivos": [
     "publicada há 1 h"
@@ -208,7 +224,7 @@
    "impacto": 1.39,
    "cobertura": 1,
    "motivos": [
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -220,29 +236,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 2.93,
+   "impacto": 2.91,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "palavras de alto impacto: dólar",
-    "publicada há 1 h"
-   ]
-  },
-  {
-   "titulo": "Dólar sobe e fecha a R$ 5,0283; Ibovespa recua a 206.506 pontos - Campo Grande News",
-   "fonte": "Campo Grande News",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSFpmZzE5VVlIY3I5bDZTYmRZR1gycGdBSVJFUnBoWTZJckd4d0tySVFlVWp4SWh6WjJ6RVJfQnZKLWxFcC1WNVdyUmFBdXV4TUNNeHBwVXRySnJ5RG1uRTFmdzZmLWpFVmpWRGNuTTRqa1J2R2laR1drU1E3NWU1M2ZpZFBnUm81dHZfUmNWNUZ1LVF5aHFOU0h1ODNUMGV1aVHSAaIBQVVfeXFMTkhaZmcxOVVZSGNyOWw2U2JkWUdYMnBnQUlSRVJwaFk2SXJHeHdLcklRZVVqeEloeloyekVSX0J2Si1sRXAtVjVXclJhQXV1eE1DTXhwcFV0ckpyeURtbkUxZnc2Zi1qRVZqVkRjbk00amtSdkdpWkdXa1NRNzVlNTNmaWRQZ1JvNXR2X1JjVjVGdS1ReWhxTlNIdTgzVDBldWlR?oc=5",
-   "data": "2026-10-14T23:00+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 3.9,
-   "cobertura": 3,
-   "motivos": [
-    "tema coberto por 3 veículos",
-    "palavras de alto impacto: dólar",
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -254,10 +253,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.39,
+   "impacto": 1.38,
    "cobertura": 1,
    "motivos": [
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -269,7 +268,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.11,
+   "impacto": 4.09,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: selic, inflação",
@@ -285,7 +284,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.11,
+   "impacto": 4.09,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -301,7 +300,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.89,
+   "impacto": 1.88,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -317,7 +316,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.34,
+   "impacto": 1.33,
    "cobertura": 1,
    "motivos": [
     "publicada há 2 h"
@@ -332,7 +331,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.01,
+   "impacto": 3.99,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -348,12 +347,12 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 3.6,
+   "impacto": 3.58,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "palavras de alto impacto: inflação",
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -368,7 +367,7 @@
    "impacto": 1.33,
    "cobertura": 1,
    "motivos": [
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -380,26 +379,11 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 4.0,
+   "impacto": 3.98,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
-    "publicada há 2 h"
-   ]
-  },
-  {
-   "titulo": "Quaest: governo Lula é desaprovado por 49% e aprovado por 45% dos eleitores",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/politica/quaest-governo-lula-aprovacao-desaprovacao/",
-   "data": "2026-10-14T22:01+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.33,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -411,7 +395,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 3.97,
+   "impacto": 3.95,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
@@ -427,7 +411,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 3.95,
+   "impacto": 3.93,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -443,7 +427,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.29,
+   "impacto": 4.26,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: recorde, dólar, vale",
@@ -460,7 +444,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 5.78,
+   "impacto": 5.75,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
@@ -477,7 +461,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 1.97,
+   "impacto": 1.96,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -493,7 +477,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.31,
+   "impacto": 1.3,
    "cobertura": 1,
    "motivos": [
     "publicada há 3 h"
@@ -508,7 +492,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.31,
+   "impacto": 1.3,
    "cobertura": 1,
    "motivos": [
     "publicada há 3 h"
@@ -523,10 +507,26 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.35,
+   "impacto": 2.34,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: eleição",
+    "publicada há 3 h"
+   ]
+  },
+  {
+   "titulo": "Fechamento do mercado financeiro - UOL Economia",
+   "fonte": "UOL Economia",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWjFpRkdhM2UwenZSdmppX04wdXNLTWNhRVJ4cmlHWVVjUHlJcWZtaXVkMFlNZlVCdVdKUk96dzJJWFdsTVBicnVPN2FVMzd1eG5vSHBrNUJ4VlpNRVpGUVQwZDh1UHlydU9QR2lxcGRyd3NFVEJweVFfdktJcGtPVEhqd2h5V3VXUF9Tb09sZHVoSGcyblZGMUtkNXQybVlKZEpV?oc=5",
+   "data": "2026-10-14T21:34+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.95,
+   "cobertura": 2,
+   "motivos": [
+    "tema coberto por 2 veículos",
     "publicada há 3 h"
    ]
   },
@@ -539,9 +539,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.31,
-   "cobertura": 1,
+   "impacto": 1.95,
+   "cobertura": 2,
    "motivos": [
+    "tema coberto por 2 veículos",
     "publicada há 3 h"
    ]
   },
@@ -585,7 +586,7 @@
     "moedas",
     "exterior"
    ],
-   "impacto": 6.64,
+   "impacto": 6.6,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -602,7 +603,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.82,
+   "impacto": 1.81,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -618,7 +619,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.33,
+   "impacto": 2.32,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: juros",
@@ -634,7 +635,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.3,
+   "impacto": 1.29,
    "cobertura": 1,
    "motivos": [
     "publicada há 3 h"
@@ -664,7 +665,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 7.07,
+   "impacto": 7.04,
    "cobertura": 4,
    "motivos": [
     "tema coberto por 4 veículos",
@@ -681,7 +682,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 2.82,
+   "impacto": 2.81,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: inflação, dólar",
@@ -697,10 +698,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.28,
+   "impacto": 1.27,
    "cobertura": 1,
    "motivos": [
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -712,12 +713,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 3.66,
+   "impacto": 3.64,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: crise",
     "sentimento negativo (-0.33)",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -729,12 +730,12 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 5.87,
+   "impacto": 5.85,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: inflação, eleição",
     "sentimento negativo (-1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -746,10 +747,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.28,
+   "impacto": 1.27,
    "cobertura": 1,
    "motivos": [
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -761,13 +762,13 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 16.07,
-   "cobertura": 5,
+   "impacto": 13.33,
+   "cobertura": 4,
    "motivos": [
-    "tema coberto por 5 veículos",
+    "tema coberto por 4 veículos",
     "palavras de alto impacto: inflação, dólar",
     "sentimento negativo (-1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -779,7 +780,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 4.84,
+   "impacto": 4.82,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: inflação",
@@ -796,7 +797,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.78,
+   "impacto": 1.77,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dividendos",
@@ -812,7 +813,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 1.27,
+   "impacto": 1.26,
    "cobertura": 1,
    "motivos": [
     "publicada há 4 h"
@@ -827,7 +828,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 10.62,
+   "impacto": 10.57,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
@@ -845,7 +846,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 5.31,
+   "impacto": 5.28,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: inflação, dólar",
@@ -862,7 +863,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 2.78,
+   "impacto": 2.77,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: inflação, dólar",
@@ -878,7 +879,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 4.29,
+   "impacto": 4.27,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: juros, inflação, petróleo",
@@ -894,7 +895,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 5.29,
+   "impacto": 5.27,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: juros, bitcoin",
@@ -911,7 +912,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 3.1,
+   "impacto": 3.08,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: juros",
@@ -928,7 +929,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.26,
+   "impacto": 1.25,
    "cobertura": 1,
    "motivos": [
     "publicada há 4 h"
@@ -943,7 +944,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 6.42,
+   "impacto": 6.39,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -960,7 +961,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 3.77,
+   "impacto": 3.75,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -976,7 +977,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 5.27,
+   "impacto": 5.25,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: inflação, bitcoin",
