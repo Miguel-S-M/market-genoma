@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-16T00:17:07+00:00",
+ "atualizado": "2026-10-16T02:15:21+00:00",
  "destaque": {
   "titulo": "Ibovespa fecha em -1,06%; dólar sobe a R$ 5,08 - Finance News",
   "fonte": "Finance News",
@@ -9,16 +9,161 @@
   "classes": [
    "moedas"
   ],
-  "impacto": 22.26,
-  "cobertura": 8,
+  "impacto": 22.53,
+  "cobertura": 9,
   "motivos": [
-   "tema coberto por 8 veículos",
+   "tema coberto por 9 veículos",
    "palavras de alto impacto: dólar",
    "sentimento positivo (+1.00)",
-   "publicada há menos de 1 h"
+   "publicada há 3 h"
   ]
  },
  "itens": [
+  {
+   "titulo": "Dólar tem forte valorização de 1,17% e fecha a R$ 5,08 em dia de cautela - O TEMPO",
+   "fonte": "O TEMPO",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORFBYN3ZmV3BGUXp3VG9sMTdPREVOdWhOUTVtRGNyVm1hWTJtcUs2Q282SERCT1pWbUtkRFcwMEFPRUtSSmdnZzdtTFJ5MlUyUlI1QzdYOXd2eml4MjQzMW1fQS1LcGoxdzlRc0d6dGtBZlZWVmk4NlhvMDduREFUZndLLThSc3FqbTQtN2pHTG5XVnZ6YWh3cnJRbTRUcGlrcVI0WG1YNVBXRDhiYXJ4S1otVFNwbG8?oc=5",
+   "data": "2026-10-16T02:01+00:00",
+   "sentimento": 1.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 12.58,
+   "cobertura": 4,
+   "motivos": [
+    "tema coberto por 4 veículos",
+    "palavras de alto impacto: dólar",
+    "sentimento positivo (+1.00)",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Dólar sobe e fecha a R$ 5,09 em dia de cautela no mercado financeiro - novarejo",
+   "fonte": "novarejo",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVUhlOE5qeURmSVdVQlRqbGNyMlJpXzItTGo2OTE2amxPcWNEQXdZQ2lVcW55VWw1cjBCTTdwNm1wUFdrUDMxRXZBVThGUUF5OWs0R3JHSV9qYUwxeV93Qk1RSGRxcnk0eVdvbU4zc0tZTkctUjBxTmw2c2k0N2ozWTZMOTJlU096V0QwRVJYWDZRODFRQ2MzNFBxNTRCYnQteVNNWEl2ejZBQQ?oc=5",
+   "data": "2026-10-16T01:13+00:00",
+   "sentimento": 1.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 16.9,
+   "cobertura": 6,
+   "motivos": [
+    "tema coberto por 6 veículos",
+    "palavras de alto impacto: dólar",
+    "sentimento positivo (+1.00)",
+    "publicada há 1 h"
+   ]
+  },
+  {
+   "titulo": "Corregedor do TSE pede mais dados em ação sobre uso de estrutura sindical por Lula",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/politica/corregedor-do-tse-pede-mais-dados-em-acao-sobre-uso-de-estrutura-sindical-por-lula/",
+   "data": "2026-10-16T00:59+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.4,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há 1 h"
+   ]
+  },
+  {
+   "titulo": "Lula diz acreditar em acordo com EUA sobre tarifas, mas não descarta reciprocidade",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/politica/lula-diz-acreditar-em-acordo-com-eua-sobre-tarifas-mas-nao-descarta-reciprocidade/",
+   "data": "2026-10-16T00:55+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 2.52,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: tarifa",
+    "publicada há 1 h"
+   ]
+  },
+  {
+   "titulo": "Flávio: Lula prometeu tudo que não vai entregar; agora, promete ônibus gratuito",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/politica/flavio-lula-prometeu-tudo-que-nao-vai-entregar-agora-promete-onibus-gratuito/",
+   "data": "2026-10-16T00:51+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.4,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há 1 h"
+   ]
+  },
+  {
+   "titulo": "Datafolha: 20% apontam violência como principal problema do País; 18% escolhem Saúde",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/politica/datafolha-20-apontam-violencia-como-principal-problema-do-pais-18-escolhem-saude/",
+   "data": "2026-10-16T00:46+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.39,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há 1 h"
+   ]
+  },
+  {
+   "titulo": "TSE proíbe Meta de limitar alcance de conteúdos políticos sobre Lula ou Flávio",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/politica/tse-proibe-meta-de-limitar-alcance-de-conteudos-politicos-sobre-lula-ou-flavio/",
+   "data": "2026-10-16T00:42+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.39,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há 2 h"
+   ]
+  },
+  {
+   "titulo": "Lula (PT) é entrevistado na Globo; veja íntegra - G1",
+   "fonte": "G1",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcGVjMG94SzA5eGVmeTI1Y3NQc2tob1JoZXdvX2w0eDI4Q2pWSy1EdER0V21jWDhoZXRZa0w3SkVYNVB2SmlnZGJfdVg4QkIzeW4ybW9jSHpKY1JKZTloN1M1cGMxcUJNd2tGbk9KY1JPVWtMakRQa3JUaFE0VTA1bENDcmtkTGtjMDlqdEpxMlBtZkxSNmc1NmVEZlkzQ3QzeTJGSnV6QnhjQdIBuAFBVV95cUxQeVdjZEFMRUFqRjJxalBudHhHNUNNX3BuamZLMjhJRDYwbFduNjJ3aXNuUV9DdHFfWk51azBzXzJBSzRrcVdSVDc3NnY4bTRhNm1PQnBYTjRkcVFCMVZaLUpsZzlYeXpJN1BjdVk5MFVZWkpEQ1hxVDBxTHJFeU56U3Z3TmpYNk9Za3owWElXUXhTMTN1VTRzU0hoRmt2ZFNfUzN4QzhXWXpXS3dsVTlnV1hCOUpkWFVi?oc=5",
+   "data": "2026-10-16T00:25+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.37,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há 2 h"
+   ]
+  },
+  {
+   "titulo": "Dólar fecha a R$ 5,087 e Ibovespa cai 1,06% nesta quinta - O Fluminense",
+   "fonte": "O Fluminense",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5rOElQTDhGSnNxM2ZHNi1nU2EycVR6b0tzclUxZE1ycEFDTGFUVWFSTTdDQ1k1bk9RT1FfZ01BV1V1dm1wMzUzeUhBWFI4OTUtZ2FyN1IyaFAzb0J4aVZNclUweTVXaV9WRUJvcHRHSzVBRmVCX3M2ZEJZakc?oc=5",
+   "data": "2026-10-16T00:16+00:00",
+   "sentimento": -1.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 11.54,
+   "cobertura": 4,
+   "motivos": [
+    "tema coberto por 4 veículos",
+    "palavras de alto impacto: dólar",
+    "sentimento negativo (-1.00)",
+    "publicada há 2 h"
+   ]
+  },
   {
    "titulo": "Dia de Sorte: confira o resultado do concurso 1323 sorteado nesta quinta-feira (15)",
    "fonte": "InfoMoney",
@@ -28,11 +173,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.25,
+   "impacto": 2.04,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
-    "publicada há menos de 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -44,11 +189,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.23,
+   "impacto": 2.02,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
-    "publicada há menos de 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -60,11 +205,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.22,
+   "impacto": 2.02,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
-    "publicada há menos de 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -76,11 +221,29 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 3.25,
+   "impacto": 5.91,
+   "cobertura": 3,
+   "motivos": [
+    "tema coberto por 3 veículos",
+    "palavras de alto impacto: eleição, dólar",
+    "publicada há 2 h"
+   ]
+  },
+  {
+   "titulo": "Clima de cautela faz dólar saltar 1,15% e encerrar o dia cotado a R$ 5,09 - Guarulhos Online",
+   "fonte": "Guarulhos Online",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMkRjSGhtS1RrTDFHU1ZOeVZPMVVaWUJRSDFWeXZoc1JsNHVGUmdnVTdMU3BQX0VSLUg2V0FnemJpWDloZVp4dE9yR2Y3ZVZfSXg2T1J3OG9JRGVpMnNfS00yUDBaMF81ejdoQy1nYXZkT0swRTd4WjFvMWd5SXpqOVBoMNIBgwFBVV95cUxNMkRjSGhtS1RrTDFHU1ZOeVZPMVVaWUJRSDFWeXZoc1JsNHVGUmdnVTdMU3BQX0VSLUg2V0FnemJpWDloZVp4dE9yR2Y3ZVZfSXg2T1J3OG9JRGVpMnNfS00yUDBaMF81ejdoQy1nYXZkT0swRTd4WjFvMWd5SXpqOVBoMA?oc=5",
+   "data": "2026-10-16T00:01+00:00",
+   "sentimento": 1.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 4.57,
    "cobertura": 1,
    "motivos": [
-    "palavras de alto impacto: eleição, dólar",
-    "publicada há menos de 1 h"
+    "palavras de alto impacto: dólar",
+    "sentimento positivo (+1.00)",
+    "publicada há 2 h"
    ]
   },
   {
@@ -92,10 +255,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.47,
+   "impacto": 1.33,
    "cobertura": 1,
    "motivos": [
-    "publicada há menos de 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -107,12 +270,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 6.15,
+   "impacto": 5.59,
    "cobertura": 5,
    "motivos": [
     "tema coberto por 5 veículos",
     "palavras de alto impacto: dólar",
-    "publicada há menos de 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -124,13 +287,31 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 14.92,
-   "cobertura": 5,
+   "impacto": 18.1,
+   "cobertura": 7,
    "motivos": [
-    "tema coberto por 5 veículos",
+    "tema coberto por 7 veículos",
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há menos de 1 h"
+    "publicada há 2 h"
+   ]
+  },
+  {
+   "titulo": "Dólar fecha em R$ 5,09 com alta de 1,15% - Tribuna do Agreste",
+   "fonte": "Tribuna do Agreste",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR0JLUmJRT2VLVVFIVmlvcFJyVXRxel8zMHlDYUhXZUEzU09penk2RG01MmNTdFl6ZHl6THNoVGljZ1BPT09DM3lOdWlMcGNOZVpWSHFUOHR6V3lCcVJaOWwxa2hhNlpOSDVza2VaYVMyeG83NDl4dGh2VHhRYzlSTDVuWmpGUHFFeGtrb3pCRFU2YlN3MlFsZ2x4eTk?oc=5",
+   "data": "2026-10-15T23:49+00:00",
+   "sentimento": 1.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 9.05,
+   "cobertura": 3,
+   "motivos": [
+    "tema coberto por 3 veículos",
+    "palavras de alto impacto: dólar",
+    "sentimento positivo (+1.00)",
+    "publicada há 2 h"
    ]
   },
   {
@@ -142,11 +323,11 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 4.37,
+   "impacto": 3.98,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
-    "publicada há menos de 1 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -158,12 +339,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 10.19,
-   "cobertura": 9,
+   "impacto": 10.21,
+   "cobertura": 10,
    "motivos": [
-    "tema coberto por 9 veículos",
+    "tema coberto por 10 veículos",
     "palavras de alto impacto: dólar",
-    "publicada há menos de 1 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -175,13 +356,13 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 22.26,
-   "cobertura": 8,
+   "impacto": 22.53,
+   "cobertura": 9,
    "motivos": [
-    "tema coberto por 8 veículos",
+    "tema coberto por 9 veículos",
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há menos de 1 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -193,10 +374,43 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.45,
+   "impacto": 1.32,
    "cobertura": 1,
    "motivos": [
-    "publicada há menos de 1 h"
+    "publicada há 3 h"
+   ]
+  },
+  {
+   "titulo": "Dólar comercial fecha em alta de 1,15%, cotado a R$ 5,08 - Brasil 61",
+   "fonte": "Brasil 61",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdllPbHNha2dKTHhTVlBTQTlqNWY0bTBFYnRNaDVxa0JCQ0xZQV9YN2doUS1yRFRTWXpBaVJsREtsY2F3U1k1d213YTg0YXk5NlJxT1ZBZWM5N1NqRmFrbmsxZ0kzQkVrR1FyLVFlLWtlQWtCNi1QYTVjZ0JndWVjSURwYnVlWEtMazZVaVRvZFNkQdIBlwFBVV95cUxOTHhOYnFWQnJMTEl4OTB1eEVRRlFjUHc5Y0JhYWxpQnFNOE0zdm55ZXZDYlVaVUZnb1QyZ04tU0gzUFZzUU5tRkdHcmZRY29kcUlvb1ZJQW00MkZwb1FJTjlSRFZBYzNCSnF1cnREX3ZFTDM2YVQ1S3NNb3BSOHE3SlFmSFZ4U2lhMmljTGVrWnZUc2N4VGVv?oc=5",
+   "data": "2026-10-15T23:30+00:00",
+   "sentimento": 1.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 11.16,
+   "cobertura": 4,
+   "motivos": [
+    "tema coberto por 4 veículos",
+    "palavras de alto impacto: dólar",
+    "sentimento positivo (+1.00)",
+    "publicada há 3 h"
+   ]
+  },
+  {
+   "titulo": "Fim das 'bets' no Brasil acende alerta na segurança pública após perda de quase R$ 1 bilhão em repasses - tmc.com.br",
+   "fonte": "tmc.com.br",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbmhGaTJyYkJzQ1Ixby00VjRjdDd5MWxsTUZfVlU2MXNuYWRsZS1DMzE3NlJNaDFPRHRKcXJjTWprdlVPbzdacFpzZGFwR1BfVXpmbkx1STZ2MU5BOHk3UUxMX0NPbUIxejFyMVBNdzNDOHJkc2dDaEpsdjk0czFnVTRhRXNTY2w3V3J5SWs2VnJBNW1MNVdnd19tOEVGVzhlS2JVU1JHUDF1cnZHbXdaUjM4a194R1VqclpDRlRPZ0g4bnNQc2lqRw?oc=5",
+   "data": "2026-10-15T23:29+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.31,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há 3 h"
    ]
   },
   {
@@ -208,10 +422,10 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.4,
+   "impacto": 1.29,
    "cobertura": 1,
    "motivos": [
-    "publicada há 1 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -223,11 +437,11 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 1.95,
+   "impacto": 1.79,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dividendos",
-    "publicada há 1 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -239,11 +453,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.15,
+   "impacto": 3.81,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
-    "publicada há 2 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -255,25 +469,59 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.36,
+   "impacto": 1.26,
    "cobertura": 1,
    "motivos": [
-    "publicada há 2 h"
+    "publicada há 4 h"
    ]
   },
   {
-   "titulo": "MSCI congela mudanças em índices de ações da Turquia",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/mercados/msci-congela-mudancas-em-indices-de-acoes-da-turquia/",
-   "data": "2026-10-15T22:18+00:00",
+   "titulo": "Petrobras alcança R$ 800 bilhões em valor de mercado e renova máxima histórica na B3 - Agência Petrobras de Notícias",
+   "fonte": "Agência Petrobras de Notícias",
+   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOREdFeUZReWF4cVM4aklnSGtuU3RqajB2SVNITGFTNWRGOUJha0tPNTBOYllGUDh0UU5TZEczYmRFUlRzUG1rRmZ3ODJVUFBITEZ0NWNCanFqaGk5MGlYM1hCRVFvSFZsaDRseXpZb29DLWowNHktSVBYZXlTTzFWSy1sQWNVbDNjQ1o4MTNGUGhvZEtkWDVYbEtjNG1aamNtUjZLb3ZZNDZHclR5MGNlWlFsYzFOQ0U2VmRINjJld3FzeWpQMDdNak5EU2U4T0I3WHJEQndBVWlCWUptaTZReFhDbE8yMEU?oc=5",
+   "data": "2026-10-15T22:17+00:00",
    "sentimento": 0.0,
    "classes": [
     "acoes"
    ],
-   "impacto": 1.36,
+   "impacto": 1.75,
    "cobertura": 1,
    "motivos": [
-    "publicada há 2 h"
+    "palavras de alto impacto: petrobras",
+    "publicada há 4 h"
+   ]
+  },
+  {
+   "titulo": "Ibovespa cai 1,05% e dólar fecha acima de R$ 5,08 - Cruzeiro FM",
+   "fonte": "Cruzeiro FM",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUTZsbU02UlZjak4wR29aOFhUUU11ZmtRZXY2NVVZVlY5TkJtc1dGZVlZVFo5SWpjcFNfYXExdDdLTXc5QjgtblhiNl9OM01zZHBNWERmdldWX29xcmE3NVpEX0RrUVJ5S0ZqQkJUTjA0blh5SEltc3p3RmNwUExfQk4zQVI1RHRnN3lFLW9qMjAyeEl4d0VkSkJ4OXk?oc=5",
+   "data": "2026-10-15T22:11+00:00",
+   "sentimento": -1.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 12.71,
+   "cobertura": 5,
+   "motivos": [
+    "tema coberto por 5 veículos",
+    "palavras de alto impacto: dólar",
+    "sentimento negativo (-1.00)",
+    "publicada há 4 h"
+   ]
+  },
+  {
+   "titulo": "Casas Bahia paga R$ 2,9 mi, mas FII mantém ação de despejo - Fiis",
+   "fonte": "Fiis",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbzJOSjVFS2dGUDdzc3oxUVpJN2VmTXlIeS1ubklyR3pIMXVMUnRhdmYzUklaUVptREtUUVhzaUZrZkdCOGd0dUp5MTB6THpiUERHdTYxaVdqdXppcGlyV0xITXh5alozWjJJQU9DSTN3WGhnYVZWWHpCbFN4TEs0OHM0VFo2aTQ2dktKZ1pJY1d6SG1JT3c?oc=5",
+   "data": "2026-10-15T22:10+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "imobiliario"
+   ],
+   "impacto": 1.25,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há 4 h"
    ]
   },
   {
@@ -285,27 +533,12 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 10.12,
+   "impacto": 9.34,
    "cobertura": 4,
    "motivos": [
     "tema coberto por 4 veículos",
     "sentimento positivo (+1.00)",
-    "publicada há 2 h"
-   ]
-  },
-  {
-   "titulo": "Datafolha: Desaprovação de Lula chega a 50%; aprovação é de 48%",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/politica/datafolha-50-desaprovam-lula-enquanto-48-aprovam/",
-   "data": "2026-10-15T22:08+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.35,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 2 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -317,12 +550,12 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 5.66,
+   "impacto": 5.22,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: recorde, petrobras",
     "sentimento positivo (+1.00)",
-    "publicada há 2 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -334,28 +567,12 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 6.06,
+   "impacto": 5.6,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "sentimento positivo (+1.00)",
-    "publicada há 2 h"
-   ]
-  },
-  {
-   "titulo": "Lula diz que vai mandar PEC de tarifa zero aos fins de semana, custeado por emendas",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/politica/lula-diz-que-vai-mandar-pec-de-tarifa-zero-aos-fins-de-semana-custeado-por-emendas/",
-   "data": "2026-10-15T22:01+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 2.41,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: tarifa",
-    "publicada há 2 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -367,27 +584,12 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 10.06,
+   "impacto": 9.29,
    "cobertura": 4,
    "motivos": [
     "tema coberto por 4 veículos",
     "sentimento positivo (+1.00)",
-    "publicada há 2 h"
-   ]
-  },
-  {
-   "titulo": "Libertadores: Onde assistir a Estudiantes x Flamengo?",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/esportes/estudiantes-flamengo-libertadores-onde-assistir/",
-   "data": "2026-10-15T22:00+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.34,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 2 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -399,12 +601,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.42,
+   "impacto": 4.09,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "palavras de alto impacto: pib, dólar",
-    "publicada há 2 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -416,12 +618,12 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 10.0,
+   "impacto": 9.25,
    "cobertura": 4,
    "motivos": [
     "tema coberto por 4 veículos",
     "sentimento positivo (+1.00)",
-    "publicada há 2 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -433,40 +635,10 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.33,
+   "impacto": 1.23,
    "cobertura": 1,
    "motivos": [
-    "publicada há 3 h"
-   ]
-  },
-  {
-   "titulo": "Cidade medieval a 30 minutos do mar coloca casas à venda por cerca de R$ 6, mas comprador precisa cumprir regras de reforma - Midiamax",
-   "fonte": "Midiamax",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNlFVY2Q4N3pLNlRvdFRpcWhieXpyVWtVT3J2aXR2Z0NqQk1hSVVJS3pDMUNJSmY4VDJlMHZTay1aXzV3bGVDN0o0eEJFMTYwTmYwdWpYUU9ja1JpOXlIaVE1Z2JnN19QcjBXZTVtX2JlT3FXejZpU0RicEJlTjgyMnVkQQ?oc=5",
-   "data": "2026-10-15T21:45+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.33,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 3 h"
-   ]
-  },
-  {
-   "titulo": "Datafolha: Flávio Bolsonaro tem 47% e Lula, 45%, no 2º turno",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/politica/datafolha-flavio-bolsonaro-tem-47-e-lula-45-no-2o-turno/",
-   "data": "2026-10-15T21:44+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.32,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 3 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -478,11 +650,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.37,
+   "impacto": 2.2,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: tarifa",
-    "publicada há 3 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -494,12 +666,12 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 5.92,
+   "impacto": 5.49,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "sentimento positivo (+1.00)",
-    "publicada há 3 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -511,11 +683,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.97,
+   "impacto": 1.83,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
-    "publicada há 3 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -527,11 +699,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.97,
+   "impacto": 1.83,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
-    "publicada há 3 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -543,11 +715,11 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 3.94,
+   "impacto": 3.65,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
-    "publicada há 3 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -559,12 +731,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 6.03,
+   "impacto": 5.59,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: inflação, dólar, petrobras",
     "sentimento negativo (-1.00)",
-    "publicada há 3 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -576,12 +748,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.44,
+   "impacto": 4.12,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 3 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -593,13 +765,29 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 12.4,
+   "impacto": 11.51,
    "cobertura": 4,
    "motivos": [
     "tema coberto por 4 veículos",
     "palavras de alto impacto: inflação",
     "sentimento positivo (+1.00)",
-    "publicada há 3 h"
+    "publicada há 5 h"
+   ]
+  },
+  {
+   "titulo": "Rotação para saúde sustenta alta do S&P 500 - SpaceMoney",
+   "fonte": "SpaceMoney",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcWY2ZWd4djdYelNRdmxRUHFTRV9fR2N3YTRfSFJoeUVSZ1hVU2xWQjFDR1RnRFRScXFuTEh1OXVDM0dzZ2Fva0RQZ0JNZGVSNEsyVUtRTmhSRlBESWtwcGN3U2R6emxvOUd6dXJQR0RfNGtWZjlRTGVyeGNsY0RDdHlaNnFOZw?oc=5",
+   "data": "2026-10-15T21:19+00:00",
+   "sentimento": 1.0,
+   "classes": [
+    "exterior"
+   ],
+   "impacto": 3.63,
+   "cobertura": 1,
+   "motivos": [
+    "sentimento positivo (+1.00)",
+    "publicada há 5 h"
    ]
   },
   {
@@ -612,12 +800,27 @@
     "cripto",
     "exterior"
    ],
-   "impacto": 5.96,
+   "impacto": 5.54,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: fed, bitcoin",
     "sentimento positivo (+1.00)",
-    "publicada há 3 h"
+    "publicada há 5 h"
+   ]
+  },
+  {
+   "titulo": "Encontro debate Odontologia do Esporte em SP - www.broadcast.com.br",
+   "fonte": "www.broadcast.com.br",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQclcwem9vclNNUldzaHFIYnJYTnZCNlJBam82YzJoLUZ4eV9pUkVOeGNaSkxFb05JQkJmaDhPY2l5azlBYnUxSTVVV3JGVlBTYU1mTlpMaDY5eDBXdDJXRWw2OVBOWHU4S05KTXhiTlNNMmdTMFh6d3pzaUI1b0pWV0xLVkdsNFZrcVdrdmNJbw?oc=5",
+   "data": "2026-10-15T21:12+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.2,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há 5 h"
    ]
   },
   {
@@ -629,12 +832,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 9.06,
-   "cobertura": 9,
+   "impacto": 6.74,
+   "cobertura": 7,
    "motivos": [
-    "tema coberto por 9 veículos",
+    "tema coberto por 7 veículos",
     "palavras de alto impacto: dólar",
-    "publicada há 3 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -646,12 +849,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 9.06,
-   "cobertura": 9,
+   "impacto": 6.74,
+   "cobertura": 7,
    "motivos": [
-    "tema coberto por 9 veículos",
+    "tema coberto por 7 veículos",
     "palavras de alto impacto: dólar",
-    "publicada há 3 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -663,12 +866,12 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.91,
+   "impacto": 4.56,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: rebaixa",
     "sentimento positivo (+1.00)",
-    "publicada há 3 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -680,12 +883,28 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 8.12,
+   "impacto": 7.55,
    "cobertura": 8,
    "motivos": [
     "tema coberto por 8 veículos",
     "palavras de alto impacto: dólar",
-    "publicada há 3 h"
+    "publicada há 5 h"
+   ]
+  },
+  {
+   "titulo": "Das pesquisas eleitorais à tarifa zero: a tríade que atropelou o Ibovespa e disparou o dólar - Valor Investe",
+   "fonte": "Valor Investe",
+   "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQUmtNVzF5RFgtb09TMXVsb1N1dFQzSmZHbDBIdG9iR0N1Zlo1M2NlVDcxeU95aFVJZWx1VGhhSHNtT0RfdmdZUE9DN1BTRGVRRGhqR0QxOVNRYlE5LTVSZFFOVXBQMFIzSmlHT2xZdE1fQVJOcUNQVzh1WDVaU05ZQzFuM09oLUIwQzRnRHdkdEVxLTJBZGFWUW5peVFiLXc0a2kzR09FMGZYbVRNckI3bDRLaTl2aXBiYnJkajRMQkNPQ0tfSVQ2Z1NoZzYxRTQ0WjlsY2YxeHk0QzFMenVQMGpNbE9Ya2ZRMU9jc3BFSk1RMk5tRUp0MVlMZmhHZ9IBjAJBVV95cUxOdnc4b0FiT1hPMTJCU04zY2FFWHJQREhSeTZCMUI2LVhLYnNfUWs0S1lqejVObVM2RmhxV1ZMZ0pLbERfTmFwQmE4VUdUSUpxTHgyWHZVc2pWbWEwS2MzNjlmMEpzNGYtS0JiVkR1Nm9QTUk1V2QzZVhMSDhuaHpZRmRWaVhmMnA0Tlo4YkQyRFp5cGg2YnhlSzMzZXlqWTFFdDYyVGRmWldqTXhTVEVFaUxoc2ZyUjNlcHh6ZFhGN2RKZllvUTlHeGY2Vk85eTZxNXA4SDJqaDdpLUk4ZF9BYmRYRmtHTWtGYlNNTUdWRWdsY3MwMEgwdjQ0OFdaTlFvbXlsNjk0X284R25H?oc=5",
+   "data": "2026-10-15T20:55+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 2.62,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: tarifa, dólar",
+    "publicada há 5 h"
    ]
   },
   {
@@ -697,30 +916,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 5.38,
+   "impacto": 5.0,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: tarifa, dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 3 h"
-   ]
-  },
-  {
-   "titulo": "Dólar sobe 1,15% e fecha a R$ 5,09 em dia de cautela - Portal News",
-   "fonte": "Portal News",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRmp6QUNWclkyLTF0a25FWnhNT0pvVDk5X1AyRXZvZDJqUHhpUFpPZjgzRTZiSnVJdVFyY3ViX180THo0RUM0Rzl5V3cwcXhHemtubUNJLUZ6Mm9DLXlGb08yeEpfZUoxeWFVRGtjOUVZY2otZlZjaTFTZjZTZ0REOHhRWnJwU1NiR2h4ZW02U0RVOERUV0dxNGx3aDBOdno3?oc=5",
-   "data": "2026-10-15T20:49+00:00",
-   "sentimento": 1.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 17.35,
-   "cobertura": 7,
-   "motivos": [
-    "tema coberto por 7 veículos",
-    "palavras de alto impacto: dólar",
-    "sentimento positivo (+1.00)",
-    "publicada há 3 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -732,12 +933,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 3.56,
+   "impacto": 3.32,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
     "palavras de alto impacto: dólar",
-    "publicada há 4 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -749,13 +950,13 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 10.82,
-   "cobertura": 4,
+   "impacto": 6.05,
+   "cobertura": 2,
    "motivos": [
-    "tema coberto por 4 veículos",
+    "tema coberto por 2 veículos",
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 4 h"
+    "publicada há 6 h"
    ]
   },
   {
@@ -767,12 +968,29 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 5.73,
+   "impacto": 3.56,
+   "cobertura": 1,
+   "motivos": [
+    "sentimento negativo (-1.00)",
+    "publicada há 6 h"
+   ]
+  },
+  {
+   "titulo": "Fechamento (15/10) | Terceira queda seguida: Ibovespa recua 1,06%; dólar sobe a R$ 5,0868 - InvesTalk",
+   "fonte": "InvesTalk",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5IOG1uYTl4elJSTUNXWHpLS3BCOHMwVXo3eGltZnFtbDRUQ093YWVoUUlXY296QzZFY2s1T3JOa2dCMFpNaEppRmlxZlNOblNERFUtZi1GZTd2MWdrMEIyRzd1aklPVENjR3hmT21oQkhJNHN3emc?oc=5",
+   "data": "2026-10-15T20:44+00:00",
+   "sentimento": -0.33,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 3.66,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
-    "sentimento negativo (-1.00)",
-    "publicada há 4 h"
+    "palavras de alto impacto: dólar",
+    "sentimento negativo (-0.33)",
+    "publicada há 6 h"
    ]
   },
   {
@@ -784,224 +1002,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 3.56,
+   "impacto": 3.32,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
     "palavras de alto impacto: dólar",
-    "publicada há 4 h"
-   ]
-  },
-  {
-   "titulo": "UBS BB eleva preço-alvo da B3 para R$ 26,50 e mantém recomendação de compra - BPMoney",
-   "fonte": "BPMoney",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZ2VrM3B1QUU1VFB4STZPb1VxbTdWYU11bkVuTUNyc2xjbU5xLUNMdkM4SThVYUVfS0EyNjFDR0RyMHN1dHRqdm9HTWZxdnR6WlRxUzZtVkIxT2Q2Q1c3S2IyZ2I5cGxwUjVUSThvdjNvUVZCVXM3YU9oeVJBekdGNC1qd25Tbi05YW1YWkJxOXh3bG5Q?oc=5",
-   "data": "2026-10-15T20:42+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.27,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 4 h"
-   ]
-  },
-  {
-   "titulo": "Bolsa cai 1% e dólar sobe para R$ 5,087 com pesquisas do 2º turno - Poder360",
-   "fonte": "Poder360",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcC1iNXlzb0VaMnlTTXhlWjc2c1I3MDVSaUdNTFhiNTdWQmtaUGtLTVQ5MXI0MTNFZWhWdnpUMWNITXgyMm5UMkYxN2Z1WnlXa2xLNWFvVnl5N0RKNFlRQ2pWV3RJS2dMVGVrOEJPU0pyUUd1M3dYd3ExYXQzUTFZZDdXYW5iZXR1LWM5ZEVXcHg3ZFdfWUZrQk12TmtLbE1YTGlTcjdkb0FQZw?oc=5",
-   "data": "2026-10-15T20:40+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 2.66,
-   "cobertura": 2,
-   "motivos": [
-    "tema coberto por 2 veículos",
-    "palavras de alto impacto: dólar",
-    "publicada há 4 h"
-   ]
-  },
-  {
-   "titulo": "Euro hoje: siga ao vivo o valor da cotação - GZH",
-   "fonte": "GZH",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQnplLW9iTWhBb0NoRjlQSmZEMGpzd2RXVmdxVTk5RjVNQzhqQXVLUkpVS3dKSWpsbUF3a1ZyRjkwMGVlRWxqaFdia3dqNVN2T1RvSWFUcFJVRmllZWR6Ulc5bnJNR0JiQTdSTktHNUdFWVpfRmpBNzhOR2pfczdBR2dLWkwxYnBWeVM3SG1WbVpONVNOeDREYVZqSnBlVk1wc0VkS0xhWjlyRjlvb3R3VnlnSlBRZjVnLWhRWU9zbTJlclBy?oc=5",
-   "data": "2026-10-15T20:39+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 1.27,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 4 h"
-   ]
-  },
-  {
-   "titulo": "Ibovespa cai 1,06% com cautela fiscal no 2º turno; dólar dispara a R$ 5,09 na contramão do exterior - Times Brasil | CNBC",
-   "fonte": "Times Brasil | CNBC",
-   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbkxab2Q3d2RjS3FLRHpOeHNoVjQyMTBJZTJyWUp0MUdLR1JEb215Nm13TXI0dXJISGdXRlk1M0lkX3NLOWtRUU9kZUhtaFFZdzVyc2JVMktrLU85TUdPTno2N2o1dEFLZDU1b0dVQTJETTdZZ0EtTVBvdktCaTBwLVlNVndmVG0zamFxaTBGN3MzTWxpS3ItWEx5TU03clFYT1o4eU5mWWxiejRxZXRZcUdxTHZDZmp6LVhtWjIzQzZqRFBnT3NMMGxpZ21NWEc0cTFhSU9FaUNVUQ?oc=5",
-   "data": "2026-10-15T20:38+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 1.77,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: dólar",
-    "publicada há 4 h"
-   ]
-  },
-  {
-   "titulo": "O risco escondido na economia dos EUA que começa a preocupar Wall Street - Estadão",
-   "fonte": "Estadão",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNDgxelY3RTZkTnJ2dWVrYjhzZFJOWm5Uc2hwYjFKYl9PUllZLWpmZ01UeXRfMVBYd3F5NlZMNmN2OTc3Z0hlaHhWakpHbFNOZ0FEQ0dEc0VURXlaQXRkUkVhNU56NTU4RkVDRVhHelRNZXZqTEM0MGhJa0ZjWTR4bzdsbVQ5d2dUU2M4elZ3MkNrTDRwZXRacF93VGxnN2NBa2FXeDdaMGNzaUpUcjZHRmswSUs1S01VWUdTMWd5ekJvTHpuRFdRYWlvWdIB0AFBVV95cUxNLXQ1QjF5TUpES0V5NldldG5UblNiUDdrelRtM1d0U2g0R2dSUFQxUW1FQW5ILWlqeTRsREF0WGdQNHY4d2RDR0U3WUVkcHFBa1ZFMjd2TUJWdUJhV0UwbUkwUFZkdmJQYWR3MFMxT0x1aTBCRThydmx6dXlhYmZRNU93ZFRvN3JmcllkUWV4TzNEYW10VG9hV0hEbWhyd1gtTElpWFZKd1ptUGtNWjZwZ1hDTjBQaS1NOGJVVks1VXZxQ3pKamJqcDVQUEJJeXJ6?oc=5",
-   "data": "2026-10-15T20:38+00:00",
-   "sentimento": -1.0,
-   "classes": [
-    "exterior"
-   ],
-   "impacto": 5.7,
-   "cobertura": 2,
-   "motivos": [
-    "tema coberto por 2 veículos",
-    "sentimento negativo (-1.00)",
-    "publicada há 4 h"
-   ]
-  },
-  {
-   "titulo": "Ibovespa tem terceira queda seguida, após 6×1 e pesquisa; dólar sobe e vai a R$ 5,08 - InfoMoney",
-   "fonte": "InfoMoney",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNeHY0RndWel96bm83Y3hVa1V5bThIR0F2aXdJX1dEdklqcmdJaGNveGY3cGk5Z0RjdzFyRG53UDdIUXdyQ0hkcXFLb2ZFSzFZT19RZjZDWU0zOUZJeFZtSW12aHU4M2NXSXE0WU80cTF6QXVGVTBVdWR0Q0J1WUlUak9jNkdNQU5QWnZnTEFzVQ?oc=5",
-   "data": "2026-10-15T20:33+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 3.54,
-   "cobertura": 3,
-   "motivos": [
-    "tema coberto por 3 veículos",
-    "palavras de alto impacto: dólar",
-    "publicada há 4 h"
-   ]
-  },
-  {
-   "titulo": "Dólar valoriza 1,17% e vai a R$ 5,087; Bovespa cai 1,06% e fecha com 204.324 pontos em 15/10/2026 - UOL",
-   "fonte": "UOL",
-   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1hZDNQTDZDWThqVW1IRDN4UURHcEIyMVpucG9EMWtkMHRmZDlIY0U5elFTc3c5NUtRQlhvSDNuSTE5TkN0YjVSd21IOEM3Ri11RFdkRG5JMlRjdlMwcTB4SE5jWkxwOXVncVhIVHBSeHRFVlhyUmlzbU9IQ04?oc=5",
-   "data": "2026-10-15T20:33+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 1.77,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: dólar",
-    "publicada há 4 h"
-   ]
-  },
-  {
-   "titulo": "BC Fund (BRCR11) ganha força na bolsa com dividendos e mudanças no portfólio no radar; entenda os planos do FII - Seu Dinheiro",
-   "fonte": "Seu Dinheiro",
-   "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQR3p3cnVxVVhTbW1JZk9fRGQtRWhfeTRDeG9tMjlLTjZuSU03YmwyTEJZLXh3YXFwbUNuQnpfQWNrdkhvdlZOSFVVOHJwcUVfQy1GTTR5Vkx2NHU0WW54UkNhQ1h1bi03QUtpa0drYi1hSXQyQkt3c2plWnRMWm9xOFJrZHl2M1BDNlduYjZCcUxJRTNRQ183SjNhRXc0Q3ljU1M1dDN3LU9COGlyYldiRnd0S1dVTk01eXZ4Q1J0TTRLWVdkZzRYVlZURHlJV1FWVzZXRFFQZkFIZnhrc1I2Nmd1ckEtd1N4Z2VvZkcwaW0?oc=5",
-   "data": "2026-10-15T20:30+00:00",
-   "sentimento": 1.0,
-   "classes": [
-    "imobiliario"
-   ],
-   "impacto": 4.28,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: dividendos",
-    "sentimento positivo (+1.00)",
-    "publicada há 4 h"
-   ]
-  },
-  {
-   "titulo": "Em dia de alta do dólar, soja apresenta reação? Saiba os preços e o cenário da oleaginosa - Canal Rural",
-   "fonte": "Canal Rural",
-   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPUlRwQ3dsTDBUaXNDVUdaRXJTZUFlWi1Tc0t3Y0N1dFQ4bWpBMVdCdkgtNGxUTVF5ZS0xYVdkdmY2d1JyNndSbnpJb0MwaFBCczZtR0JVVEJvMnVPVU1MX3h1ZHVwVEQ2V0ZoTnk0eFg4SlQ3b0VxMWhWVno5LS1sdDkwei0zVDNYdTJpQk04LVVySGhSQUJNcFFTYUJrRE5peHQxdnFqN01GaU80OG5CV0JmQkZDN3o4dFJFSnotMHhVYm4wVUpQU1dlTzc2NGxaTW1EYnFvN1dacTFxZTVGc2ZDNC0?oc=5",
-   "data": "2026-10-15T20:30+00:00",
-   "sentimento": 1.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 4.28,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: dólar",
-    "sentimento positivo (+1.00)",
-    "publicada há 4 h"
-   ]
-  },
-  {
-   "titulo": "Bolsas de NY voltam a subir, apesar de incerteza com juros e IA nos EUA - Estadão",
-   "fonte": "Estadão",
-   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPY0NKdTk5WXlESHhPNi1mSEpoamdWbzRPRW8zYkt6T0M5RHBaajV0VVJFdHFWdkNVTFk4TE9jcXdETW82c2ZCczJKc2w0V1lia2lpOEEtSVFwWTR5VV9QdFQ1aE9EcmFheksweV9Jb2xQTk9UNWQtdzlNaWJQN2pYLTQzbF9iUzJ5T3JldkJDVjJwNHMwY1B4RDNpWW9peUhBbTlMZVNzU0JPRVNLa1hqVmNpZmc4U2JPUzhvNmZBWGRZQUx6ZUlfSU80dUpIWUpnOUtlekdlc9IB3AFBVV95cUxOMlVZZF8wS2RuR2dUSXJLaktCMmRLd1BlZTZtUG9KOGp0bUxsMTBuYjlPa1MzREtPTUdRQTM5QktzaHRuQkZKb21pOW9aaHFlNWp2cGl3ek50TnNGT0xWUUNJRzdadGdVN0JnWWZRYzVPOVZRZDlEblZfc3FGaTFpUEh4UDFjSVd2TWp2azA3U28wOElQYTVKMEU5Z3AtQ3NJSVZQUUtFNnc0QkZmTGtSN1MyeGZJM1NMVjdCd3RacTkzcjByNHlXZHpWVFRnbnd4M0l1SnVBQzVrRVl5?oc=5",
-   "data": "2026-10-15T20:30+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 2.27,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: juros",
-    "publicada há 4 h"
-   ]
-  },
-  {
-   "titulo": "Dow Jones dispara 556 pontos e fecha no maior nível em um mês; Nasdaq e S&P 500 sobem - ADVFN",
-   "fonte": "ADVFN",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdC0tVUtmY21mYURiWjlMaTI2S2NzaGFYRTg2UWlDeDZsMUpKOU9TNG9wSVY4RFVia0pTTnVGMWlXdTJsX3h0LU9rNW1aRnBtRkNoZU50anBZODdWT1loZWVTRGFBY3VRN3JuN0NpRm5OQko5cWk2OUlEZkQ5cTNOQWd0Y00za0ZEc09qZC1sSGNweklDWTFaejcyV0RFd0JwMUZjaEVPU1JNZHVTeVEtMFRscnpBYTBqVXlF?oc=5",
-   "data": "2026-10-15T20:29+00:00",
-   "sentimento": 1.0,
-   "classes": [
-    "exterior"
-   ],
-   "impacto": 3.78,
-   "cobertura": 1,
-   "motivos": [
-    "sentimento positivo (+1.00)",
-    "publicada há 4 h"
-   ]
-  },
-  {
-   "titulo": "Ibovespa cai 1% à espera de Datafolha; dólar sobe - Money Times",
-   "fonte": "Money Times",
-   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9wUHVMRVRXZ1pfTk1BSTBneE5zYTZ0TXNBVkJpWTRZNjB0ZWZHYnhIWXJYWDFZTl85UkkxcDdwbkZseVRwLXZFMVhDdDI5dlJ3VmtOMHdaMVdEZmhLY3VVUURFdw?oc=5",
-   "data": "2026-10-15T20:27+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 5.28,
-   "cobertura": 5,
-   "motivos": [
-    "tema coberto por 5 veículos",
-    "palavras de alto impacto: dólar",
-    "publicada há 4 h"
-   ]
-  },
-  {
-   "titulo": "Ibovespa recua 1,06% e fica em 204 mil pontos sob pressão eleitoral e da escala 6x1 - BPMoney",
-   "fonte": "BPMoney",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNekZCRmJXVXAwOTMtaUU3V3RFQmlQYlRJcV9qVzBtZG5nYXN4LUJyWmFWVzJfMlI1SGNqTlV4OU1uRWp1eDJxTEpEMF9heXJwV1I5VV9pRkN2bU1lY0FBd2c5dFhFVnJxYzZvRVFvS1Z3bXdXT3RyeWFrVkx5czBscWt5SQ?oc=5",
-   "data": "2026-10-15T20:23+00:00",
-   "sentimento": -1.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 3.76,
-   "cobertura": 1,
-   "motivos": [
-    "sentimento negativo (-1.00)",
-    "publicada há 4 h"
+    "publicada há 6 h"
    ]
   }
  ]
