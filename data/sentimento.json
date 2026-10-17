@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-17T16:28:10+00:00",
+ "atualizado": "2026-10-17T18:44:53+00:00",
  "origem": "noticias.json",
  "metodo": "média de pontuações por palavras-chave; sinal informativo, não previsão",
  "quantidade": 60,
@@ -7,11 +7,11 @@
  "por_classe": {
   "cripto": {
    "quantidade": 22,
-   "media": -0.136
+   "media": -0.182
   },
   "moedas": {
    "quantidade": 15,
-   "media": 0.178
+   "media": 0.111
   },
   "imobiliario": {
    "quantidade": 1,
@@ -22,8 +22,8 @@
    "media": -0.333
   },
   "acoes": {
-   "quantidade": 21,
-   "media": -0.095
+   "quantidade": 22,
+   "media": 0.0
   }
  },
  "sinal": "neutro"
