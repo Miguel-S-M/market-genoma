@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-17T09:43:05+00:00",
+ "atualizado": "2026-10-17T09:54:09+00:00",
  "destaque": {
   "titulo": "Lucro do Goldman Sachs cresce 29% e supera previsões de Wall Street - Estadão",
   "fonte": "Estadão",
@@ -9,7 +9,7 @@
   "classes": [
    "exterior"
   ],
-  "impacto": 4.96,
+  "impacto": 4.94,
   "cobertura": 2,
   "motivos": [
    "tema coberto por 2 veículos",
@@ -27,7 +27,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.41,
+   "impacto": 4.36,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -43,10 +43,10 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.43,
+   "impacto": 1.41,
    "cobertura": 1,
    "motivos": [
-    "publicada há menos de 1 h"
+    "publicada há 1 h"
    ]
   },
   {
@@ -58,10 +58,10 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.39,
+   "impacto": 1.38,
    "cobertura": 1,
    "motivos": [
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -73,7 +73,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.37,
+   "impacto": 1.36,
    "cobertura": 1,
    "motivos": [
     "publicada há 2 h"
@@ -88,7 +88,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.37,
+   "impacto": 1.36,
    "cobertura": 1,
    "motivos": [
     "publicada há 2 h"
@@ -103,7 +103,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.37,
+   "impacto": 1.36,
    "cobertura": 1,
    "motivos": [
     "publicada há 2 h"
@@ -118,7 +118,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 2.89,
+   "impacto": 2.86,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -135,7 +135,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.37,
+   "impacto": 1.36,
    "cobertura": 1,
    "motivos": [
     "publicada há 2 h"
@@ -150,7 +150,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.12,
+   "impacto": 4.09,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -166,26 +166,9 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.37,
+   "impacto": 1.36,
    "cobertura": 1,
    "motivos": [
-    "publicada há 2 h"
-   ]
-  },
-  {
-   "titulo": "Dólar volta a subir: é um bom momento para investir lá fora? - InfoMoney",
-   "fonte": "InfoMoney",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTGVnNlhPQ1h4Z011LTljM2dHVFdJZndVWkNFam5WMDc1UWgyQTNhMjJIeFZZY25hWWQ5VENkanFVZXg5bzBlMGdwYllsMzVRdUhma1h6LUQ2ZzdsbS1CSURMdHFtTngwSG5rb1BEb3FZZFhJWUJ1NmVuTHZfVG1ILXFrOWVvQmUyak91M3ZUUTV5RUlPaFJnYk5R0gGfAUFVX3lxTE1MWkN0b200Sk5lc2h3TktraTFidVNmTnVhMWhkN2VBeXF6UElxWDRWbVVNS0lGaEJUdGNsLWNTM0Vfd2JJbXkyYi1FQ0pSRXduaW5Bc0NGN2RKU0JCdHBuamstY29RWlZXZ05Lcy1NTUxaVnpzM0ZsRUFEaTdwUUlnVlpxNlFnS0M0OHIzclVia09RMGdGeDBCeE9KdjVsTQ?oc=5",
-   "data": "2026-10-17T08:00+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 2.89,
-   "cobertura": 2,
-   "motivos": [
-    "tema coberto por 2 veículos",
-    "palavras de alto impacto: dólar",
     "publicada há 2 h"
    ]
   },
@@ -198,10 +181,27 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.12,
+   "impacto": 4.09,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
+    "publicada há 2 h"
+   ]
+  },
+  {
+   "titulo": "Dólar volta a subir: é um bom momento para investir lá fora? - InfoMoney",
+   "fonte": "InfoMoney",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTGVnNlhPQ1h4Z011LTljM2dHVFdJZndVWkNFam5WMDc1UWgyQTNhMjJIeFZZY25hWWQ5VENkanFVZXg5bzBlMGdwYllsMzVRdUhma1h6LUQ2ZzdsbS1CSURMdHFtTngwSG5rb1BEb3FZZFhJWUJ1NmVuTHZfVG1ILXFrOWVvQmUyak91M3ZUUTV5RUlPaFJnYk5R0gGfAUFVX3lxTE1MWkN0b200Sk5lc2h3TktraTFidVNmTnVhMWhkN2VBeXF6UElxWDRWbVVNS0lGaEJUdGNsLWNTM0Vfd2JJbXkyYi1FQ0pSRXduaW5Bc0NGN2RKU0JCdHBuamstY29RWlZXZ05Lcy1NTUxaVnpzM0ZsRUFEaTdwUUlnVlpxNlFnS0M0OHIzclVia09RMGdGeDBCeE9KdjVsTQ?oc=5",
+   "data": "2026-10-17T08:00+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 2.86,
+   "cobertura": 2,
+   "motivos": [
+    "tema coberto por 2 veículos",
+    "palavras de alto impacto: dólar",
     "publicada há 2 h"
    ]
   },
@@ -214,7 +214,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 3.87,
+   "impacto": 3.84,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
@@ -230,7 +230,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.77,
+   "impacto": 1.76,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -247,7 +247,7 @@
     "cripto",
     "moedas"
    ],
-   "impacto": 1.76,
+   "impacto": 1.74,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -263,7 +263,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 2.7,
+   "impacto": 2.68,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: inflação, bitcoin",
@@ -279,7 +279,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 3.64,
+   "impacto": 3.62,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -297,7 +297,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.17,
+   "impacto": 1.16,
    "cobertura": 1,
    "motivos": [
     "publicada há 6 h"
@@ -313,7 +313,7 @@
     "cripto",
     "exterior"
    ],
-   "impacto": 1.62,
+   "impacto": 1.61,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -329,7 +329,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.16,
+   "impacto": 1.15,
    "cobertura": 1,
    "motivos": [
     "publicada há 6 h"
@@ -344,11 +344,11 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 1.73,
+   "impacto": 1.72,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
-    "publicada há 6 h"
+    "publicada há 7 h"
    ]
   },
   {
@@ -360,7 +360,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.6,
+   "impacto": 1.59,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -376,7 +376,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 3.85,
+   "impacto": 3.83,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -409,7 +409,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 3.79,
+   "impacto": 3.77,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -426,7 +426,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 4.96,
+   "impacto": 4.94,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -443,7 +443,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 3.72,
+   "impacto": 3.71,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -460,7 +460,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.15,
+   "impacto": 4.13,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: petróleo",
@@ -477,10 +477,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.09,
+   "impacto": 1.08,
    "cobertura": 1,
    "motivos": [
-    "publicada há 8 h"
+    "publicada há 9 h"
    ]
   },
   {
@@ -507,7 +507,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.51,
+   "impacto": 1.5,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -523,7 +523,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.08,
+   "impacto": 1.07,
    "cobertura": 1,
    "motivos": [
     "publicada há 9 h"
@@ -538,7 +538,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.08,
+   "impacto": 1.07,
    "cobertura": 1,
    "motivos": [
     "publicada há 9 h"
@@ -553,7 +553,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 3.21,
+   "impacto": 3.19,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -569,7 +569,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.07,
+   "impacto": 1.06,
    "cobertura": 1,
    "motivos": [
     "publicada há 9 h"
@@ -584,7 +584,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 3.62,
+   "impacto": 3.61,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -601,7 +601,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 3.6,
+   "impacto": 3.58,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: juros, inflação, fed",
@@ -617,7 +617,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.48,
+   "impacto": 1.47,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -633,7 +633,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.05,
+   "impacto": 1.04,
    "cobertura": 1,
    "motivos": [
     "publicada há 10 h"
@@ -648,10 +648,25 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.47,
+   "impacto": 1.46,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
+    "publicada há 10 h"
+   ]
+  },
+  {
+   "titulo": "Siga as Escolhas de Cripto do Portfólio Gmktec promo code\"GETDAILY\" -40% - CoinMarketCap",
+   "fonte": "CoinMarketCap",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBtRVVKSF9vV3hqbi04akVIR1BBa04wa0UtVWJSZVlMS19LeGd2ZDItVk1UU0ZPT2ZFNUY0cGw0Zmdib0dRU0FpOHVnYlQyY24tOFMzWEloYmdlUGpOejhpdENWZnVQZVgteGxHT0RHUTJBbDhQbVE?oc=5",
+   "data": "2026-10-16T23:42+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "cripto"
+   ],
+   "impacto": 1.04,
+   "cobertura": 1,
+   "motivos": [
     "publicada há 10 h"
    ]
   },
@@ -664,12 +679,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 3.52,
+   "impacto": 3.5,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 10 h"
+    "publicada há 11 h"
    ]
   },
   {
@@ -696,7 +711,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 3.09,
+   "impacto": 3.07,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
@@ -708,22 +723,6 @@
    "fonte": "Livecoins",
    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNMzVRdU8yU05OUk9XWE9vZ2d1VXhCdk00MjhhT1IxdkNnc0JXb2RpTGdyQVR6OVFxNDhjSE9LZmFDbHR1bkRvVTdveVNydVlnZkZnWE9LQnhxTk1tR3pMaUtHbmN2OGx6d0JlR1pvb000V29sRXl2cmI4ZE5oQU1JeUhoeHV2SFAwMTY0Q3MzTzk4TXZELWdhczhXNXotZHZxaC1LTzUtVTJ4UFpTamFUMEdZdFF4M05odG9MVFlQbktrUk1fS0g4VlNiQdIB0AFBVV95cUxQSXgtcTRwVnJEN1JmeE92NmZSSUNicVNQd0xZYlFVLXRiSTQ5ZHlqdWR1Ynh1SW1xaGdmMS12YnlvVV9QcUVDaG9Ba19Oc0ZhRklZNzlDN2xEdmNMM1V6Y25YV3FkLXdLWDNqTi1WSjluaUVuVi1tY1FTOEdZLXI0N09pNzdCZmpQTWg1M19sU0xVM1BRdXc3S3MtVnhWZTBfV3pDRm1PNFlaX1RSSHNQVEpFczZieEFWVFU1bHBmdm9tX0d1Y0QxNkxLU1V0TE1t?oc=5",
    "data": "2026-10-16T23:00+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "cripto"
-   ],
-   "impacto": 1.44,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: bitcoin",
-    "publicada há 11 h"
-   ]
-  },
-  {
-   "titulo": "Bitcoin Weekly Forecast: Macroeconomic headwinds, cooling demand cap BTC gains - tmgm.com",
-   "fonte": "tmgm.com",
-   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOMjFXQXlYbjJQT2dhdHRQWlhESWtaYzF3T1FyT1dERm43S3Z0NVlYZmNnQjFzOVE1SmI2RHotRTZoRk5ZQkk2VFN1Z1dvMHZnR1NFd1ZtOGpEbUV4ZDRLRjk5Vmo2TEJoZzFKb25VRVY3WjUzcGpfd1BieGVVaHZoVFZSbWk5NnpXSTJHUndCdXJZVTAxc0NmTUZ1MXRna0hON2tYdS11SUpJZ2RkdmlkSm1kNHM0ZnNfdjdaeWVqX1d5WnQteGpCb3dSclRiYmxyUDhKN1V6YXp0Zw?oc=5",
-   "data": "2026-10-16T22:51+00:00",
    "sentimento": 0.0,
    "classes": [
     "cripto"
@@ -775,7 +774,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 3.45,
+   "impacto": 3.44,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -792,12 +791,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 3.44,
+   "impacto": 3.43,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
     "sentimento negativo (-1.00)",
-    "publicada há 11 h"
+    "publicada há 12 h"
    ]
   },
   {
@@ -814,7 +813,7 @@
    "motivos": [
     "tema coberto por 2 veículos",
     "palavras de alto impacto: dólar",
-    "publicada há 11 h"
+    "publicada há 12 h"
    ]
   },
   {
@@ -841,7 +840,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 3.03,
+   "impacto": 3.01,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
@@ -873,7 +872,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 2.22,
+   "impacto": 2.21,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: petróleo, dólar",
@@ -950,7 +949,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 3.0,
+   "impacto": 2.99,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
