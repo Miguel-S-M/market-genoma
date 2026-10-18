@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-18T02:07:59+00:00",
+ "atualizado": "2026-10-18T10:05:41+00:00",
  "ibovespa": {
   "ticker": "IBOV",
   "preco": 205430.0,
@@ -606,7 +606,7 @@
   }
  ],
  "macro": {
-  "selic_meta": 13.75,
-  "dolar": 5.0826
+  "selic_meta": null,
+  "dolar": null
  }
 }
