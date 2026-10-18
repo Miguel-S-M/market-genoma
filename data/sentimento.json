@@ -1,13 +1,13 @@
 {
- "atualizado": "2026-10-18T02:07:59+00:00",
+ "atualizado": "2026-10-18T05:11:55+00:00",
  "origem": "noticias.json",
  "metodo": "média de pontuações por palavras-chave; sinal informativo, não previsão",
  "quantidade": 60,
- "media": -0.1,
+ "media": -0.133,
  "por_classe": {
   "cripto": {
    "quantidade": 16,
-   "media": -0.375
+   "media": -0.312
   },
   "moedas": {
    "quantidade": 11,
@@ -18,12 +18,12 @@
    "media": 0.5
   },
   "exterior": {
-   "quantidade": 4,
-   "media": 0.0
+   "quantidade": 5,
+   "media": -0.2
   },
   "acoes": {
-   "quantidade": 30,
-   "media": -0.067
+   "quantidade": 29,
+   "media": -0.138
   }
  },
  "sinal": "neutro"
