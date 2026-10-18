@@ -1,28 +1,28 @@
 {
- "atualizado": "2026-10-18T13:36:10+00:00",
+ "atualizado": "2026-10-18T16:50:02+00:00",
  "origem": "noticias.json",
  "metodo": "média de pontuações por palavras-chave; sinal informativo, não previsão",
- "quantidade": 10,
+ "quantidade": 60,
  "media": 0.0,
  "por_classe": {
   "cripto": {
-   "quantidade": 0,
-   "media": 0.0
+   "quantidade": 18,
+   "media": -0.167
   },
   "moedas": {
+   "quantidade": 14,
+   "media": 0.143
+  },
+  "imobiliario": {
    "quantidade": 1,
    "media": 0.0
   },
-  "imobiliario": {
-   "quantidade": 0,
-   "media": 0.0
-  },
   "exterior": {
-   "quantidade": 0,
+   "quantidade": 4,
    "media": 0.0
   },
   "acoes": {
-   "quantidade": 9,
+   "quantidade": 25,
    "media": 0.0
   }
  },
