@@ -1,17 +1,12 @@
 {
- "atualizado": "2026-10-20T10:39:15+00:00",
+ "atualizado": "2026-10-20T17:48:28+00:00",
  "regime_atual": "alta volátil",
  "indicadores": {
-  "retorno_20d": 10.7,
-  "vol_20d": 30.8,
-  "vs_media200": 13.7
+  "retorno_20d": 11.8,
+  "vol_20d": 31.1,
+  "vs_media200": 15.5
  },
  "serie": [
-  {
-   "data": "2026-04-29",
-   "fechamento": 184750,
-   "regime": "alta calma"
-  },
   {
    "data": "2026-04-30",
    "fechamento": 187318,
@@ -605,6 +600,11 @@
   {
    "data": "2026-10-19",
    "fechamento": 205079,
+   "regime": "alta volátil"
+  },
+  {
+   "data": "2026-10-20",
+   "fechamento": 208536,
    "regime": "alta volátil"
   }
  ],
