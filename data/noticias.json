@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-20T01:02:15+00:00",
+ "atualizado": "2026-10-20T01:44:16+00:00",
  "destaque": {
   "titulo": "Ibovespa fecha em queda de 0,17% e dólar comercial recua 0,5% - Canal Rural",
   "fonte": "Canal Rural",
@@ -9,16 +9,31 @@
   "classes": [
    "moedas"
   ],
-  "impacto": 10.9,
-  "cobertura": 4,
+  "impacto": 12.73,
+  "cobertura": 5,
   "motivos": [
-   "tema coberto por 4 veículos",
+   "tema coberto por 5 veículos",
    "palavras de alto impacto: dólar",
    "sentimento negativo (-1.00)",
-   "publicada há 3 h"
+   "publicada há 4 h"
   ]
  },
  "itens": [
+  {
+   "titulo": "FÓRUM LIDE ECONOMIA CONECTA EVOLUÇÃO DO MERCADO FINANCEIRO ÀS PERSPECTIVAS ECONÔMICAS DO BRASIL - Hilneth Correia -",
+   "fonte": "Hilneth Correia -",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQdTUybTBjLWRYZjQzOHJ0dGFOOHgwR3JrcHZfVkNxVVlUZkUycUk4SW9PdjM0UUhnWjY0cG1VVjBBNlhPTkh5Tld2WkF3YW5QZ2Y4ZXEwOU1VdDVUR3hiMW1SUzFYamZ2bmRtbmRreWlvemtlVWl2WDItbWxseGI2SGtSYndNcV9zbjMzSFVHZDNxcmxURUY2WGlpRUZvWlZjNUkwa24tczBvcFBpQVRhUlZHMFRGb044X2FSdWpJTlo2VktQNzJEY1JCWW5jQlBVcFk4?oc=5",
+   "data": "2026-10-20T01:36+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.49,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há menos de 1 h"
+   ]
+  },
   {
    "titulo": "Futuros americanos estáveis após recuperação de tecnologia em Wall Street - Investing.com Brasil - Finanças, Câmbio e Investimentos",
    "fonte": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
@@ -29,7 +44,22 @@
     "moedas",
     "exterior"
    ],
-   "impacto": 1.48,
+   "impacto": 1.43,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "A Nasdaq lidera os ganhos de Wall Street. - Vietnam.vn",
+   "fonte": "Vietnam.vn",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAxckg1eHVSUzVBMUNnTmVhNV9YVGxreHpFdzI2U2VzdFVGaktSZThHR2psNWNCNEhfd0IyeXhJQ3lVSHdCYkpYNEt2enlTNW9wNDRLMHo0a0NCNFJGZDhLaFFBaUxhLTdw?oc=5",
+   "data": "2026-10-20T00:49+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "exterior"
+   ],
+   "impacto": 1.43,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -44,11 +74,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.65,
+   "impacto": 2.55,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: eleição",
-    "publicada há menos de 1 h"
+    "publicada há 1 h"
    ]
   },
   {
@@ -60,13 +90,13 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 7.43,
+   "impacto": 7.17,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "palavras de alto impacto: dólar",
     "sentimento negativo (-1.00)",
-    "publicada há menos de 1 h"
+    "publicada há 1 h"
    ]
   },
   {
@@ -78,11 +108,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.17,
+   "impacto": 2.1,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
-    "publicada há menos de 1 h"
+    "publicada há 1 h"
    ]
   },
   {
@@ -94,11 +124,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.17,
+   "impacto": 2.09,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
-    "publicada há menos de 1 h"
+    "publicada há 1 h"
    ]
   },
   {
@@ -110,12 +140,12 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 3.9,
+   "impacto": 3.77,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "palavras de alto impacto: petróleo",
-    "publicada há menos de 1 h"
+    "publicada há 1 h"
    ]
   },
   {
@@ -127,11 +157,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.15,
+   "impacto": 2.08,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
-    "publicada há menos de 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -143,11 +173,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.14,
+   "impacto": 2.07,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
-    "publicada há menos de 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -159,10 +189,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.42,
+   "impacto": 1.37,
    "cobertura": 1,
    "motivos": [
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -174,13 +204,13 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 8.08,
+   "impacto": 7.81,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "palavras de alto impacto: dólar, petrobras",
     "sentimento negativo (-1.00)",
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -192,10 +222,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.42,
+   "impacto": 1.37,
    "cobertura": 1,
    "motivos": [
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -207,11 +237,26 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.54,
+   "impacto": 2.46,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: petróleo",
-    "publicada há 1 h"
+    "publicada há 2 h"
+   ]
+  },
+  {
+   "titulo": "Por que Wall Street comemora e teme a mesma aposta em IA - TV Sim Brasil",
+   "fonte": "TV Sim Brasil",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbnZMc29EQTNyQXNFd3RKcUpEc0stNzVsQ2p5b1RCXzNmT3cxWEV1UkNBZld5VHhHZlJIUkZENVRHQmJuc3Jya0RDVzdFTno1aDg2RWtLRDZyRnRFZ0pMWEpHcmZwWVpPMjIyeXNwTnBfNU1McFkxa2twMXB6Z01kM3FCS0tLb2NqVTFYckpidURhT0tMMDlwSmNUWDBmVnNOZ0hXTXNPQjh2dTA?oc=5",
+   "data": "2026-10-19T23:47+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "exterior"
+   ],
+   "impacto": 1.36,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há 2 h"
    ]
   },
   {
@@ -223,26 +268,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.4,
+   "impacto": 1.36,
    "cobertura": 1,
    "motivos": [
-    "publicada há 1 h"
-   ]
-  },
-  {
-   "titulo": "Bolsa Família muda calendário de outubro e libera pagamentos para todos até quarta (21) - O Petróleo",
-   "fonte": "O Petróleo",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPN3FlMERfZ18wb1RZc1NpektFMWp6QlhqQWs1MXpxTnkzX1k2cVZhUU50WG1fQV9VblFoSVctNHgtMlhBWENWSDZjUG54SEp2S3pzREpfakYyNkZFeG5LTHZYR3lnSm9nelFsNmExYjhHbnpCQ2FMMXFPVU5mRnFrVWp1anFQWEFDeEdoQVFuaG9jeVQ5T3U4Y01ZN0JLYVdRTHdWNDdGdVBhdnZVdG4yRw?oc=5",
-   "data": "2026-10-19T23:43+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 2.52,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: petróleo",
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -254,11 +283,30 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.95,
-   "cobertura": 1,
+   "impacto": 2.83,
+   "cobertura": 2,
    "motivos": [
+    "tema coberto por 2 veículos",
     "palavras de alto impacto: dólar",
-    "publicada há 1 h"
+    "publicada há 2 h"
+   ]
+  },
+  {
+   "titulo": "Dólar cai 0,49% e fecha a R$ 5,0480; Ibovespa recua 0,17% - Campo Grande News",
+   "fonte": "Campo Grande News",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVlJUdDdZakxRUXBjdGk2VnhBb3JLWWljXy1pbFRES2R4OVBmWWctVTZfWFFhQ0JtTnhOdWZianRUQXpfRGpQanFsR184dlE1NU5pVUlVMnk2dEtTMWVQRXNfUS04TlRXMUZCUkp5OUxoelVSMERwUVBnNnpIMndjWGRUT205ZGNVQzZwNFhrTElPR19hZVZ2b08tMnlxUnV0bjc4VmozYzMzbUFWUk5N0gGvAUFVX3lxTE5WUlR0N1lqTFFRcGN0aTZWeEFvcktZaWNfLWlsVERLZHg5UGZZZy1VNl9YUWFDQm1OeE51ZmJqdFRBel9EalBqcWxHXzh2UTU1TmlVSVUyeTZ0S1MxZVBFc19RLThOVFcxRkJSSnk5TGh6VVIwRHBRUGc2ekgyd2NYZFRPbTlkY1VDNnA0WGtMSU9HX2FlVnZvTy0yeXFSdXRuNzhWajNjMzNtQVZSTk0?oc=5",
+   "data": "2026-10-19T23:37+00:00",
+   "sentimento": -1.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 9.18,
+   "cobertura": 3,
+   "motivos": [
+    "tema coberto por 3 veículos",
+    "palavras de alto impacto: dólar",
+    "sentimento negativo (-1.00)",
+    "publicada há 2 h"
    ]
   },
   {
@@ -270,10 +318,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.39,
+   "impacto": 1.35,
    "cobertura": 1,
    "motivos": [
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -285,27 +333,11 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 5.24,
+   "impacto": 5.07,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar, petrobras",
     "sentimento negativo (-1.00)",
-    "publicada há 2 h"
-   ]
-  },
-  {
-   "titulo": "Americanas (AMER3) encerra recuperação judicial - Investidor10",
-   "fonte": "Investidor10",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVUZzclh3US1QckxYSGt4MFhZdTVvQlZGU1Z1SkR4UzAxTmtEekktYVhwRDNkUE1ERmU0dXVmbzFnRVRpUFoxVnJJLUIwWjYtUXZfbDZhRFAxWkNZandrUGloOFZPZEI1Q3BhTkZiVEVWY0ZwQjhKLUkwN1hBSWhhTjFKOC1DcWhvNXpDRVhJaVFWRHZ3OGRlLU5B0gGaAUFVX3lxTE5VRnNyWHdRLVByTFhIa3gwWFl1NW9CVkZTVnVKRHhTMDFOa0R6SS1hWHBEM2RQTURGZTR1dWZvMWdFVGlQWjFWckktQjBaNi1Rdl9sNmFEUDFaQ1lqd2tQaWg4Vk9kQjVDcGFORmJURVZjRnBCOEotSTA3WEFJaGFOMUo4LUNxaG81ekNFWElpUVZEdnc4ZGUtTkE?oc=5",
-   "data": "2026-10-19T23:16+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 2.06,
-   "cobertura": 2,
-   "motivos": [
-    "tema coberto por 2 veículos",
     "publicada há 2 h"
    ]
   },
@@ -318,11 +350,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.45,
+   "impacto": 2.38,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: petróleo",
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -334,10 +366,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.33,
+   "impacto": 1.29,
    "cobertura": 1,
    "motivos": [
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -349,26 +381,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.0,
-   "cobertura": 2,
-   "motivos": [
-    "tema coberto por 2 veículos",
-    "publicada há 2 h"
-   ]
-  },
-  {
-   "titulo": "Fórum LIDE Economia conecta evolução do mercado financeiro às perspectivas econômicas do Brasil - Por dentro do RN",
-   "fonte": "Por dentro do RN",
-   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNY3piZDZObFlNNGVOVHJ1UXNwVjRvSTY0VjdHOVZHX0pUNldENlYxTy02OUcwaEdQOXQ0Uzl3UHBkTzA2d0l4dnZucTNRblJ3aWUxUWdMcHNTYzlvMVBTWnNubV8tR2JibTA3OGY5c2FTSW5fX0tyMjFLQS1fRFFzakJVZkc1akFCYTVJS3dwcGlJOHRIUlNjYkFkNmM5ampfUUJ5bmxkN0d2NXZkaE1vYzFQQWdDWVVZQmV4WGdCWV9LTWs0SERIS1E2NWlMeVJkZ2c?oc=5",
-   "data": "2026-10-19T22:34+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.33,
+   "impacto": 1.29,
    "cobertura": 1,
    "motivos": [
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -380,7 +396,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 5.97,
+   "impacto": 5.8,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -397,7 +413,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 3.98,
+   "impacto": 3.86,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -413,7 +429,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.32,
+   "impacto": 1.29,
    "cobertura": 1,
    "motivos": [
     "publicada há 3 h"
@@ -428,7 +444,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 4.5,
+   "impacto": 4.37,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -445,7 +461,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 7.93,
+   "impacto": 7.7,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
@@ -462,7 +478,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 5.54,
+   "impacto": 5.39,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: juros, bitcoin",
@@ -479,7 +495,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 8.31,
+   "impacto": 8.08,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -497,7 +513,7 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 1.32,
+   "impacto": 1.28,
    "cobertura": 1,
    "motivos": [
     "publicada há 3 h"
@@ -512,11 +528,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 3.91,
+   "impacto": 3.8,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -528,12 +544,12 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.95,
+   "impacto": 4.82,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: recorde",
     "sentimento positivo (+1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -545,10 +561,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.3,
+   "impacto": 1.27,
    "cobertura": 1,
    "motivos": [
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -560,10 +576,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.3,
+   "impacto": 1.27,
    "cobertura": 1,
    "motivos": [
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -575,26 +591,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.6,
+   "impacto": 2.53,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
-    "publicada há 3 h"
-   ]
-  },
-  {
-   "titulo": "Manifestantes pelo direito à habitação querem greve ibérica a 11 de novembro - RTP",
-   "fonte": "RTP",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOU2gzbF91SU00ZGZEUE1OMG9RWmdvNGFqUEpUSzBhUXRiNklYZHJ1Z0lMOVo4TEgyYzE4QUc2Zk1RZThTcEZ2SFZQS01CMmJaaXFEcXMyc0FkQ2tlb25zWS16YzREV1ZzWm1kcTZZdW13RDB2a2RpNmdfNVktSGEtUGM1OWlIbXFuNUJoY1hBQ084Ullxb3ZEWFdRbjc4X2RtRVVhWGJDWUdjQkZXU2ozVXBiX1JqV1hpcWJtb2s4VQ?oc=5",
-   "data": "2026-10-19T22:03+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.3,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -606,11 +607,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.86,
+   "impacto": 2.78,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: guerra",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -622,11 +623,11 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.82,
+   "impacto": 1.77,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -638,10 +639,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.3,
+   "impacto": 1.26,
    "cobertura": 1,
    "motivos": [
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -653,11 +654,11 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 3.88,
+   "impacto": 3.78,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -669,12 +670,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.4,
+   "impacto": 4.28,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
     "sentimento negativo (-1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -686,11 +687,11 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 2.84,
+   "impacto": 2.77,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: eleição, dólar",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -702,10 +703,10 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.29,
+   "impacto": 1.25,
    "cobertura": 1,
    "motivos": [
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -718,11 +719,11 @@
     "cripto",
     "exterior"
    ],
-   "impacto": 1.8,
+   "impacto": 1.75,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -734,13 +735,31 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 10.9,
-   "cobertura": 4,
+   "impacto": 12.73,
+   "cobertura": 5,
    "motivos": [
-    "tema coberto por 4 veículos",
+    "tema coberto por 5 veículos",
     "palavras de alto impacto: dólar",
     "sentimento negativo (-1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
+   ]
+  },
+  {
+   "titulo": "Dólar cai com pesquisa eleitoral no radar a uma semana do segundo turno - Jornal do Comércio",
+   "fonte": "Jornal do Comércio",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQaW1XUFhDWGFONUdTVEg4VExqYThpeUt3aGp5RGF0cm9IM1A5OTRMVmhoVUljajVwNnlTNklkeU9MRTVyOTFWMFd0X1RBQUtST0h4c3BRV2Fqc1RVMURBV01wQU1PX281M2o1VHdDcWVyODFtOVNwS0h2Nll2YVlHRmVTeW9PTmNrZEFDUTJndUdMLTBvNTVKZFJmR3lQT2cwTWxWR1ByTWRSNEswV0hZcU5URDRyM1YzQmlPT0RoUS1jU0FRakM0ZEFwbV8zQzA?oc=5",
+   "data": "2026-10-19T21:35+00:00",
+   "sentimento": -1.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 6.34,
+   "cobertura": 2,
+   "motivos": [
+    "tema coberto por 2 veículos",
+    "palavras de alto impacto: dólar",
+    "sentimento negativo (-1.00)",
+    "publicada há 4 h"
    ]
   },
   {
@@ -752,11 +771,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 3.83,
+   "impacto": 3.73,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -768,11 +787,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 3.19,
+   "impacto": 3.11,
    "cobertura": 4,
    "motivos": [
     "tema coberto por 4 veículos",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -784,12 +803,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.34,
+   "impacto": 4.22,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
     "sentimento negativo (-1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -801,11 +820,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.55,
+   "impacto": 2.48,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -817,11 +836,11 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.78,
+   "impacto": 1.74,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -833,7 +852,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 5.35,
+   "impacto": 5.21,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: eleição, dólar",
@@ -850,7 +869,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 1.27,
+   "impacto": 1.24,
    "cobertura": 1,
    "motivos": [
     "publicada há 4 h"
@@ -865,7 +884,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.78,
+   "impacto": 1.73,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dividendos",
@@ -881,7 +900,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 3.81,
+   "impacto": 3.71,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -897,7 +916,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 9.61,
+   "impacto": 9.36,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
@@ -915,7 +934,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.76,
+   "impacto": 1.72,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: petrobras",
@@ -931,7 +950,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 3.4,
+   "impacto": 3.32,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -948,12 +967,13 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.27,
-   "cobertura": 1,
+   "impacto": 6.25,
+   "cobertura": 2,
    "motivos": [
+    "tema coberto por 2 veículos",
     "palavras de alto impacto: dólar",
     "sentimento negativo (-1.00)",
-    "publicada há 4 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -965,29 +985,12 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.76,
+   "impacto": 4.64,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: recorde",
     "sentimento positivo (+1.00)",
-    "publicada há 4 h"
-   ]
-  },
-  {
-   "titulo": "Ibovespa fecha com leve queda com Petrobras ofuscando salto de ações “domésticas” - InfoMoney",
-   "fonte": "InfoMoney",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOT0ozc0Z4YzExQ09saVk5TDBJZGx0RXZlX0VQNkpSYlQ5ZXdYZjdndng1MkhPWU51WXBxckZIeXVFUnlCb1kwRU02eE1uSW9TLW5DQXNnN202Q0c5WTdBMlN2eWRCbnpxd3ltNVhyZXVDcDNwbk9JTzBNMTZ1Vkh1Szd4bUx0ekhWb194OGczLXFFZkVTbVpoVy1yTW5rRmxvMU9taWk2WTVLOFk3dEMzT2JyUVpCaVFqaEI5dGFn0gHDAUFVX3lxTE5pRER1YlhGazM1d1FuV2lzdnZXMHZPN1pYU25FZ281RDcwbV9YaUhWUF9nbTJDeEpPZDg1LWoxQVlkOW9Fb1EtTUZsZW9yblJrWHJkZkJGUnhWTXRJQU1xMFpKTDd6OEd0RTJsbnVkQzR0ck9lSE5yeU1LRmptNm5uc090QnQwdHZjcVhqMng5cHhwenRGTWhWYzdmLVZLSWRwM3BXMUhkOW94cVhtQ0xjendDLXJGRklDWUV4U2tWUkRVcw?oc=5",
-   "data": "2026-10-19T21:01+00:00",
-   "sentimento": -1.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 4.25,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: petrobras",
-    "sentimento negativo (-1.00)",
-    "publicada há 4 h"
+    "publicada há 5 h"
    ]
   }
  ]
