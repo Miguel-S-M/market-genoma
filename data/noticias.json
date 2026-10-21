@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-21T21:23:13+00:00",
+ "atualizado": "2026-10-21T21:34:53+00:00",
  "destaque": {
   "titulo": "Ibovespa cai 0,86% com pesquisa eleitoral; dólar fecha a R$ 5,027 - BOL",
   "fonte": "BOL",
@@ -9,7 +9,7 @@
   "classes": [
    "moedas"
   ],
-  "impacto": 14.81,
+  "impacto": 14.66,
   "cobertura": 5,
   "motivos": [
    "tema coberto por 5 veículos",
@@ -20,6 +20,21 @@
  },
  "itens": [
   {
+   "titulo": "Inter Asset reorganiza carteira imobiliária e amplia portfólio do INHF11 - EuQueroInvestir",
+   "fonte": "EuQueroInvestir",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPU1JBM3N2VDJuU2k1bFA2WXJUcmk4Q0ZsTUdZcFhBNnFVQ0xCbWI0VWd0VzVJN3ZQdng5c3Z0QUZ3Ukl4aUo1dEc2RERKdXlVc0dFc1p0Y043WHRHNC1rdnBBdmxuaWF5QTJGbmZGZkkzaDNNUllUMmRMNGhhanRwNW4zbVktX0ZRakVILUczeFlaaWN0WUxHaWJyZUNNM0twRnc0WVg4Vm5oYWRWUXRuUmtmMUMtNHFVOW1zcQ?oc=5",
+   "data": "2026-10-21T21:24+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "imobiliario"
+   ],
+   "impacto": 1.49,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
    "titulo": "Corinthians lidera lista de maiores devedores em ranking de fair play financeiro",
    "fonte": "InfoMoney",
    "link": "https://www.infomoney.com.br/esportes/corinthians-lidera-lista-de-maiores-devedores-em-ranking-de-fair-play-financeiro/",
@@ -28,7 +43,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.5,
+   "impacto": 1.48,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -43,7 +58,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 6.72,
+   "impacto": 6.65,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -60,7 +75,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.49,
+   "impacto": 1.48,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -75,7 +90,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.48,
+   "impacto": 1.47,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -90,7 +105,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 5.19,
+   "impacto": 5.13,
    "cobertura": 4,
    "motivos": [
     "tema coberto por 4 veículos",
@@ -107,7 +122,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 6.66,
+   "impacto": 6.59,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -124,7 +139,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.48,
+   "impacto": 1.46,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -139,7 +154,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 3.84,
+   "impacto": 3.8,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: eleição, balanço, dólar",
@@ -155,7 +170,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 5.01,
+   "impacto": 4.96,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -172,7 +187,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 7.5,
+   "impacto": 7.43,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -190,7 +205,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 8.82,
+   "impacto": 8.73,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
@@ -207,7 +222,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.47,
+   "impacto": 1.45,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -222,7 +237,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 3.07,
+   "impacto": 3.04,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -239,7 +254,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.05,
+   "impacto": 2.03,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dividendos",
@@ -255,7 +270,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 1.46,
+   "impacto": 1.44,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -270,7 +285,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.46,
+   "impacto": 1.44,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -285,7 +300,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 1.46,
+   "impacto": 1.44,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -300,7 +315,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.07,
+   "impacto": 4.03,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
@@ -317,7 +332,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 6.1,
+   "impacto": 6.04,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: eleição, dólar",
@@ -334,7 +349,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.45,
+   "impacto": 1.44,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -349,7 +364,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 14.81,
+   "impacto": 14.66,
    "cobertura": 5,
    "motivos": [
     "tema coberto por 5 veículos",
@@ -367,7 +382,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 9.86,
+   "impacto": 9.77,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
@@ -385,7 +400,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 6.07,
+   "impacto": 6.01,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: eleição, dólar",
@@ -402,11 +417,26 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 8.67,
+   "impacto": 8.58,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
     "sentimento positivo (+1.00)",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Ibovespa desvaloriza com crescimento numérico de Lula em nova pesquisa eleitoral - VEJA",
+   "fonte": "VEJA",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYTc0Sy1GbEVjSVRlSFZRaFpWWXZ3NzZLRmJkVld1OVFPWVNHUUt1QXp0RmdCZWlPcl9IZDZ6Mld0WWVhMFNaRnhHemxaTkFsOHJ1emdfR1hkUm4xVFB6bjhDZS0zZ0F5cFB5OWlYQmdYQmQwdUtyUEtJMmpzNEZJek5laWdOTjZSZzhkNGM4WUE1clo0a2dJd05FVVFpWXZ6c3k1a0JXYzhneUs4cEFHaG5SUUprNkU?oc=5",
+   "data": "2026-10-21T20:37+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.43,
+   "cobertura": 1,
+   "motivos": [
     "publicada há menos de 1 h"
    ]
   },
@@ -419,7 +449,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.44,
+   "impacto": 1.43,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -434,7 +464,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 3.02,
+   "impacto": 2.99,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -451,7 +481,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 6.04,
+   "impacto": 5.98,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: eleição, dólar",
@@ -468,7 +498,7 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 1.44,
+   "impacto": 1.42,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -483,7 +513,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 8.62,
+   "impacto": 8.54,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
@@ -500,13 +530,28 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 7.33,
+   "impacto": 7.26,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "palavras de alto impacto: balanço",
     "sentimento positivo (+1.00)",
     "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Tesouro Direto volta a subir com disputa presidencial apertada e exterior misto; veja as taxas - Estadão",
+   "fonte": "Estadão",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOUUxaY19wTTZ1c0s0Q0tFczJXR0NPYU1IUkVCNlNPZXFJLUhWdy1CZXRsSVNGY3B6RlhXX0JqalV6aWg3Z1llNEJQQUJwcFVVdV9CQ0dZaHozVnRKQmFqRFRYakNkTlJrelR1VVlfS0hHVy16Y2syWDZRZjNjdFpWUUtrazF5akNSamM5ZmJ2OWtkNGNOcFJ4eTBhU2QtTzRESTlFMTNTTnJOVGdfWE9qM0NPbEEyVkZWM012OVR2WjN6M0FKcFh3bnI2V3ozdjjSAdQBQVVfeXFMUF9uMl8zWW94OHI3SFVYdkNjejJTSnZGeE1WcHlURDhTanh6b3MxQl9zOW84VVZsakpyRWcxWU9ET3FnZDYxMEJDUzRwMldfbkpmREI0TV8yZzZnd2hpRGtTN01nSHFsS1JhSjhBbmkzUU1SRDZxakhHX3p6RXNPcGFBNU5GT093c2hGaEM5d0FjdDJDT0ExWEh6NzN1N3ZRd1d0X0UwT0dPS1FxZ0xDa185Qmw2Z3RHWlpBR05JZlUwWVN4VHVOSmFNRkxwOGszWTZIVTE?oc=5",
+   "data": "2026-10-21T20:31+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.42,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há 1 h"
    ]
   },
   {
@@ -518,11 +563,11 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 2.0,
+   "impacto": 1.98,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
-    "publicada há menos de 1 h"
+    "publicada há 1 h"
    ]
   },
   {
@@ -534,13 +579,13 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 9.73,
+   "impacto": 9.64,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há menos de 1 h"
+    "publicada há 1 h"
    ]
   },
   {
@@ -552,12 +597,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 6.0,
+   "impacto": 5.94,
    "cobertura": 5,
    "motivos": [
     "tema coberto por 5 veículos",
     "palavras de alto impacto: dólar",
-    "publicada há menos de 1 h"
+    "publicada há 1 h"
    ]
   },
   {
@@ -569,7 +614,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 7.26,
+   "impacto": 7.19,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -587,7 +632,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 4.26,
+   "impacto": 4.22,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -603,7 +648,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 3.97,
+   "impacto": 3.93,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
@@ -620,7 +665,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 4.25,
+   "impacto": 4.21,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -636,7 +681,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.41,
+   "impacto": 1.4,
    "cobertura": 1,
    "motivos": [
     "publicada há 1 h"
@@ -651,7 +696,7 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 4.24,
+   "impacto": 4.2,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -667,26 +712,11 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.8,
+   "impacto": 4.76,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 1 h"
-   ]
-  },
-  {
-   "titulo": "SMAL11 movimenta R$ 2,16 bilhões por dia e supera BOVA11 após eleições - Estadão",
-   "fonte": "Estadão",
-   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNc09ZM0F6Zy1RX3MyRkhyS2NXQ3B5SDVydFN3a3Z2ODdTOEZ4cEFPU1lpX1FzOGp0X0JPZVM4YkZOTVNGOTFYTFRrYUtYamw0LWdpQUxVNG04dkdZcnJuT3ZrVXYtM3VWbW4xeks1MmNOdHN1M2RCeHJ2Mm42WkNqXzRhUEc1WkJlVl8wcmt3WEFNVkNqTXVuX2NxcjF2ekRLeF9NUVd2MVJuTkJhRHlLMERQX2RfSUZNLUxQT3Fsa2dkSF9iSDlESE9xbl8ydDRYYXA5VHMzSGk?oc=5",
-   "data": "2026-10-21T20:13+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.41,
-   "cobertura": 1,
-   "motivos": [
     "publicada há 1 h"
    ]
   },
@@ -699,7 +729,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.97,
+   "impacto": 1.95,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -715,7 +745,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.41,
+   "impacto": 1.39,
    "cobertura": 1,
    "motivos": [
     "publicada há 1 h"
@@ -730,7 +760,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.41,
+   "impacto": 1.39,
    "cobertura": 1,
    "motivos": [
     "publicada há 1 h"
@@ -745,7 +775,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.97,
+   "impacto": 1.95,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -761,7 +791,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 7.17,
+   "impacto": 7.11,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -779,7 +809,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.77,
+   "impacto": 4.73,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -796,7 +826,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.4,
+   "impacto": 1.39,
    "cobertura": 1,
    "motivos": [
     "publicada há 1 h"
@@ -811,11 +841,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 3.08,
+   "impacto": 3.05,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: juros, balanço",
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -827,13 +857,13 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 11.91,
+   "impacto": 11.8,
    "cobertura": 4,
    "motivos": [
     "tema coberto por 4 veículos",
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -845,10 +875,10 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 1.4,
+   "impacto": 1.39,
    "cobertura": 1,
    "motivos": [
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -860,10 +890,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.4,
+   "impacto": 1.39,
    "cobertura": 1,
    "motivos": [
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -875,11 +905,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.19,
+   "impacto": 4.15,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -891,12 +921,12 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 5.29,
+   "impacto": 5.24,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: recorde",
     "sentimento positivo (+1.00)",
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -908,7 +938,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.92,
+   "impacto": 1.91,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -924,7 +954,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 4.12,
+   "impacto": 4.09,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -940,7 +970,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 3.01,
+   "impacto": 2.98,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: petróleo, dólar",
@@ -956,44 +986,10 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 6.15,
-   "cobertura": 2,
-   "motivos": [
-    "tema coberto por 2 veículos",
-    "sentimento positivo (+1.00)",
-    "publicada há 2 h"
-   ]
-  },
-  {
-   "titulo": "Wall Street encerra sessão em alta com Nasdaq a liderar ganhos animado pela SpaceX - Jornal Económico",
-   "fonte": "Jornal Económico",
-   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNm9uSEthSFRuc0tpXzJnYU1rWXVUZXVycG1ZTktYMVBZcG13djRKa0wwQWdzTmpobGZaWW9ySVZLbmZyYm9UcEliaU9zalQxeFAzb29ScFFQNW94SWhvUzZVbk5sSlo0d3V3NTJ4Si0yMFhHN29qd2dZVU5FQXVZdzN0TThZS1J1cmVteTkwZTlOc3pnQmFJU3RiRTI1QTVRWW1xbDgxM2RyUjg0XzJjSGIxVnhuZUFzUm8ybDZFakp6Zw?oc=5",
-   "data": "2026-10-21T19:33+00:00",
-   "sentimento": 1.0,
-   "classes": [
-    "exterior"
-   ],
-   "impacto": 6.15,
-   "cobertura": 2,
-   "motivos": [
-    "tema coberto por 2 veículos",
-    "sentimento positivo (+1.00)",
-    "publicada há 2 h"
-   ]
-  },
-  {
-   "titulo": "O mercado de câmbio e a eleição presidencial - Monitor Mercantil",
-   "fonte": "Monitor Mercantil",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRU5oM2ttaTdPTDJKMWI4X0RDWlc3NFFsOEtERG9yYmlxcWMzZ3RSMHoyUXBkYV9UU2l1XzUxY3YyUzZaTkVpc3gyUl9uLTVNUWc5RzFYR0h2M1phdW4xTDhtQU5fZFhwUlJtMC0xSlZXczBlU0x4dWkyZ1dXVkdUcEFtWQ?oc=5",
-   "data": "2026-10-21T19:30+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 2.46,
+   "impacto": 4.07,
    "cobertura": 1,
    "motivos": [
-    "palavras de alto impacto: eleição",
+    "sentimento positivo (+1.00)",
     "publicada há 2 h"
    ]
   }
