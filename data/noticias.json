@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-21T17:55:54+00:00",
+ "atualizado": "2026-10-21T18:06:00+00:00",
  "destaque": {
   "titulo": "Ibovespa hoje anda de lado e dólar sobe após Quaest apontar empate técnico entre Flávio e Lula - Valor Investe",
   "fonte": "Valor Investe",
@@ -9,7 +9,7 @@
   "classes": [
    "moedas"
   ],
-  "impacto": 6.94,
+  "impacto": 6.89,
   "cobertura": 2,
   "motivos": [
    "tema coberto por 2 veículos",
@@ -20,6 +20,53 @@
  },
  "itens": [
   {
+   "titulo": "Dólar hoje: siga ao vivo o valor da cotação - GZH",
+   "fonte": "GZH",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTnh2VFJMSWozVXRKNFFFNFBuVjJURXhtQ2ZZOV9BX3dzdVJ1RmNJSDBmR2pJc2ctNDJQT2k2OE1xMVF4SC1GRkZvSTM1UEVtM3NWT0FMQkpyTTNlUkplekVfZFIyWndiUFBLOS1tTlpPYWNqQ0Z0d0ZpTDhsY0ZldHhfTHZHazNaVklyZS1UeU13UE8tb2FiOFJNUW1RTWptT2VXU3RkMmdWbFl2aEk3Tk91Qk9iclFyTjNVMDg0OGNvZ05FTlE?oc=5",
+   "data": "2026-10-21T17:58+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 2.08,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: dólar",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Ibovespa Hoje Ao Vivo: Bolsa recua com nova pesquisa, na contramão do exterior",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-21102026/",
+   "data": "2026-10-21T17:56+00:00",
+   "sentimento": -1.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 4.46,
+   "cobertura": 1,
+   "motivos": [
+    "sentimento negativo (-1.00)",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Setor financeiro lidera ganhos da Bolsa no 3º trimestre; veja os índices que mais subiram - BPMoney",
+   "fonte": "BPMoney",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNb1dyTzJFZDhpd1A2QnpwWHVBVmJ6cnRtRDhXdjNhaVB4YXp1dlJnZ09KMS03emZpc0JwUFlMTzlBZVZMZS00VEQ1WS10c01ILUhKMkNLd1hEZzFndWZnMXBjeG94QWVCMm9iSE1JTDlRc3dzYWw0Tm91bEhkODRIdUxpUXAtLV9CcTBFeTBxWG40MnVwTkpZV0xZVDRsQjNmLVE?oc=5",
+   "data": "2026-10-21T17:55+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.48,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
    "titulo": "Fundos imobiliários: O setor que pode gerar oportunidades e riscos para os cotistas, segundo a XP - Money Times",
    "fonte": "Money Times",
    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQeVc1clhqS016X0wzaUFlM3pYQVB1N2lSdE9uQ3B1M2xVX0VwaVBFTmkxd0Q2ejVyandmSjVyUlZiNTBualVXMVdJQ2lDRkJMcHkxcVNFQW4zSVVPNElKNWpDaWUwMzMybll6MVpQaWxlaHZxRVNHUWJQQUV3YlFlZC1ZTUY0Tk5IV1pMMzFnOGs0QVZLbjVGN1hBcDR5NFYxdzdnWjVSTHZEbXJ2SDRBZ3pxRXhicDhWVWc0V093emFzeEltMkE?oc=5",
@@ -28,7 +75,7 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 4.48,
+   "impacto": 4.44,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
@@ -44,7 +91,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 6.27,
+   "impacto": 6.21,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: petróleo, dólar",
@@ -61,7 +108,7 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 1.49,
+   "impacto": 1.48,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -76,7 +123,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.45,
+   "impacto": 4.41,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
@@ -92,7 +139,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.43,
+   "impacto": 4.39,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
@@ -108,7 +155,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.47,
+   "impacto": 1.46,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -123,7 +170,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.47,
+   "impacto": 1.46,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -138,7 +185,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.47,
+   "impacto": 1.45,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -153,7 +200,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.46,
+   "impacto": 1.45,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -168,7 +215,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.37,
+   "impacto": 4.33,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
@@ -184,7 +231,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.46,
+   "impacto": 1.44,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -199,7 +246,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 6.68,
+   "impacto": 6.62,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: tarifa, balanço, dólar",
@@ -216,7 +263,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.17,
+   "impacto": 2.16,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -232,7 +279,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.17,
+   "impacto": 2.16,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -248,7 +295,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.35,
+   "impacto": 4.31,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
@@ -264,7 +311,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 1.45,
+   "impacto": 1.44,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -279,23 +326,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.17,
-   "cobertura": 2,
-   "motivos": [
-    "tema coberto por 2 veículos",
-    "publicada há menos de 1 h"
-   ]
-  },
-  {
-   "titulo": "Quem está na frente no 2º turno no Amazonas?",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/politica/quem-esta-na-frente-no-2o-turno-no-amazonas/",
-   "data": "2026-10-21T17:17+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 2.17,
+   "impacto": 2.15,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -311,7 +342,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 2.03,
+   "impacto": 2.01,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -327,7 +358,7 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 4.34,
+   "impacto": 4.3,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
@@ -343,7 +374,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.33,
+   "impacto": 4.3,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -359,11 +390,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 3.15,
+   "impacto": 3.13,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: petróleo, dividendos",
-    "publicada há menos de 1 h"
+    "publicada há 1 h"
    ]
   },
   {
@@ -375,10 +406,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.43,
+   "impacto": 1.42,
    "cobertura": 1,
    "motivos": [
-    "publicada há menos de 1 h"
+    "publicada há 1 h"
    ]
   },
   {
@@ -390,25 +421,9 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.42,
+   "impacto": 1.41,
    "cobertura": 1,
    "motivos": [
-    "publicada há 1 h"
-   ]
-  },
-  {
-   "titulo": "HGLG11 paga R$ 1,17, mas lucro despenca 12,7% e acende alerta sobre dividendos - O Petróleo",
-   "fonte": "O Petróleo",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMV9aSVdYVjJCWXFxSXljSnRrNWRqWXBvbDVGQ1JaYmFaRXpTdGQ0UTJwamNCeG9DM0xEZEpobzZON2N5M2x0bG1nTFlpOHpLcFdmdmNtV3N4UGh6b2NuNnlob0dZaVEwYnowdUgzc2xJZGx6eHNfQ0tIRVU3UXRzcXVyaVZQXzE0N2tZcjJOeFNZMEZTWE1EdmJLa0Fva2ty?oc=5",
-   "data": "2026-10-21T16:49+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 3.11,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: petróleo, dividendos",
     "publicada há 1 h"
    ]
   },
@@ -421,7 +436,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.41,
+   "impacto": 1.4,
    "cobertura": 1,
    "motivos": [
     "publicada há 1 h"
@@ -436,7 +451,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.41,
+   "impacto": 1.4,
    "cobertura": 1,
    "motivos": [
     "publicada há 1 h"
@@ -451,7 +466,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.4,
+   "impacto": 1.39,
    "cobertura": 1,
    "motivos": [
     "publicada há 1 h"
@@ -466,7 +481,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.21,
+   "impacto": 4.17,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -482,10 +497,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.39,
+   "impacto": 1.38,
    "cobertura": 1,
    "motivos": [
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -497,7 +512,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 2.08,
+   "impacto": 2.06,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -513,7 +528,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.38,
+   "impacto": 1.37,
    "cobertura": 1,
    "motivos": [
     "publicada há 2 h"
@@ -528,7 +543,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.38,
+   "impacto": 1.37,
    "cobertura": 1,
    "motivos": [
     "publicada há 2 h"
@@ -543,7 +558,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.47,
+   "impacto": 2.45,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: eleição",
@@ -559,7 +574,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 5.2,
+   "impacto": 5.16,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: balanço, dólar",
@@ -576,7 +591,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.1,
+   "impacto": 4.07,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
@@ -592,7 +607,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.36,
+   "impacto": 1.35,
    "cobertura": 1,
    "motivos": [
     "publicada há 2 h"
@@ -607,7 +622,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 6.94,
+   "impacto": 6.89,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -625,7 +640,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.91,
+   "impacto": 1.89,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -641,7 +656,7 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 1.36,
+   "impacto": 1.35,
    "cobertura": 1,
    "motivos": [
     "publicada há 2 h"
@@ -656,7 +671,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 5.16,
+   "impacto": 5.12,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: petróleo",
@@ -673,7 +688,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 2.84,
+   "impacto": 2.82,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -690,10 +705,25 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 2.02,
+   "impacto": 2.01,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
+    "publicada há 2 h"
+   ]
+  },
+  {
+   "titulo": "Ranking da Bolsa: 10 índices superam o Ibovespa no 3º trimestre; confira - Estadão",
+   "fonte": "Estadão",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRWM3SnhMR21mNHMzeVVoa2VqT3JYQ3phb00xSWowaUJiQ0tXQWVIWTV5aFI1NUJ1ckRzY29ScFRKZnpLX3B0TDVQRkg1SUhSRE8tYS1pUVZXektFcXZ4WU00M19zRlFiS3ZUR1gtUmIyTENvOEllSnc3SXFTbE9qX0FxYU5MdVE3eUdiUDRYTl9lZFRfZVYwcFQyNXhWTk5oeVdHYkFHSmgyX2VIdXpINjhON3dOd2p1cmlTRDNZYnpXTFZIX0sw0gHMAUFVX3lxTFBZakl3QWNMSFcwd0o4U3FDR3ZBWlowZTFyQWZ1TFpFb25acTRqV24xd2xTdDltM09kWDB6bUhFSFpHUVFaMEx1Z0I1SEtHeXJOM0tVczR0dW1HdkhCYlN0djVUYlJrUnFhaUsyTFhZV3Mwc01lcWJMaUhEVlVrck5lZlIyOGFqejhWN3NPeEJhaV9weEtsblBtREUzc1EwZ19JVlZHdDMzMGFna1RGbzhWcnNfWVNkYWdCMzR3QU01ck9QU1Z3RnBOU2xlRg?oc=5",
+   "data": "2026-10-21T15:44+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.34,
+   "cobertura": 1,
+   "motivos": [
     "publicada há 2 h"
    ]
   },
@@ -706,42 +736,11 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 4.57,
+   "impacto": 4.54,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
     "sentimento positivo (+1.00)",
-    "publicada há 2 h"
-   ]
-  },
-  {
-   "titulo": "Bitcoin : Tesla e SpaceX consideram uma fusão com 30.221 BTC - Cointribune",
-   "fonte": "Cointribune",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTl9qbHh6MnQ5SEtTUnZiV0M3UVlUSDM1dHBXSUVic05lMjE0aVRta09kRldGdndkVDZ4N2VyTUJmQVJ6Tk0xcEl1YXdVbm5JM3M2U1Q3Y1AzeWh3bVN2bE1IZVUxV0dZVXdCdG9NU0FVUTRITG1JcEdpY3l5TzZ0aTlFNVc2RXRRX3VYNFhXWQ?oc=5",
-   "data": "2026-10-21T15:44+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "cripto"
-   ],
-   "impacto": 1.88,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: bitcoin",
-    "publicada há 2 h"
-   ]
-  },
-  {
-   "titulo": "Eventos climáticos exigem atenção às instalações elétricas - www.broadcast.com.br",
-   "fonte": "www.broadcast.com.br",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTXlMMXJsa01OU3p5eHp5SUNrTlFzWGNPSG9GNFJKT250VzJEaTd6WmJKck12V0loMm94NVlralg4X0F1enRsNXdtYlRfX193SFNMS2ZNQmViSkNKVE53OWJhYV80MTZwX3I3Zko1Tk8ycjlmTE0wT2FheDhSVEZCV3dUY0xzVDQ2aHlLNFFZdmFzUWVHc1lVUDdpQ0xhby05ckE?oc=5",
-   "data": "2026-10-21T15:42+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.34,
-   "cobertura": 1,
-   "motivos": [
     "publicada há 2 h"
    ]
   },
@@ -754,7 +753,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.34,
+   "impacto": 1.33,
    "cobertura": 1,
    "motivos": [
     "publicada há 2 h"
@@ -769,7 +768,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.34,
+   "impacto": 1.33,
    "cobertura": 1,
    "motivos": [
     "publicada há 2 h"
@@ -784,7 +783,7 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 1.34,
+   "impacto": 1.33,
    "cobertura": 1,
    "motivos": [
     "publicada há 2 h"
@@ -799,7 +798,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 5.63,
+   "impacto": 5.59,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: petróleo, dividendos",
@@ -816,11 +815,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.4,
+   "impacto": 2.39,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: eleição",
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -833,11 +832,11 @@
     "moedas",
     "exterior"
    ],
-   "impacto": 3.46,
+   "impacto": 3.44,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: fed, dólar",
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -849,12 +848,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.52,
+   "impacto": 4.49,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -866,7 +865,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.48,
+   "impacto": 4.44,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: petróleo, rebaixa, petrobras",
@@ -882,27 +881,11 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 4.47,
+   "impacto": 4.44,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
     "sentimento positivo (+1.00)",
-    "publicada há 3 h"
-   ]
-  },
-  {
-   "titulo": "Dólar inicia dia em alta com investidores repercutindo nova pesquisa eleitoral; Bolsa cai - Bem Paraná",
-   "fonte": "Bem Paraná",
-   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQSDNZT0RfelJJRXdwbnhYOGNIWlQ1VEN3WXozcDZZREVkcUR2Y3BHQ1QyRGtMa3hiS1FpcE1vQkVISWRWTlZXd2R4eGFpWUVjc1BHSW95Y1FWT1UyYjAwY1NKVHpUbkQ4T1A3SmlPQ0l1YnY0bVJFSHpqcm1GNzh3YV9fU2pxeXEwMFVfcVhtZ1dMNUU4ckVNbHBoM0Vxa0pHbnBUZlRGbFdXZk5zeWNKblhRb0doWHhDUzlwSndXZERtZkNGWERUckRfWEJxTTlid2NJaGNPUdIB1wFBVV95cUxQSDNZT0RfelJJRXdwbnhYOGNIWlQ1VEN3WXozcDZZREVkcUR2Y3BHQ1QyRGtMa3hiS1FpcE1vQkVISWRWTlZXd2R4eGFpWUVjc1BHSW95Y1FWT1UyYjAwY1NKVHpUbkQ4T1A3SmlPQ0l1YnY0bVJFSHpqcm1GNzh3YV9fU2pxeXEwMFVfcVhtZ1dMNUU4ckVNbHBoM0Vxa0pHbnBUZlRGbFdXZk5zeWNKblhRb0doWHhDUzlwSndXZERtZkNGWERUckRfWEJxTTlid2NJaGNPUQ?oc=5",
-   "data": "2026-10-21T15:12+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 1.84,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: dólar",
     "publicada há 3 h"
    ]
   },
@@ -915,7 +898,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 4.44,
+   "impacto": 4.41,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -932,7 +915,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 4.42,
+   "impacto": 4.39,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -949,7 +932,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.3,
+   "impacto": 1.29,
    "cobertura": 1,
    "motivos": [
     "publicada há 3 h"
@@ -964,10 +947,26 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 3.89,
+   "impacto": 3.86,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
+    "publicada há 3 h"
+   ]
+  },
+  {
+   "titulo": "Economista-chefe do BCE afirma que maior uso global do euro pode ajudar no controle da inflação - Valor Econômico",
+   "fonte": "Valor Econômico",
+   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPcm5YUUdoY0FjUU5PZDZEOWctWkR6OUljSW1BNHZ1UkVjWHFzYVVvX1dCMS1rNGQ4YlRUWUF2OTRYZDFRNW80ZVh2UGlWSUQ5QkRLaC1iRUM0UEZjZF9qNmo5MHkzVTdvMW1DZllydnJMMENrSk9GNmUwN1pxT1MzNVFiS0JPRVNBNTh0c05kZC1QN0lSZXdGam5YLXRaTnZVNTAtVVNyTThlS0p5aFNibk1kcEJIOG9nTG1lWEdLSi1WMFBKUzdaN1Y5OWNJUWYwQ0ZSanhlOEZFWHVRYmFEWFdiaFMyd9IB9AFBVV95cUxPUmxreXZyTmdzWVowRzE2d0Q0c3VRNzhZVjR5SnNma2tCekR3REZCNV9QSWhjRkpTSG53NXNVQTd1TVdUcHg3anNLX0l5OXdKYS1pdTBmVXZhU0pIeEVzN19DdE1BMmtHZXkzR1Blbjl5M2wwSkRUM3BpU2NUTE00eUhXZkZCOGljWGQ0ZDlBZXo2QjZDUXYtRjhGM2tpWGF6cEZ5bldzNERYbTh3Qnp5bVU5R3RmSGxSVHJsbnRzeDc4dVdueXl6djJJTDkyUFNBdlo1NEJ5S1hyWjlVNWR6bmhpXzlTTzMtMU5ySHlJOHNQeS1P?oc=5",
+   "data": "2026-10-21T14:50+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 2.31,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: inflação",
     "publicada há 3 h"
    ]
   }
