@@ -1,24 +1,71 @@
 {
- "atualizado": "2026-10-22T00:09:14+00:00",
+ "atualizado": "2026-10-22T00:35:57+00:00",
  "destaque": {
-  "titulo": "Ibovespa fecha em -0,86%; dólar sobe a R$ 5,02 - Finance News",
-  "fonte": "Finance News",
-  "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQQXhpWWs4ZUpFX2d5Y0RCU0pNT21LXzlxVXdRZEpENVNGeVgzd2RjeVNhbWo3c0hSd2JQbkpCRU1hbENoaXBwSkpDdzhIVHZKdWF0Sm1pd0d3Snh3cmpSeGFXbTNFSzBWc1h4ZzBFU1RzcERVc20yM3hjWk16UFpZcFpn?oc=5",
-  "data": "2026-10-21T23:56+00:00",
-  "sentimento": 1.0,
+  "titulo": "Ibovespa cai 0,86% com pesquisa eleitoral; dólar fecha a R$ 5,027 - UOL Economia",
+  "fonte": "UOL Economia",
+  "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbU1EdnRpTDdYbzVmR0tURlo3Z3A2VU9NNXlwdENaNGxkTTdiLU90WlRJZlh5RFN5OGlkREtscmZoWm5oVzNsdWlhalFuRnhwZjRRVXBwcldyRjlNbDVZZ3JISUtSbnAyNVZOVmhzcHJkRjZoU200U3NyYlg5VldFelgzS3V4dk5IQzBmTXoyMkdoYWN0OWVIM2lnTHVRcmNGT3Z2TktDODI4TDZpazNNNFJnTQ?oc=5",
+  "data": "2026-10-21T23:44+00:00",
+  "sentimento": -1.0,
   "classes": [
    "moedas"
   ],
-  "impacto": 15.12,
-  "cobertura": 5,
+  "impacto": 17.05,
+  "cobertura": 6,
   "motivos": [
-   "tema coberto por 5 veículos",
+   "tema coberto por 6 veículos",
    "palavras de alto impacto: dólar",
-   "sentimento positivo (+1.00)",
+   "sentimento negativo (-1.00)",
    "publicada há menos de 1 h"
   ]
  },
  "itens": [
+  {
+   "titulo": "Dia de Sorte: confira o resultado do concurso 1328 sorteado nesta quarta-feira (21)",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/consumo/dia-de-sorte-confira-o-resultado-do-concurso-1328-sorteado-nesta-quarta-feira-21/",
+   "data": "2026-10-22T00:28+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 2.23,
+   "cobertura": 2,
+   "motivos": [
+    "tema coberto por 2 veículos",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Lotomania: confira o resultado do concurso 2990 sorteado nesta quarta-feira (21)",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/consumo/lotomania-confira-o-resultado-do-concurso-2990-sorteado-nesta-quarta-feira-21/",
+   "data": "2026-10-22T00:25+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 2.23,
+   "cobertura": 2,
+   "motivos": [
+    "tema coberto por 2 veículos",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Flávio tem 53% e Lula, 47%, nos votos válidos, mostra Gerp",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/politica/flavio-tem-53-e-lula-47-nos-votos-validos-mostra-gerp/",
+   "data": "2026-10-22T00:16+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.47,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há menos de 1 h"
+   ]
+  },
   {
    "titulo": "Lotofácil hoje, concurso 3810: confira o resultado sorteado nesta quarta (21)",
    "fonte": "InfoMoney",
@@ -28,7 +75,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.24,
+   "impacto": 2.19,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -44,7 +91,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.23,
+   "impacto": 2.18,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -60,10 +107,27 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.68,
+   "impacto": 2.62,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: petróleo",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Ibovespa cai com pesquisa e WEG, e dólar tem leve alta - TradingView",
+   "fonte": "TradingView",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5LWXZCVUJKQ2Njdm5MVjRrVW1OdzQ4V25IOEw0VjF5cVFnY1BtZTBFRW50LWtOeVpLNzEzellRN2xOQXhERlVkUTFpc1hEMFQ4b0xSdkMxNWVqaXU0Q2JfOFVWaDdiWHNDYmxBZ29Tem82SlZBV0ZV?oc=5",
+   "data": "2026-10-21T23:59+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 4.06,
+   "cobertura": 3,
+   "motivos": [
+    "tema coberto por 3 veículos",
+    "palavras de alto impacto: dólar",
     "publicada há menos de 1 h"
    ]
   },
@@ -76,7 +140,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 2.08,
+   "impacto": 2.03,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -92,7 +156,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.48,
+   "impacto": 1.45,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -107,7 +171,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 15.12,
+   "impacto": 14.76,
    "cobertura": 5,
    "motivos": [
     "tema coberto por 5 veículos",
@@ -125,7 +189,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 5.14,
+   "impacto": 5.03,
    "cobertura": 4,
    "motivos": [
     "tema coberto por 4 veículos",
@@ -142,10 +206,10 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 14.95,
-   "cobertura": 5,
+   "impacto": 17.05,
+   "cobertura": 6,
    "motivos": [
-    "tema coberto por 5 veículos",
+    "tema coberto por 6 veículos",
     "palavras de alto impacto: dólar",
     "sentimento negativo (-1.00)",
     "publicada há menos de 1 h"
@@ -160,12 +224,12 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 8.71,
+   "impacto": 8.52,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
     "sentimento positivo (+1.00)",
-    "publicada há menos de 1 h"
+    "publicada há 1 h"
    ]
   },
   {
@@ -177,12 +241,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 3.03,
+   "impacto": 2.97,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "palavras de alto impacto: dólar",
-    "publicada há menos de 1 h"
+    "publicada há 1 h"
    ]
   },
   {
@@ -194,12 +258,29 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 5.03,
+   "impacto": 4.92,
    "cobertura": 4,
    "motivos": [
     "tema coberto por 4 veículos",
     "palavras de alto impacto: dólar",
-    "publicada há menos de 1 h"
+    "publicada há 1 h"
+   ]
+  },
+  {
+   "titulo": "Dólar fecha em alta e Bolsa cai pressionada por ações da WEG - Cruzeiro FM",
+   "fonte": "Cruzeiro FM",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaURiak9Iai1JVGJMTzVVRVQ1WENZdUVsSjh3dTQ0WFpGb3cxWF80bkVFUGJERDUzWGlkSVdaR3dEWmgtSWtyLTVjRFgySDlNWXNYSVBCMFUwYXdlZVlITl9PaWc1Q2NMSzBGelRscHdPREhlYmhiaW85VTlfLThZNFdsV2hhOXpnajVHOWNHYVg3LThMa0dzb3MyRl9YYTFjMVliN0NJaVJaN0ppYkNYcUVkMG03Zw?oc=5",
+   "data": "2026-10-21T23:09+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 2.92,
+   "cobertura": 2,
+   "motivos": [
+    "tema coberto por 2 veículos",
+    "palavras de alto impacto: dólar",
+    "publicada há 1 h"
    ]
   },
   {
@@ -211,9 +292,10 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.72,
-   "cobertura": 1,
+   "impacto": 6.94,
+   "cobertura": 2,
    "motivos": [
+    "tema coberto por 2 veículos",
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
     "publicada há 2 h"
@@ -228,7 +310,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.39,
+   "impacto": 1.36,
    "cobertura": 1,
    "motivos": [
     "publicada há 2 h"
@@ -243,7 +325,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.38,
+   "impacto": 1.35,
    "cobertura": 1,
    "motivos": [
     "publicada há 2 h"
@@ -258,7 +340,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.37,
+   "impacto": 1.35,
    "cobertura": 1,
    "motivos": [
     "publicada há 2 h"
@@ -273,7 +355,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 8.22,
+   "impacto": 8.05,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
@@ -290,7 +372,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.37,
+   "impacto": 1.34,
    "cobertura": 1,
    "motivos": [
     "publicada há 2 h"
@@ -305,7 +387,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.09,
+   "impacto": 4.01,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
@@ -321,7 +403,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.06,
+   "impacto": 3.99,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
@@ -337,12 +419,12 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 6.09,
+   "impacto": 5.97,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "sentimento positivo (+1.00)",
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -354,11 +436,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 3.38,
-   "cobertura": 4,
+   "impacto": 2.65,
+   "cobertura": 3,
    "motivos": [
-    "tema coberto por 4 veículos",
-    "publicada há 2 h"
+    "tema coberto por 3 veículos",
+    "publicada há 3 h"
    ]
   },
   {
@@ -370,10 +452,10 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.34,
+   "impacto": 1.32,
    "cobertura": 1,
    "motivos": [
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -385,12 +467,12 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 8.02,
+   "impacto": 7.86,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
     "sentimento positivo (+1.00)",
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -402,12 +484,12 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 8.0,
-   "cobertura": 3,
+   "impacto": 5.89,
+   "cobertura": 2,
    "motivos": [
-    "tema coberto por 3 veículos",
+    "tema coberto por 2 veículos",
     "sentimento positivo (+1.00)",
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -419,26 +501,10 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.33,
+   "impacto": 1.31,
    "cobertura": 1,
    "motivos": [
-    "publicada há 2 h"
-   ]
-  },
-  {
-   "titulo": "Bitcoin : Os ETFs apagam as saídas da semana passada - Cointribune",
-   "fonte": "Cointribune",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdGZXWjhkRFFHWGI5dnZMcE1mcGFfMm1ZWjV4dUJoOWFiM3pLOE80eWNRVzEtSUJ3VGNVYUtLNnJiQ0hFOHB5YlFhT0VYOUdkVUVEamVrbnJsLTFaSHQ0VUZJcHd5NEdJSEF2QmZyNEtYeXZYZGU2amNwbkpaRFV5MzRsdS1hRlk2?oc=5",
-   "data": "2026-10-21T21:42+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "cripto"
-   ],
-   "impacto": 1.86,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: bitcoin",
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -450,7 +516,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.39,
+   "impacto": 2.34,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: eleição",
@@ -466,7 +532,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 5.96,
+   "impacto": 5.85,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -483,7 +549,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 8.99,
+   "impacto": 8.83,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
@@ -501,26 +567,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 3.3,
-   "cobertura": 4,
+   "impacto": 2.59,
+   "cobertura": 3,
    "motivos": [
-    "tema coberto por 4 veículos",
-    "publicada há 3 h"
-   ]
-  },
-  {
-   "titulo": "Resumo do fechamento do mercado financeiro - Tribuna do Agreste",
-   "fonte": "Tribuna do Agreste",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbXdJNFcxc3BfY1h4U28wcEZLdTV4V1lpNHQtVHZGVFNNeElZUl9xdmc5Sng3QjVvRGdEaWNnS3p6YmFPQzFqSTYtNXhiUU9DNjlrQS1fcXd2VGxNZFdSY3g5SGY3b3pabUVVNTBlV0x6Y29UN3kxbjBoT25xanpWdmxIbUFCT2lOTHdtQktUR21POWJUUllUTmpYbnZ0RFRiV1NGNzB3?oc=5",
-   "data": "2026-10-21T21:32+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 3.3,
-   "cobertura": 4,
-   "motivos": [
-    "tema coberto por 4 veículos",
+    "tema coberto por 3 veículos",
     "publicada há 3 h"
    ]
   },
@@ -533,10 +583,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 3.3,
-   "cobertura": 4,
+   "impacto": 2.59,
+   "cobertura": 3,
    "motivos": [
-    "tema coberto por 4 veículos",
+    "tema coberto por 3 veículos",
     "publicada há 3 h"
    ]
   },
@@ -549,7 +599,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 11.17,
+   "impacto": 10.97,
    "cobertura": 4,
    "motivos": [
     "tema coberto por 4 veículos",
@@ -567,7 +617,7 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 1.31,
+   "impacto": 1.29,
    "cobertura": 1,
    "motivos": [
     "publicada há 3 h"
@@ -582,7 +632,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 11.16,
+   "impacto": 10.95,
    "cobertura": 4,
    "motivos": [
     "tema coberto por 4 veículos",
@@ -601,7 +651,7 @@
     "cripto",
     "exterior"
    ],
-   "impacto": 1.83,
+   "impacto": 1.8,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -617,73 +667,26 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.31,
+   "impacto": 1.29,
    "cobertura": 1,
    "motivos": [
     "publicada há 3 h"
    ]
   },
   {
-   "titulo": "IBM supera em lucro e receita no terceiro trimestre de 2026; ações sobem 3,4%",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/mercados/ibm-supera-em-lucro-e-receita-no-terceiro-trimestre-de-2026-acoes-sobem-34/",
-   "data": "2026-10-21T21:19+00:00",
-   "sentimento": 1.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 5.89,
-   "cobertura": 2,
-   "motivos": [
-    "tema coberto por 2 veículos",
-    "sentimento positivo (+1.00)",
-    "publicada há 3 h"
-   ]
-  },
-  {
-   "titulo": "Papa não precisará de novo tratamento após cirurgia de câncer de pulmão, diz médico",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/mundo/papa-nao-precisara-de-novo-tratamento-apos-cirurgia-de-cancer-de-pulmao-diz-medico/",
+   "titulo": "Dólar fecha em alta com atenção ao cenário político e temporada de balanços - Metrópoles",
+   "fonte": "Metrópoles",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9jUUFDa1RySkZrYlhVczBrTFJTRTNLQUZ1SWxkaC1iVXpNcjB4WGxxSFh0OTEzMExBX0NJaklxU09NWW5PZWdPbGRsdDJLME5iYjJtZGtEVWp2dDJKWEVubmQwWkI?oc=5",
    "data": "2026-10-21T21:18+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.31,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 3 h"
-   ]
-  },
-  {
-   "titulo": "Dólar fecha em alta e Bolsa cai pressionada por ações da WEG - Cruzeiro FM",
-   "fonte": "Cruzeiro FM",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQX2cxeXV3Z1NqdngtRl9LYW9UZTlMMHpfUE1Ga01nNWNCcUNhVF9CS1FBamxuUG9PbGJrUlh0MGRCYVp5dHlUWjZreTV3SkZiOW9zcmZhSWh0S3REdkd6MVQ4aWlvZ3FOQllvNjlTY3VuU09hS2M3NkNhSXhFZWp5U1FmcXozaUVac2xsTTUxbTNGblJVNzBWektLNDNLd25HZVdnVVNCckRnTEw3LVB2eQ?oc=5",
-   "data": "2026-10-21T21:11+00:00",
-   "sentimento": 0.0,
+   "sentimento": 1.0,
    "classes": [
     "moedas"
    ],
-   "impacto": 2.73,
-   "cobertura": 2,
-   "motivos": [
-    "tema coberto por 2 veículos",
-    "palavras de alto impacto: dólar",
-    "publicada há 3 h"
-   ]
-  },
-  {
-   "titulo": "ASSISTA: Lula x Flávio? O que mostram as últimas pesquisas a quatro dias do 2º turno",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/politica/assista-lula-x-flavio-o-que-mostram-as-ultimas-pesquisas-a-quatro-dias-do-2o-turno/",
-   "data": "2026-10-21T21:10+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.3,
+   "impacto": 4.88,
    "cobertura": 1,
    "motivos": [
+    "palavras de alto impacto: balanço, dólar",
+    "sentimento positivo (+1.00)",
     "publicada há 3 h"
    ]
   },
@@ -696,7 +699,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 3.37,
+   "impacto": 3.31,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: eleição, balanço, dólar",
@@ -712,12 +715,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.4,
+   "impacto": 4.32,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
     "sentimento negativo (-1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -729,13 +732,13 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 6.6,
+   "impacto": 6.48,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -747,12 +750,12 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 5.82,
+   "impacto": 5.72,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "sentimento positivo (+1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -764,12 +767,12 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 5.81,
+   "impacto": 5.71,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "sentimento negativo (-1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -781,11 +784,11 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.8,
+   "impacto": 1.77,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -797,10 +800,10 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 1.29,
+   "impacto": 1.26,
    "cobertura": 1,
    "motivos": [
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -812,10 +815,10 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 1.28,
+   "impacto": 1.26,
    "cobertura": 1,
    "motivos": [
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -827,12 +830,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 5.39,
+   "impacto": 5.29,
    "cobertura": 5,
    "motivos": [
     "tema coberto por 5 veículos",
     "palavras de alto impacto: dólar",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -844,12 +847,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 5.38,
+   "impacto": 5.29,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: eleição, dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -861,11 +864,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.56,
+   "impacto": 2.52,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -877,11 +880,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.92,
+   "impacto": 1.89,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -893,12 +896,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.35,
+   "impacto": 4.28,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -910,12 +913,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 5.36,
+   "impacto": 5.27,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: eleição, dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -927,12 +930,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.34,
+   "impacto": 4.26,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -944,12 +947,12 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 5.74,
+   "impacto": 5.64,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "sentimento positivo (+1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -961,7 +964,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.27,
+   "impacto": 1.25,
    "cobertura": 1,
    "motivos": [
     "publicada há 4 h"
@@ -976,7 +979,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.27,
+   "impacto": 1.25,
    "cobertura": 1,
    "motivos": [
     "publicada há 4 h"
@@ -991,7 +994,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.32,
+   "impacto": 4.25,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
