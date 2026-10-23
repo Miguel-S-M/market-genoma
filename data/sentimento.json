@@ -1,9 +1,9 @@
 {
- "atualizado": "2026-10-23T10:26:32+00:00",
+ "atualizado": "2026-10-23T10:42:55+00:00",
  "origem": "noticias.json",
  "metodo": "média de pontuações por palavras-chave; sinal informativo, não previsão",
  "quantidade": 60,
- "media": 0.011,
+ "media": 0.028,
  "por_classe": {
   "cripto": {
    "quantidade": 12,
@@ -14,12 +14,12 @@
    "media": 0.045
   },
   "imobiliario": {
-   "quantidade": 4,
-   "media": 0.25
+   "quantidade": 5,
+   "media": 0.2
   },
   "exterior": {
-   "quantidade": 8,
-   "media": -0.25
+   "quantidade": 7,
+   "media": -0.143
   },
   "acoes": {
    "quantidade": 23,

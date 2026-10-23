@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-23T10:26:32+00:00",
+ "atualizado": "2026-10-23T10:42:55+00:00",
  "destaque": {
   "titulo": "Expectativas de inflação na zona do euro sobem para 3,1% - Valor Econômico",
   "fonte": "Valor Econômico",
@@ -9,7 +9,7 @@
   "classes": [
    "moedas"
   ],
-  "impacto": 8.05,
+  "impacto": 7.94,
   "cobertura": 2,
   "motivos": [
    "tema coberto por 2 veículos",
@@ -20,6 +20,51 @@
  },
  "itens": [
   {
+   "titulo": "DAY TRADE 23/10/2026 | Abertura de mercado e minicontratos - XP Investimentos",
+   "fonte": "XP Investimentos",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONU1xQm5CWjFBWkpuUWthdXV4WXZaSVhQQWMwSHlHRUl4UDRZMVd3RWw3azlJYVo4QlZsUldMZW01YXRzZnZyTmp4ZXQ1bnNKQ3RPaDZ6dnJHaUkzMy1yUzFQQkJQTkdWc1N0Zk5semVzX2xFV3JhSWd0a1RnSGUtejVVN2oxRmhwMC1ROUJNV29ZaVJVVXhwN3AwQmxORlRtc3NPWUhtMXV4UzRiWXlGN05STQ?oc=5",
+   "data": "2026-10-23T10:35+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.49,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Fleury (FLRY3) realizará o resgate antecipado das debêntures da 8ª emissão",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/mercados/fleury-flry3-realizara-o-resgate-antecipado-das-debentures-da-8a-emissao/",
+   "data": "2026-10-23T10:31+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.48,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Último pregão antes das eleições terá Pam e Kyn ao vivo na Casa Clear",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/mercados/ultimo-pregao-antes-das-eleicoes-tera-pam-kyn-ao-vivo-na-casa-clear/",
+   "data": "2026-10-23T10:30+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.48,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
    "titulo": "Minidólar (WDOX26): veja os níveis decisivos para operar nesta sexta-feira",
    "fonte": "InfoMoney",
    "link": "https://www.infomoney.com.br/mercados/minidolar-hoje-futuro-do-dolar-wdox26-23102026/",
@@ -28,9 +73,27 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 2.07,
-   "cobertura": 1,
+   "impacto": 3.07,
+   "cobertura": 2,
    "motivos": [
+    "tema coberto por 2 veículos",
+    "palavras de alto impacto: dólar",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Minidólar (WDOX26): veja os níveis decisivos para operar nesta sexta-feira - InfoMoney",
+   "fonte": "InfoMoney",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZWxvc0pJcmlNdVV5Q1QwLXB1Q3BmMXgwRHd6LTZ2MmhFWW9lVldFRkg5bGVDVGZ4WEJJcWVNWGRLUURxNlJiT1BCSzlydngyZE1ZWEUyMHJ3UVVHY19XQUpfaVpXQnA1MHQtNWJFVkZzanBxMUdDbG1IdTlPWmVEQm1KM0stSDNJWkU2ei130gGTAUFVX3lxTE81ekd3anBYY2tyTDNvRXFTZmVtcnNfd3VvbVMyVWJSY1VrUEpMUFFPLUl2YW5ZNVBlUkY3a3B4M1hiZklzTUxzNGZCR2drVUJuVF9wN2xhaF93bmxxX2xRR1BoRWhLSWI1Z3NxeGFYMzZtV0NoU0kyMktkTXJJeVA4cE41eG9HUWNJX3pldXAzeEx6NA?oc=5",
+   "data": "2026-10-23T10:13+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 3.07,
+   "cobertura": 2,
+   "motivos": [
+    "tema coberto por 2 veículos",
     "palavras de alto impacto: dólar",
     "publicada há menos de 1 h"
    ]
@@ -44,7 +107,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 1.48,
+   "impacto": 1.46,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -59,7 +122,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.65,
+   "impacto": 2.62,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: inflação",
@@ -75,7 +138,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 2.65,
+   "impacto": 2.62,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: petróleo",
@@ -91,7 +154,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.4,
+   "impacto": 4.34,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -107,7 +170,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.47,
+   "impacto": 1.45,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -122,7 +185,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.46,
+   "impacto": 1.44,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -137,7 +200,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.46,
+   "impacto": 1.44,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -152,7 +215,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.46,
+   "impacto": 1.44,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -167,7 +230,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.46,
+   "impacto": 1.44,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -182,7 +245,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.46,
+   "impacto": 1.44,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -197,7 +260,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.46,
+   "impacto": 1.44,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -212,7 +275,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.34,
+   "impacto": 4.28,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -228,7 +291,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.44,
+   "impacto": 1.42,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -243,26 +306,10 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 2.0,
+   "impacto": 1.97,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
-    "publicada há menos de 1 h"
-   ]
-  },
-  {
-   "titulo": "Eleições, debate na Globo, IPCA-15 e mais destaques desta sexta",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/mercados/eleicoes-debate-globo-ipca-15-agenda-23102026/",
-   "data": "2026-10-23T09:20+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 2.55,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: ipca",
     "publicada há 1 h"
    ]
   },
@@ -275,7 +322,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 8.05,
+   "impacto": 7.94,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -293,7 +340,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 4.8,
+   "impacto": 4.73,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -310,7 +357,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 6.35,
+   "impacto": 6.26,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -327,11 +374,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.96,
+   "impacto": 1.93,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: balanço",
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -343,10 +390,10 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.4,
+   "impacto": 1.38,
    "cobertura": 1,
    "motivos": [
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -358,27 +405,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.4,
+   "impacto": 1.38,
    "cobertura": 1,
    "motivos": [
-    "publicada há 1 h"
-   ]
-  },
-  {
-   "titulo": "O que aconteceu com a Bolsa e dólar após o segundo turno, nas últimas eleições?",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/mercados/o-que-aconteceu-com-a-bolsa-e-dolar-apos-o-segundo-turno-nas-ultimas-eleicoes/",
-   "data": "2026-10-23T09:00+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 2.92,
-   "cobertura": 2,
-   "motivos": [
-    "tema coberto por 2 veículos",
-    "palavras de alto impacto: dólar",
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -390,12 +420,11 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 2.92,
-   "cobertura": 2,
+   "impacto": 1.92,
+   "cobertura": 1,
    "motivos": [
-    "tema coberto por 2 veículos",
     "palavras de alto impacto: dólar",
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -407,10 +436,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.39,
+   "impacto": 1.37,
    "cobertura": 1,
    "motivos": [
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -422,7 +451,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.93,
+   "impacto": 1.91,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -438,11 +467,42 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.88,
+   "impacto": 1.86,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
     "publicada há 2 h"
+   ]
+  },
+  {
+   "titulo": "Os sinais vermelhos da economia em 2027 e o que Flávio e Lula propõem para eles - BBC",
+   "fonte": "BBC",
+   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBQUXgwZEJ5b0c2UmV1dm9pQm92WVlRQ2hwYnUxMU1wcTc3SGhlMjBXc2xkR1lHWi1zcUtHdGZuaVo2MzU5XzlHYjlxU2FvSjgyRnVTWWNMdWR4eFh2SDBNU21PWQ?oc=5",
+   "data": "2026-10-23T08:11+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.33,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há 3 h"
+   ]
+  },
+  {
+   "titulo": "Ganhos de até 22%: veja os FIIs que mais subiram no rali eleitoral - InfoMoney",
+   "fonte": "InfoMoney",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPb2JjQm9wMlFTMThhMmlfUGUyR1RyalBadm0yNjhVMDNpNGUza1JONFJPOGNkUDlRVUZFYVgwcGFrakdYclpzLWtXSnV4UXBmb0plTTc5eEYtcmpLLTI1M0JpUHE0WHdvYmlLTFY0RGZ4WE03MVdKN213WUtxQU5pYU9OVS1haENCSUVkSVdZTUYyVXpaWFVoaDR4MzVQWkZhTGhkTHJfZUtXMVd1cVJYdWxB0gGyAUFVX3lxTE9vYmNCb3AyUVMxOGEyaV9QZTJHVHJqUFp2bTI2OFUwM2k0ZTNrUk40Uk84Y2RQOVFVRkVhWDBwYWtqR1hyWnMta1dKdXhRcGZvSmVNNzl4Ri1yakstMjUzQmlQcTRYd29iaUtMVjREZnhYTTcxV0o3bXdZS3FBTmlhT05VLWFoQ0JJRWRJV1lNRjJVelpYVWhoNHgzNVBaRmFMaGRMcl9lS1cxV3VxUlh1bEE?oc=5",
+   "data": "2026-10-23T08:00+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "imobiliario"
+   ],
+   "impacto": 1.97,
+   "cobertura": 2,
+   "motivos": [
+    "tema coberto por 2 veículos",
+    "publicada há 3 h"
    ]
   },
   {
@@ -454,10 +514,11 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 1.33,
-   "cobertura": 1,
+   "impacto": 1.97,
+   "cobertura": 2,
    "motivos": [
-    "publicada há 2 h"
+    "tema coberto por 2 veículos",
+    "publicada há 3 h"
    ]
   },
   {
@@ -469,7 +530,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.85,
+   "impacto": 1.83,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -485,7 +546,7 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 3.94,
+   "impacto": 3.89,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -501,7 +562,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 4.44,
+   "impacto": 4.39,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -518,7 +579,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.81,
+   "impacto": 1.79,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -535,7 +596,7 @@
     "cripto",
     "moedas"
    ],
-   "impacto": 5.53,
+   "impacto": 5.47,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -553,7 +614,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.78,
+   "impacto": 1.76,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -569,7 +630,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 5.81,
+   "impacto": 5.75,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: juros, petróleo",
@@ -586,10 +647,25 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 1.25,
+   "impacto": 1.24,
    "cobertura": 1,
    "motivos": [
     "publicada há 4 h"
+   ]
+  },
+  {
+   "titulo": "Siga as Escolhas de Cripto do Portfólio Pionex Referral Program 2026 - CoinMarketCap",
+   "fonte": "CoinMarketCap",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0xaHd3SVhxc3QwWGQtci1MeWd3TmxsdHh0ZzFVVTctMnV5VGd2WVd4bnVieDEwSXpuRGZpZjV5OTZxVmNLcklIVHJlR1ZMN2t1cGxlS1M5eTV0aDJQN1ZqWC1uZm1lbHdKTHRhdzdRZ2htODB0Wnc?oc=5",
+   "data": "2026-10-23T05:46+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "cripto"
+   ],
+   "impacto": 1.21,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há 5 h"
    ]
   },
   {
@@ -601,7 +677,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 1.83,
+   "impacto": 1.81,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -617,7 +693,7 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 1.21,
+   "impacto": 1.2,
    "cobertura": 1,
    "motivos": [
     "publicada há 5 h"
@@ -632,7 +708,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 3.62,
+   "impacto": 3.59,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -648,7 +724,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.68,
+   "impacto": 1.66,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -664,11 +740,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 3.59,
+   "impacto": 3.56,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
-    "publicada há 5 h"
+    "publicada há 6 h"
    ]
   },
   {
@@ -680,10 +756,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.19,
+   "impacto": 1.18,
    "cobertura": 1,
    "motivos": [
-    "publicada há 5 h"
+    "publicada há 6 h"
    ]
   },
   {
@@ -695,11 +771,26 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.67,
+   "impacto": 1.65,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
-    "publicada há 5 h"
+    "publicada há 6 h"
+   ]
+  },
+  {
+   "titulo": "HGRU11 aprova 6ª emissão que pode movimentar R$ 1,87 bilhão - Nord Investimentos",
+   "fonte": "Nord Investimentos",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQzB4LU1ySGdsLVhaZWN1ODVBWklsUTU0d1RBa2RaX290eVRYQTVvOG9JSkxUdU9nelVieEEzSHBIUjZtOXU4RDlETUFpVTBIaXgyZ21reTdBZDQyemwzOXF6MTBOZFk2cnkwOENkeTlIV1FGaU5oTUZnV2RMUnM3StIBhgFBVV95cUxQOTZNRExlQVk5VktubFJoT3VfaHFTeTN3cnlNaXh1cm5EUFY5dEJ0RGk1azhIdWJIc01tcnFqSnc1cFFvSFN3aG5BSUdCYVBrUGxzeXpPZXBfazVWcEIwenBtQzBJX0ZCb1BvejE4YTh4ZlFOSW4wN3VCZUFrNEJGS25yR2x5QQ?oc=5",
+   "data": "2026-10-23T04:40+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.16,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há 6 h"
    ]
   },
   {
@@ -712,7 +803,7 @@
     "cripto",
     "moedas"
    ],
-   "impacto": 2.47,
+   "impacto": 2.44,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -729,10 +820,10 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.15,
+   "impacto": 1.14,
    "cobertura": 1,
    "motivos": [
-    "publicada há 6 h"
+    "publicada há 7 h"
    ]
   },
   {
@@ -744,26 +835,11 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 3.91,
+   "impacto": 3.88,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 6 h"
-   ]
-  },
-  {
-   "titulo": "Tendências 23/10/2026 | das principais ações da Bolsa - XP Investimentos",
-   "fonte": "XP Investimentos",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPLVc0X3VOdE1qeDBEWDlhTDB3NWxFVnA1QmF0Si1Hd2lqeTlhcnM3WVFxVnFMb3h1XzF2SjdTTHg2b0twbXFDckFKa1NqWjFWcnAzSjNOd1hOY3NHcnR3d0NNU09iZUZMNTJvcGhNY2IxREZOZEsycU5meVJPeWVnRWJvRHZfb205SUNMbnlkUlQ2VUU5M2ZUOENFT0g4U1RMSTZ0U1VGUEwzbUxK?oc=5",
-   "data": "2026-10-23T03:20+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.13,
-   "cobertura": 1,
-   "motivos": [
     "publicada há 7 h"
    ]
   },
@@ -776,11 +852,11 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 2.47,
+   "impacto": 2.45,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: petróleo, bitcoin",
-    "publicada há 7 h"
+    "publicada há 8 h"
    ]
   },
   {
@@ -792,25 +868,10 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.57,
+   "impacto": 1.55,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
-    "publicada há 7 h"
-   ]
-  },
-  {
-   "titulo": "Mercado fica mais apreensivo na reta final para o 2º turno - Correio Braziliense",
-   "fonte": "Correio Braziliense",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNT3FfMFNPOGtpdlg3aWRiUkNWUHNyc1NOVHdsTzA0NTlMTmw5MllkZGF6XzhWM2ZNWEZMakRQYmlXZlE5OVNXMzcybTRXNThEVE00bEZOcVpKWDFjVUJ6RUFXVGFWTHk5em5xaFRaSGN5T3l6T2FfczBUQ1ozYnJMVzhPWFc3alR6aExZMG1tQUhmZzVCaTYzWVkwNFlHUzFlX0UzR2FTYURDazRlaENkQTdHR2YzZzZIME5HQnBpV1lFUHfSAcgBQVVfeXFMT3lteEZKanB2YWdjcDIzRE1zam5teTlhZnZVSV9meFpDM3RhUjZRaDM5Z0pmU0xKOUMwUE83MjdiNlRWZXAzQ3VzNDJEVHZ6WHpITlM3bGRsTUFma0ZjOTU5VjBsdGt4VzVtYzE0N2ljdWRmVGJQLTZINjlaM28zNmlTLXN6NG40SmVfRS1zMzZxd1lSaklFS185N3piU0VOWVRYekFKOXV6d18yYUo3QzcwUmo0VUlmc2lma3pkUWcxa3RkV2xIMms?oc=5",
-   "data": "2026-10-23T02:29+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.1,
-   "cobertura": 1,
-   "motivos": [
     "publicada há 8 h"
    ]
   },
@@ -823,28 +884,12 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.13,
+   "impacto": 4.1,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: eleição",
     "sentimento negativo (-1.00)",
-    "publicada há 8 h"
-   ]
-  },
-  {
-   "titulo": "Análise do Mercado Financeiro: Impactos das Eleições e do Petróleo - Diário do Estado",
-   "fonte": "Diário do Estado",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSUo3aWVjUGJpUWxqTDVicDlpSGFtWTV3emVIZmgxUHI3Z2hRUWVsNjRYZU5EU0ZjaW5PVmVDVzdTQW5Nc2ZBOEE4bTA0a3diOFhpTEtrSDZkemZ6aW9yYTNUdTJzNUQ2MkFmVU92VF85ZjlsYzJhWGgtbTlWXzFrYjlCd1RXOTVNSVBNUWwwQkpSWllBendXWnlxMlFYWFk?oc=5",
-   "data": "2026-10-23T02:00+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.96,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: petróleo",
-    "publicada há 8 h"
+    "publicada há 9 h"
    ]
   },
   {
@@ -856,10 +901,26 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.49,
+   "impacto": 1.48,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
+    "publicada há 9 h"
+   ]
+  },
+  {
+   "titulo": "Wall Street está no vermelho, as ações de semicondutores despencam. - Vietnam.vn",
+   "fonte": "Vietnam.vn",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE51VjlHV2ZjUzdkZF95NTdGLWZKZjV0eGZ0MGlaeWxTbGFKTlZ2YVJyTmpoak9EWkJ1dHVWUU5zSDNNZUdEazdhSng1RVoyWWZwc2dZb1dXQ3lneklEcjZ0OHZqRC1EOUpFNjRkU2dyMnR2UWt1ZHNDRUNwSQ?oc=5",
+   "data": "2026-10-23T01:15+00:00",
+   "sentimento": -1.0,
+   "classes": [
+    "exterior"
+   ],
+   "impacto": 3.18,
+   "cobertura": 1,
+   "motivos": [
+    "sentimento negativo (-1.00)",
     "publicada há 9 h"
    ]
   },
@@ -875,7 +936,7 @@
    "impacto": 1.06,
    "cobertura": 1,
    "motivos": [
-    "publicada há 9 h"
+    "publicada há 10 h"
    ]
   },
   {
@@ -887,12 +948,12 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 4.78,
+   "impacto": 4.75,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "sentimento positivo (+1.00)",
-    "publicada há 9 h"
+    "publicada há 10 h"
    ]
   },
   {
@@ -904,74 +965,9 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 1.06,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 10 h"
-   ]
-  },
-  {
-   "titulo": "Pesquisas fazem mercado financeiro oscilar na reta final do segundo turno - Jornal do Comércio",
-   "fonte": "Jornal do Comércio",
-   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQMWhwM2V4V01DUHAybnU4c2dqZjZueXRpRFBnc1VMUGhZM1BxNTVrZzFHRmpNYmNQa0tLVGY0N0g4OEtDV3dJYmtPcEsxcTkwMFUwVC1PVi1kM1lxT2lLVTA4MDRwWDdhVDRMdmljOTR3aEVFYzIxX0NGeTZxLXpSOUVhMFA3d2ZQTlJYekRSak1xNHh2dVdCblp2dEI2QnNtY3Bxd183N1kwNjJHVTd6T29veDhOTG90Mm42cldMamFuSGZKRWdMOEhPRDJKQ3BUSWc?oc=5",
-   "data": "2026-10-23T00:39+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
    "impacto": 1.05,
    "cobertura": 1,
    "motivos": [
-    "publicada há 10 h"
-   ]
-  },
-  {
-   "titulo": "Nikkei do Japão despenca com onda de vendas de tecnologia em Wall Street - TradingView",
-   "fonte": "TradingView",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9vZE1iXy11Y3NBWVVrdlhvMkZPeHM3WWR3S0pwWEtrMmh3cW9ndXl5Ul9oS1JFS3NpWnR3TFNnM2NuM2RQQzJzcUZiazVZclNxQmo5X0F6T2R3aFp5b1hfRy1kWDdNcTJOVVpsbmZ6XzFRMHE2STF3?oc=5",
-   "data": "2026-10-23T00:36+00:00",
-   "sentimento": -1.0,
-   "classes": [
-    "exterior"
-   ],
-   "impacto": 4.72,
-   "cobertura": 2,
-   "motivos": [
-    "tema coberto por 2 veículos",
-    "sentimento negativo (-1.00)",
-    "publicada há 10 h"
-   ]
-  },
-  {
-   "titulo": "Nikkei do Japão despenca com onda de vendas de tecnologia em Wall Street - TradingView",
-   "fonte": "TradingView",
-   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBOMFNtY2VJQzZFRW9qd1JmTEFWQnFCZ2Y5WllnNWpEQ0NyeUktQmM0cHU0UUlVMVRiTkVjcU41VW5OS3BuMldTUjBzbDk3Rmlzbk50bi1Ua09zNUZoZ2VJeFVDWTlWMWpXRDhUSVNTMEpHVnluTnA4aw?oc=5",
-   "data": "2026-10-23T00:36+00:00",
-   "sentimento": -1.0,
-   "classes": [
-    "exterior"
-   ],
-   "impacto": 4.72,
-   "cobertura": 2,
-   "motivos": [
-    "tema coberto por 2 veículos",
-    "sentimento negativo (-1.00)",
-    "publicada há 10 h"
-   ]
-  },
-  {
-   "titulo": "‘Gato’ de luxo: Operação desmantela mineradora clandestina de Bitcoin que furtava energia suficiente para 5,7 mil casas em Eldorado do Carajás - Portal Pebinha de Açúcar",
-   "fonte": "Portal Pebinha de Açúcar",
-   "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNRUt1QU5NY2xFNkV4QU9Pam13THNUeWdpVmx1VzgtMWREXzVXcmFLNjZPQm5zc0p5MGJWWkhNUDd6MUI4dGNuRnNRUTlWbkJuOG00bHZtcXpZdTBRNVRJeDh2aENka09KdkJ5V1BVdWhWTk1IU3JESEo5UkhqZDBKcV9BY3RCZ2pmRlRFNEU0bGlVVjNMWTBkWm1jTm5kS2JaU0JpbXk4YjVoRnNjckxkNElRRXNLd01pYk5lOVp4NjVGU0pfekVIS1RQeGVCRzhwQmpkcmdwSEF2azhqRVFuRlNxSGpSU1ZJN3ZKNHI3V1lXYmd0MVRQdXpiR0hlb2s?oc=5",
-   "data": "2026-10-23T00:33+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "cripto"
-   ],
-   "impacto": 1.47,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: bitcoin",
     "publicada há 10 h"
    ]
   }
