@@ -1,9 +1,9 @@
 {
- "atualizado": "2026-10-24T09:49:08+00:00",
+ "atualizado": "2026-10-24T09:59:14+00:00",
  "origem": "noticias.json",
  "metodo": "média de pontuações por palavras-chave; sinal informativo, não previsão",
  "quantidade": 60,
- "media": 0.0,
+ "media": -0.017,
  "por_classe": {
   "cripto": {
    "quantidade": 9,
@@ -23,7 +23,7 @@
   },
   "acoes": {
    "quantidade": 22,
-   "media": 0.091
+   "media": 0.045
   }
  },
  "sinal": "neutro"
