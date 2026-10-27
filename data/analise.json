@@ -1,10 +1,10 @@
 {
- "atualizado": "2026-10-26T19:03:18+00:00",
+ "atualizado": "2026-10-27T11:16:09+00:00",
  "regime_atual": "queda",
  "indicadores": {
-  "retorno_20d": -4.7,
-  "vol_20d": 62.7,
-  "vs_media200": -3.5
+  "retorno_20d": -3.7,
+  "vol_20d": 60.1,
+  "vs_media200": -2.6
  },
  "serie": [
   {
@@ -604,7 +604,7 @@
   },
   {
    "data": "2026-10-26",
-   "fechamento": 174857,
+   "fechamento": 176608,
    "regime": "queda"
   }
  ],
