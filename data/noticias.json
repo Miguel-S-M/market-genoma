@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-29T11:41:58+00:00",
+ "atualizado": "2026-10-29T11:57:59+00:00",
  "destaque": {
   "titulo": "Agenda cheia com dados fiscais, balanços e inflação nos EUA mexe com mercados; Ibovespa em dólar cai nesta quinta-feira (29) - Money Times",
   "fonte": "Money Times",
@@ -9,16 +9,47 @@
   "classes": [
    "moedas"
   ],
-  "impacto": 9.62,
+  "impacto": 9.5,
   "cobertura": 2,
   "motivos": [
    "tema coberto por 2 veículos",
    "palavras de alto impacto: inflação, balanço, dólar",
    "sentimento negativo (-1.00)",
-   "publicada há 1 h"
+   "publicada há 2 h"
   ]
  },
  "itens": [
+  {
+   "titulo": "Bradesco (BBDC4) sofre segundo rebaixamento e JPMorgan corta preço-alvo em quase 30%",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/mercados/bradesco-bbdc4-sofre-segundo-rebaixamento-e-jpmorgan-corta-preco-alvo-em-quase-30/",
+   "data": "2026-10-29T11:56+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 2.69,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: rebaixa",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "BBA fica mais conservador com Bolsa no Brasil, mas foca em qualidade com 10 ações",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/mercados/itau-bba-fica-mais-conservador-com-bolsa-no-brasil-mas-foca-em-qualidade-com-10-acoes/",
+   "data": "2026-10-29T11:46+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.48,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há menos de 1 h"
+   ]
+  },
   {
    "titulo": "Comprar Vistra Corp Tokenized bStocks (VSTB) - Binance",
    "fonte": "Binance",
@@ -28,7 +59,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.5,
+   "impacto": 1.48,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -43,7 +74,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.49,
+   "impacto": 1.47,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -58,7 +89,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.49,
+   "impacto": 1.47,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -73,7 +104,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 6.26,
+   "impacto": 6.17,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: petróleo, dividendos",
@@ -90,9 +121,26 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.49,
+   "impacto": 1.47,
    "cobertura": 1,
    "motivos": [
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "PagBank Investimentos: A Bolsa caiu e os juros estão altos: é hora de comprar, vender ou esperar? - UOL Economia",
+   "fonte": "UOL Economia",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNcy1Ga3lPLVBKbEhqSDVRMWxsOENXZHQtcl9fMnM3QWE3QzRwQWxRUENpZ1ZjbzJCelZod2VsLXgyUjE1N1NLQm82MDlkVl9nbzE4N2VpbU9aSXczS3pEQnhNUEZzOF9UdS13bm0xVmVid3EzcHFHd3FyT2FuTWRVNmtkbm1pQ3RGcnJJR2l2a3RfYzlTM3I3M2tSeWU0QlhWWS1rV3Z3emMzUGJFc0RQeTFRYks2LWVWUEdtT2RqOV90bTVzQ3pTNzhONTVaNGJVQWFhR1R3c0duSlJI?oc=5",
+   "data": "2026-10-29T11:31+00:00",
+   "sentimento": -1.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 5.56,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: juros",
+    "sentimento negativo (-1.00)",
     "publicada há menos de 1 h"
    ]
   },
@@ -105,7 +153,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.48,
+   "impacto": 1.46,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -120,7 +168,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 5.04,
+   "impacto": 4.97,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -137,7 +185,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.48,
+   "impacto": 1.46,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -152,7 +200,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.43,
+   "impacto": 4.36,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
@@ -168,7 +216,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.42,
+   "impacto": 4.36,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -184,7 +232,22 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.47,
+   "impacto": 1.45,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "FS e Mubadala querem comprar dívidas da Raízen em reestruturação - JornalCana",
+   "fonte": "JornalCana",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPci1nWVBXMlVtZ0RfZnd3TEF6ZWNlQ2xwTGR6Sm1SNTRoYU9VZF9SMWZxNzM0UkNwQ250ZWZCdXhqMXpLNGhYd0tqV1h6UXBnYy1lZnoxbDJmY093LXZBT0JHRkd5NEpfQWRIbWxRZFdvc1o0bVNsdG5zZ012VzBUN3VjOUhKQW55dk8weV8xR3hDYTJ2NjdaWHBqNC10YVU?oc=5",
+   "data": "2026-10-29T11:22+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.45,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -199,7 +262,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.41,
+   "impacto": 4.35,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
@@ -215,40 +278,9 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.47,
+   "impacto": 1.45,
    "cobertura": 1,
    "motivos": [
-    "publicada há menos de 1 h"
-   ]
-  },
-  {
-   "titulo": "Casas Bahia (BHIA3): Raphael Klein renuncia ao conselho de administração",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/mercados/casas-bahia-bhia3-raphael-klein-renuncia-ao-conselho-de-administracao/",
-   "data": "2026-10-29T11:18+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.47,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há menos de 1 h"
-   ]
-  },
-  {
-   "titulo": "Petrobras, Vale, Ambev, Oncoclínicas, Casas Bahia e mais ações para acompanhar hoje",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/mercados/petrobras-vale-ambev-oncoclinicas-casas-bahia-e-mais-acoes-para-acompanhar-hoje/",
-   "data": "2026-10-29T11:18+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 2.64,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: petrobras, vale",
     "publicada há menos de 1 h"
    ]
   },
@@ -261,7 +293,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 3.22,
+   "impacto": 3.17,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: juros, dólar",
@@ -277,7 +309,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 3.21,
+   "impacto": 3.16,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: inflação, dólar",
@@ -293,7 +325,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 6.12,
+   "impacto": 6.04,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: pib, dólar",
@@ -310,7 +342,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 6.11,
+   "impacto": 6.03,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: fed",
@@ -327,7 +359,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 2.03,
+   "impacto": 2.01,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -343,7 +375,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.35,
+   "impacto": 4.29,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
@@ -359,7 +391,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.03,
+   "impacto": 2.0,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: balanço",
@@ -375,7 +407,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 5.5,
+   "impacto": 5.42,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: eleição",
@@ -393,7 +425,7 @@
     "cripto",
     "exterior"
    ],
-   "impacto": 6.65,
+   "impacto": 6.56,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: fed, bitcoin",
@@ -410,7 +442,7 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 1.44,
+   "impacto": 1.42,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -425,10 +457,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.44,
+   "impacto": 1.42,
    "cobertura": 1,
    "motivos": [
-    "publicada há menos de 1 h"
+    "publicada há 1 h"
    ]
   },
   {
@@ -440,7 +472,7 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 1.42,
+   "impacto": 1.4,
    "cobertura": 1,
    "motivos": [
     "publicada há 1 h"
@@ -455,7 +487,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.42,
+   "impacto": 1.4,
    "cobertura": 1,
    "motivos": [
     "publicada há 1 h"
@@ -470,7 +502,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.41,
+   "impacto": 1.4,
    "cobertura": 1,
    "motivos": [
     "publicada há 1 h"
@@ -485,7 +517,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 3.11,
+   "impacto": 3.07,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: juros, balanço",
@@ -501,7 +533,7 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 4.23,
+   "impacto": 4.17,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -517,7 +549,7 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 1.41,
+   "impacto": 1.39,
    "cobertura": 1,
    "motivos": [
     "publicada há 1 h"
@@ -532,7 +564,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 2.11,
+   "impacto": 2.09,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -549,7 +581,7 @@
     "cripto",
     "moedas"
    ],
-   "impacto": 1.41,
+   "impacto": 1.39,
    "cobertura": 1,
    "motivos": [
     "publicada há 1 h"
@@ -564,11 +596,11 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.97,
+   "impacto": 1.94,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -580,13 +612,13 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 9.62,
+   "impacto": 9.5,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "palavras de alto impacto: inflação, balanço, dólar",
     "sentimento negativo (-1.00)",
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -598,7 +630,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.72,
+   "impacto": 4.66,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -615,7 +647,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.71,
+   "impacto": 4.65,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -632,7 +664,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.94,
+   "impacto": 1.91,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -649,9 +681,10 @@
     "cripto",
     "exterior"
    ],
-   "impacto": 3.59,
-   "cobertura": 1,
+   "impacto": 5.32,
+   "cobertura": 2,
    "motivos": [
+    "tema coberto por 2 veículos",
     "palavras de alto impacto: fed, bitcoin",
     "publicada há 2 h"
    ]
@@ -665,7 +698,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.38,
+   "impacto": 1.36,
    "cobertura": 1,
    "motivos": [
     "publicada há 2 h"
@@ -680,7 +713,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.38,
+   "impacto": 1.36,
    "cobertura": 1,
    "motivos": [
     "publicada há 2 h"
@@ -695,7 +728,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 5.78,
+   "impacto": 5.71,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: balanço, dólar, vale",
@@ -713,7 +746,7 @@
     "moedas",
     "exterior"
    ],
-   "impacto": 3.0,
+   "impacto": 2.96,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: fed",
@@ -729,7 +762,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 1.35,
+   "impacto": 1.34,
    "cobertura": 1,
    "motivos": [
     "publicada há 2 h"
@@ -744,7 +777,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 2.82,
+   "impacto": 2.79,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -761,7 +794,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.32,
+   "impacto": 1.3,
    "cobertura": 1,
    "motivos": [
     "publicada há 3 h"
@@ -776,7 +809,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.84,
+   "impacto": 1.82,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: balanço",
@@ -792,7 +825,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.32,
+   "impacto": 1.3,
    "cobertura": 1,
    "motivos": [
     "publicada há 3 h"
@@ -807,7 +840,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 5.53,
+   "impacto": 5.47,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: eleição, dólar",
@@ -824,7 +857,7 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 1.32,
+   "impacto": 1.3,
    "cobertura": 1,
    "motivos": [
     "publicada há 3 h"
@@ -839,7 +872,7 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 1.32,
+   "impacto": 1.3,
    "cobertura": 1,
    "motivos": [
     "publicada há 3 h"
@@ -854,59 +887,11 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.82,
+   "impacto": 1.8,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
     "publicada há 3 h"
-   ]
-  },
-  {
-   "titulo": "PagBank Investimentos: A Bolsa caiu e os juros estão altos: é hora de comprar, vender ou esperar? - UOL Economia",
-   "fonte": "UOL Economia",
-   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNcy1Ga3lPLVBKbEhqSDVRMWxsOENXZHQtcl9fMnM3QWE3QzRwQWxRUENpZ1ZjbzJCelZod2VsLXgyUjE1N1NLQm82MDlkVl9nbzE4N2VpbU9aSXczS3pEQnhNUEZzOF9UdS13bm0xVmVid3EzcHFHd3FyT2FuTWRVNmtkbm1pQ3RGcnJJR2l2a3RfYzlTM3I3M2tSeWU0QlhWWS1rV3Z3emMzUGJFc0RQeTFRYks2LWVWUEdtT2RqOV90bTVzQ3pTNzhONTVaNGJVQWFhR1R3c0duSlJI?oc=5",
-   "data": "2026-10-29T08:36+00:00",
-   "sentimento": -1.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 4.92,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: juros",
-    "sentimento negativo (-1.00)",
-    "publicada há 3 h"
-   ]
-  },
-  {
-   "titulo": "O Ibovespa vai continuar caindo? O que eleições anteriores mostram sobre os rumos da Bolsa - Estadão",
-   "fonte": "Estadão",
-   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNdlVaYWY5TE5INTJJcTV6b052bHFERmpjcHRXUXIyNVpGS3dFektIYmZhM1lRY29Rb0p2MUtrTTYzR1l0dHM5Q0NpQVhHWnZNYmpsWHhURGw2LVBjSktORzNKYkNOcnExQURPV3RGX0RrWXRVcFFWNFl0M1BmN3VYMlN1ZjAtV0lCYUI4VTE1RXpjeG5kWXMzSFpfa040eTJrWG1VSWd0dGlnaURWMTBlejdRNDFqaGpLMDYxbWRxOXh5RENnZ1UtYmhUbkxfWDhoc3lDRnp0T3FUc2N4ZlRMNm9B0gHnAUFVX3lxTE93bUd1OTV0WXlrY3dyRlktYXJTajB0TWZBT3M3UC1yWFZUYmtMcEp1czJteUhKZUwtN3VGVkJFTy1QNlh0NGtVV1BXZzFxNUVRNjlnYWlyUUxZN3Q0NVVXbXdiNVVxb0hoelViUFNGNXl0NjRmdjRIMmtiZVRJMzU2RTdoSDcxSDdzd3luSjFRVk11ZWMzTHpqd2RHYUkzMXBxdjk3QlNXdHB2dHdGTDlYWll0NV8xZHVCSTV6VnN2c2ZrbzdYb0RDTVFRNW53UEc3elFmZWdkckN0MzdJUVk0ZElZdFBtWQ?oc=5",
-   "data": "2026-10-29T08:30+00:00",
-   "sentimento": -1.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 3.87,
-   "cobertura": 1,
-   "motivos": [
-    "sentimento negativo (-1.00)",
-    "publicada há 3 h"
-   ]
-  },
-  {
-   "titulo": "A indústria automotiva da China invadiu o Brasil e impressiona o mundo. No seu quintal, é outra história - InvestNews",
-   "fonte": "InvestNews",
-   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOYWlrNmQ4VzlBWjN3aW82YUZwaXptb0kxQUNaY3d2by1tMXpvWk5fOXZlSGJfaTVqZEswZDZGZDkxSlFkaUJUMEZsejJISmh2bHNXdVpzN0VmM3J3UldUcXhFTm1reHpORDZjQUtLNERDTzJsR3BTY01UWmNtZ2hza2tIZUthUVNzTjFDYVhzSzlSYXlEZDJVcnpXOVBnQU84SE04cGk0dmRmS21VZXBMQ2JpbUgzNVFVVks5RGNIS1RIazliVU5NS3JSdDV5UG9TYVc0dGdaRnlyQdIB2gFBVV95cUxOYWlrNmQ4VzlBWjN3aW82YUZwaXptb0kxQUNaY3d2by1tMXpvWk5fOXZlSGJfaTVqZEswZDZGZDkxSlFkaUJUMEZsejJISmh2bHNXdVpzN0VmM3J3UldUcXhFTm1reHpORDZjQUtLNERDTzJsR3BTY01UWmNtZ2hza2tIZUthUVNzTjFDYVhzSzlSYXlEZDJVcnpXOVBnQU84SE04cGk0dmRmS21VZXBMQ2JpbUgzNVFVVks5RGNIS1RIazliVU5NS3JSdDV5UG9TYVc0dGdaRnlyQQ?oc=5",
-   "data": "2026-10-29T08:07+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.27,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 4 h"
    ]
   },
   {
@@ -918,7 +903,7 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 1.77,
+   "impacto": 1.76,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: vale",
@@ -934,7 +919,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 1.89,
+   "impacto": 1.87,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -950,7 +935,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.75,
+   "impacto": 1.73,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -966,11 +951,28 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 2.74,
+   "impacto": 2.71,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: eleição, dólar",
     "publicada há 4 h"
+   ]
+  },
+  {
+   "titulo": "ETFs de Bitcoin atraem US$ 137 milhões nos EUA - Webitcoin",
+   "fonte": "Webitcoin",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9DcjJwSU9SQjJGeUdYZGRTMDFjaUVnWGZkaXpUa25uWC1Pc3UwVGw2M2piSWFzYjBUX09HRW1TS0tYbXZfbjE2T3NPQXRzTWEyTllzdXdhOHpKSk9tX2pNWWZrMXZmOXhBS213TWFSaHNZTks2cGZCcGN3NA?oc=5",
+   "data": "2026-10-29T07:05+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "cripto"
+   ],
+   "impacto": 2.54,
+   "cobertura": 2,
+   "motivos": [
+    "tema coberto por 2 veículos",
+    "palavras de alto impacto: bitcoin",
+    "publicada há 5 h"
    ]
   }
  ]

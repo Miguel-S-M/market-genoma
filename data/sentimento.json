@@ -1,13 +1,13 @@
 {
- "atualizado": "2026-10-29T11:41:58+00:00",
+ "atualizado": "2026-10-29T11:57:59+00:00",
  "origem": "noticias.json",
  "metodo": "média de pontuações por palavras-chave; sinal informativo, não previsão",
  "quantidade": 60,
- "media": -0.2,
+ "media": -0.183,
  "por_classe": {
   "cripto": {
-   "quantidade": 11,
-   "media": -0.182
+   "quantidade": 12,
+   "media": -0.167
   },
   "moedas": {
    "quantidade": 13,
@@ -22,8 +22,8 @@
    "media": -0.25
   },
   "acoes": {
-   "quantidade": 25,
-   "media": -0.2
+   "quantidade": 24,
+   "media": -0.167
   }
  },
  "sinal": "negativo"
