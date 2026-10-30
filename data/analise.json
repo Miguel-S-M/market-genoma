@@ -1,17 +1,12 @@
 {
- "atualizado": "2026-10-30T03:32:40+00:00",
+ "atualizado": "2026-10-30T18:26:57+00:00",
  "regime_atual": "crise",
  "indicadores": {
-  "retorno_20d": -9.2,
+  "retorno_20d": -10.3,
   "vol_20d": 60.4,
-  "vs_media200": -6.7
+  "vs_media200": -7.4
  },
  "serie": [
-  {
-   "data": "2026-05-12",
-   "fechamento": 180342,
-   "regime": "lateral"
-  },
   {
    "data": "2026-05-13",
    "fechamento": 177098,
@@ -605,6 +600,11 @@
   {
    "data": "2026-10-29",
    "fechamento": 169186,
+   "regime": "crise"
+  },
+  {
+   "data": "2026-10-30",
+   "fechamento": 168006,
    "regime": "crise"
   }
  ],
