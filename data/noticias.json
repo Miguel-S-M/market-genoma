@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-30T01:47:38+00:00",
+ "atualizado": "2026-10-30T01:51:55+00:00",
  "destaque": {
   "titulo": "Análise: o impacto da falta de regulação nas fintechs e criptomoedas - Tribuna do Agreste",
   "fonte": "Tribuna do Agreste",
@@ -9,7 +9,7 @@
   "classes": [
    "cripto"
   ],
-  "impacto": 8.43,
+  "impacto": 8.4,
   "cobertura": 3,
   "motivos": [
    "tema coberto por 3 veículos",
@@ -19,6 +19,21 @@
  },
  "itens": [
   {
+   "titulo": "Emissões de debêntures incentivadas somam R$ 6,3 bi em setembro - Monitor Mercantil",
+   "fonte": "Monitor Mercantil",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQzVPT3VtOFNBenh2cThDb1dlMjRqelpGVUNwendaZkxlS0hiV1RZcjh4dDRBeGxtWnRkRDdreF9abDJHOU9rQWFyaTc0dDFMODk1X05xMGJ6Y3NWY2dKLTNXUC04aVY5bHVndGhOdmpfcV9Jb2VfdEZMSTVkemFidGhjVkRscGdaQTlISlJxdUJ2UmF0TEVsdFdR?oc=5",
+   "data": "2026-10-30T01:46+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.49,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
    "titulo": "Binance é hackeada com perdas potenciais superiores a US$ 2 bilhões enquanto criptomoedas despencam - TradingKey",
    "fonte": "TradingKey",
    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQXpaMWNHeGVrQjFyZFRjUFo2MlFGU1ZtNGJnejRrN3BfbVgzZUJCWlZVVmM5Um5rV3h3ZmE1dnVhWTFWOG93Q25jS1FDbkdDeEk2MU0ybE1ybjNwRnRiY3RxdEVjMGZ3YlB0NE11dV9xb1lTTzhsNm5lSjlZUUxJcEpoWVowdlZoYUd3Mjk2YVI3WmZtcXVaYWR6SkNXc0dzT0lSbVFSTVFyVjFiR25ramxOVVl2OUh3?oc=5",
@@ -27,7 +42,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 4.49,
+   "impacto": 4.47,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
@@ -59,7 +74,7 @@
     "cripto",
     "moedas"
    ],
-   "impacto": 1.47,
+   "impacto": 1.46,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -74,10 +89,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.43,
+   "impacto": 1.42,
    "cobertura": 1,
    "motivos": [
-    "publicada há menos de 1 h"
+    "publicada há 1 h"
    ]
   },
   {
@@ -89,7 +104,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.42,
+   "impacto": 1.41,
    "cobertura": 1,
    "motivos": [
     "publicada há 1 h"
@@ -104,7 +119,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.99,
+   "impacto": 1.98,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -120,10 +135,25 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.12,
+   "impacto": 2.11,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
+    "publicada há 1 h"
+   ]
+  },
+  {
+   "titulo": "A fatura da Inteligência Artificial divide os gigantes de Wall Street - SAPO",
+   "fonte": "SAPO",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQckN0dlB1b3duSEs4R2NkOVhFYXdxSVRmRi1RemFINDV6SWs1T3g3WmtHbnNXUDNCMldaMFZOWWpUT1U2bk9wWkpfMXh6c1E0S0VMdTQ5djNKVXhzVmpDQ1M2WndPSnd1Yl9tSS1DVGtTSlJkWlFaeHFyd3JSODVxVmdYQllFUmFiMGZDOFVHSE95enZCOFVORThoUE9KSVlEQ1k1RGtaaW1sSWVwZFRFWEZmUGVlcmxr?oc=5",
+   "data": "2026-10-30T00:36+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "exterior"
+   ],
+   "impacto": 1.4,
+   "cobertura": 1,
+   "motivos": [
     "publicada há 1 h"
    ]
   },
@@ -136,7 +166,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 8.43,
+   "impacto": 8.4,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
@@ -153,7 +183,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 8.43,
+   "impacto": 8.4,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
@@ -170,7 +200,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.97,
+   "impacto": 1.96,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -186,7 +216,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 8.42,
+   "impacto": 8.39,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
@@ -203,7 +233,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 2.11,
+   "impacto": 2.1,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -219,7 +249,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.4,
+   "impacto": 1.39,
    "cobertura": 1,
    "motivos": [
     "publicada há 1 h"
@@ -234,7 +264,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.09,
+   "impacto": 2.08,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -251,7 +281,7 @@
     "cripto",
     "moedas"
    ],
-   "impacto": 1.95,
+   "impacto": 1.94,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -305,21 +335,6 @@
    ]
   },
   {
-   "titulo": "A Binance está sendo hackeada? Saída de US$ 2 bilhões levanta dúvidas sobre fundos de clientes - BeInCrypto",
-   "fonte": "BeInCrypto",
-   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0yLUExRktYV3ZvUldKTTVOWE1ZdHlTOFpRcklOTnF1dWg5T005R0hEUXRVYjRESENmQVducUxBZE40UkhYSlVTMkF3YnRPMC05RzhWWkUxalRFTlRIRGZWY0Q4WjVzWXdGcUxTYzRRMTRic3lYMXJWOQ?oc=5",
-   "data": "2026-10-30T00:11+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.38,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 2 h"
-   ]
-  },
-  {
    "titulo": "Lotofácil hoje, concurso 3817: confira o resultado sorteado nesta quinta-feira (29)",
    "fonte": "InfoMoney",
    "link": "https://www.infomoney.com.br/consumo/lotofacil-hoje-concurso-3817-confira-o-resultado-sorteado-nesta-quinta-feira-29/",
@@ -328,7 +343,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.07,
+   "impacto": 2.06,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -344,7 +359,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.06,
+   "impacto": 2.05,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -377,7 +392,7 @@
     "cripto",
     "moedas"
    ],
-   "impacto": 4.64,
+   "impacto": 4.62,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -394,10 +409,10 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 3.82,
-   "cobertura": 3,
+   "impacto": 2.85,
+   "cobertura": 2,
    "motivos": [
-    "tema coberto por 3 veículos",
+    "tema coberto por 2 veículos",
     "palavras de alto impacto: dólar",
     "publicada há 2 h"
    ]
@@ -411,7 +426,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 2.04,
+   "impacto": 2.03,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -443,7 +458,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.96,
+   "impacto": 2.95,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: petróleo, dividendos",
@@ -459,7 +474,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 4.02,
+   "impacto": 4.01,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
@@ -505,7 +520,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 3.75,
+   "impacto": 3.74,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
@@ -522,7 +537,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.34,
+   "impacto": 1.33,
    "cobertura": 1,
    "motivos": [
     "publicada há 2 h"
@@ -537,7 +552,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 5.07,
+   "impacto": 5.05,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: petróleo",
@@ -554,7 +569,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 2.0,
+   "impacto": 1.99,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -570,7 +585,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 2.78,
+   "impacto": 2.77,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -610,23 +625,6 @@
    ]
   },
   {
-   "titulo": "Ibovespa registra quarta queda consecutiva e acumula perdas de 17,5% após eleições; dólar sobe - Diário de São Paulo",
-   "fonte": "Diário de São Paulo",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPQkFvT3dRTzRLUFVxR1FELTB5NEN1SkF6TDZpX0lQVTVCaXk5c09mNXl3TTJmUHJwTWFlOE9jbHBweExRdlNmeUlxbTlXSmNlbTM3aENKUmVZdjZhREVPYmctNGI5b1lwZ1Q1by12Zk1aTTduNEdycnFZd2g1WXZ4dnJnT1RuckhpRW9zVzA2VUt5ZlB6SUt4ZmtHcG1lOUdoWU9qckNLaDZrX1NvcERCbC1sUFdTdnV0Y0JzMGZrcm14RU9vM2xnVTAtTGtNTDlkLVpGdNIB2gFBVV95cUxPNzFYWlVpV0d6MnZxbVA5OW01ZVUzOVk3a3RWSFNwNUZoSDZqcEpzS1VDMU4yT01xNHJ6N3RiWEtNMUFLRFNiR2N0SmpJWG9USW5hNEdRRjRGZENLZFBvZXpnUjNkZXQ3UXJxOXBnU0YwT2dxelIyOThLVUlsUi1Ec0kzbDlfQ1NMSmtzblFIdGNxUllfTVNMaWxIY25rRHpPOGt1U015ZTJ0SG8xekJtRzdOQkdaak5ZZ3F1UVZWY1hDQlh4WnM0NjdnbkdqM1ZkNnlqVWtpV1dxZw?oc=5",
-   "data": "2026-10-29T23:08+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 2.77,
-   "cobertura": 2,
-   "motivos": [
-    "tema coberto por 2 veículos",
-    "palavras de alto impacto: dólar",
-    "publicada há 3 h"
-   ]
-  },
-  {
    "titulo": "Dólar sobe quase 1% e se aproxima de R$ 5,40 com dados dos EUA - Tribuna do Paraná",
    "fonte": "Tribuna do Paraná",
    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPeG84VjlfQmx6WGV6b1lQeHl6QUdNUTRFOXFkNU5aRjZrZ0ctYkVxXzh5UTZtc3J2Wm8wRFBWMjFnTnp2M0xwU0NjOFRhQ2hzMG0tUW5FZEV5a0Nkc21hYlkwR1dUcW96akpXX0toaEVGTlUyeFpIOHNJN0hsVEowbXI1VVBhWHVyck5ZQU5BODFiVFhqemdfdVVUaklOMkpJNUM2a2JEWGZrMzDSAbABQVVfeXFMUGlHbE5JcGgwbVJWLXh4T00zN0V0TnRETWZ1QUpvT0FTRFNteGdWcE83Nk5Ba1A4YUN6ZEpOSks3VnRJbVQyQmFISjhJZURDSWxTMU9sX1ozMW0tVE95dWsxSVVOaXJEM3otT1h0b2NOTU9WM042dHRVN1JscTBkanBlekFNamIybnAzZ2dVUzMwRHhFenBlVTVpbjBuVTdURXJBMjZSTnJIcjdVYmdVVUI?oc=5",
@@ -635,7 +633,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.48,
+   "impacto": 4.47,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -652,7 +650,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.46,
+   "impacto": 4.45,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -669,7 +667,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 3.93,
+   "impacto": 3.92,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
@@ -708,22 +706,6 @@
    ]
   },
   {
-   "titulo": "Fundo imobiliário da XP decide distribui mais dividendos do que receitas; entenda - Investidor10",
-   "fonte": "Investidor10",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUmNtRG5COHVTUVAwZ2d5RmsyNElVNVNJQ3NYX05PTjJULVVYLS01QlY1YUVqdFFiMy15b1pFSGxEUDZnd2FMYk9yTjloaG0tT0hlZ1BKQ1JfUmpIZFZ5SmpUb2diS1RwRGFpa3JjVnRodU85Q1EtVV83SXZ6WklWb3R6WlVtT0ViWkFSUlMwOTRDSHJEdy1Zd0tGMmNVZ1NxaGs3b3JGeGszNjVYZkRUNHZ6YmNwOXJhYzhZOG1qU25TbTI1djA5MdIByAFBVV95cUxQUmNtRG5COHVTUVAwZ2d5RmsyNElVNVNJQ3NYX05PTjJULVVYLS01QlY1YUVqdFFiMy15b1pFSGxEUDZnd2FMYk9yTjloaG0tT0hlZ1BKQ1JfUmpIZFZ5SmpUb2diS1RwRGFpa3JjVnRodU85Q1EtVV83SXZ6WklWb3R6WlVtT0ViWkFSUlMwOTRDSHJEdy1Zd0tGMmNVZ1NxaGs3b3JGeGszNjVYZkRUNHZ6YmNwOXJhYzhZOG1qU25TbTI1djA5MQ?oc=5",
-   "data": "2026-10-29T22:54+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "imobiliario"
-   ],
-   "impacto": 1.83,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: dividendos",
-    "publicada há 3 h"
-   ]
-  },
-  {
    "titulo": "Braskem tem queda de 18% nas vendas de principais químicos no Brasil no 3º tri",
    "fonte": "InfoMoney",
    "link": "https://www.infomoney.com.br/mercados/braskem-tem-queda-de-18-nas-vendas-de-principais-quimicos-no-brasil-no-3o-tri/",
@@ -732,7 +714,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 3.91,
+   "impacto": 3.9,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
@@ -748,7 +730,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 5.85,
+   "impacto": 5.83,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -765,7 +747,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.41,
+   "impacto": 4.4,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: vale",
@@ -797,7 +779,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 6.59,
+   "impacto": 6.57,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -815,7 +797,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.29,
+   "impacto": 1.28,
    "cobertura": 1,
    "motivos": [
     "publicada há 3 h"
@@ -845,7 +827,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 6.55,
+   "impacto": 6.53,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -863,7 +845,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 1.92,
+   "impacto": 1.91,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -879,7 +861,7 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 1.27,
+   "impacto": 1.26,
    "cobertura": 1,
    "motivos": [
     "publicada há 4 h"
@@ -894,7 +876,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 3.8,
+   "impacto": 3.79,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
@@ -910,7 +892,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 6.81,
+   "impacto": 6.79,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: selic, copom, juros",
@@ -972,10 +954,26 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.77,
+   "impacto": 2.76,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: fed",
+    "publicada há 4 h"
+   ]
+  },
+  {
+   "titulo": "IFIX recua 0,6% e fecha aos 3.632 pontos, em quarto dia seguido de queda - Suno - Investimentos Inteligentes",
+   "fonte": "Suno - Investimentos Inteligentes",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQUlxbjhfakNiN2FUVFdTQncyMFBoaklObHhTanVhUl9QZ2hFTDlRRkF4YkVPczIwSDUybTBCSE1UQUxVSDRVMk5GSncwbTJ6b1RJZ0JmM0Rnel8tY3FDTjVfS09idEdtdm5WdlNEUzlRVWdMRkRoWnFlVmJleUFLaUNTTnNkc3VxajI0bVdtU0h6TXUyZkhBZVRxV1pIMDZCTDZjMUdn0gGrAUFVX3lxTFA2WTdDTVZVeFU0amFkS0JxZ3NGUU43dklVaTNScTA1Qk1fTi1ldWVLMDJUX2hlYXdkMUxVZFFlRWJBMkZ0cjB1UDU4ZUhGb2x5RmZBWDJWd1FUZDA4Z0NVWHBUYUJudERMMjFlZHNsUlhhVU9yY09Ld2ozVEQtOGhhaVpRcEJsY1g5LTBnS0Jkd2h0WGF0Y3dZX2x1ZUUxUnRydWhkcEFXY1hyQQ?oc=5",
+   "data": "2026-10-29T21:55+00:00",
+   "sentimento": -1.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 3.76,
+   "cobertura": 1,
+   "motivos": [
+    "sentimento negativo (-1.00)",
     "publicada há 4 h"
    ]
   }
