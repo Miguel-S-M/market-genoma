@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-31T01:30:42+00:00",
+ "atualizado": "2026-10-31T02:26:49+00:00",
  "destaque": {
   "titulo": "Dólar fecha a R$ 5,44 e registra maior alta semanal desde 2008 após reeleição de Lula - GP1",
   "fonte": "GP1",
@@ -9,16 +9,82 @@
   "classes": [
    "moedas"
   ],
-  "impacto": 29.82,
-  "cobertura": 9,
+  "impacto": 31.38,
+  "cobertura": 10,
   "motivos": [
-   "tema coberto por 9 veículos",
+   "tema coberto por 10 veículos",
    "palavras de alto impacto: eleição, dólar",
    "sentimento positivo (+1.00)",
-   "publicada há 1 h"
+   "publicada há 2 h"
   ]
  },
  "itens": [
+  {
+   "titulo": "Mercado financeiro brasileiro enfrenta forte pressão em outubro - planetaosasco.com",
+   "fonte": "planetaosasco.com",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPU3FOd01zY3AzQUFFWUFBTkRGZ2NuR01vc0dRblB0VlVsUjA2SElVX0N2bDJXeVV6NlBLSDVEQUp2cFp4QVA2aTJRc1p0RUx0Z0NCcFNOZjhMVU1SWkJuVVByOWNWTjZJRFVpck1ZMDhMUFhwTTJMT1VrOWRHX01ETU9WNmtUTXhLMjhLMXB0czJwczRZZUpIbEVsSjBUSENzMGxOeUgxdVU?oc=5",
+   "data": "2026-10-31T02:16+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 2.23,
+   "cobertura": 2,
+   "motivos": [
+    "tema coberto por 2 veículos",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Após queda brusca da Bolsa, analistas recomendam cautela aos investidores - Folha de S.Paulo",
+   "fonte": "Folha de S.Paulo",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVHBTSEFHUUFDVzhlX19PTlF3NGFWYk12N2JRenphQnlkTFk2SFl3QjlWeVVUYnZNMHNKRi1CSUUwd2s2R2RjOVJ6dG9HbWZfMkx1emt3dTctVjgxa0t5XzhnQ0RyLVAyN3RieUpLdGhfNHp1b3ZQcmhIdHJ6RXEwTXdpRUdYZTdtdWkxWHQ4ZC16akJGaGwxYm1USU13eVF5cTl4UHcwMWMzd3dMcENKTUpyQ3NxUUJfZjZkdXJXMkQ5Zw?oc=5",
+   "data": "2026-10-31T02:00+00:00",
+   "sentimento": -1.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 4.39,
+   "cobertura": 1,
+   "motivos": [
+    "sentimento negativo (-1.00)",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Dólar sobe 1,05% e fecha a R$ 5,44 nesta sexta-feira - Vero Notícias",
+   "fonte": "Vero Notícias",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTWZUT2JhSF80UEhyOERCMEhycnQ0OWN2Y2ViUnlqMTNwS0FEVXY0VDJrdkNibUhBZldMRFM4WUM0YXMxZW41U1VJLWhvczRaMFRka2NaT3lNM2huNjk5bWFHT0hEalp6Z2xyZWpzMGhFeTQ4VUc3dS1mUW90bGVxdGVuT3RaYW1TRll3?oc=5",
+   "data": "2026-10-31T02:00+00:00",
+   "sentimento": 1.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 7.47,
+   "cobertura": 2,
+   "motivos": [
+    "tema coberto por 2 veículos",
+    "palavras de alto impacto: dólar",
+    "sentimento positivo (+1.00)",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Binance perde US$ 6,3 bilhões com maior roubo de criptomoedas de todos os tempos - TudoCelular.com",
+   "fonte": "TudoCelular.com",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUXF6V1VTeXJEZ241QXI0REt5akRzcDZNVGg4V29BdEFSRzFaczN6UzVSbFlXTUpXQUpRR1U0bGpVOG5Mci1kMHg3UHNIRTdfX045T05rcVBRMlBGWUJkWjRqV0NKRkhjTEtCRHFzck5IRFpPNG9tZUwydWNYRnpNSXFRSVlZM09YbGFhMjJEU0ZKMzdDQW8zM2wwd1YzYWlUMHJvSW1oRm9XUQ?oc=5",
+   "data": "2026-10-31T01:24+00:00",
+   "sentimento": -1.0,
+   "classes": [
+    "cripto"
+   ],
+   "impacto": 4.26,
+   "cobertura": 1,
+   "motivos": [
+    "sentimento negativo (-1.00)",
+    "publicada há 1 h"
+   ]
+  },
   {
    "titulo": "Wall Street registrou a maior queda desde junho. - Vietnam.vn",
    "fonte": "Vietnam.vn",
@@ -28,11 +94,11 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 4.47,
+   "impacto": 4.26,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
-    "publicada há menos de 1 h"
+    "publicada há 1 h"
    ]
   },
   {
@@ -44,41 +110,25 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.48,
+   "impacto": 1.41,
    "cobertura": 1,
    "motivos": [
-    "publicada há menos de 1 h"
+    "publicada há 1 h"
    ]
   },
   {
    "titulo": "Tecnologia: Hackers roubam US$ 6,3 bi da Binance - Portal Terra da Luz",
    "fonte": "Portal Terra da Luz",
    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNGIwd2hGcUxURElHSS1sQUo4N21LRVh5NU1hVTZCaWZ3aUxQcjdyQzJtTlIzeXVLMUFKTm91XzR5RkgxZ2Q2cmh0bGJiMmVadVBqMW1SbDV6UXBGTGtNRUdua0dYUG9IdEw0WVlJRF9tV0JFVE13WHNlMGpzaEx5bGVzTHBaWEoxaXJLQWZCTS1IQQ?oc=5",
-   "data": "2026-10-31T01:16+00:00",
+   "data": "2026-10-31T01:15+00:00",
    "sentimento": 0.0,
    "classes": [
     "acoes"
    ],
-   "impacto": 1.48,
+   "impacto": 1.41,
    "cobertura": 1,
    "motivos": [
-    "publicada há menos de 1 h"
-   ]
-  },
-  {
-   "titulo": "Rui Costa critica reação do mercado à vitória de Lula após dólar chegar a R$ 5,60: “Precisa pensar no país” - Portal 96FM",
-   "fonte": "Portal 96FM",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQb0hkWjVZeE14NnprSFZZUVV6RUl0Yi1FaUM3d3hiMjVBZExmSzRJQnU4MkxfaU1FOGNZSENKalRwUkF6NzF1Z044XzM5RUtrRlQ3bExOQ2FGSFdmRFV5OVpMbkV6R003LXNBdmJzZnphYWlBNjdDOVRCbTRkb2ZBbkttWktyTTl6WFV1alZvSl80aGw2TXNPYWJXZlk1cVNpc0FBOFktUFJteXo4bjk4TXVnMW5mR0J4a0xQMDB5TnVndmZkWm1zdHBiSQ?oc=5",
-   "data": "2026-10-31T01:11+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 2.06,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: dólar",
-    "publicada há menos de 1 h"
+    "publicada há 1 h"
    ]
   },
   {
@@ -90,13 +140,13 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 7.42,
+   "impacto": 7.08,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há menos de 1 h"
+    "publicada há 1 h"
    ]
   },
   {
@@ -108,11 +158,11 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 2.18,
+   "impacto": 2.08,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
-    "publicada há menos de 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -124,11 +174,27 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.59,
+   "impacto": 2.48,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: eleição",
-    "publicada há menos de 1 h"
+    "publicada há 2 h"
+   ]
+  },
+  {
+   "titulo": "Resumão diário do JN: Hackers roubam mais de US$ 6 bilhões da maior corretora de criptomoedas do mundo; Pará tem o maior número de focos de incêndio em três décadas - G1",
+   "fonte": "G1",
+   "link": "https://news.google.com/rss/articles/CBMixgJBVV95cUxPdDhiZzJ6R1JjT0VSM3NjZ2h3NmR0aG14OHluZ0dwVnpSVS1HU0tfX1ZoZUdhQXdUVnE3Z0VuYUFESEY1ZXQ1SXYwMjRhLVFBTGppZHNsSFVDX3laVEZ6X3paTW5Dc01DNzYtNEE5bEU4YkZydi1rQzBXdmwtNmZDQzYxUGZsRTdtYk1IbllHLUN2MXphRmEzNjBVSGM4SkE0S3JhdHFfaDBmengtdWVWNUhiaGJLQ09xai1CaEE2dWl5djI5ek8xSDRNMGlQRXBaRWUtNk4wWmUxeWw3LWZwU1Y5cFFSVWxSeVdIVFZxSElLcjZuMGlyWFgyTVRSOEZ3bGdiTWczZ0pFMXZGMjFMNjNMTXdpak41Uk5IeEJDQ2d3VXJwSXkyM2lzYkJMcWtodE45Ulg5V2l1VDVhWGt0eVNEa1NWQdIB1AJBVV95cUxPX3VMczY2bDRMZWZWeTV0MXNJd0NTNzd2NFRZZUlLUlVoOUZrQmRaUHlPU0d1SFBNZ0toeHJUd1NMRm1zdW1xN3ZtRW9zU2NLaVFFWDFhdWk4eGVzQTRGNXlHUnVyRUNiZGhfSVQ1YmdlNzQ2LTduSC1XUGpfUWg3MmdkR2tadms4TV84NGdpTUlTcWEyS1lHcjlBOXlPWUdDVnZXNjFkWFNOa1BNS0Y2WFh1TGlIWmR3clNicnFWOGpnYkV5ZHljTklPVHBHMlNvWTRoY2FCcFQzV1B2NjJ4N1BaR0hXMEJtMkFJUk53el80TTU5VC1pTFhQVDdna0hlY1lGQzRHajJyWWJjYWV6NUFfaVZEcU5YQXYwX0cxUVVPYWIzRG9kSFhaelFCc0Y4Y1NKMDBCMTBHZWQ0bzR2VE1RaFdVYWk0enp3VGpuMlR4aWVv?oc=5",
+   "data": "2026-10-31T00:40+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "cripto"
+   ],
+   "impacto": 2.74,
+   "cobertura": 3,
+   "motivos": [
+    "tema coberto por 3 veículos",
+    "publicada há 2 h"
    ]
   },
   {
@@ -140,11 +206,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 3.15,
+   "impacto": 3.01,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: juros, dividendos",
-    "publicada há menos de 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -156,13 +222,12 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 7.28,
-   "cobertura": 2,
+   "impacto": 4.64,
+   "cobertura": 1,
    "motivos": [
-    "tema coberto por 2 veículos",
     "palavras de alto impacto: bitcoin",
     "sentimento negativo (-1.00)",
-    "publicada há menos de 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -174,11 +239,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.99,
-   "cobertura": 1,
+   "impacto": 2.86,
+   "cobertura": 2,
    "motivos": [
+    "tema coberto por 2 veículos",
     "palavras de alto impacto: dólar",
-    "publicada há menos de 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -190,11 +256,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.13,
+   "impacto": 2.04,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -206,13 +272,13 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 29.82,
-   "cobertura": 9,
+   "impacto": 31.38,
+   "cobertura": 10,
    "motivos": [
-    "tema coberto por 9 veículos",
+    "tema coberto por 10 veículos",
     "palavras de alto impacto: eleição, dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -224,11 +290,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.12,
+   "impacto": 2.03,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -240,10 +306,28 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.42,
+   "impacto": 1.35,
    "cobertura": 1,
    "motivos": [
-    "publicada há 1 h"
+    "publicada há 2 h"
+   ]
+  },
+  {
+   "titulo": "Dólar fecha a R$ 5,44 e registra maior alta semanal desde 2008 - Notícias ao Minuto Brasil",
+   "fonte": "Notícias ao Minuto Brasil",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNkNuNnUyTURNb0cxa0hMWEtvTVZwRzBFc0Jsc3ZJa2taWUNRMnM1MnV6S00yX3l0cHhRal9QenFsXzVmSlNMaC1tT3Y3VUhKQjMzSWlBN0xDZ2ZRWjNxVHZkOHRnQVZfam5Qekg4bW13U2I5U1pPZHhuakRySlR6NVFZenNQSk11RHlleHVZeHQzNEhfbWd4bXdmNGJlVWtNTnFnVjNIRkNVaUk5Q0otdzJlX0M?oc=5",
+   "data": "2026-10-31T00:24+00:00",
+   "sentimento": 1.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 23.02,
+   "cobertura": 9,
+   "motivos": [
+    "tema coberto por 9 veículos",
+    "palavras de alto impacto: dólar",
+    "sentimento positivo (+1.00)",
+    "publicada há 2 h"
    ]
   },
   {
@@ -255,13 +339,13 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 18.15,
-   "cobertura": 8,
+   "impacto": 19.31,
+   "cobertura": 9,
    "motivos": [
-    "tema coberto por 8 veículos",
+    "tema coberto por 9 veículos",
     "palavras de alto impacto: eleição, dólar",
     "sentimento positivo (+0.33)",
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -273,27 +357,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 9.29,
-   "cobertura": 5,
+   "impacto": 7.41,
+   "cobertura": 4,
    "motivos": [
-    "tema coberto por 5 veículos",
+    "tema coberto por 4 veículos",
     "palavras de alto impacto: eleição, dólar",
-    "publicada há 1 h"
-   ]
-  },
-  {
-   "titulo": "Wall Street fecha em forte baixa arrastada pelos conglomerados tecnológicos - RTP",
-   "fonte": "RTP",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNR2lWUEloQU56NTA5a1FaVUg3elBwMmVtX3BBcDlxamNBaFdHZFlVTUxjWmlPTkZ5OVNRLWVDQld5R3Mwd09ldE0zTTczMEV5ekVNa3Jia1hlWHZBc2dkVXZVVXpoY3A5N0NtaEVJRGNKRmhEYnh1ODM5WWdyUlQ0WjJWVWpGaFZvRHVQSmhuNVdWR2ZraDRJZy1xeFdqUzVkY2EzWHF4cHBhVS1iZERERzZUR2lhTEphM0E5QmFB?oc=5",
-   "data": "2026-10-31T00:16+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "exterior"
-   ],
-   "impacto": 1.41,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -305,11 +374,11 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 2.1,
-   "cobertura": 2,
+   "impacto": 2.68,
+   "cobertura": 3,
    "motivos": [
-    "tema coberto por 2 veículos",
-    "publicada há 1 h"
+    "tema coberto por 3 veículos",
+    "publicada há 2 h"
    ]
   },
   {
@@ -321,11 +390,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.1,
+   "impacto": 2.01,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -337,11 +406,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.1,
+   "impacto": 2.01,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -353,11 +422,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.09,
+   "impacto": 2.0,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -369,7 +438,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.38,
+   "impacto": 1.33,
    "cobertura": 1,
    "motivos": [
     "publicada há 2 h"
@@ -384,10 +453,10 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 1.38,
+   "impacto": 1.32,
    "cobertura": 1,
    "motivos": [
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -399,10 +468,10 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 1.37,
+   "impacto": 1.31,
    "cobertura": 1,
    "motivos": [
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -414,11 +483,11 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 4.09,
+   "impacto": 3.93,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -430,26 +499,10 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.36,
+   "impacto": 1.3,
    "cobertura": 1,
    "motivos": [
-    "publicada há 2 h"
-   ]
-  },
-  {
-   "titulo": "Ibovespa cai pela quinta vez seguida e fecha outubro com perda de quase 10% - Brasil 61",
-   "fonte": "Brasil 61",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOd2ZtUEVOLWxobGUzNGFvNU12eElVRVhfd0Zuem1GWWc5VWNCSHhIaVRIMk5aWVY2OVdCaFFiVUdpdExFc1NFR3NudWo2NFpiS20zUFVwTzdmcmQxY011dkxXel9idkRwOVlkOWhFUl9Ib3JyUUZpbExtWjN1aTc1WUdXdndSdEMtZVZkQVRjd0hVNngtQzJBaUVwTGgtU0llZGU1djEtQWduLUxrSUHSAbMBQVVfeXFMUDIzMVRNRGRFTVY1S2Rtc2ZQN3ZzVTNoczJKWjh2R3pvT01VOG9ONlFCNXgzM3pYWXJoREs4MXJtS3F6VlJ0Yl94WlhkV1JKTnhxMUJlNzZ2clJzcUlwX0dKaC1lcmVuLUtBQlJCY3ltVlZZVFlVQVNuUXhvNFpZYnV2Q1A2dFJMbmh5My1OWktGMVBvaDVISndMWnYtWHhxUW1MenhIMHc5UHdPVElwLVlQSFk?oc=5",
-   "data": "2026-10-30T23:30+00:00",
-   "sentimento": -1.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 4.07,
-   "cobertura": 1,
-   "motivos": [
-    "sentimento negativo (-1.00)",
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -461,12 +514,27 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 8.54,
-   "cobertura": 8,
+   "impacto": 9.12,
+   "cobertura": 9,
    "motivos": [
-    "tema coberto por 8 veículos",
+    "tema coberto por 9 veículos",
     "palavras de alto impacto: dólar",
-    "publicada há 2 h"
+    "publicada há 3 h"
+   ]
+  },
+  {
+   "titulo": "Meu Deus! Hackers roubaram mais de US$ 6 bilhões em criptomoedas da Binance, a maior corretora do setor no mundo. Segundo a @cnnbrasil nesta quinta-feira (29), o ataque é considerado o maior roubo de criptomoedas já registrado. De acordo com a e - Instagram",
+   "fonte": "Instagram",
+   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB3NXZkcExXOVR3LWE1RzNUZ3hhMnplcGNkYVNCN2xOOUlvb3g5c2xzV3pVV1kydUNreHZmMUstTV9fbm5zaWd2dWV0dWsxM1A4RWc?oc=5",
+   "data": "2026-10-30T23:26+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "cripto"
+   ],
+   "impacto": 1.3,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há 3 h"
    ]
   },
   {
@@ -478,13 +546,13 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 7.7,
+   "impacto": 7.4,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "palavras de alto impacto: eleição",
     "sentimento negativo (-1.00)",
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -496,10 +564,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.35,
+   "impacto": 1.3,
    "cobertura": 1,
    "motivos": [
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -511,10 +579,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.35,
+   "impacto": 1.29,
    "cobertura": 1,
    "motivos": [
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -526,13 +594,13 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 20.4,
-   "cobertura": 8,
+   "impacto": 21.81,
+   "cobertura": 9,
    "motivos": [
-    "tema coberto por 8 veículos",
+    "tema coberto por 9 veículos",
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -544,13 +612,13 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 8.38,
-   "cobertura": 2,
+   "impacto": 10.75,
+   "cobertura": 3,
    "motivos": [
-    "tema coberto por 2 veículos",
+    "tema coberto por 3 veículos",
     "palavras de alto impacto: eleição, dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -562,12 +630,30 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 5.98,
+   "impacto": 5.76,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "sentimento negativo (-1.00)",
-    "publicada há 2 h"
+    "publicada há 3 h"
+   ]
+  },
+  {
+   "titulo": "Dólar sobe a R$ 5,44 e acumula maior alta semanal desde 2008 - Campo Grande News",
+   "fonte": "Campo Grande News",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZDJPakpjWG5VTUxCZDMwZEttX3hPdlVnOGllRzY0aEhUSXZoVU9DSGJMZndab0Z6UG1SMXBLWEp0cVpWTTNsYWJ3VkcxYVBvekJ1ejFTN09sVTFXb0std09tSnIxdE51enFfODBfdjJCUUg1WFlieExORzUtRTNONHQwZ2pmdktZOWZNd05xNUZIaGI4RHFwcTlGUVJMOGJ1MVR2Q1N30gGmAUFVX3lxTE5lRnRtejlJWXp6NzVuVlRtNkFuYzQtazRZdXlCaXlqb1RuSkhjQTViRzVkUFc4RTRhZlBiQm5fZk9pTHRMRnprNFI5NV91Ml9GTGRIdmhOOFVDY1IyU21fNV96SUtNLURGRW1neU56aFhhWFd0ZEoxeGV4SkZoakctcHlXNW9VcXlwc3UxQ3owdDRNVnJGcm53cG1kMFZJU0g2ZGh3X1E?oc=5",
+   "data": "2026-10-30T23:03+00:00",
+   "sentimento": 1.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 21.75,
+   "cobertura": 9,
+   "motivos": [
+    "tema coberto por 9 veículos",
+    "palavras de alto impacto: dólar",
+    "sentimento positivo (+1.00)",
+    "publicada há 3 h"
    ]
   },
   {
@@ -579,11 +665,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.86,
+   "impacto": 1.79,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: vale",
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -595,12 +681,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.52,
+   "impacto": 4.35,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -612,11 +698,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.86,
-   "cobertura": 1,
+   "impacto": 2.68,
+   "cobertura": 2,
    "motivos": [
+    "tema coberto por 2 veículos",
     "palavras de alto impacto: dólar",
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -628,7 +715,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.51,
+   "impacto": 4.34,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -646,9 +733,25 @@
     "cripto",
     "moedas"
    ],
-   "impacto": 1.32,
+   "impacto": 1.28,
    "cobertura": 1,
    "motivos": [
+    "publicada há 3 h"
+   ]
+  },
+  {
+   "titulo": "Wall Street fecha em forte baixa arrastada pelos tecnológicos - Notícias ao Minuto",
+   "fonte": "Notícias ao Minuto",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcklHMThFNTY5bmpMMWUweEZTdE9qcERwWjZsVlRoNmRQeWprX3BVQ1k2VWJnUG9TaVBUUW16U0xNWHk0NGRYRjE3MTRURzhlNlBjUW8xWkx2UTJtQTBWSjVNdXI4X2J2MEk3TjdKODV3eDYxSWF3RVU1QndYMHI2c0c1Vi0xLVJYVXJ6SWZBTHRINlNYcUFrMjMwcWRDbmpRMU96Z25aaG1lVl9iZTVOeXg1c1dWcWtDRUhCRHI0Yw?oc=5",
+   "data": "2026-10-30T22:57+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "exterior"
+   ],
+   "impacto": 1.91,
+   "cobertura": 2,
+   "motivos": [
+    "tema coberto por 2 veículos",
     "publicada há 3 h"
    ]
   },
@@ -661,11 +764,11 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.85,
+   "impacto": 1.78,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -677,12 +780,12 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.47,
+   "impacto": 4.31,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: vale",
     "sentimento positivo (+1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -694,12 +797,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 5.91,
-   "cobertura": 2,
+   "impacto": 3.8,
+   "cobertura": 1,
    "motivos": [
-    "tema coberto por 2 veículos",
     "sentimento negativo (-1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -711,13 +813,49 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 20.02,
-   "cobertura": 8,
+   "impacto": 21.43,
+   "cobertura": 9,
    "motivos": [
-    "tema coberto por 8 veículos",
+    "tema coberto por 9 veículos",
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
+   ]
+  },
+  {
+   "titulo": "Dólar registra maior alta semanal desde 2008 e fecha a R$ 5,44 - Tribuna do Agreste",
+   "fonte": "Tribuna do Agreste",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNWHpDbUVGdzVkMGpmVG5TSnB0NG5nRFRxNE5nNlAwa2J5TVpjS0U1XzhGLXB1UzVvc3JQSjZLTVJYeDBONklWQy1sV2daZXRmWFE1Y055UXY5dDJ4U2gtSVJtVjlvd3Z2QTJPSkVXTUZ3WmxFSjJ5cWl4b1dQd09Wb2tOekRiOVcza09kOUVRNDU5QklFMll0UnlqczYydURpb3BtR213Y250RXZCOVlEZGNvYngtZzgyVVV2dGtB?oc=5",
+   "data": "2026-10-30T22:40+00:00",
+   "sentimento": 1.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 21.43,
+   "cobertura": 9,
+   "motivos": [
+    "tema coberto por 9 veículos",
+    "palavras de alto impacto: dólar",
+    "sentimento positivo (+1.00)",
+    "publicada há 4 h"
+   ]
+  },
+  {
+   "titulo": "Dólar fecha a R$ 5,44 e registra maior alta semanal desde 2008 - Tribuna do Norte Apucarana - Tribuna do Norte Apucarana",
+   "fonte": "Tribuna do Norte Apucarana",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbXdQTEFJRWRwcnhUSnVzNjl5LTdacXlfcHBabEhwLXhmMmhpRGUzZk1tSXZqQzRUc2stRTdlZldEYk1Qa3hnOVJYR3BRdU1ieERDVGVQNEtHcUZCbGc0MWp0eDhCcUE3WEhSeTRfS1YycXpycURJY3YwQXNucTI1eHdBai01bHJHTFAweWliNTB2Tng5dW96NE9ROUQtVDdBY0FvcTFIU25jYzU1emxr0gGvAUFVX3lxTE9td1BMQUlFZHByeFRKdXM2OXktN1pxeV9wcFpsSHAteGYyaGlEZTNmTW1JdmpDNFRzay1FN2VmV0RiTVBreGc5UlhHcFF1TWJ4RENUZVA0S0dxRkJsZzQxanR4OEJxQTdYSFJ5NF9LVjJxenJxREljdjBBc25xMjV4d0FqLTVsckdMUDB5aWI1MHZOeDl1b3o0T1E5RC1UN0FjQW9xMUhTbmNjNTV6bGs?oc=5",
+   "data": "2026-10-30T22:40+00:00",
+   "sentimento": 1.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 21.43,
+   "cobertura": 9,
+   "motivos": [
+    "tema coberto por 9 veículos",
+    "palavras de alto impacto: dólar",
+    "sentimento positivo (+1.00)",
+    "publicada há 4 h"
    ]
   },
   {
@@ -729,29 +867,11 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.83,
+   "impacto": 1.76,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
-    "publicada há 3 h"
-   ]
-  },
-  {
-   "titulo": "Ibovespa afunda 18% e tem pior semana desde 2020; dólar salta 9% - InvestNews",
-   "fonte": "InvestNews",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOc1NtbmpyNE5pMWRmX2NRaHRMTUhPMjFQb25TUXRQWTRMYnIxb0VVTEhDZ3ZWUGFhRFNXcVhyanY5d09KQXhJbGt4NWlnelVpZ1JNQThmUVF2TUtpeG1aRFFmVXBaT3pQQUJtZVdjQUlURVBXZTl0VXMtM2g5QWdITVhJdWtSWmFRejlSQS1lbzQ4OXhNcHNLVWdJZkpQakxMblJSVGdObVhQZ9IBqgFBVV95cUxOc1NtbmpyNE5pMWRmX2NRaHRMTUhPMjFQb25TUXRQWTRMYnIxb0VVTEhDZ3ZWUGFhRFNXcVhyanY5d09KQXhJbGt4NWlnelVpZ1JNQThmUVF2TUtpeG1aRFFmVXBaT3pQQUJtZVdjQUlURVBXZTl0VXMtM2g5QWdITVhJdWtSWmFRejlSQS1lbzQ4OXhNcHNLVWdJZkpQakxMblJSVGdObVhQZw?oc=5",
-   "data": "2026-10-30T22:37+00:00",
-   "sentimento": 1.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 8.88,
-   "cobertura": 3,
-   "motivos": [
-    "tema coberto por 3 veículos",
-    "palavras de alto impacto: dólar",
-    "sentimento positivo (+1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -763,13 +883,13 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 8.88,
-   "cobertura": 3,
+   "impacto": 6.42,
+   "cobertura": 2,
    "motivos": [
-    "tema coberto por 3 veículos",
+    "tema coberto por 2 veículos",
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -781,27 +901,27 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.3,
+   "impacto": 1.25,
    "cobertura": 1,
    "motivos": [
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
-   "titulo": "Dólar tem maior alta semanal desde 2008, e Bolsa cai 18% após a eleição - Diário de São Paulo",
-   "fonte": "Diário de São Paulo",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMTNoX2l1ZTU5cXkxTHViMGRfUnBsMXdMYi1BQS14MFhsaWZSdnN3Snh1OVZSdExXS1JQNjZMeUxNTEFxRGZlcnRKQlNEMVY5dXRHdzhCeGNoR294akJyZmp3elFzZUQ4Qk1aRTBHYlF0RHRCTm5nT0plUjVZUUtCT1VFUmI0YzhiRUVEWWo4dXRXR2tXVlNKaVNxZHVmSi1hYVpRbXpuYXhOWTFqcGN3R3VZajlkYVnSAbwBQVVfeXFMT3lBa0xoMjlVQmluVVRJeEM1YVZ3djBKdFZkZUdFZXFPMGpiRmZFXzdUTHNJbXN6YVF5cEdMTDE4YmstRWh1NEp5cUtPX2twRDVKdU9kdnVud1k2TlBkNFVIdVJtVVVRRlVxamJHQXpCSkxrTl8zS2tpeDR4Q0J2LXZZY2tUX1ZQRG9DT3ppQVJUclpENnM5U0dmaHBYQ2NQWHVkZjVpaTRiRGg5T3AzVjRpcWZOOFo1REZnR1Y?oc=5",
-   "data": "2026-10-30T22:26+00:00",
-   "sentimento": 0.0,
+   "titulo": "Bolsa tem a quinta perda na semana; dólar em alta - - Misto Brasil",
+   "fonte": "- Misto Brasil",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcFFDMFN1Qk10UHUtYV9jVkVUUjdBV1l4NWVzekUyemdjMU1kNnRRYzBDbzVTbGFmbTlaUDVCR1FhLVZOaTdPb2hBTFgtQ095Z0pjLWt3Y1VHV1hCdGh3LVp3S2ZFWnlOT0VZSVp4THg4cEtIRDF1NGJFd0pHNUFHdzVwSzJQZE9vUzc0ddIBlAFBVV95cUxPZTdwSmRVWUpvbTREekNLSTZJbDA2TUpzeVkwc0NxekNxbG5HT0IwaXpOV0w5bk5iSjRDU21IbEpGYVI4a2xuUVFlT0UyNExxb2VQellYZlJiLXVFZjZyazRZV1p4QW9DeEd2azQwclNNT29fdTV5NGpuMGdYZldndm5peE5jaEt1REpwOFJHa1NER0ow?oc=5",
+   "data": "2026-10-30T22:30+00:00",
+   "sentimento": 1.0,
    "classes": [
     "moedas"
    ],
-   "impacto": 12.83,
-   "cobertura": 8,
+   "impacto": 4.26,
+   "cobertura": 1,
    "motivos": [
-    "tema coberto por 8 veículos",
-    "palavras de alto impacto: eleição, dólar",
-    "publicada há 3 h"
+    "palavras de alto impacto: dólar",
+    "sentimento positivo (+1.00)",
+    "publicada há 4 h"
    ]
   },
   {
@@ -813,11 +933,12 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 3.88,
-   "cobertura": 1,
+   "impacto": 5.61,
+   "cobertura": 2,
    "motivos": [
+    "tema coberto por 2 veículos",
     "sentimento negativo (-1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -829,11 +950,11 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 2.33,
+   "impacto": 2.24,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: petróleo",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -845,11 +966,28 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.81,
+   "impacto": 1.74,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
-    "publicada há 3 h"
+    "publicada há 4 h"
+   ]
+  },
+  {
+   "titulo": "Dólar dispara e Bolsa despenca na primeira semana após reeleição de Lula - tmc.com.br",
+   "fonte": "tmc.com.br",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNM0thalJDRlpJU1NWMDZmMmt5NTZCSkp2Vk04cmlSU3JkVG1aQjEyMDhfc0dhWjNnQVlWa3p3VTZSVHBJMmdFbkp3MzA4V1FncEN5OFZXVi1pM3hlLXh4UTJSTEljbTM5X180UUliS1BKblpmNllYcnBBbm9rTFczVWx1alFWRkU?oc=5",
+   "data": "2026-10-30T22:13+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 5.45,
+   "cobertura": 3,
+   "motivos": [
+    "tema coberto por 3 veículos",
+    "palavras de alto impacto: eleição, dólar",
+    "publicada há 4 h"
    ]
   },
   {
@@ -861,145 +999,10 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.8,
+   "impacto": 1.74,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
-    "publicada há 3 h"
-   ]
-  },
-  {
-   "titulo": "Dólar vai a R$ 5,44 e tem maior alta semanal desde crise do subprime em 2008 - Diário do Comércio",
-   "fonte": "Diário do Comércio",
-   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9Dc01CTVlfMENwX3ZoNWs4VndjdkFneFBUMm81N3AwRGJnT21EaE13VHA2M0w4UklMTWI5MDUwWlNBWVBjWEFjb09ZWEg1UEpNRGtNbFFYZU9QOXN0QlloMzAxWG1Tck9KZS12djJLYllGekpieGJ3dzln?oc=5",
-   "data": "2026-10-30T22:08+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 14.98,
-   "cobertura": 8,
-   "motivos": [
-    "tema coberto por 8 veículos",
-    "palavras de alto impacto: crise, dólar",
-    "publicada há 3 h"
-   ]
-  },
-  {
-   "titulo": "Dólar vai a R$ 5,44, maior valor do ano; Bolsa registra pior queda semanal em seis anos - Bem Paraná",
-   "fonte": "Bem Paraná",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOTzlVSkFxd3E1WkZGck9McGJnaUNJdEN0MldCaHV6SjhPVUpia05PN29GU2dTT0hHV3lLckM4T2dTX2ZUZWVIM1loYmJfVkxKd2hfYjJKR2pJUkxjeHFGNHI1WlQ0eXc0Q0ZWRU5uczZ0cHZoYzRMbUZrdGNJTTlrU3ZFOWU2dndfeEY3MUo1VWZOcmJHZTdvbXdnN0JpWlZmeXpCOG4zSlhTWTR0ZUJPcXQ0bzYtYmZWV3N0U2VuZnRJd1ZIbUdhQXl4ONIB0AFBVV95cUxNXzl6RWFpVWg5Wnd0dEtxSjNVcU1SZ2VhcGExaEhTN1A5a0k5aEtHOEs4N2RlWnZzZ2IwZEV0cXljNmlEcnYxUUNreFhTZVgyRDJaRG1qbUhvQ2NwVHlUOXZtbEduRFFhY0FIWDJ4RlMyclBUczNTY1FpQXhUMGl3UGZSRWY5TEpvM213Q3puZDNBRDVNYk5rRmJOdi12bVlPaW9veHYyaWdaalVmOVZzUUpfdXp6U3hzVTBZcTJEdi01akNpNVZoNEVXc21jWEJS?oc=5",
-   "data": "2026-10-30T22:07+00:00",
-   "sentimento": -1.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 6.52,
-   "cobertura": 2,
-   "motivos": [
-    "tema coberto por 2 veículos",
-    "palavras de alto impacto: dólar",
-    "sentimento negativo (-1.00)",
-    "publicada há 3 h"
-   ]
-  },
-  {
-   "titulo": "Binance: por que o bitcoin resistiu melhor ao maior ataque hacker da história? - Times Brasil | CNBC",
-   "fonte": "Times Brasil | CNBC",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPeG1RZk5HX0dnRGpWdkwxZUF5MnU1bHFka0JETThPX3ZSQndqQUkxakNEY1AyelhrY0FVOU1sQ01laHdTSE52NmhtWDVwSm9DYzdBN3VkUmxLY3p5ZThMZVJGMndwbUUtSjVxb2d0eHR1RlJxcFNaOEpvUzZIeE5tSjY5blpEZDN3WEVVTXFPZWJtMWxLMTBkaEdUbUNSb3dOVVMteHFudldTeU4xLWVXQVl3eFpjYzBUZ3ZHQ2JwVW1mb2VP?oc=5",
-   "data": "2026-10-30T22:06+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "cripto"
-   ],
-   "impacto": 2.68,
-   "cobertura": 2,
-   "motivos": [
-    "tema coberto por 2 veículos",
-    "palavras de alto impacto: bitcoin",
-    "publicada há 3 h"
-   ]
-  },
-  {
-   "titulo": "Diversificação internacional ganha espaço com oscilações da Bolsa e do dólar, avalia ARQ - Exame",
-   "fonte": "Exame",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5GQzRIRmxlQ0RmT0JJUnpKLXV6VlBIdFFLQUl1YmxjcVpaTDRscmEzRmZDUmZBbGNBcmJpcHdORHBLNDlyOFRsYlFfX0NJbUllZFN4emNvOTIzaGZUU0lSaDVjeDgwV2h2ZnVrMFlKSHh0WkZ1V1pr?oc=5",
-   "data": "2026-10-30T22:03+00:00",
-   "sentimento": 1.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 4.34,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: dólar",
-    "sentimento positivo (+1.00)",
-    "publicada há 3 h"
-   ]
-  },
-  {
-   "titulo": "Dólar tem maior alta semanal desde crise do subprime em 2008 - Pleno.News",
-   "fonte": "Pleno.News",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUFdmRmQtc0Z6Rm9rNndiOVAxVzJab0lDQ1BVSUVPU1NEWEpka3E5TTNyNFRnR3A1Z0hneURuc2dyRDdwNnlWSGUxd3kwOTlCWmNTdlhtVG5ReE5UaU5pRlFxcm9oNzBBeUs5OWIxS1BNU3ZTdUtiMVFJNDZhR1plV3lRRExVQ1pkTXV3Ry1DRGFkT2FsNnAyZNIBoAFBVV95cUxOM3RWUXpLSF9RdjJGQUxRdXdSY3Z1T0NabkltQ3dEWGdYMVl3SThLQU1TRzc3VXNoS1QzUFpKcWlxc3E5THRCREREQzltQ3VMWHVTdXpRYVN3NllXYlk2NS03ekxVdTcybFlHMkNGNVZ6bVhDRkQzNGFvUE93aFZEcFRucnlTenVwaHRYU2RIN2tFTlNycHE0VzEyXzhlWU8z?oc=5",
-   "data": "2026-10-30T22:01+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 14.91,
-   "cobertura": 8,
-   "motivos": [
-    "tema coberto por 8 veículos",
-    "palavras de alto impacto: crise, dólar",
-    "publicada há 3 h"
-   ]
-  },
-  {
-   "titulo": "Preço do milho cai 6,72% em outubro no Brasil com demanda fraca e pressão da oferta - Portal do Agronegócio",
-   "fonte": "Portal do Agronegócio",
-   "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPc084VlVDbnlzcF83NWFQMXA5TnBwYm9QOWlucTBSYlVjWFhKcW5sVWI2bk5EbjN3Uk1TZ3VyNVhFQXpnWmpEUnVXVTd6dlZjVnJrWWlPQUdOR01jVHdxRFJxZjdTejQxWk81Yno4Tkc4eVlxQmh3YjB1NnMzSy1wYi15X0N4TXFCRnhXcWJvWVNrYUxWOUtwcW9rOXl4RmlJbXUyRGZQZThGYXBpQzM3MGNuazdsVVRTRWdBX1c0WVQ1WWFyNEFfZnFnUjNIUEtsTDVQbmI4bUVSS2xXN3lPUjJTT2h5TVdtYnEyTQ?oc=5",
-   "data": "2026-10-30T22:00+00:00",
-   "sentimento": -1.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 3.82,
-   "cobertura": 1,
-   "motivos": [
-    "sentimento negativo (-1.00)",
-    "publicada há 4 h"
-   ]
-  },
-  {
-   "titulo": "Bolsa tem 5ª maior queda desde Plano Real após reeleição de Lula - Poder360",
-   "fonte": "Poder360",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSnQ3V2R0Y3BFbG1raHdRX1hVUWoxZ0ZvTUJiUE1BaVNESGtnTWc1NlF2ZTNKTzNQMFNZdlUyMUl2OGNzc25rcDJRVUcxN0lTWk1WeWxNU0ZUR3NSbmNTMkRwSUI1eXItQmEzMktSVUU4NUdTQXFmR2FfUkVmS0R6bi1kNUVKdlJnYWppVXB3UDBwdUZXV3VobnlSdmR3b1dJSEdHT3pZVU81a0Rv?oc=5",
-   "data": "2026-10-30T21:57+00:00",
-   "sentimento": -1.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 9.66,
-   "cobertura": 3,
-   "motivos": [
-    "tema coberto por 3 veículos",
-    "palavras de alto impacto: eleição",
-    "sentimento negativo (-1.00)",
-    "publicada há 4 h"
-   ]
-  },
-  {
-   "titulo": "Intel desaba 30% em Wall Street e tem pior pregão desde 1982 - Ver-o-Fato",
-   "fonte": "Ver-o-Fato",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdXZDbDZJNXY3bjRGMjg5Nmx4ZEhEOTRpSlJNU05pLVg0QjhMWWZPaXp2dGp6WWVNdHVuNUp4b1YtMllRVklqUGpyV2hKdXp3Ml9PX01vWHh5bkJmUk4zY2lyREVaQkJvczNLb25GendTSnQ3NGJYOFlDMU5EZi1vSHVWc2hIeHY3UzYyREJqQQ?oc=5",
-   "data": "2026-10-30T21:57+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "exterior"
-   ],
-   "impacto": 1.27,
-   "cobertura": 1,
-   "motivos": [
     "publicada há 4 h"
    ]
   }
