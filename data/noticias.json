@@ -1,23 +1,614 @@
 {
- "atualizado": "2026-11-01T07:18:33+00:00",
+ "atualizado": "2026-11-01T12:19:05+00:00",
  "destaque": {
-  "titulo": "Dow Jones hoje sobe após Fed manter juros inalterados; petróleo dispara mais de 2% - Estadão",
-  "fonte": "Estadão",
-  "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPdFFnT1JEWVN4TEJ4OHY4VEJWY2V6Y3BTWUhPTXJQSFNRcnk0Mk1YaU1sZUpQdHdpTTJIR3VubDhDM21TSm5JeDlSc255M2VnQjBxMWFVNzFZOFpJcFpUMWJFSzE0dHNtOEVISjhMM1U1U3VHdHh5QTlBMk1McWtVai14X19uaEgzVkdYclhmVzhNTndkeUZ1Y01zaXNSSTUwWjVuQXlFQWpyN0hYa0RoRngxaGZLV211UXhIVDJFTF9lVXphajc1WjFqVEJ2TFlheVBv?oc=5",
-  "data": "2026-11-01T04:12+00:00",
-  "sentimento": 1.0,
+  "titulo": "Binance retoma saques de bitcoin e ether após prejuízo de US$ 6,3 bilhões - Folha de Curitiba",
+  "fonte": "Folha de Curitiba",
+  "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONzFpTWs3eUxNeVQzS0YwZWxmUHhpaEFEc2dxa2xPYVRQdVlrck5mX2M5YkRLRG9Db1g2TGNPNjducl92dlRlLWRDZmM1b2xxdDNNalFtVmh5ODljYlNzelo1N2lNTGZnRGhsRlAzWEZyQzdpNFpNZGtKSjU2aE1ubzhTZ0ltUDRCUmNyaERFcGJjRGRIaFJrRHJHbV85Z2RPZzQ1d2VR?oc=5",
+  "data": "2026-11-01T12:12+00:00",
+  "sentimento": -1.0,
   "classes": [
-   "exterior"
+   "cripto"
   ],
-  "impacto": 6.99,
-  "cobertura": 1,
+  "impacto": 15.2,
+  "cobertura": 5,
   "motivos": [
-   "palavras de alto impacto: juros, fed, petróleo",
-   "sentimento positivo (+1.00)",
-   "publicada há 3 h"
+   "tema coberto por 5 veículos",
+   "palavras de alto impacto: bitcoin",
+   "sentimento negativo (-1.00)",
+   "publicada há menos de 1 h"
   ]
  },
  "itens": [
+  {
+   "titulo": "Binance retoma saques de bitcoin e ether após prejuízo de US$ 6,3 bilhões - Folha de Curitiba",
+   "fonte": "Folha de Curitiba",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONzFpTWs3eUxNeVQzS0YwZWxmUHhpaEFEc2dxa2xPYVRQdVlrck5mX2M5YkRLRG9Db1g2TGNPNjducl92dlRlLWRDZmM1b2xxdDNNalFtVmh5ODljYlNzelo1N2lNTGZnRGhsRlAzWEZyQzdpNFpNZGtKSjU2aE1ubzhTZ0ltUDRCUmNyaERFcGJjRGRIaFJrRHJHbV85Z2RPZzQ1d2VR?oc=5",
+   "data": "2026-11-01T12:12+00:00",
+   "sentimento": -1.0,
+   "classes": [
+    "cripto"
+   ],
+   "impacto": 15.2,
+   "cobertura": 5,
+   "motivos": [
+    "tema coberto por 5 veículos",
+    "palavras de alto impacto: bitcoin",
+    "sentimento negativo (-1.00)",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Bitcoin faz 18 anos com um paradoxo que Satoshi nunca resolveu - BeInCrypto",
+   "fonte": "BeInCrypto",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBVU2JaWnM0M1dTV1FLamVvTUFlVEkzTUp2Znp0QkZzMFFlbDA2bEtKN0p0MWUyclVZV2dlNVl4ZzZONWdodGtCLWxsMzRqcnZhQ2xzclhFb3lHMGw1Q2p4WGFQU3FaVGFxaGx1UHpEeVBsdUd3VklN?oc=5",
+   "data": "2026-11-01T12:08+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "cripto"
+   ],
+   "impacto": 2.08,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: bitcoin",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Trump diz não ter plano de ver Flávio, mas que ele pode ficar “pelo tempo que quiser”",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/mundo/trump-diz-nao-ter-plano-de-ver-flavio-mas-que-ele-pode-ficar-pelo-tempo-que-quiser/",
+   "data": "2026-11-01T11:59+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.47,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Justiça dos EUA barra nova tentativa de Trump de processar Wall Street Journal - Plantão Brasil",
+   "fonte": "Plantão Brasil",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNeF9ZNDhuMWFjeW9NblM5RmxKR2J5ZklDMFdDOXVkVXFSOXJlYW1CZUlrLThCX2FibzU3dXkzdWVOeGYwRVFzNWZRX21SMHRROUNPaUdhZFR2RjZUUkJKN09IUXBxVjJ4UG1NOE5kNkM1NDF4SUtiN1pCOTAxTjNuVmQ3MmktYkl2VWJLVFRiSHFlb2xIYmpNX3Rzc1RCa0xlODg3UzZic08tVlpUSWJXeGdMZmFfcllXWm9SSG5PMVl3Zw?oc=5",
+   "data": "2026-11-01T11:53+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "exterior"
+   ],
+   "impacto": 2.2,
+   "cobertura": 2,
+   "motivos": [
+    "tema coberto por 2 veículos",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "FBI acusa Coreia do Norte de roubar US$ 6 bi em criptomoedas da Binance - UOL Notícias",
+   "fonte": "UOL Notícias",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQWmd0Q0ZKbm1SVjFyQWFuUVd2TnNOR09XYjh3MnhTQ3R4b29GZ0FIWldWNndVUVVuRVJ0ZDBRajRuVGJoOGlnNGdkcFdfRXlFSy1OQ042X1VCQlFtSXZfTXo2eFJrVFpIeGRQSktKUGNIZU12UVhCUDZjQnJTZGlwWElRZ1RaOVhGV2RKYk5PWjZ5WTJIcmZFNHg1UlJXYi1vZlB1bl9tOE9YUHNaTXFDd1lLUmtSYjAtZTFQbUIxUUY1N2dkWUlRN0x4VTRqSUE?oc=5",
+   "data": "2026-11-01T11:49+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "cripto"
+   ],
+   "impacto": 5.11,
+   "cobertura": 6,
+   "motivos": [
+    "tema coberto por 6 veículos",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Binance reabre saque pós-roubo de US$ 6,3 bi em criptomoedas - SBT News",
+   "fonte": "SBT News",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTktYak1HUFp5cll5LU9qVTlqYVdXdDNORlRpUi1QZDFPSjBnLWthSWp4N2RNZHIyUHdUZ2lSU3ItMkRCSlBBZ2hxUFNDclVjZjVONHZBYlJqcGw4djJJMnc1U2FkRllXeWgtYk13ODFrTTN5S1ZSZEozUFRmWUM5b3c0N1p5TUtXQVFPWVlqTWJndWszZnZ0aFViZy1LNHgxYXc?oc=5",
+   "data": "2026-11-01T11:49+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "cripto"
+   ],
+   "impacto": 2.19,
+   "cobertura": 2,
+   "motivos": [
+    "tema coberto por 2 veículos",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Binance retoma saques após roubo de US$ 6,3 bilhões em criptomoedas - Metrópoles",
+   "fonte": "Metrópoles",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSDJ0aDhxMndWUkwtdnNOblFtV3dSaGROZG4tUE1uLU1TZUQ0azNSTERTaEt0LXo2dnFUejhEXzlqWEhBX01DZnFuNVdZOG5CUHNVMjZReEoyZk5EcHgwUU4yMUlmQ1FiRlBaZHRubnJ6N2tuaWFwS1pLNUFxcmpPdkZDeGdMNTFQU2JHckRIWXBDdGViTkNHZGJSNzhVdGs?oc=5",
+   "data": "2026-11-01T11:49+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "cripto"
+   ],
+   "impacto": 5.84,
+   "cobertura": 7,
+   "motivos": [
+    "tema coberto por 7 veículos",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Trump diz que analisa caso Binance: “Não sabemos se é a Coreia do Norte”",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/mundo/trump-diz-que-analisa-caso-binance-nao-sabemos-se-e-a-coreia-do-norte/",
+   "data": "2026-11-01T11:45+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.45,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "FBI acusa Coreia do Norte de roubar criptomoedas - G1",
+   "fonte": "G1",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQeWpRdGVoSS1YSEtBQzVZN0V1LTdzRWotZHdHUWFvYnhwT1ljVXg5akk3d2JzTDA0ZkJTY3E5VmQxQ1VEZG5QZEFBa3MzRmFFTjFSMzJZOWppNlA1R1VkdVZ6TXB2blV0TTRUbTZ6SUZaSGhoY3AxSmtYZVk2R0phbFJ0RFM4emlMbFA2Q254TEM2N1ViZTVUX21ZV3BWRzZuaW80bVp0MFh0SVNCQVh0VkszcVphTnhn0gHHAUFVX3lxTFA0QXpjMTZtcXBYNTlwME5SdmJuYWxVeEw1NGUxeUJ1WnJvSUFydTZLenJ6NGNCcVhneFVRZjZiX3dFM0xwYXJLekNMdy0zMUlWUVlkeUdCbXV6LVNWQUMxWUdVWEx4dzh1b1AydnFPXzRHdnFZd2I1cXExeGcxTXF3eDlYYnVObmExekJYdThja3NlTTFPMVVYRUU4RlJlRl92TjFPX0MzVHZjMnV6c0FCTy10MVhWeDNfMEMxN1VKcW1PM0NwOG8?oc=5",
+   "data": "2026-11-01T11:38+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "cripto"
+   ],
+   "impacto": 4.34,
+   "cobertura": 5,
+   "motivos": [
+    "tema coberto por 5 veículos",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Euro hoje: R$ 6,07 (+0,05%) — cotação - Paranashop",
+   "fonte": "Paranashop",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1vWG9aOGJyWHZGRTBmMVhQS0g4LW8tV0hJWElMM09fZ3NURGhSbjgyV3RnTnc3M1NoMkE4UjFFTjFGU1FhLVpsaUhBVzlfdndfM2w0dmRn?oc=5",
+   "data": "2026-11-01T11:24+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 1.43,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Eleição do Congresso nos EUA põe à prova Trump e sua influência no mundo",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/mundo/eleicao-do-congresso-nos-eua-poe-a-prova-trump-e-sua-influencia-no-mundo/",
+   "data": "2026-11-01T11:23+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 2.57,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: eleição",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Efeito Lula: Bolsa tem o pior mês desde 2022 e dólar vai às alturas - BeInCrypto",
+   "fonte": "BeInCrypto",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcDNvTDk4aVRzUUkySVpadEpJWDBCYmFPU3AtZ0p6aF9WdFJFbDJjcW9fQUJkellMdlh4QnJYb0U0cEY0T1B0Yi1SdldwRFpsdU9rX2xiM2V6RXV1ZW5YVlJnSkJKUy1udzFaOTVReDI5YkRnQ0J3d1pCSGVwcGwyLU5XWHZ2V1VVcE50SWlWYzF6SjFybzVCWVQxUFhuLUU?oc=5",
+   "data": "2026-11-01T11:12+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 1.98,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: dólar",
+    "publicada há 1 h"
+   ]
+  },
+  {
+   "titulo": "Justiça dos EUA rejeita ação de US$ 10 bi de Trump contra jornal americano por carta a Epstein - Terra",
+   "fonte": "Terra",
+   "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNSnBmSUZzdFdkbm1VWjdBRFc2SjVEOTNCQTQtWFotSGR5SElLNkIzcVp5QndpS25NWGhQZHpvZUZyeFJrYXBDSFRJV3JKa3MxYnluMXlMMkZBeEFFYUtOMGtQN0hZQmZ2ZWJvRHI3bHBlOVVEWmpWc2R0aXdXRVVKbXBOY2RUY055ZUdQdmxkaGpyOW82NDZKRkVRUjJjSDFra2pJSUktNkc3ZjByeWlBS0hrY1Y5dlhYamFUOUxlSjFyMlF2WUVqNVdpWk8zVkUzUjVCcFA3MHg2bXVralBpM3JNYm9HbXNid2NyazhfdTBmd1lRUklYMzNOMTd1YkloQ0V2R01VR3NEVEE?oc=5",
+   "data": "2026-11-01T11:12+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 2.12,
+   "cobertura": 2,
+   "motivos": [
+    "tema coberto por 2 veículos",
+    "publicada há 1 h"
+   ]
+  },
+  {
+   "titulo": "Quer ganhar em dólar? Visto permite empreender nos EUA - Terra",
+   "fonte": "Terra",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOOTZtamhQWnV6WmQyNmpXa1hYblBaOGRTbk9IVElTS2VuSWV2Um1mcENvX2FfREtpbnlOQTRMMlBZZWFtbFNYS3V5TnRYNXptSXRZNFoycHVJbjc0T01LX0VOcGw5bE5ZbzlEeXJ6TEYyUlVGbUEwVWowOURNNHJLQmZGbEQweTM4ejVwSkpCVlJHR294T3hnQ0U0RFR6aWNjRXBmbEJaMVlILURURWNTeFJhS05fblRVd3FJYXFZS2lGY2c1ZkpoeDhzYWVNSnZJMm5TNA?oc=5",
+   "data": "2026-11-01T11:02+00:00",
+   "sentimento": 1.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 4.77,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: dólar",
+    "sentimento positivo (+1.00)",
+    "publicada há 1 h"
+   ]
+  },
+  {
+   "titulo": "O Casamento Vermelho dos mercados: o que fazer com os fundos imobiliários (FIIs) depois das urnas - Seu Dinheiro",
+   "fonte": "Seu Dinheiro",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZzhfbEdTSGJ3MlVfVzFsYnBKUlA0QVRIWnpxLXducFRxODJTbmVDRklaaTYtZGhTTkZ2RTcteGtKR0hfTVhKaWZtU2tycXNMLXFTZERxZGdvd19LMEtzUzFYOGtxZ0RuUVlHZHFaSUZSblVIbXZmVG14cUpJV0dwZFZEbUZlMHN4MHpUVHk5Y0JrQTZpUmlfUVB0ZzZPR1VnZGF1MnJuUWY0YzUtM1VvNk1fSXdycUx4N1U2Z3R6Y1NhQ295eVlhZnNiaUhlT0dGNnFOaGNHUnJEVHVf?oc=5",
+   "data": "2026-11-01T11:00+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "imobiliario"
+   ],
+   "impacto": 1.4,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há 1 h"
+   ]
+  },
+  {
+   "titulo": "Gustavo Loyola vê juros em dois dígitos até 2028 e alerta para risco fiscal",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/onde-investir/ex-presidente-do-bc-preve-juros-em-dois-digitos-ate-2028-diante-de-crise-fiscal/",
+   "data": "2026-11-01T11:00+00:00",
+   "sentimento": -1.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 5.32,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: juros",
+    "sentimento negativo (-1.00)",
+    "publicada há 1 h"
+   ]
+  },
+  {
+   "titulo": "Notícias BTC: Binance inicia retiradas em fases começando com bitcoin - CoinDesk",
+   "fonte": "CoinDesk",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNM0VraUlRcE9aRzhSdDRERXlYQUU1OG1rS0Frc1ltRG5adDVLVm9rV09wMWdmUEhLenVfdkNzRFRLeTlIT0JMMVlfN3E5TWVJd2tqbTRXUVA0ZHU2d0VINlhHc0hWOFB5SHRCQUttcTJxOGlfbnVzaGZOaHM2NmlyenZ1bTJ4X0lOcFcxeEx3UXlsZkZ6ZVUxNUdRU19JbmJKakpLXzVwTUY3ZXhpNXdkU0VwWU9mY2RZUFJNekkzOEVtR2hwUnI1ZmEwM2xEam03QWZKaWNBZ29pMDJ4?oc=5",
+   "data": "2026-11-01T10:38+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "cripto"
+   ],
+   "impacto": 1.93,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: bitcoin",
+    "publicada há 2 h"
+   ]
+  },
+  {
+   "titulo": "Economia: Mercado prevê inflação de até 6,1% em 2027 - Portal Terra da Luz",
+   "fonte": "Portal Terra da Luz",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNURnTnpjU2VKU1hkU1hTWVQxQnVSVk8tS3I3c3FXN2dPdzQ3WjFIdzdzbENuVkw1bTl6UjBKNkZkN3lGWGRfRzJrcDlqQmUtcktXeHJXa3F0U2ttbmlKMnpWZ0s5QzREUzltOFhMS3NkMEh5YTY3ck1zb0drQ3hNcV9Vc0JCOGRQSjVTX1czOUMxOHExY3pV?oc=5",
+   "data": "2026-11-01T10:30+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 3.69,
+   "cobertura": 2,
+   "motivos": [
+    "tema coberto por 2 veículos",
+    "palavras de alto impacto: inflação",
+    "publicada há 2 h"
+   ]
+  },
+  {
+   "titulo": "Binance anuncia retomada de saques de bitcoin e ether após roubo de mais de US$ 6 bilhões - tmc.com.br",
+   "fonte": "tmc.com.br",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRERUVlhkbFdCNHdmUnA4cVpjeUUtV2J3U21OS2JJdnMxWjczMXA0a1psWnowU0FSN0RHTWs0R0JRenBMamZmVFIyWEt6dzhtQ0dMUU8xRG14Z3BUUDZSaTNSd0FZZlprZmNPWXlibEQtMkJySlY4SFRDR0FSRDI5dUlNWQ?oc=5",
+   "data": "2026-11-01T10:30+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "cripto"
+   ],
+   "impacto": 5.75,
+   "cobertura": 5,
+   "motivos": [
+    "tema coberto por 5 veículos",
+    "palavras de alto impacto: bitcoin",
+    "publicada há 2 h"
+   ]
+  },
+  {
+   "titulo": "Binance diz que saques começam - Cointelegraph Brasil",
+   "fonte": "Cointelegraph Brasil",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSVJyV1ZHdEFwVXBBdEE3M0dtb1RNdEJTN1JyZ1VOdEJrQUpUc2dEd21Qa3VwNjkwWGVfeUJxd0lLZWtzOUd1dk1oV0U1NjJQOXd0ZjZ2MFlWNkRfZUJac1F3MmRNYnJwLVI2MWl6VGc1M09NWnhCaHV4Q2JLV3EtZnhhV3o1aXVNNl9qTDRZNkNNQWJVb2pz?oc=5",
+   "data": "2026-11-01T09:53+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 2.0,
+   "cobertura": 2,
+   "motivos": [
+    "tema coberto por 2 veículos",
+    "publicada há 2 h"
+   ]
+  },
+  {
+   "titulo": "Binance retoma saques de bitcoin e ether após roubo de US$ 6,3 bilhões - G1",
+   "fonte": "G1",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbDhsVjZfS3lxY2tGNnowOHdZUFc4QVdZcHZtV3dON25yNjB6N1NKMVpIRFRNN0dpd0xhWW1uYzA5NE83VDVPX3RiUGpZLVp4Q0xQNHFIWnQ0SkNLcC1HV2NWaHJLMjBWTlpVVFJtUmxCZS1YU01KR1BEWW9XdndCQ1lnWHBZMUJvRU5WMkY1M0pPQUZodV9TOExhUTJfSWY0dkItMWJTWDBaUdIBuAFBVV95cUxOVFk5UWNnZjhvUXJveVp3a0x5aDNxSUZNSi0taDNMTHdXUExVM0pnTDVseko1NWFmSXk3WE40eVZZek5RLUo0Mm16dEttMk9vcFpSaVQ1YjFWczV2MXBxNGpzcWxLZ3ExOV93UXVpekR3LU5jdmZCc1pTUEd5cl82N25uUUdwMVBmM0tacXFsY3ZpS0NhZVpCaFU1bnVTanpaVzJ6VnYyUmgtOU82Z1JUYklNXy1rTVZh?oc=5",
+   "data": "2026-11-01T09:50+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "cripto"
+   ],
+   "impacto": 5.58,
+   "cobertura": 5,
+   "motivos": [
+    "tema coberto por 5 veículos",
+    "palavras de alto impacto: bitcoin",
+    "publicada há 2 h"
+   ]
+  },
+  {
+   "titulo": "Mercado reage mal a Lula; entenda as razões - Acia Araçatuba",
+   "fonte": "Acia Araçatuba",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1JSTlTSkdVdnlvU1ZaQUY1V2FYMGhwX1NpV2tjb0dTUmhZelVrcGFGMmRwZElRT3hRSm94S0c0ZUdSUFg1bUZZNHZ3VXFXY2FVOFRINWN6S2NQYXlOQXIyUDRJQlhWcURWbVJQU0kzbUM?oc=5",
+   "data": "2026-11-01T09:37+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.32,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há 3 h"
+   ]
+  },
+  {
+   "titulo": "Bolsa desaba após eleição, Magazine Luiza despenca 60% e Anthropic mira IPO: as mais lidas da semana - Estadão",
+   "fonte": "Estadão",
+   "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQQ2xTUWxxTi1Ta3NqdzBqZE41ai1VZ0xjdXRLRVZBdmZRajhMV3pnRGtDdTA5TkhOU1Y0NlRBSU9JdEdtZk1tRUNPLXRqR0xEeWJLektKSW5mbG9neHMzTEtXc19RaWMtWlFCLUtlek5qNE84UVE3aEJTMDRPWmZwbjFLQk13bE4xdzBpMDhvQUlBbVY0Nlp3STgwSUhfM1ZnWlZqV0czUG9ub0NkZlNTVjZuV1BxbU1mOTZYQ1dONGlqeXkxb1FTeklZLS1FVkRQd25iRzhaWDh1b3lZeHBwZTB2U1doYVJkYlBjTNIB8gFBVV95cUxOa05ZeVc3WXJPTFQtVHNmeXNmdHZFUHl4UDFjaUp1X0FqRW9SSWxmbS0yV2ItZFN5UmVMNWFyTXFFZEFWdTFBVEVKQldjdUlOTVYyQmFMOGhsTVdncXhXSXdmS0lra1Q0RnB3NS1jN2UxQmEzbkczdWJNbl83VDBWRm9HUkxTWEptSVNxdThJSEZCYllwRVZ6dGdkaHhSWXVMY1NIRUdjVEZVdHdzalJ1R1gtRHJ2Q3VNdXpkMXRRQ21VYm5XRUIxOHBtZi16cVpoY3k0WGQzd0F5WnFqeUJlRnUtTTh4VjBhdGJ1eEtQaTJBQQ?oc=5",
+   "data": "2026-11-01T09:00+00:00",
+   "sentimento": -1.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 4.88,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: eleição",
+    "sentimento negativo (-1.00)",
+    "publicada há 3 h"
+   ]
+  },
+  {
+   "titulo": "Lula 4: Empresas sob pressão enfrentam dívida elevada e expectativa de queda mais lenta dos juros - Estadão",
+   "fonte": "Estadão",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOc1d4RC1DTlVpYWJHT1VfZWpIOEhaZC1PbER1RFlaWHIxWUh1YzNGSlZnX1hDTk9Na1JrYm42RmFEdTRvaGRZaDRraGVxMGdQN2JSaVNkci10OXBlcFlSTldRSmhBRXRyN211TGwxd0JSdDlaTjRROTY3TWllMFBxVXZHWTJldGJDbXhjcTd2Qm1nNHpuUTVqcGo2U1hQVkluU3UxeFdYYV8xS1ZyVm9hZ0JCRHgtNXlSUU1tWDFLeFdob091YWNxWmppLWXSAdIBQVVfeXFMT1pkbGpMc3p6RkRQUURrVUFHQ0QyU0lZU3JZS00tM00zZlA4U256SXR6Zk1EQUd3akN3MjNMTGVqclNHTDROQnlDOUlsaDZUcTF3N29FbmlnTG55V2dsdmxoNHZtWklQellhZ1NyTHo0Sm5majk4d2Vaa09GLVp6bFdlNUZFMUhYSW1jTUdhcHMtU2NPdGh5S29FZW5wdnhlSWJHS1A5elFjY0hfZEdLSUVOQWtNVlE2dW5yVXNhV0FPTWRFZFQyUERWaUMzaUN6SHl3?oc=5",
+   "data": "2026-11-01T08:30+00:00",
+   "sentimento": -1.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 4.78,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: juros",
+    "sentimento negativo (-1.00)",
+    "publicada há 4 h"
+   ]
+  },
+  {
+   "titulo": "Dow Jones hoje cai pressionado por recuo do setor de tecnologia e tombo de 12% da Alphabet - Estadão",
+   "fonte": "Estadão",
+   "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQeTBDNTB0dmlKSVJSbG9BOTBoNi1GcmxsZWZTdFVyMDd5TVMwdDlqamlMQ2UyOHdtMjZCMnhfMkJNemNMbWN6LUpKWkZpb2hiSnY5aU5rTlhzdlN2d1JJX293dElzUHNHUTVUSTN3UE9LSVlvU0huRkJsNVBVTHBBZlNzOGxTZndxaDlfU0poRjBHeXh1VnpyUjA4V1NjZUhXY0hQVldRdkNvZXUwZVYyU2tVbGZhb3VqMVhxVE0tZXNOaWhOUkEwLUhNNngxMFFuWGNPb3U3M01YNS1nSC1LY0dwOVZuYmExb2I1VA?oc=5",
+   "data": "2026-11-01T08:26+00:00",
+   "sentimento": -1.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 3.77,
+   "cobertura": 1,
+   "motivos": [
+    "sentimento negativo (-1.00)",
+    "publicada há 4 h"
+   ]
+  },
+  {
+   "titulo": "FBI acusa Coreia do Norte de roubo de US$ 6,3 bilhões em criptomoedas da plataforma Binance - Terra",
+   "fonte": "Terra",
+   "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPUVZNWmdleUhlVzNaaVRqbjJkbmlzMDlFVjBDb2dLRU5JUjF1ZkRTQ2NEaUtWV1drdWVrTmJBWmtVbERKUllyV0hFV2g1ZzBLZU5Vd1g2cnpNRFpuYnNnVElSandIeWVsYk5xV1J0NXFCaVZoUi1leEJlekZrQWxDVm1paTlhd09Gc2wxVndORmNvOFFUV3k2MktGbTJaa1ViVmhlUDVRMENCU29fQ3lzM1FSMU5xZl9QNXhjdV8teGVBMWRSMmVCVzBnSThuX3RCWXVQMWtlcUkzYkY3a0ZLb191UjlhUUo4U3RrSkpndk1SaDJfWXU1TmpGWUItUQ?oc=5",
+   "data": "2026-11-01T08:01+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "cripto"
+   ],
+   "impacto": 4.33,
+   "cobertura": 6,
+   "motivos": [
+    "tema coberto por 6 veículos",
+    "publicada há 4 h"
+   ]
+  },
+  {
+   "titulo": "Sem clareza fiscal, quarto trimestre deve ser ruim para captação de empresas - Estadão",
+   "fonte": "Estadão",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeDFfTElJOFRXUjVfOTd0QzUzRml3cjMtQUhnbXhKM2JGZFZ4Y0hObXFCUU5Ma2JpSmVwM0RHZGJTa1pWb1V5MDV6REdNNVBYS1pDby10ck5xY0pTODFJZlM3aEhMUVgxOFVBYmtINHZlWUVXWTlzMEp0VklMeG1sZjVJbDlyNVNJRFU1Zk1QNVY3S3FwWnVjd2IzZVd2R3U2WDZGZzQxdTdIcVBSUm5kSXo3OWpUamUtSmhiYlB4ZzEya1VvNGlj0gHMAUFVX3lxTE9Ma291VlZYN0NaLTZWVF9FSnZBLTVsNlBYbGRsRlJfUFY5ZVlmbzRtLTdXWHRDcjRGWnlKYXVBakZNVENLZWxpS0ZwblhTdVA3U2YxcXpENGtQZE1PMXg3TExGaWM2UXcwQlV4ZklDUWYyYW1SaUJDSE4yME1QTFM5dXZRSnpLVTBIR2JzYXNjVFFwR1pPQkVzaGt0dnI0TllCLW5hWTFqeHBRaHpqRmNzRmhBQTU0cXBUWU5xS25uWnlNdUF0VnNGRTJtZQ?oc=5",
+   "data": "2026-11-01T08:00+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.24,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há 4 h"
+   ]
+  },
+  {
+   "titulo": "Esquecido no organograma, jovem de 27 anos vira aposta da Cisco para a era da IA",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/business/global/esquecido-no-organograma-jovem-de-27-anos-vira-aposta-da-cisco-para-a-era-da-ia/",
+   "data": "2026-11-01T08:00+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.24,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há 4 h"
+   ]
+  },
+  {
+   "titulo": "Na China, a guerra contra os mosquitos entrou na era da inteligência artificial",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/business/global/na-china-a-guerra-contra-os-mosquitos-entrou-na-era-da-inteligencia-artificial/",
+   "data": "2026-11-01T08:00+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 2.72,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: guerra",
+    "publicada há 4 h"
+   ]
+  },
+  {
+   "titulo": "Ucranianos combatem russos dentro de gasodutos subterrâneos. Eu entrei em um deles",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/business/global/ucranianos-combatem-russos-dentro-de-gasodutos-subterraneos-eu-entrei-em-um-deles/",
+   "data": "2026-11-01T08:00+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.24,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há 4 h"
+   ]
+  },
+  {
+   "titulo": "JPMorgan encontra 225 ações ligadas à IA que ainda estão fora do radar do mercado",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/mercados/jpmorgan-encontra-225-acoes-ligadas-a-ia-que-ainda-estao-fora-do-radar-do-mercado/",
+   "data": "2026-11-01T08:00+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.24,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há 4 h"
+   ]
+  },
+  {
+   "titulo": "De lenhador a sindicalista: quem são democratas que tentam retomar Senado nos EUA",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/mundo/de-lenhador-a-sindicalista-quem-sao-democratas-que-tentam-retomar-senado-nos-eua/",
+   "data": "2026-11-01T08:00+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.24,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há 4 h"
+   ]
+  },
+  {
+   "titulo": "Juros, impostos, crédito e trabalho: o que realmente importa para os negócios em 2027",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/business/juros-impostos-credito-e-trabalho-o-que-realmente-importa-para-os-negocios-em-2027/",
+   "data": "2026-11-01T08:00+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 2.22,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: juros",
+    "publicada há 4 h"
+   ]
+  },
+  {
+   "titulo": "Nasdaq tem pior mês em mais de um ano com temores sobre IA - CNN Brasil",
+   "fonte": "CNN Brasil",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQX1hfVnFIaktad3B5SXJLQjZCWVdFY2puenFWVTBUV3BqRW5kMDRaN3VQSVFmSVR6YkYyWHZqWHlfZWkyaEU4V1JkeV9jTVEtZzlNYlBaMF9GMURQRzFEYzNzUndFWXYxNFptRUZhS2lram8xOGdxYmt1ZFdfd2otZXYzYkRIR0U3VWpxN0N4M2NLSTBFeldaVnlZbWZwZWtGZ0FEdnNwcHl1RWpUS0l3Sg?oc=5",
+   "data": "2026-11-01T08:00+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "exterior"
+   ],
+   "impacto": 1.24,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há 4 h"
+   ]
+  },
+  {
+   "titulo": "FBI acusa Coreia do Norte de roubo de US$ 6,3 bilhões em criptomoedas da plataforma Binance - UOL Notícias",
+   "fonte": "UOL Notícias",
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQN1VWWGxjWjBzRVYzblY0djNyQzVVMEFtQjlXbUZzcEpaSFlxN0h0R2o4X0hCUmhIZmdxdlFCT0FMUndaME1aenlOR1lPSTVKc1JEVkhjbGQ5b1pCbW1kUVNOT3BKb2Rua0pza2sxWXIyUlVUd0Vpa0Y5QVU1Y1hSVk1MZEdmUW02WkY2N3pibEI4WmlqUGJhTkR3XzY3Y2pUQjdXUmo2M0czMkd0cHdGYzZaVEdOLUFfREFzVDB1U0tHT0Fkb3lDS2VlUXJLOHAzWVVRdWtLcnYyN3NiVUNxbm1jNjhFdGZj?oc=5",
+   "data": "2026-11-01T07:59+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "cripto"
+   ],
+   "impacto": 4.94,
+   "cobertura": 7,
+   "motivos": [
+    "tema coberto por 7 veículos",
+    "publicada há 4 h"
+   ]
+  },
+  {
+   "titulo": "Mercado e governo avaliam nomes para o Ministério da Fazenda em 2027 - Portal VV8",
+   "fonte": "Portal VV8",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcXBLbHdMZkdJTWxCd3N5eFh1OVBwX0RDRlN2ZDUxUmZhRFR3UFNSYVBfUjBvTlI0WmpXLTA4d3JfcFhmVUhkYVpERDdLbGttN0Rna0piTzl4MUc1eUdyQ0lUeklHVGUxVkc5ODBrVTlQNk1tUGY3MTR3QlNMSXRfbjRNOE1uNGx2ZWhKRzRpZjE4bW53eWZwNnItMjRYaTJwMF9qSC1pLVNGejg?oc=5",
+   "data": "2026-11-01T07:14+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.2,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há 5 h"
+   ]
+  },
+  {
+   "titulo": "Mercado revisa PIB para baixo e já vê inflação até 6% em 2027 - CNN Brasil",
+   "fonte": "CNN Brasil",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNOUtpNXE1UV9OQ2dxbHpZMUE0bzkwUWRhOUhDb1Y0VVRpWXdSQnNfSHdDSy0xVkR0djY0Y1d2OVVJVDUxU0hCY053VDlYeE9qUXVCZEo1ZnZvWTZzOXhjSVUwTXFCdjdpWEY0OXRibkI0cGp0ZW80ZEJOZnNIeFJfOWFBaWRSZFVpWTFYN0kyM1I2RnRBUWI3aU5EVGVDQjJvSEZJZkEwYTFqaGFEd2xWTXBnNA?oc=5",
+   "data": "2026-11-01T07:00+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 4.65,
+   "cobertura": 2,
+   "motivos": [
+    "tema coberto por 2 veículos",
+    "palavras de alto impacto: inflação, pib",
+    "publicada há 5 h"
+   ]
+  },
   {
    "titulo": "Saiba quem são os cotados para assumir o Ministério da Fazenda - Metrópoles",
    "fonte": "Metrópoles",
@@ -27,10 +618,57 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.47,
+   "impacto": 1.19,
    "cobertura": 1,
    "motivos": [
-    "publicada há menos de 1 h"
+    "publicada há 5 h"
+   ]
+  },
+  {
+   "titulo": "Binance repõe 90% das criptomoedas roubadas e promete retomar saques - Correio do Povo Penedo",
+   "fonte": "Correio do Povo Penedo",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNOUhHanppTW4yMHFidHZTcVAzQzVmNEpDeDNWZkJxMHpwYW1iWjhWN19FaEZ3aXRRX0hHM2ZwNnkwWVdSbjZMMTBuZ0ZPcFR0RWpkcXhIeVk5aEMzbU5lQ296dG1HdmszVEZ1SEVVSDdIMlhSZ2Z2RlhsQ2pNbVhpTmxVT2l0bmVzTUc2dHBJSEU2cnR2Wmd1RGxaVXBsVmkxcXN1Y0IwcjdqRkdOb3lRdWFORHZaSmE4VGh5WVZn?oc=5",
+   "data": "2026-11-01T06:12+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "cripto"
+   ],
+   "impacto": 1.16,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há 6 h"
+   ]
+  },
+  {
+   "titulo": "Binance retoma saques de bitcoin e ether após cobrir a maior parte dos US$ 6,3 bilhões roubados - TradingView",
+   "fonte": "TradingView",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5JRURqZkR1dWJxd2pkWndkREdGU1FzeUdNVDJ0ZTg1ZHdfMjlzMU5KLXE4Sk0tRDhDMmZjNElSZDFKZlNGVmFFRjlMaHhfVThhdlpWOGczcnQzMWhWZjdwQ2Nmc1l5NmhIVVlvbEF0SWFiZXVEbVNr?oc=5",
+   "data": "2026-11-01T05:58+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "cripto"
+   ],
+   "impacto": 4.04,
+   "cobertura": 4,
+   "motivos": [
+    "tema coberto por 4 veículos",
+    "palavras de alto impacto: bitcoin",
+    "publicada há 6 h"
+   ]
+  },
+  {
+   "titulo": "IPO da Anthropic põe à prova o futuro da inteligência artificial e desafia Wall Street; entenda - Estadão",
+   "fonte": "Estadão",
+   "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPOWVMVnJxbnpRUWtQdjYyLUlWVGowWUlXS1hfaUJZTGNnVkZEZWszWGlya1VqUjRnamd0aTBrdnJZQ2h0VVNCYWxkVEFWcGtZeVBMeUltM2xRc1hhV05tS1dHQWxabTU0THpUOV9VWllTUHNxYkpYWGp5TWc3eWM4Zmx2Z0k4QTV3dXV6ck9tOHlJSW5qdnZYMVc4OTg0bXBzc2U3U3ZYMEQ3QUNsVVNWbGVBVGlib2VvYUpqaUJxWjB1MDRuLXlzTjBQcWsxdnVUM2tueXhkRXRETXBWWUVPTjRXejNlQk5oakJleXhzMGs5OHc?oc=5",
+   "data": "2026-11-01T05:27+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "exterior"
+   ],
+   "impacto": 1.14,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há 7 h"
    ]
   },
   {
@@ -43,12 +681,12 @@
     "cripto",
     "moedas"
    ],
-   "impacto": 4.62,
+   "impacto": 3.85,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
     "sentimento negativo (-1.00)",
-    "publicada há 2 h"
+    "publicada há 7 h"
    ]
   },
   {
@@ -60,12 +698,12 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 6.13,
+   "impacto": 5.14,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: inflação, eleição",
     "sentimento positivo (+1.00)",
-    "publicada há 2 h"
+    "publicada há 7 h"
    ]
   },
   {
@@ -77,12 +715,12 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 6.99,
+   "impacto": 5.92,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: juros, fed, petróleo",
     "sentimento positivo (+1.00)",
-    "publicada há 3 h"
+    "publicada há 8 h"
    ]
   },
   {
@@ -94,10 +732,10 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.28,
+   "impacto": 1.09,
    "cobertura": 1,
    "motivos": [
-    "publicada há 3 h"
+    "publicada há 8 h"
    ]
   },
   {
@@ -109,11 +747,11 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.73,
+   "impacto": 1.49,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
-    "publicada há 4 h"
+    "publicada há 9 h"
    ]
   },
   {
@@ -125,11 +763,27 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 6.17,
-   "cobertura": 9,
+   "impacto": 2.12,
+   "cobertura": 3,
    "motivos": [
-    "tema coberto por 9 veículos",
-    "publicada há 4 h"
+    "tema coberto por 3 veículos",
+    "publicada há 9 h"
+   ]
+  },
+  {
+   "titulo": "Binance retoma saques após recuperar 95% de US$ 6,3 bi roubados em ataque - CNN Brasil",
+   "fonte": "CNN Brasil",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNmlCQVdfMF9zYVVBNGJJQklPZVpmVGw0WHBVUXBqZF9hVk5XRE5aczg4VEx2SUpuMF9QSFdkV05pbmxYU1ZBendwOWE1eE92MFYtc051VDhkaGxXMXlTY2FHX3RKNDhKXzhDSDB1SjVNWXV0LUNLVHo5YUJ6Qm9GVXo5V21HdFl1WXoxZXJxa0U4Q3ZaaWc5UHYtMG81NDdjNDByMkJ0NG1ELVcxQmpmNmtmZExvei1ZZmZLaGhSVTBPQQ?oc=5",
+   "data": "2026-11-01T02:39+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.58,
+   "cobertura": 2,
+   "motivos": [
+    "tema coberto por 2 veículos",
+    "publicada há 10 h"
    ]
   },
   {
@@ -141,11 +795,11 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 3.59,
+   "impacto": 3.12,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: juros, fed",
-    "publicada há 5 h"
+    "publicada há 10 h"
    ]
   },
   {
@@ -157,11 +811,11 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 2.63,
+   "impacto": 2.28,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: inflação, dólar",
-    "publicada há 5 h"
+    "publicada há 10 h"
    ]
   },
   {
@@ -173,27 +827,42 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.76,
-   "cobertura": 2,
+   "impacto": 1.03,
+   "cobertura": 1,
    "motivos": [
-    "tema coberto por 2 veículos",
-    "publicada há 6 h"
+    "publicada há 11 h"
    ]
   },
   {
-   "titulo": "FBI acusa Coreia do Norte de roubar US$ 6 bi em criptomoedas da Binance - Correio do Povo",
+   "titulo": "FBI atribui à Coreia do Norte de roubar US$ 6 bi em criptomoedas da Binance - Correio do Povo",
    "fonte": "Correio do Povo",
-   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPTnNGcEFqX3BnaHRLTG9CN294c1ZyNGZ4RVBVRU9CcFJHV3BlNnhYM0lraWZRVFRqV3dfNldZbnhSVlRzb3Itcm55MjdvT0gtbmp1WVJ1RC1UcUZ4YlRheF9zWkl0S0pienlEZ19CMFRaVDZfcDdsMUptaGdxbURoZXAyZkJuVGVHelJFcGdQUFZZWkRRUHZpMjIwTzA2UkZfUU5lS2xFOHhEMXVFVldIWTJTdVBLUnludXVfNUN6SWVseklkMVpXLXI5ejFSSi02U3c?oc=5",
-   "data": "2026-11-01T01:10+00:00",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQNDJTekRtYWtFVW9XZ0stanZ4ZTZPSWFfYk92ZjY5Z2JOdkcxSTNDTm5pa25uS3piOEVKemRZeVpaRGJ2QWZfbzJ3MTNOTWtzZ053djhQQjc1dDZ3MDVFVXNrUFJJcXZJdzFocVVJMXFiV2huV01FLWU4dHZWNFAyRGlNVWtGSGE1T1F4RnhfWWw4SjctdHFpWENzTHpGRV9rTERueGhKQXpraktkUExsXzAzNkx6di05OWdNTERVbWY2amN3dUdqMGwzd0J4S3BlbkkyQWh5Yw?oc=5",
+   "data": "2026-11-01T01:18+00:00",
    "sentimento": 0.0,
    "classes": [
     "cripto"
    ],
-   "impacto": 1.74,
-   "cobertura": 2,
+   "impacto": 3.06,
+   "cobertura": 5,
    "motivos": [
-    "tema coberto por 2 veículos",
-    "publicada há 6 h"
+    "tema coberto por 5 veículos",
+    "publicada há 11 h"
+   ]
+  },
+  {
+   "titulo": "FBI aponta Coreia do Norte como responsável por roubo de criptomoedas na Binance - Portal VV8",
+   "fonte": "Portal VV8",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSHpiQklFSGlhSGdxaEM2SVVkOVkyZ2dLVkl0djBBU2I5T0Vva1ZwMUlnc3BLeFFfeE9EUWlTR2tyTl8wYTRaSGY2Q2pMOHVzMVdURzVKUUduYlVnZEstZnI5THU1dmpfRUp6cnpnZmVMWlBFa2tmZkVfMzM0MFFKaWpEZk02QkFMV1pjWXZRSTBITFZXRmFEMnI5djRRMk8wcXpKM0htZ1UyVHVkMDAwSE5kX01aT2ZyRFBn?oc=5",
+   "data": "2026-11-01T01:06+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "cripto"
+   ],
+   "impacto": 3.05,
+   "cobertura": 5,
+   "motivos": [
+    "tema coberto por 5 veículos",
+    "publicada há 11 h"
    ]
   },
   {
@@ -205,12 +874,12 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.36,
+   "impacto": 3.84,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: eleição",
     "sentimento negativo (-1.00)",
-    "publicada há 7 h"
+    "publicada há 12 h"
    ]
   },
   {
@@ -222,10 +891,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.14,
+   "impacto": 1.0,
    "cobertura": 1,
    "motivos": [
-    "publicada há 7 h"
+    "publicada há 12 h"
    ]
   },
   {
@@ -237,25 +906,10 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 1.14,
+   "impacto": 1.0,
    "cobertura": 1,
    "motivos": [
-    "publicada há 7 h"
-   ]
-  },
-  {
-   "titulo": "\"Rei das criptomoedas\" de Manaus é preso pela Polícia Militar em Perdizes - Metrópoles",
-   "fonte": "Metrópoles",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdHcybTFKQ2JKTjhJU1BUbGtVNEllN0tHdDFkWTd1VVdYdGZYVHNrclE4NEdIcmlGYlBrRG5taW5YV0ZSZFZVcHNGOTk4Ui1VNXl5enYwaEd2azNrSHhwQ2ltZ0Frc085Ql9Jd2dHUlM5dUxqUWNsUnpSbFNROGtVVmlqWE5sbGx2UGR3UUJNNW9VWl9LZWJuajhkU1h6QkZCejFHdUdLS0Q0aEps?oc=5",
-   "data": "2026-11-01T00:21+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "cripto"
-   ],
-   "impacto": 1.13,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 7 h"
+    "publicada há 12 h"
    ]
   },
   {
@@ -267,27 +921,25 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.7,
-   "cobertura": 2,
+   "impacto": 1.0,
+   "cobertura": 1,
    "motivos": [
-    "tema coberto por 2 veículos",
-    "publicada há 7 h"
+    "publicada há 12 h"
    ]
   },
   {
-   "titulo": "Contagem regressiva para as eleições de meio de mandato dos EUA: O preço do Bitcoin pode ultrapassar US$ 100.000? - TradingKey",
-   "fonte": "TradingKey",
-   "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOaHc3RWFKRVNFM0tQZkZJX1M2NTR6cnVHZFprZnUzVDBPdDV5ZDJqS3ZwVU1PNnVwaXB0Y2psa3FlcHBzTm9fdk5kSEtTelE2WXhuVExvalJjc21mdEp3SHZlek00NmtRaGprREdOREJwQmkydmowOVdMRG9KNHJIbGJaTzA3ZU1ZME9RTkx3OGRsbGUweFRLOUFTRXFQdnRaRXJLWUhRaGtjbkJDdjBWcVY0MGRuQ0ZuUDJicnJIdmlxb3BnVVF5SjZxUGs0R1FVV3h4TEItQk1MOFNpMHAzeFBZZkJtSmZ5M3RFZA?oc=5",
-   "data": "2026-11-01T00:20+00:00",
+   "titulo": "\"Rei das criptomoedas\" de Manaus é preso pela Polícia Militar em Perdizes - Metrópoles",
+   "fonte": "Metrópoles",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdHcybTFKQ2JKTjhJU1BUbGtVNEllN0tHdDFkWTd1VVdYdGZYVHNrclE4NEdIcmlGYlBrRG5taW5YV0ZSZFZVcHNGOTk4Ui1VNXl5enYwaEd2azNrSHhwQ2ltZ0Frc085Ql9Jd2dHUlM5dUxqUWNsUnpSbFNROGtVVmlqWE5sbGx2UGR3UUJNNW9VWl9LZWJuajhkU1h6QkZCejFHdUdLS0Q0aEps?oc=5",
+   "data": "2026-11-01T00:21+00:00",
    "sentimento": 0.0,
    "classes": [
     "cripto"
    ],
-   "impacto": 1.59,
+   "impacto": 1.0,
    "cobertura": 1,
    "motivos": [
-    "palavras de alto impacto: bitcoin",
-    "publicada há 7 h"
+    "publicada há 12 h"
    ]
   },
   {
@@ -299,10 +951,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.12,
+   "impacto": 0.99,
    "cobertura": 1,
    "motivos": [
-    "publicada há 7 h"
+    "publicada há 12 h"
    ]
   },
   {
@@ -314,655 +966,10 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 5.61,
-   "cobertura": 9,
-   "motivos": [
-    "tema coberto por 9 veículos",
-    "publicada há 7 h"
-   ]
-  },
-  {
-   "titulo": "Juiz rejeita ação de difamação de Trump contra o jornal The Wall Street Journal em caso Epstein - O TEMPO",
-   "fonte": "O TEMPO",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZlg0NVhIQnRwOEVub2ZlVEpmVElJb0VURzRTN051VWF4b0xjZ2k4Z0ZtanMtVWxiVmVUb1I0blNmalhoOWdhODYwd0xraWptRmN1U2ltMkM5TndYVnhUNWk5dUthNV9ISmRSbEhLTWxMUlkwZEtSWFNhUmJ3b0Q1U25Gal9ybU5kS2dIYy1OeXN3S2JaaDVRdjBpWmUyUTYwYlVSRmoyUTZ2ckNkcHBDN1NKNXltZzVCYk1hT1lsZ3o5MG5XZ25oa0VHQnJialhOT1ZaNA?oc=5",
-   "data": "2026-10-31T23:57+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "exterior"
-   ],
-   "impacto": 5.04,
-   "cobertura": 8,
-   "motivos": [
-    "tema coberto por 8 veículos",
-    "publicada há 7 h"
-   ]
-  },
-  {
-   "titulo": "Uma grande brecha no mercado de criptomoedas. - Vietnam.vn",
-   "fonte": "Vietnam.vn",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBBY2tRRXRlN2Jxckpua0gwdy04REhkTGdwQjlCdzZVOHdmODR3U3NzRmVZdzVEUVp1ejE4ZjJ5c2xHSUczbEhXY2RGX3Jjd0NFM1hSTGN2NUt6SDZOS2wtaVl0SDh2YTBUblZPVmt3?oc=5",
-   "data": "2026-10-31T23:54+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "cripto"
-   ],
-   "impacto": 1.12,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 7 h"
-   ]
-  },
-  {
-   "titulo": "Binance repos 90% das criptomoedas roubadas em ataque e preve saques - jornaluniao.com.br",
-   "fonte": "jornaluniao.com.br",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSll6N2hIRTV5Q3d2cmZwU1d2eUVWNUZSVTVMcWV5b2QyWV9TZWt5QkRJTlVNUkFqMWlHcnNZSk9YTDlnQ3lGUWJXWlFjbUo3NEFfSzZ5RW4zdHFXSkQ0TERUYkh0RnQ0bmpmdFlpa3c4N1ZmaEVWZ2VFemNXU3Nic3VSbENhdGlJUnNWRGdZY2JKTV9GeHplc0N4ODNjR1ptVGktMnp5VEdDNDNTZXU5UHpzMXF0QVhoSzJDX2FlSWFNNWFzd1hKU0w1blhQUFIxNEw3Vg?oc=5",
-   "data": "2026-10-31T23:43+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "cripto"
-   ],
-   "impacto": 3.34,
-   "cobertura": 5,
-   "motivos": [
-    "tema coberto por 5 veículos",
-    "publicada há 8 h"
-   ]
-  },
-  {
-   "titulo": "Binance recupera 90% dos US$ 6 bilhões em criptomoedas roubadas em ataque hacker - Rádio 93 FM",
-   "fonte": "Rádio 93 FM",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdVEwbktaY3FkYUxOb2M0Nmg1VUU1eHVfaDIyeHVFaExVVHNqY3lDcFJTX25kbG5kNXdDWVVndjZUU3V1Qzl6cTUwdHQ0cW1FQU05VUh3cWN3aXJkVGFtWXNmR1pmUUp1WUItU3FHX2R3ckVUWThpbUozVm85U1o4VjdENjZGUzc0bTg3U1VkcDhCeGo4YTQ0RVZud3lzQ0ZqTml2QTUzVnVNZk9QV2R0alp5TUZNaGty?oc=5",
-   "data": "2026-10-31T23:43+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "cripto"
-   ],
-   "impacto": 2.78,
-   "cobertura": 4,
-   "motivos": [
-    "tema coberto por 4 veículos",
-    "publicada há 8 h"
-   ]
-  },
-  {
-   "titulo": "Foragido por golpes milionários com criptomoedas no Amazonas é preso em SP - UOL Notícias",
-   "fonte": "UOL Notícias",
-   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNY1BBb2M3SFpjMlVITEtKeWRDQjJQNE53cHFINzNSUTZVbmJBdUladkxscFVOZU1fR0lRQmFLR0tITk9xNzJlcEd3dTlvME9LNHhXNW9JRGVQVmVQVzhiSDFXWUp2dndIR3kxOFdqejVyS19KX0k0cnE4aE9HSXRYUVphWEZjVUE0NkxFcEpVMU44SHRuZ3k3YnotdkRVYW5CbzVpaGVJalJtMURoX2JYS2k2bWxZZWtobFlKcVkzNUdjaGh5Z2N5bFQ3LTVGTFhtZnh5alVqM2g?oc=5",
-   "data": "2026-10-31T23:41+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "cripto"
-   ],
-   "impacto": 1.67,
-   "cobertura": 2,
-   "motivos": [
-    "tema coberto por 2 veículos",
-    "publicada há 8 h"
-   ]
-  },
-  {
-   "titulo": "Polícia de São Paulo prende suspeito de roubar R$ 45 milhões em golpe de criptomoedas no Amazonas - O GLOBO",
-   "fonte": "O GLOBO",
-   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNQ3E3eGRsOEpTMEdKaDZ6el90Uy0yb1pCY2dhbDVBTXpxNkt5VVF0VmN4U19wdUI3bHpCTUlkd3Q0dTFCMjZNWTNnX0M3YlZIQS1LQ3lPZE1MbjRaenE4UXZKa1VDbkRDTzZmUXM3Zm9kZTFsZzBkVmpOODUzNlM4Zzl3ZHhkZ3N2cDc5YmcxbnFOeDNBNlE5NmhzYkJXTFFsMlNvT3g4MjhpZ3lxQ0RzZFp1RFA4NVd2VmpyandBdlRoSFlCa3FYa0pWckRyb3JKa0c2ZVphREdrVU01TW9tQ1pvbzdIV2Uy0gH3AUFVX3lxTE5UTUo0c0ZDWElXR2NfVlVBY2RKR1VBWmtETlI5bkdIR1RSaDNuU19qTVZZbl9VX25PekFQamU0X3pYTVpEa014ek16eGRpREpqczljODJKYmUyTURpeTdmQnRiLWUycDJRYjRjSHlLWDY5SEJYTDdlM1oxa2JrYkFkak9UbUNEXzBpMjhpTmktTlVpUUluVVhGeHprOC0xdEFVczBsbmI0TzJWNmk3MXJOMFZlelF2dmloU1h5ZHV6eG16RTlFYU95XzhkOXFuUS1yWVE5N3ZNTUZoNlNaZHU5cF80MURQN3BUU1I5QU5oUmNOakpnd28?oc=5",
-   "data": "2026-10-31T23:37+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "cripto"
-   ],
-   "impacto": 1.11,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 8 h"
-   ]
-  },
-  {
-   "titulo": "Por que os processos bilionários de Trump contra jornais não emplacam - TV Sim Brasil",
-   "fonte": "TV Sim Brasil",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPanNXdFZUMHlhcE9qdm9UeEROSEJGVmc3bmhUQThBZWJhQzFxSUxBcm5wa3Z3VzdQalRRNHVVMGtta3NTUXAwR29qYWVzeUVXdEppaTBBdHBCRDAyNFlUcDFsbWhyX2dLZXRZVHVGYXYzSkxPVzZ5dHQxNS1XYmQzcENJQ211bDZ0d0FIUkFHdWZFY3M0RXFPRFZPTFF0TFZiQTd6RDRBc0ZMdjByYXFjUjBhYw?oc=5",
-   "data": "2026-10-31T23:35+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.11,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 8 h"
-   ]
-  },
-  {
-   "titulo": "Justiça rejeita ação de US$ 10 bi de Trump contra Wall Street Journal por carta a Epstein - Folha PE",
-   "fonte": "Folha PE",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRXZlTjBybVpvaE9lWXZ3Qld5QVFXTGYtOVlpeVpQS1hqblFjR2NHdi01NmFPQ2RCVnJSNFYyM2xvUWpoY200Uy1nSnRwWXZzWWRidy1GQURKRjFRRFBFb0YtSjNwRGM3WlBCOU9xZkh1YUtORDIwNTI1SUNHUVZHNkRrQTc1cmpyZGhmelVWNkdQT0ltQ1BHNTVJZVZ0NkVKYlpKbXVacmIwejDSAasBQVVfeXFMTUV2ZU4wcm1ab2hPZVl2d0JXeUFRV0xmLTlZaXlaUEtYam5RY0djR3YtNTZhT0NkQlZyUjRWMjNsb1FqaGNtNFMtZ0p0cFl2c1lkYnctRkFESkYxUURQRW9GLUozcERjN1pQQjlPcWZIdWFLTkQyMDUyNUlDR1FWRzZEa0E3NXJqcmRoZnpVVjZHUE9JbUNQRzU1SWVWdDZFSmJaSm11WnJiMHow?oc=5",
-   "data": "2026-10-31T23:27+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "exterior"
-   ],
-   "impacto": 5.52,
-   "cobertura": 9,
-   "motivos": [
-    "tema coberto por 9 veículos",
-    "publicada há 8 h"
-   ]
-  },
-  {
-   "titulo": "Fabricantes de chips da Ásia desafiam Wall Street e projetam lucro recorde - O Cafezinho",
-   "fonte": "O Cafezinho",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYk1jSXBDUDFDV0kzWkxKNXpjT25oRVFRcXNKQU9xTl96a0ZlSzZFZDZra1ZHelYtTm9WOXhJQnk1eDBsLUVLU2RKdlNubHloU2g4Y2l3c0lINFlGX1NsdUVSd0tsOXlfeWhoVEppOUhBLXRiZC1JeDlXM3E3dEF2UVEyTkxKQnZiUW0zemhCZ2dZMU1ZYmlVMzNDd3VLd2Q1NF9SY3U2Q3RSc194eGx5dWI3NNIBuAFBVV95cUxOaXVQS29RNy1uZmFEdFhlZER6a0Jia2VXckxfQ3NrNHdXc05BQ3ZwVURqdVI5aVNjcFo2ak5EbjBudTdEMkx6LVA4WW9OaThmZU9fVDV6MDNfNjhBNjg1ekVIRFhxcFJYWVVtRTRDMTUtcFJlZDBYTFBiTGwzLU5zRHNXNWlEMlZMUjlnU1hIellNMmVoa25LaDkwZGVOV2xnazQwMmxKZTFFUTJZNmtneFB5QmdSb21B?oc=5",
-   "data": "2026-10-31T23:21+00:00",
-   "sentimento": 1.0,
-   "classes": [
-    "exterior"
-   ],
-   "impacto": 4.18,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: recorde",
-    "sentimento positivo (+1.00)",
-    "publicada há 8 h"
-   ]
-  },
-  {
-   "titulo": "Boulos diz ser \"chantagem\" pressão do mercado por ajuste fiscal - Poder360",
-   "fonte": "Poder360",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONnc0Z19pME1QT2M5dER6bDB4VmxabHBrbHduQU84c3dtdlFfNnVTbldsNWN4Njd2UDNnSTZzdUhwNXFnbVNKQzI2WXdJNXZUNmdYTU54MWIwajJUNHBXQU90QjhQV0ZIdUhnVU1PN1JNR1NLcUlrbF84ZF96aDdDUUE0eTZoZVN1STVjS0p6X0J4Q2tOU0djQWpzZlRRbGhnWUFxX3E4YjI?oc=5",
-   "data": "2026-10-31T23:19+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.65,
-   "cobertura": 2,
-   "motivos": [
-    "tema coberto por 2 veículos",
-    "publicada há 8 h"
-   ]
-  },
-  {
-   "titulo": "Juiz arquiva processo de Trump contra Wall Street Journal sobre carta a Epstein - Lusa",
-   "fonte": "Lusa",
-   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQQkZ2eVJLbGlrZzJLRXJ4YzZJV1FXcHhHS2pYNUdiSXBJSW5CWGpWWHJXa0lBSU9zUFZiekt3UGs0c3pqdmEtblV6ZVFUa1JfYVdWVUlqdDhRbDdLb3JNS2RMdTBqaUtOZTFKQkFEa2huSHdZaC0yNzlJQTU5RnRBNEtUNnEzWTRHaUZubzlBblhKNTVjSGhxcHd0enF0X1p3SEs2NkxUMWtpOTVjdkRHdm5HT1M1RWY4TlpWSlE4M0M4dTYxN0xCUE4xdmJKOVA2SlJFMEMwXzM?oc=5",
-   "data": "2026-10-31T23:14+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "exterior"
-   ],
-   "impacto": 5.49,
-   "cobertura": 9,
-   "motivos": [
-    "tema coberto por 9 veículos",
-    "publicada há 8 h"
-   ]
-  },
-  {
-   "titulo": "Empresas de criptomoedas se adaptam às novas regras do Banco Central e setor deve passar por consolidação - Times Brasil | CNBC",
-   "fonte": "Times Brasil | CNBC",
-   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQOGZMSVJXdVk4Ym9OTmFwbGdDUHZlSDFwSXFjLWJ1MDY3R3d3Mk5QX2pRNXZ3UHM0cGZhRUlpVEpGRm1ldi1KRUt1c2RGTUk0QzlUYVpUOHpNZzJJaW0wajJueDgxOHZOYV9NMFVqckZDOGFvdGVPMXE3WmY1WVRtcVZOSVYyeUc5azFhY1Rwa0Nhd2dDcVBBNUQ3QzJMNE1ZR3VFU0hhelJfUTB1WXQzRFBSdWxqdWNGNzdwRDY0WTdMUlVhVlpaOHNjSnd6cm1YSnhTOUFrNWNtRDVwdzJvOQ?oc=5",
-   "data": "2026-10-31T23:00+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "cripto"
-   ],
-   "impacto": 1.96,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: banco central",
-    "publicada há 8 h"
-   ]
-  },
-  {
-   "titulo": "França registra mais de 560 prisões em protestos e confrontos isolados com a polícia",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/mundo/franca-registra-mais-de-560-prisoes-em-protestos-e-confrontos-isolados-com-a-policia/",
-   "data": "2026-10-31T22:56+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.09,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 8 h"
-   ]
-  },
-  {
-   "titulo": "Ministro Guilherme Boulos fala em chantagem do mercado financeiro sobre ajuste fiscal no quarto mandato de Lula - Jornal O Sul",
-   "fonte": "Jornal O Sul",
-   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQU0lIQ04zVzI1cVBURUxHMGNpd0hWeFhSdW1Dbm01X254ZWVJT2pOOWZob0l5UTl6WGZlT0F4NFJkSTBxTWpaSVhBczBqMmpsNVZ4a2taVXdFTjBQVnZYZ040T2cwUDl5SHJqTktPVzlsVFhZb0dZamNYTEU5YlRYc3JleVhVZ3VHS3ZKX3c0Y19yRTRNQ1pnWjgyQmllS1M2V2prS3A3bzA0UGRxcWphSTJyYk0wd1pydTJLalk4ZWZFYmRxMFVPc3h4VUI1RG5XZkHSAdcBQVVfeXFMUHJOV25Wc1lJU2Z0eW13QjZHaGdvOV9TNzh5UFBsTkVoUzVOZkZXRS0wdzJjOTJRVUZLU1dHLWNwd1JSakNzT1JUVlN5cUwyd1dfbVZIc0F4RnRQaHRSRk9IN2wtcjZsSmNCUTJMaDcwY0xNUGEydzduX0xIRGtpWDZwZEpCMnIwT0JKTjFkY3o3RWFTc2VET1JXVWVlYlpaT0h0N2ZXOG92QjJjLWxQNlg5STlZMXJHa0FaSFZPcFlUck1uRFFURm1FV2FTNWtHNldtckZqRWc?oc=5",
-   "data": "2026-10-31T22:53+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.63,
-   "cobertura": 2,
-   "motivos": [
-    "tema coberto por 2 veículos",
-    "publicada há 8 h"
-   ]
-  },
-  {
-   "titulo": "G20 encerra reunião de chanceleres sem consenso sobre segurança internacional",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/mundo/g20-encerra-reuniao-de-chanceleres-sem-consenso-sobre-seguranca-internacional/",
-   "data": "2026-10-31T22:47+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.08,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 9 h"
-   ]
-  },
-  {
-   "titulo": "Juiz arquiva processo de Trump contra Wall Street Journal sobre carta a Epstein - Observador",
-   "fonte": "Observador",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRF9ZeW5WT0dtNDczcmRqTEQ3VThIcGNFX3M2T3I2bWFMdlRfTkpZb2NmVm9lMzV3am1qb3ZUX0tvQV9TWG5fczkwa2hoTFZWVE1YdVFDcHdqQ3FLcEtUX1oyck9DdnZvQWpMSkJ3YUxfNnFwNmdqUzdxYWhpdUFJNlN5V3FsRmdGZHF0aDAzOFF6ekR5Z0c0cDNlMXc3N0c3UGNicERKa2VGSVBtRzQ1clFIVQ?oc=5",
-   "data": "2026-10-31T22:28+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "exterior"
-   ],
-   "impacto": 5.38,
-   "cobertura": 9,
-   "motivos": [
-    "tema coberto por 9 veículos",
-    "publicada há 9 h"
-   ]
-  },
-  {
-   "titulo": "Justiça dos EUA arquiva processo de Trump contra Murdoch e Wall Street Journal sobre carta de Epstein - Times Brasil | CNBC",
-   "fonte": "Times Brasil | CNBC",
-   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNc0JKekNZN09RMllFTnFmc1BoMjB0WDlRUS04MGVnRkkwRDRsYU5kWVN2S2RITUFJQmhXQVBYTzBPT01UanAtVkVGR2dqNlc2SWZZUVhNT3MzeHN3VzhOWXJNN3FrOC1remhOQTRMMklSaWJLSElXLW9yLVIyQVV2bVBXcXpzTE5DcUV1X3lpVmhzMzRpdWd6aTV4MnBEbzRQWVUyVkNpeXE4N21ySDZJYXdzT3VKd3kxRVE0QTRxVlQ2UWJ0OGZYV280RjF6cl9PUVN1N2FuN3VrZWIybThlQUJqM0g?oc=5",
-   "data": "2026-10-31T22:15+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "exterior"
-   ],
-   "impacto": 4.28,
-   "cobertura": 7,
-   "motivos": [
-    "tema coberto por 7 veículos",
-    "publicada há 9 h"
-   ]
-  },
-  {
-   "titulo": "França tem confrontos isolados à medida que tensões aumentam após marchas",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/mundo/franca-tem-confrontos-isolados-a-medida-que-tensoes-aumentam-apos-marchas/",
-   "data": "2026-10-31T22:14+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.07,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 9 h"
-   ]
-  },
-  {
-   "titulo": "Agência russa diz que EUA fizeram alerta sobre possível ataque terrorista em Moscou",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/mundo/agencia-russa-diz-que-eua-fizeram-alerta-sobre-possivel-ataque-terrorista-em-moscou/",
-   "data": "2026-10-31T22:02+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.06,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 9 h"
-   ]
-  },
-  {
-   "titulo": "Dividendos do HGRU11: veja quanto o FII vai pagar em novembro - Fiis",
-   "fonte": "Fiis",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUTQxWkhHcDdya1A1Y21iZkhaV0gtNndFNDRadEt1eVBEZXh1MmtnQlNaQ2FZbmpmTENxODZJTE9aRW95bW9mMVoxYXdLNDNpSjhla3lSV0N0TUxmclBhSWQ0OUQ4Nl9fYzhKM2diemlXakpQZzUzb0VmcURvcjBfV2FGSWczd3Nwa0RQMkZKRWtSaUNQQzlN?oc=5",
-   "data": "2026-10-31T22:00+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "imobiliario"
-   ],
-   "impacto": 2.23,
-   "cobertura": 2,
-   "motivos": [
-    "tema coberto por 2 veículos",
-    "palavras de alto impacto: dividendos",
-    "publicada há 9 h"
-   ]
-  },
-  {
-   "titulo": "FBI acusa Coreia do Norte por ataque à Binance, considerado maior roubo de criptomoedas da história - G1",
-   "fonte": "G1",
-   "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOeFNFY0pfVk00cERDUVBJel9CN2ZnN2dhUEdCdjNpLW5UeksyRmFsZHI0MFRkZ2RLSkw4d21FYnp2MVBZRjgwd2ZLZ3RmU1E1NDJnSEU4YUZ0OTdianVJY2dkU1ozOEZiTFVlNXNOREdGbmpZNUdLREVKbUNTdms0cEVVSWFRZVp3TENNUlUyRDlsd0tzOHU3VDRHc0JUMURyWFpVNVc5WEZTLXl6RlRhQThEdmdkaDgxcXJnOE9wMDYyYmpLVkU1WWV5THR0R1lJZm80aXBtSmg5YVRyZ1ctRFpzZ1RMWHFXMWQtMTB3NURPaHRVNjVuZzUzY0tSLXfSAY4CQVVfeXFMT0U1Z1RMaUJoc3M3MHk4UlM0YnhXNzRTMVJSTUxEX2l1dzBXS05rTENhd3p1RTBOWF8zOUp1ekRTUmhPQ21HYjR4ZllfYzRJNHVhVVg2NFJMOXdCTG5jZnZCQzE4U2tHTGtQbnJ1SnkwRldiZ183SkF5LURBNkM2WFc5dTFNZ2NYUXllOXFKbFB1emFfblFLTlJzemFBYVhFcTRiZVpoQUdLREtuN3hoQkJLdkZDZWpKUzg4MDROSlZETkFUWkhwLWRlM1NDZV9ZZUI0X1NxZGZrZGFYR2I5dTdveHg4b3JCRWJrWVhJS25jSXItT1RnUzRKaHI5NldIMGRkYm9xV3lzbkZyTmF3?oc=5",
-   "data": "2026-10-31T21:50+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "cripto"
-   ],
-   "impacto": 2.12,
+   "impacto": 1.99,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
-    "publicada há 9 h"
-   ]
-  },
-  {
-   "titulo": "Irã discute rever doutrina nuclear se guerra for retomada, diz autoridade",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/mundo/ira-discute-rever-doutrina-nuclear-se-guerra-for-retomada-diz-autoridade/",
-   "data": "2026-10-31T21:48+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 2.33,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: guerra",
-    "publicada há 10 h"
-   ]
-  },
-  {
-   "titulo": "Ministro argentino defende livre comércio e critica barreiras ambientais no G20",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/mundo/ministro-argentino-defende-livre-comercio-e-critica-barreiras-ambientais-no-g20/",
-   "data": "2026-10-31T21:29+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.05,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 10 h"
-   ]
-  },
-  {
-   "titulo": "Binance diz ter reposto 90% das perdas de ataque hacker e deve liberar saques neste domingo - Valor Investe",
-   "fonte": "Valor Investe",
-   "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQWTJWVWpJSlczN2pCLUlEdGZtTUhzY21xUU1wVzlLVmNkLXhGalB3d3I1Ulhqa3pwSlhOcmtHYWJ0ak8tMjRPMGZxbUxLWUtBdVFhS0E2S2RuRXJyRDlKRC1XZmttMzdnVDR5TDRUOUtaZ0dvcm95dDNFTEw1Vld2NlZBUF93aTFUeEloNlJISEY4T2xUREowSmcwald4ajRmQW9mR0V5TmxXZF9Ba0U2T0g0LUVpRnhNRWhhN25zTkRQcTBjMGdibTlJbnpTdHhVVGthNkxSdElyeGN5aV9iZEc4bjRrczZSVDY1OUNKak9NZV9QUjlGSlJUbkJJZ9IBjAJBVV95cUxPWUtRVy1jU0g2UGl4Q1NmclcxYlBLQUgzU25oSTZraUtFWGMwOXJYSUVoc3FSVFVQZEM1UUtaSGRVTUpwV2hEUk5FR1dmWHlIY0ttN2VSYUhUZmNMYTlieFR6Y0dpWWdKMTFsdDFUUkd4ek5NWDFPWG1VR3BkNnptekZkcE5zMVlJR2ZzeUltcnVMSFAzMG1kcWRGdUtnX0dVam1Zd0VCcU03SFZGcDc2UkRxaUU1SXIwOGR3bFFsQ0RleUh4MUpuRVpYa0NmV0VWM1M2ckdUQzB4STVZQXYxQV94b0F6UUh3bmZDYkhiSHpGT0ROSlJaOHR6ckRIVFhXNGlBQmFudGlmZkh2?oc=5",
-   "data": "2026-10-31T21:16+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.04,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 10 h"
-   ]
-  },
-  {
-   "titulo": "Palmeiras x Estudiantes: Conmebol define horário da final da Libertadores; veja",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/esportes/palmeiras-estudiantes-final-libertadores-horario/",
-   "data": "2026-10-31T21:15+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.04,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 10 h"
-   ]
-  },
-  {
-   "titulo": "Atenção, investidor: B3 amplia horário de negociação a partir de terça-feira (3) - Seu Dinheiro",
-   "fonte": "Seu Dinheiro",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOaFhoZjh4RWdFV0xBS2dKeE1pMlB0czU3MEY3dVJDWlp1T0MxQW9QLTFzSEpFQnUtUEZqdDgzQVN1T1ZiN2xhZFlTUTV6WUpFdmFoQVNoVGl5LXUxcngxY2h6T1NjdmRpX2V5MDNpTWdYX0wyeGhtTzJ4czViMzY3X0Z3aWVPUGFJTUw2cnNEWkZ4am5xclJqQ3RaeFNNc3RhZ2F6SHptWldQZVhDZG9kamF2NTZhUDV6TWhSeXpyZUxEQk1JRElBNjR3ZF8?oc=5",
-   "data": "2026-10-31T21:07+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.04,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 10 h"
-   ]
-  },
-  {
-   "titulo": "Justiça dos EUA rejeita processo de Trump contra Wall Street Journal sobre carta para Epstein - G1",
-   "fonte": "G1",
-   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQc19rZk5zMUlRMlpfc2RwR2xRVVdfakZBZzIteWktVEQ2SWZZNWhqT0stcl96NFo5SzVmeEd4b2luWEE1dTNKbDZGajZaaDk3QjJjR2lfNmpQTENkUFZuVVRXdkFuV0MtVWVEdWR5c010N0RtenNEeTE4Qmg0YlhBWkliWE5zWTVoc2tXTDFnRW10LVUtUHU3ZEFyTTVxWl9IRldLZjhoUWV5aUo0OWdlOEVHNGJRUVFYbFNROW5iamxHZlBqOE51WnU1SElwX1lpZndISE1YZExHSDFzZ0HSAewBQVVfeXFMUE9jdDlMQ3ZyNm5mUUpTUmpWX3JqcFRvZE5ORjdKaHZoZTRHQlN0LU9TcG9FRTlMMXNJWUVpVm1tcHZqUVFsaFF2ZXFxQlJaXzh3U3l1dWNWRWtPQ1p2dlN1alZ4bHpLR0xUMTBpRlVJUlpRdjgyZUNZZFluR000X05xNlpnWmF5RWFoWXJVOGJ4NmZncnFhTzJQaVpTeDlUZ0FXLUlOVE4zdno5NmlGMFFqRzNXM3YyYi1ncF91cDc2OVBUVnh0OUNkTGF0UThYLXh5Y0FYU2xWQlNkN3hyRTZwV0ZTdWk0ZTlHVnU?oc=5",
-   "data": "2026-10-31T21:05+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "exterior"
-   ],
-   "impacto": 5.2,
-   "cobertura": 9,
-   "motivos": [
-    "tema coberto por 9 veículos",
-    "publicada há 10 h"
-   ]
-  },
-  {
-   "titulo": "Mercado busca novo patamar de preços na Bolsa, avalia estrategista - CNN Brasil",
-   "fonte": "CNN Brasil",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMnFtMUdLOEdFZnAyenZ3dzFXWmFtRDl1TDZ2aFlSU09EQjFiUGZJcXJnRnUwZm9td1hPcWVWcG9UcFh6RGYxb1EyajdLMTcybnVUNDRyTkJDaWpWWWZyVXFtZElTVWNFQi1mY2FVOXhROUJ5UHJJWHA3WFlmSVBPZnJCNU9nWnRhWHdGb0tHeWVHWEtDeVZ0MXJZcmdNRzFmUTVQWDIyQmduZnBWcnk4TnQ4SG5pMGh6aUE?oc=5",
-   "data": "2026-10-31T20:55+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.04,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 10 h"
-   ]
-  },
-  {
-   "titulo": "Anita Harley: ação de R$ 11,2 mil contra herdeira da Pernambucanas é encerrada",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/brasil/anita-harley-acao-de-r-112-mil-contra-herdeira-da-pernambucanas-e-encerrada/",
-   "data": "2026-10-31T20:50+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.03,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 10 h"
-   ]
-  },
-  {
-   "titulo": "Após roubo no Louvre e uma série de furtos, museus menores da Europa estão em alerta",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/mundo/apos-roubo-no-louvre-e-uma-serie-de-furtos-museus-menores-da-europa-estao-em-alerta/",
-   "data": "2026-10-31T20:45+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 1.03,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 11 h"
-   ]
-  },
-  {
-   "titulo": "Juiz põe fim às tentativas de Trump de processar o Wall Street Journal por causa das reportagens sobre Epstein - TradingView",
-   "fonte": "TradingView",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4wbEtFUFNmOVNQVDkzX3A4WnhHMDRXZmU0Q2pqTURYNlVINGtQUzBFNGZTSlpJZVNfdWlMMm5Wam93MURmU0dTVjNPblBadjdwWFZ3ZE5fcDFpTlJ0Z0RXbXN3MF9tNlFxZ2Q4TFQxTklad0k0YTZB?oc=5",
-   "data": "2026-10-31T20:41+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "exterior"
-   ],
-   "impacto": 4.12,
-   "cobertura": 7,
-   "motivos": [
-    "tema coberto por 7 veículos",
-    "publicada há 11 h"
-   ]
-  },
-  {
-   "titulo": "Economistas defendem taxar os mais ricos - Portal Terra da Luz",
-   "fonte": "Portal Terra da Luz",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQOFh3Z2VqbGlhNThLR2R5akJoWWlaN0hzS2dXcWZKSTVtU0R3WGxqVlRQaWhHUVhQTDNMejAxNzB1STkteGVUdnI4TFlkUGJVd19hZ1Mwb20wcDlxSFMwdXBSNkhGTWM1bDVfanliQXRvTFl3OW1yVy1uUFZjbFI1WFgzLW4tM2k0b25vdUZYaU42MlhmM1cw?oc=5",
-   "data": "2026-10-31T20:20+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.02,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 11 h"
-   ]
-  },
-  {
-   "titulo": "Dólar em alta impulsiona ações de exportadoras e coloca Embraer, Suzano e WEG entre as favoritas - Jornal Portuário",
-   "fonte": "Jornal Portuário",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdTBILWdrQ21ZdmVBUUd3d1o0ZFMtTVJ1U0djdzZGNlcyRk9samJhUVh1MEF3eXYwN2dmUndmRXhkOU5Fenc4SDdUekNPRlNuYVZvbzN3cXR2WWtwaFQyNHBoWFpyXzBWVVl0eW11ZTI5Qk9tcnRTN09YM2llaEU4d0oxbzZpbjhzQkxuZTl6aHdibHhMNmlyZURzRHVJWVp5eDlockpYVm5DVVhCSUNPQUdEbmJfbnhCZG5jVllReFpkallPOXVBRG5BMW1lRXhW?oc=5",
-   "data": "2026-10-31T20:17+00:00",
-   "sentimento": 1.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 3.47,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: dólar",
-    "sentimento positivo (+1.00)",
-    "publicada há 11 h"
-   ]
-  },
-  {
-   "titulo": "KNSC11 vai realizar novo pagamento de dividendos; veja quanto - Fiis",
-   "fonte": "Fiis",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSWRfdlNuMHJtUDZYQnBXUTl1YUVaUlRzWHp5Z1dRSk9aMHdSSmpPNFI3dVNwY1RCd3dWZ2d0bGc4MjF6SGkyYnVSVDFzaXB2QlJScTFETFczdmpfaFJTZGFYNGIzUWNFanoyNDJ5aFZldnRkUGROQjhBNnF2RDlJeGhlelh6RkNVVmtaZUdpOU9sOGxaY01v?oc=5",
-   "data": "2026-10-31T20:00+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "imobiliario"
-   ],
-   "impacto": 2.13,
-   "cobertura": 2,
-   "motivos": [
-    "tema coberto por 2 veículos",
-    "palavras de alto impacto: dividendos",
-    "publicada há 11 h"
-   ]
-  },
-  {
-   "titulo": "Chilli Beans pede recuperação extrajudicial para renegociar R$ 340 milhões em dívidas",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/business/chilli-beans-pede-recuperacao-extrajudicial-para-renegociar-r-340-milhoes-em-dividas/",
-   "data": "2026-10-31T19:48+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.01,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 12 h"
-   ]
-  },
-  {
-   "titulo": "Binance diz que já repôs 90% das criptomoedas roubadas - Poder360",
-   "fonte": "Poder360",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQ1BfdW5oVWE2VUJ2eUhfZlNZSENIQWVfU1U4X1VxOHNpcnFpdTN1T2VwUGpwZU9ObDhaOE5Yd1U5cjBXd1RIS1BXaS0wVWlPU0xYd19VLXJXM2FueEVyUUZWbGN4d1p4NWtscVk3Q3d1QjZDYng3dEM2THZOMzZYZkV1NWo2R3hiWHdSeEJSTUFKamZrWGNfa2dqaHZ4QQ?oc=5",
-   "data": "2026-10-31T19:48+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "cripto"
-   ],
-   "impacto": 2.53,
-   "cobertura": 4,
-   "motivos": [
-    "tema coberto por 4 veículos",
-    "publicada há 12 h"
-   ]
-  },
-  {
-   "titulo": "Livro Branco do Bitcoin completa 18 anos: de 9 páginas a Wall Street e DC - Bitcoin News",
-   "fonte": "Bitcoin News",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTnBzVkVpX3V6X2pRa3UzVEJTVUFEUGtsdVRqeXBQRmlnSzN6Z2ZONExHcktFc1AtUzFyck9nYXo3bGpWZ3lPODdMV2hiY1Z2Znk0UlQ0WFJzWnM1RDBra0xHWG5VSWU5N0Z2aUJBai1PbDVtWTBrNjZtUy13NXlOb1hFMTNNaTBESWRlZ1JxUHdpdFhWV3QwNDA2RGJZRTVPZXhaNXlVZTNmLXZRM1Fj?oc=5",
-   "data": "2026-10-31T19:45+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "cripto",
-    "exterior"
-   ],
-   "impacto": 1.41,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: bitcoin",
-    "publicada há 12 h"
-   ]
-  },
-  {
-   "titulo": "Binance repõe 90% das criptomoedas roubadas e promete liberar saques - InvestNews",
-   "fonte": "InvestNews",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRURGWURFQl8wX25QWGNSVUhpcTFlWXJWbXh3QTNUd0UwWDA3dVdfcDQ2VGMwVEVORnB2WTNnMVpsWXpuYUg0NjQ4b3hyZWt6UVgwQmdiZ1JubElyZEltdTZpWTFKSVk1M2swZG50eHFVeFF0aTZzM0VybWlDSFQxbXBkb0wzUmZEcWJjSlNVLWFrM2JwOE9WNjRkN2ZBTXgybzVScFR30gGrAUFVX3lxTE4wSGFXYV85bWJQbWxCZXl6YU1CYjdkelVjVm16ckZsMndhdVl3NzVkWm9LNHlnQ2ljaG4tUlhXWmVoaTRyNFpoZmZfOVk5RlhfNklpeGM5bWdhaDRmc1RFaUpkcFlTaWg0SUlER1AwSEdWQzF0S0hCX3gxM3FuTFRTOGhHVlV1OG9jTzNTdnMyYlUwdjVxT25fR3pEaG4tZWV6OXB0a3hhM0pBaw?oc=5",
-   "data": "2026-10-31T19:35+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "cripto"
-   ],
-   "impacto": 2.51,
-   "cobertura": 4,
-   "motivos": [
-    "tema coberto por 4 veículos",
-    "publicada há 12 h"
-   ]
-  },
-  {
-   "titulo": "Juiz dos EUA indefere, com efeito definitivo, a ação movida por Trump contra o Wall Street Journal - TradingView",
-   "fonte": "TradingView",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1WN29oRExMZmtzRXV1WWxsazlFVnR0c3lDZGdkU3FQMWNERTNPSUZmczF0VlgyTjVNSWRKeTV2WmR1TDdZQVJER0pRbTg1Q25NRFM5ZWgzUkxWdnd5MDIwTms4c0N4THhJeXlLbTMzeERjZXNLSlhB?oc=5",
-   "data": "2026-10-31T19:29+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "exterior"
-   ],
-   "impacto": 4.52,
-   "cobertura": 8,
-   "motivos": [
-    "tema coberto por 8 veículos",
-    "publicada há 12 h"
-   ]
-  },
-  {
-   "titulo": "Binance recupera 90% das criptomoedas roubadas e promete saques em breve - Valor Econômico",
-   "fonte": "Valor Econômico",
-   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNaEJ2S2poaDRJTGVOT2F0Q1plMDRwTWxQUFZKdDhHLXFDazMyYWpNcnVHMFlxWVJHNkgyUFNoN1hxRUV4MnVCcnhDQ0hteWpHcGVnaGxxWm00bUd2YVUtNThZeS1SWktLTTJZZEltc183aG5mVVM3SkY5TWI3dElkbkpfdmZlb25xQkRuLXJfZlhaVzd2d2NZa0c2V2lmejF1WkZjSXI5REF3YzF1RGhYcXNPNE5DQmtyMHBIY3hObzJRUW9wTEpId3FkSnk3T3VoTnfSAeABQVVfeXFMT3JEeHNobkhrcHAyd1NjbFZscXAzWmdSbWtLWGVtUWloZjJsbDVMaFJpalQ5elpqQjh6YTF0ZzZ3MWVrY1BsWFJkOVFXLVJJZmhNTkxTT0FZQlBCZ19vVE9GRl94MVl6SHpEbXNwMTlWeHRvZHcxY3JLTm5rN1kxY1pEOHkzRTA3YTlheEdfUmNFZ0twa2RUdjZQUS1aOGVOVTdpNHFNdVRqWG5XYm5VOEp3dldoR1dkQk80eHJINE1RcHhjRjBnZHktSFNVclY3VDFIay1uMG1uemdqbERPcm0?oc=5",
-   "data": "2026-10-31T19:17+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "cripto"
-   ],
-   "impacto": 2.5,
-   "cobertura": 4,
-   "motivos": [
-    "tema coberto por 4 veículos",
-    "publicada há 12 h"
-   ]
-  },
-  {
-   "titulo": "Copom: mercado vê 63,1% de chance de manter Selic em 13,75% - BPMoney",
-   "fonte": "BPMoney",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOMlEzQVlURndUTDlQSHY4U1hsT2plMHVZYWdDSno5di1GX21FY1BWSkwwcnFaVC1JWHhFVTFSNERQZldxSmtpR0hOdWNpd3J5SGs3ZHFrOEpRcnRacnBqTFpDd0NXdXhiYnlEOHNTYmVNYzRDSU56R3dwUnZsRWgxLUFaUVhEcGl4ZDBpV3I5RQ?oc=5",
-   "data": "2026-10-31T19:00+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 3.38,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: selic, copom",
     "publicada há 12 h"
    ]
   }
