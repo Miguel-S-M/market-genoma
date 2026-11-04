@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-04T01:42:21+00:00",
+ "atualizado": "2026-11-04T02:09:16+00:00",
  "destaque": {
   "titulo": "Ibovespa registra 6ª queda consecutiva e dólar atinge maior cotação do ano - GP1",
   "fonte": "GP1",
@@ -9,7 +9,7 @@
   "classes": [
    "moedas"
   ],
-  "impacto": 16.51,
+  "impacto": 16.17,
   "cobertura": 6,
   "motivos": [
    "tema coberto por 6 veículos",
@@ -23,12 +23,12 @@
    "titulo": "Tendências 04/11/2026 | das principais ações da Bolsa - XP Investimentos",
    "fonte": "XP Investimentos",
    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZHBSYmIxa0lybVBJbUFNZlVIYjkycVFHYjF3VVpyaW5uU1M2TWVPaTFyWmMyeUU2RXBsTnlISVVIbWplNkplN1RtMGNUTkZqM2xmOGV4TVpZUnItbnFub3Q5ZFdNVHBVc25RaFJ6LW9wR3d2RUFmUE5SVGU4QnpnZkJuRks3TmFOcUVETEltcUdoVXdWbjdmN1BUQS1yM1h3XzZ6RUREQ2c3RWlP?oc=5",
-   "data": "2026-11-04T01:40+00:00",
+   "data": "2026-11-04T01:39+00:00",
    "sentimento": 0.0,
    "classes": [
     "acoes"
    ],
-   "impacto": 1.5,
+   "impacto": 1.46,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -43,7 +43,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.63,
+   "impacto": 2.57,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: eleição",
@@ -59,11 +59,11 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.94,
+   "impacto": 4.83,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: selic, copom, dólar",
-    "publicada há menos de 1 h"
+    "publicada há 1 h"
    ]
   },
   {
@@ -75,10 +75,27 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.45,
+   "impacto": 1.41,
    "cobertura": 1,
    "motivos": [
-    "publicada há menos de 1 h"
+    "publicada há 1 h"
+   ]
+  },
+  {
+   "titulo": "Ibovespa cai para mínima do ano e dólar bate recorde em meio a incertezas fiscais - MundoBA",
+   "fonte": "MundoBA",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYUFWRWRjVWRTNkY3WS01Q1I1Q0ZNZ1FJY2NlZ2xrODdreVNFOWRPczdUalh5ek5WT3BVS0Fmc2ZMRVBidzBWMkhwN2IyLWhsQVdDZGxxNlViWEhsVGtVQUZHMmUxN1JvM3lIR0QzVThFS3VXbGFQWG9SUjJkODdLX2FqYzhZbl96cDdTWXhQdEJfaExGc2Znd2llcDVOUktLb21OeTJEYnY4aDY1UDczTWZGOVY?oc=5",
+   "data": "2026-11-04T01:00+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 4.66,
+   "cobertura": 2,
+   "motivos": [
+    "tema coberto por 2 veículos",
+    "palavras de alto impacto: recorde, dólar",
+    "publicada há 1 h"
    ]
   },
   {
@@ -90,11 +107,11 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.88,
+   "impacto": 4.77,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: juros, inflação, pib",
-    "publicada há menos de 1 h"
+    "publicada há 1 h"
    ]
   },
   {
@@ -106,11 +123,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.58,
+   "impacto": 2.52,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: pib",
-    "publicada há menos de 1 h"
+    "publicada há 1 h"
    ]
   },
   {
@@ -122,13 +139,13 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 9.7,
+   "impacto": 9.49,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
     "palavras de alto impacto: dólar",
     "sentimento negativo (-1.00)",
-    "publicada há menos de 1 h"
+    "publicada há 1 h"
    ]
   },
   {
@@ -140,27 +157,12 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 6.42,
+   "impacto": 6.28,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "sentimento positivo (+1.00)",
-    "publicada há menos de 1 h"
-   ]
-  },
-  {
-   "titulo": "Fusões e aquisições e infraestrutura aproximam finanças tradicionais e criptoativos - Monitor Mercantil",
-   "fonte": "Monitor Mercantil",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYXphRUJRY0NNd21OdUpyejh0ZGNKNTc0TUJYSjJGWWVUalFSaEFxUGZydGZ5S3NsbVJ5c2U5OUl2Wm9ldS01am9uMXBfX2huTE9DaXJ3S1FySTFVSmViZWQtTEJGaUJ2NmcwQmJvc2FoVUlMN0JRN05zQzQ2b19OMGp5Zy1TclVjSWRPczFIZTRhQ0sxNWQ1dHFlU09INVFkSnlEaE4tcjkxTTZnMFNHeE91dGc4UDQ?oc=5",
-   "data": "2026-11-04T00:43+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "cripto"
-   ],
-   "impacto": 1.42,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há menos de 1 h"
+    "publicada há 1 h"
    ]
   },
   {
@@ -172,7 +174,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.42,
+   "impacto": 1.39,
    "cobertura": 1,
    "motivos": [
     "publicada há 1 h"
@@ -187,7 +189,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 2.98,
+   "impacto": 2.92,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -204,12 +206,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.8,
+   "impacto": 4.7,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -221,11 +223,11 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.98,
+   "impacto": 1.94,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -237,11 +239,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.09,
+   "impacto": 2.05,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -253,7 +255,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 16.51,
+   "impacto": 16.17,
    "cobertura": 6,
    "motivos": [
     "tema coberto por 6 veículos",
@@ -271,7 +273,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.94,
+   "impacto": 1.9,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -287,7 +289,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.08,
+   "impacto": 2.03,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -303,10 +305,27 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.07,
+   "impacto": 2.03,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
+    "publicada há 2 h"
+   ]
+  },
+  {
+   "titulo": "Caos nas contas públicas pode levar Brasil a uma crise de crédito - Gazeta do Povo",
+   "fonte": "Gazeta do Povo",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdS0xLUVzQmQ1S1djenE1RDJCUmlDUjhEVW10TkN0ZGQ5VURELTFOZzJkbGk1VHB2MlNPZXQzbDN0R1E5b0RzUFFwOFhTQ2JxeGNEbjcwdDE0R204dDNPN19NWWV1djdFcjZaRnJreW1QRktjUlppZzhBTmdTUDhuOA?oc=5",
+   "data": "2026-11-04T00:00+00:00",
+   "sentimento": -1.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 5.66,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: crise",
+    "sentimento negativo (-1.00)",
     "publicada há 2 h"
    ]
   },
@@ -319,7 +338,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.92,
+   "impacto": 1.88,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -335,7 +354,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 5.73,
+   "impacto": 5.62,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: crise",
@@ -352,7 +371,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.09,
+   "impacto": 4.01,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -368,7 +387,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.36,
+   "impacto": 1.33,
    "cobertura": 1,
    "motivos": [
     "publicada há 2 h"
@@ -383,7 +402,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.9,
+   "impacto": 1.86,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: petrobras",
@@ -399,10 +418,10 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.35,
+   "impacto": 1.32,
    "cobertura": 1,
    "motivos": [
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -414,11 +433,27 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.04,
+   "impacto": 3.96,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
-    "publicada há 2 h"
+    "publicada há 3 h"
+   ]
+  },
+  {
+   "titulo": "Copom faz última reunião do ano com mercado pessimista sobre indicadores - Band",
+   "fonte": "Band",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNUJlWm1JWlVUZDkxc0JxQ0pZOG9IUC1wZW9SdUoyYlUxdHFVZFRkVHFSQVNOcmNycTdiMlhsaVNhZUd5QjZZUkVjSjZZWkxJak12a3FtajZybmNUZEFzSlRnel9ETHoyVml4SGNZX1NmSkFnNXlRMUYyVkNCcFpJUzVqcWVIdXdtN19Nc1lZN09BZ1JDWDVuQjBkQU1xZXFZbkpPejY1T1N1Z3Bva2NTQ3BsWVJhYUZzX25B?oc=5",
+   "data": "2026-11-03T23:31+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 2.9,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: copom",
+    "publicada há 3 h"
    ]
   },
   {
@@ -430,13 +465,13 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 6.85,
+   "impacto": 6.72,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "palavras de alto impacto: dólar",
     "sentimento negativo (-1.00)",
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -448,10 +483,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.34,
+   "impacto": 1.32,
    "cobertura": 1,
    "motivos": [
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -463,10 +498,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.33,
+   "impacto": 1.31,
    "cobertura": 1,
    "motivos": [
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -478,28 +513,10 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.33,
+   "impacto": 1.31,
    "cobertura": 1,
    "motivos": [
-    "publicada há 2 h"
-   ]
-  },
-  {
-   "titulo": "Dólar sobe 0,74% e aproxima-se de R$ 5,50 em dia de cautela fiscal - Imirante.com",
-   "fonte": "Imirante.com",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaENQRzdJR3FKdWFmWHVkNXhjWmFqS2RoWlo0ZzIxWTlnZHZzRlpHRllVRFFyWGk0N191a0luVTNrYzhmVEJwOE5mZ0o4OWFxRERubnlxU0xPTEpQM01uSVp5NDBRbi1PeG1yV24yLVN1X2ZqUFMwQTU4cjM3NmpGUW0xbEVOX0hGeEI3ZmdiRUZvc2V5TTIySFU2Q1LSAZwBQVVfeXFMT2hDUEc3SUdxSnVhZlh1ZDV4Y1phaktkaFpaNGcyMVk5Z2R2c0ZaR0ZZVURRclhpNDdfdWtJblUza2M4ZlRCcDhOZmdKODlhcUREbm55cVNMT0xKUDNNbklaeTQwUW4tT3htclduMi1TdV9malBTMEE1OHIzNzZqRlFtMWxFTl9IRnhCN2ZnYkVGb3NleU0yMkhVNkNS?oc=5",
-   "data": "2026-11-03T23:17+00:00",
-   "sentimento": 1.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 9.06,
-   "cobertura": 3,
-   "motivos": [
-    "tema coberto por 3 veículos",
-    "palavras de alto impacto: dólar",
-    "sentimento positivo (+1.00)",
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -511,26 +528,10 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.66,
+   "impacto": 4.57,
    "cobertura": 4,
    "motivos": [
     "tema coberto por 4 veículos",
-    "palavras de alto impacto: dólar",
-    "publicada há 2 h"
-   ]
-  },
-  {
-   "titulo": "Mercado financeiro brasileiro fecha em queda com dólar em alta e Ibovespa em baixa - Metrô News Jornal",
-   "fonte": "Metrô News Jornal",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOam1SWE5HT2VGNjlIWFFLcnN0YUdsajAyelc2Z1hBU1oyYnc0Ul9uM3hNbF8yQUxtdVc2eUhLOXFEQlFaMkdqWkVxTkJ5WjBSa3JidUY4dktnTnFHTzRIVFZQWFVfNUVtUzVwdWUtbllVeDJNTXNrZzdMRXJPbjIzTW9Kd2JDNkhGSzgwaVRyQ3lzVzV2dmlBMzFpQWc2bjd0WnZXSUhUUlp3WWZJ?oc=5",
-   "data": "2026-11-03T23:12+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 1.86,
-   "cobertura": 1,
-   "motivos": [
     "palavras de alto impacto: dólar",
     "publicada há 3 h"
    ]
@@ -544,7 +545,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.85,
+   "impacto": 1.82,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -560,7 +561,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.38,
+   "impacto": 2.34,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: banco central",
@@ -576,7 +577,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 3.96,
+   "impacto": 3.89,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -592,7 +593,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.32,
+   "impacto": 1.29,
    "cobertura": 1,
    "motivos": [
     "publicada há 3 h"
@@ -607,7 +608,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 11.05,
+   "impacto": 10.85,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
@@ -625,7 +626,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 1.32,
+   "impacto": 1.29,
    "cobertura": 1,
    "motivos": [
     "publicada há 3 h"
@@ -640,7 +641,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 3.95,
+   "impacto": 3.88,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
@@ -656,7 +657,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.84,
+   "impacto": 1.81,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -672,7 +673,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 5.51,
+   "impacto": 5.41,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: petróleo, dividendos",
@@ -689,25 +690,9 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.31,
+   "impacto": 1.29,
    "cobertura": 1,
    "motivos": [
-    "publicada há 3 h"
-   ]
-  },
-  {
-   "titulo": "Wall Street fecha sem rumo mas com recuperação do setor tecnológico - RTP",
-   "fonte": "RTP",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZ2diV2t6RFZCYWVmMXVLdkVXcW85X19heUxZNkRsSHdVOXVUZ0trbXFBWDdHUjhySzMwZC1SX1Bxa1FGZ3NrVWNFUHZoSFpGbDctVmJNYWNaNjZSVFRTSGNKbVMxQl9WdEo3eWsyWkxJZ043cXQwNmJ4aEhzazEyOEVnM1Nfa3VSdWxJTTh0QkVPYVpVMWpfWTFGb3g4WnltcktQYWtjZDNhZkRBNEI0NVA1Yw?oc=5",
-   "data": "2026-11-03T22:54+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "exterior"
-   ],
-   "impacto": 2.62,
-   "cobertura": 3,
-   "motivos": [
-    "tema coberto por 3 veículos",
     "publicada há 3 h"
    ]
   },
@@ -720,7 +705,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.83,
+   "impacto": 1.8,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -736,7 +721,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.3,
+   "impacto": 1.28,
    "cobertura": 1,
    "motivos": [
     "publicada há 3 h"
@@ -751,7 +736,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.82,
+   "impacto": 1.79,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -767,7 +752,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 2.86,
+   "impacto": 2.8,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: inflação, dólar",
@@ -783,27 +768,45 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.3,
+   "impacto": 1.27,
    "cobertura": 1,
    "motivos": [
-    "publicada há 3 h"
+    "publicada há 4 h"
+   ]
+  },
+  {
+   "titulo": "Dólar encosta em R$ 5,50 e Ibovespa engata 6ª queda seguida em meio a incertezas fiscais - RCN 67",
+   "fonte": "RCN 67",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNckozV3FlVXZXMWRxV2twYU9FX2tjQ3g4eVY4VHdzZTJfb2RucVkyNEZHRnpUVGlHR1FtOWtxYTdQV3JfYXhKY0FhbW1YTVB3bFQ2VXl1OWh6Z1ZrRjBwZEdFdzRNLXE3bXZZVFNIZUFnSndnTS1CQ2pfUHdlOHlZR0VVY1gxTVlNOTJodW1jenhRWmNPOU9nRkVJWC1oZkt4bzFENEZoVmh3RDJaSks3UEtMUHFnajdid3c?oc=5",
+   "data": "2026-11-03T22:37+00:00",
+   "sentimento": -1.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 6.49,
+   "cobertura": 2,
+   "motivos": [
+    "tema coberto por 2 veículos",
+    "palavras de alto impacto: dólar",
+    "sentimento negativo (-1.00)",
+    "publicada há 4 h"
    ]
   },
   {
    "titulo": "Ibovespa cai pelo sexto dia e atinge menor patamar desde janeiro - InvestNews",
    "fonte": "InvestNews",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZnphQ2dxQ2UtRW1WSzJrd0NKVlZqOWw1SmctOWZrd3FIRmdPbi1Fb2tlVzB3blZXbjRBSUkyMmZ5MkFGYTMzc2hCS2ZqVmVTU25fRklpMk1DZXIxMjN6RHRYejl5a1F2NmF2TTJXOERHaDdrb0NVUGpnc0ZEZkhpZ3JPY1VCUjhFdDZPYTIteFE2OVhoVlJTbGR0YVFwLVpNWm9TU2p0M3BLLVpEZ2fSAa4BQVVfeXFMT2Z6YUNncUNlLUVtVksya3dDSlZWajlsNUpnLTlma3dxSEZnT24tRW9rZVcwd25WV240QUlJMjJmeTJBRmEzM3NoQktmalZlU1NuX0ZJaTJNQ2VyMTIzekR0WHo5eWtRdjZhdk0yVzhER2g3a29DVVBqZ3NGRGZIaWdyT2NVQlI4RXQ2T2EyLXhRNjlYaFZSU2xkdGFRcC1aTVpvU1NqdDNwSy1aRGdn?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOak14V196cVFFLWgyUGM2YTN3N1I5aUEtZ0d4OFRhYUZtOXlYaEl0WlZUY04zdThPNjdsS3VUVjRNNzJzZTFycEpaRWNmS01KSlcxTmJfQ0hpeGtodHNoSG9QMVZ3T1FrMzRPOERCZlcyZHBiRHFPT1RpcVhUOVA4SzFwZGZvR3d1VEdabjV4S2NSZ3Vrd2tlRUxlX1FtSGZSVnZYdWJySWjSAa4BQVVfeXFMT2Z6YUNncUNlLUVtVksya3dDSlZWajlsNUpnLTlma3dxSEZnT24tRW9rZVcwd25WV240QUlJMjJmeTJBRmEzM3NoQktmalZlU1NuX0ZJaTJNQ2VyMTIzekR0WHo5eWtRdjZhdk0yVzhER2g3a29DVVBqZ3NGRGZIaWdyT2NVQlI4RXQ2T2EyLXhRNjlYaFZSU2xkdGFRcC1aTVpvU1NqdDNwSy1aRGdn?oc=5",
    "data": "2026-11-03T22:35+00:00",
    "sentimento": -1.0,
    "classes": [
     "acoes"
    ],
-   "impacto": 5.82,
+   "impacto": 5.72,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "sentimento negativo (-1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -815,46 +818,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 2.72,
+   "impacto": 2.67,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "palavras de alto impacto: dólar",
-    "publicada há 3 h"
-   ]
-  },
-  {
-   "titulo": "Wall Street mistura cautela eleitoral e recuo do petróleo - SpaceMoney",
-   "fonte": "SpaceMoney",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQ0pKUHBwdXE3YnhJOUxBdzZWUlhxNFRjRmZrakZUa3JKSExoQWtuUUdYWE5LRHdUcGtfU09IbUlXblAwRHhRYTJIYWtndFlaVzNyekFRNUt3QlkyMVB1WW1CRnIxOTlVXzI5U0ZDM0RrVDk4UmZ2bFhvMEh5RTcyUDlpRE5mdzUtd1RwTExzNFMwVmc?oc=5",
-   "data": "2026-11-03T22:33+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "exterior"
-   ],
-   "impacto": 2.33,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: petróleo",
-    "publicada há 3 h"
-   ]
-  },
-  {
-   "titulo": "Dólar sobe e se aproxima de R$ 5,50 em dia de cautela fiscal - Notícia Toda Hora",
-   "fonte": "Notícia Toda Hora",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOaWZhOWVPdzZES0tvMTdES1Z1UVpWWXZ6QkctQlctMkV5NUppVHFPd3FvcXRqbHYzUVlkOFJMYWFXTE5xR1p6ZzA3THNBTmxqUVdsczczWkNtV3RIOFRYcUpUdVVVbzVkcGNYZnNZakhPQVlrSzQ4b0otMVRVZ01kUktzenhfWUhIVW1QeV94eEt1NndY?oc=5",
-   "data": "2026-11-03T22:31+00:00",
-   "sentimento": 1.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 6.58,
-   "cobertura": 2,
-   "motivos": [
-    "tema coberto por 2 veículos",
-    "palavras de alto impacto: dólar",
-    "sentimento positivo (+1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -866,10 +835,10 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 1.29,
+   "impacto": 1.27,
    "cobertura": 1,
    "motivos": [
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -881,12 +850,11 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 2.7,
-   "cobertura": 2,
+   "impacto": 1.77,
+   "cobertura": 1,
    "motivos": [
-    "tema coberto por 2 veículos",
     "palavras de alto impacto: dólar",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -898,11 +866,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.35,
+   "impacto": 4.28,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: selic, copom, inflação",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -914,12 +882,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.35,
+   "impacto": 4.28,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -931,11 +899,26 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 1.92,
+   "impacto": 1.26,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há 4 h"
+   ]
+  },
+  {
+   "titulo": "Wall Street encerra sem rumo, mas com recuperação do setor tecnológico - Notícias ao Minuto",
+   "fonte": "Notícias ao Minuto",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQVpDZW1fZExXUV9EN1VPTHB2QjhTSkNycjRrSElrWlFVekt3cmM2X1hzUlVaUG9CODZ0cW03ZkFnMTZyczUyOTdiTHc5RVZTbk9fRWtmMnZ2cjd6M2lhNmY0cWRzZWxPVGpiU3NMb00zRlh1eEdHV3E2emhaLUlyUzdZU3l5eld4M19OVXJNWFJkTHYwelR4MjlHME82SWNXZ2ZBTFFnUFlRSlJmaUU2MjVBeWthdw?oc=5",
+   "data": "2026-11-03T22:18+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "exterior"
+   ],
+   "impacto": 1.89,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -947,11 +930,11 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.79,
+   "impacto": 1.76,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -963,7 +946,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 3.81,
+   "impacto": 3.74,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
@@ -979,10 +962,25 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.78,
+   "impacto": 1.75,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
+    "publicada há 4 h"
+   ]
+  },
+  {
+   "titulo": "IFIX cede 3,34% e ronda piso de 52 semanas - SpaceMoney",
+   "fonte": "SpaceMoney",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQUJ6NERMb2c3ZTc2OGlJR1V3QzRZTzh4SWRabEFjRWxDQzFxM1ZrVTJqZi1BMHo3VDBnbm9LZFJRWUJhbUhLU0otV3JQdGlHQ1V6Z0kwenA0Vk1YUTJpb1BlRkg5dVhVVGY1cll5bmF5NWMtd1RkMmZQYU1mclV1Rmw3UVM3d19qMnRyS2RPckpPMGZGLVhZSGY3OFZpR3hOQVE?oc=5",
+   "data": "2026-11-03T22:07+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.25,
+   "cobertura": 1,
+   "motivos": [
     "publicada há 4 h"
    ]
   }
