@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-05T02:09:19+00:00",
+ "atualizado": "2026-11-05T02:15:35+00:00",
  "destaque": {
   "titulo": "Dólar cai a R$ 5,45 após eleições nos EUA e antes do Copom - Agência Brasil",
   "fonte": "Agência Brasil",
@@ -9,7 +9,7 @@
   "classes": [
    "moedas"
   ],
-  "impacto": 12.02,
+  "impacto": 11.97,
   "cobertura": 3,
   "motivos": [
    "tema coberto por 3 veículos",
@@ -20,6 +20,56 @@
  },
  "itens": [
   {
+   "titulo": "Dólar cai a R$ 5,45 e Ibovespa recupera os 167 mil pontos - Poder360",
+   "fonte": "Poder360",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQ2NLaFcxQlNkQVY3OUxkZkdPR25IX1BDb3FzRVVrTmFZd2Y0a1g0d0t5ZGszdUdNU2VnaWxxR2lEdGRjNW9ZSE0tWU9yY2pPYVhOZlR2V0NZYUNjenp2ODRQYm1QcnBORHNTQWVvd1BzV3FZdkgxdE1vSmZoeGJVSURHVXg3am9YaXJoSnJHQzY4VDhKYWxGbnhsUEhrUG5x?oc=5",
+   "data": "2026-11-05T02:12+00:00",
+   "sentimento": -1.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 5.08,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: dólar",
+    "sentimento negativo (-1.00)",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Futuros S&P 500 hoje sobem após vitória democrata e queda do petróleo - portalcripto.com.br",
+   "fonte": "portalcripto.com.br",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTnFPZ1M0dHpDdFFVZW96RFhhSVdGWmNMMzRfVVhPVGwwOExIeEV1OWhmSGU2T1JhLWFlNGhMZ0tqcHlrRUx0VGVweFBTbEJBbkRzbjd1eWFNQmcwY0tDMzJ5U04xd0hmT2pIaDZfYkh1VXJwMzNacFlTbUllS2NXY0hldzZneldaUm93a1JXa2pIX1NVNk9pZzd0UGNpbERLdHlYaldMcEJPS2FxZmNsdV90SWQ3ZlU?oc=5",
+   "data": "2026-11-05T02:12+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "cripto",
+    "exterior"
+   ],
+   "impacto": 2.69,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: petróleo",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Ouro sobe acima de US$ 4.100 com queda do dólar após eleições nos EUA - Investing.com Brasil - Finanças, Câmbio e Investimentos",
+   "fonte": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWWozQzZ2ZVNXQ1RraGtTNWVKVV9oXzhxOGlWZVdLLU1SZHhDNmRiSVlHa0p0SDM3aktoMThuY2l1dXlhVlJvQWRwTUNaR09tN3VaS3V1X2wwUXZSeE4tUmg5aFRGZ0hlZURxOUNpRTNuV0pLcXVTOGk4cEp6cW9qZVdjTXNKRGIxXzVFTmhwTVdmaWRaTFlCNDVOVmtzY19iYTZsSktoV0FCQ1lwZGhnNG1rbkpBaFVsdVN1RjhySQ?oc=5",
+   "data": "2026-11-05T02:03+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 2.08,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: dólar",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
    "titulo": "Futuro da Selic depende do governo Lula após Copom manter taxa em 13,75%, dizem analistas - Folha de S.Paulo",
    "fonte": "Folha de S.Paulo",
    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQbEhtREsxTDJpblFOS1hwdXhkZDZHb0dXY2RaSGhFLTlCQU90bVNXMzZueDY1R3l1RDVWZnlGTURBLVhFS0w0ZVlPTlFhZGdLUW5qX04yaUN4Q1BfOGMtRGRzZDM0TDZjbkYxdUJpWTZnNkFiTW1MVzF5Z3pfSkxnbE5DTF95b24yU0NEdEw5U2FTNVFRRVJRMjcwYjZZSGtxOFY0bUdCTW5zOWhuM0tHSG1HYURiZDB3aXQ1c3RjeGhyR2pYTTFVd1R5ZEpSUzNHWjhUSw?oc=5",
@@ -28,7 +78,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 5.06,
+   "impacto": 5.03,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: selic, copom",
@@ -44,7 +94,7 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 4.46,
+   "impacto": 4.43,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -60,7 +110,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 6.23,
+   "impacto": 6.2,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: juros, dólar",
@@ -77,7 +127,7 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 4.44,
+   "impacto": 4.41,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -93,7 +143,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 3.09,
+   "impacto": 3.08,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -110,7 +160,7 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 4.42,
+   "impacto": 4.4,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -126,7 +176,7 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 4.41,
+   "impacto": 4.39,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -142,7 +192,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.47,
+   "impacto": 1.46,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -172,7 +222,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 4.38,
+   "impacto": 4.36,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -188,7 +238,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 2.04,
+   "impacto": 2.03,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -204,26 +254,10 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 2.62,
+   "impacto": 2.61,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: petróleo",
-    "publicada há menos de 1 h"
-   ]
-  },
-  {
-   "titulo": "Dólar cai e Bolsa sobe após eleições nos Estados Unidos #shorts #JR24H - R7",
-   "fonte": "R7",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWUJDRGNHOFhqdlo0VU1DTWtuWWFWSXBJUURFOXFRR1ZtMTlBRzVGNV9SZ0lXUDFHLWR0bDUwR0ZCNER0OTVOM0llM090YVVIakJ2UGh4WXhRbFV1NW1maXdoSTdxcDEtdko5dWN4aVBvNzNoTE5WU3lRaS0xdVJyZ04wOWVUa0NnUUdBREREOU4tcXhTNG9CUmliS1ktU01mdnBWYm9lUEF3bTBrd2tXVQ?oc=5",
-   "data": "2026-11-05T01:35+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 2.04,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: dólar",
     "publicada há menos de 1 h"
    ]
   },
@@ -236,7 +270,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.52,
+   "impacto": 2.5,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: eleição",
@@ -252,7 +286,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 5.83,
+   "impacto": 5.8,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: eleição, bitcoin",
@@ -269,7 +303,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.07,
+   "impacto": 2.06,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -285,7 +319,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.06,
+   "impacto": 2.05,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -301,7 +335,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.37,
+   "impacto": 1.36,
    "cobertura": 1,
    "motivos": [
     "publicada há 2 h"
@@ -316,7 +350,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 3.55,
+   "impacto": 3.53,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: banco central, juros",
@@ -332,7 +366,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.9,
+   "impacto": 1.89,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -348,7 +382,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 9.24,
+   "impacto": 9.2,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
@@ -365,7 +399,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.04,
+   "impacto": 2.03,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -381,7 +415,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.03,
+   "impacto": 2.02,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -412,7 +446,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.03,
+   "impacto": 2.02,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -428,7 +462,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.35,
+   "impacto": 1.34,
    "cobertura": 1,
    "motivos": [
     "publicada há 2 h"
@@ -443,7 +477,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.58,
+   "impacto": 4.56,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: petrobras",
@@ -460,7 +494,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.58,
+   "impacto": 4.56,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -477,7 +511,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.03,
+   "impacto": 4.01,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -508,7 +542,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.95,
+   "impacto": 2.94,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: selic",
@@ -524,7 +558,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.34,
+   "impacto": 1.33,
    "cobertura": 1,
    "motivos": [
     "publicada há 2 h"
@@ -539,7 +573,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.02,
+   "impacto": 4.0,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -555,7 +589,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.34,
+   "impacto": 1.33,
    "cobertura": 1,
    "motivos": [
     "publicada há 2 h"
@@ -570,7 +604,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.87,
+   "impacto": 1.86,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: balanço",
@@ -586,11 +620,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 3.99,
+   "impacto": 3.97,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -602,12 +636,12 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 3.72,
+   "impacto": 3.7,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
     "palavras de alto impacto: bitcoin",
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -619,7 +653,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 2.79,
+   "impacto": 2.77,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -636,7 +670,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.85,
+   "impacto": 1.84,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -667,7 +701,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 11.15,
+   "impacto": 11.1,
    "cobertura": 4,
    "motivos": [
     "tema coberto por 4 veículos",
@@ -684,10 +718,10 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 4.58,
-   "cobertura": 4,
+   "impacto": 3.65,
+   "cobertura": 3,
    "motivos": [
-    "tema coberto por 4 veículos",
+    "tema coberto por 3 veículos",
     "palavras de alto impacto: bitcoin",
     "publicada há 3 h"
    ]
@@ -701,7 +735,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 12.02,
+   "impacto": 11.97,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
@@ -719,7 +753,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 9.02,
+   "impacto": 8.98,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -737,7 +771,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 8.88,
+   "impacto": 8.84,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
@@ -754,7 +788,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 3.9,
+   "impacto": 3.88,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: selic, juros",
@@ -770,7 +804,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 4.41,
+   "impacto": 4.39,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -787,7 +821,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.93,
+   "impacto": 4.9,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: juros",
@@ -804,7 +838,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 2.33,
+   "impacto": 2.32,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: inflação",
@@ -820,7 +854,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 3.87,
+   "impacto": 3.85,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -836,7 +870,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.8,
+   "impacto": 1.79,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -852,10 +886,10 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 3.59,
-   "cobertura": 3,
+   "impacto": 2.68,
+   "cobertura": 2,
    "motivos": [
-    "tema coberto por 3 veículos",
+    "tema coberto por 2 veículos",
     "palavras de alto impacto: bitcoin",
     "publicada há 3 h"
    ]
@@ -869,7 +903,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.64,
+   "impacto": 2.63,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: petrobras",
@@ -886,7 +920,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.35,
+   "impacto": 4.34,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: selic, copom, juros",
@@ -902,12 +936,12 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 3.58,
+   "impacto": 3.56,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
     "palavras de alto impacto: bitcoin",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -919,12 +953,12 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 3.58,
+   "impacto": 3.56,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
     "palavras de alto impacto: bitcoin",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -936,7 +970,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 3.57,
+   "impacto": 3.55,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
@@ -953,43 +987,10 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 3.3,
+   "impacto": 3.29,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: copom, dólar",
-    "publicada há 4 h"
-   ]
-  },
-  {
-   "titulo": "Após alívio com manutenção dos juros, mercado não vê novos cortes em breve - CNN Brasil",
-   "fonte": "CNN Brasil",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQV1FiX1RwbURvcGsyUXdRWEx4VGFqOFh4ajhCUjBSWXUwZWtySWN1cW1sNnZGWGctZlJEbFVsVzdKYzNWUmQtTHpveGNwRUx3cXZzMm5EdUVTaGxneHJpSWtSYUI5cjF0SnVScGJ4RGs5anNrUmY4VlZpVzNucVZDUDVCbWR1dU5QRk1EMldVZUU3em1oZFlHdWwyaVhYemhiVjFhVkFJMEFDenVHQnA4ZlVvam1lY1owSk1NWTJxeUpNR1JpVWhBRWkxdnI?oc=5",
-   "data": "2026-11-04T22:32+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 2.28,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: juros",
-    "publicada há 4 h"
-   ]
-  },
-  {
-   "titulo": "Após ataque hacker, Mercado Bitcoin reabre acesso gradual a contas a partir de 2ª feira - Valor Econômico",
-   "fonte": "Valor Econômico",
-   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPNnRzQUNHMWFicDhhOGgyVldZM3BxWHdtakdiWVpFc3hQUW5MQmNJd055OTUtczl6VV8wMjdJNHh5ZFdGOEJYZ1l5bkNCZ01ZZC05SHBrWnRDS1lJQmhhVGFaNmZjRmFSTnE0Y3J4eENpV3VpZkNzVGNfSWNQcjR1YVpNVmdZcVNNVS1nUkkyZ0sxV1hpVmxtakxxSUg3YXk0QTk4Wng0eEtaZnZlOWtMLWRlOW1oa1htTUg1eEFXaFluUGl2MDh3Z1dpOWQtbUNLeFFVNWtuT0xLR0dnNDlwZ3czRXBtWDlCaWtZ0gH6AUFVX3lxTE9KRkpGb2gyOTZ3MUswSUtOYU8wclo5SFRpbGFLNUdTRHNEMEtWdkxhanUzSzJlWUZuVFh6WU1Bcmx6eHlRNzU0aGttUW5iMU84YXlWT0JBRVlkM2pTeThId2w2VmVmR1FFOUlwbUdsc0FGZUlUcllxX1pJQ3dwMWNTdzJneU1SX25VMUwyRjZ0Q0dSc29DVlBUMUtSalBvRmtSVm01Rk9kZkZfOGsxUG9SQnN4OFVET083ZW9NWHBUTWwyWnNkLXl1V2toel8xTHUzS1h0WXQxSENOWjNmRm5RVTh5ZEFqdEhHb1RrdlhvVlIxdUlxbkkwTlE?oc=5",
-   "data": "2026-11-04T22:32+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "cripto"
-   ],
-   "impacto": 3.55,
-   "cobertura": 3,
-   "motivos": [
-    "tema coberto por 3 veículos",
-    "palavras de alto impacto: bitcoin",
     "publicada há 4 h"
    ]
   }
