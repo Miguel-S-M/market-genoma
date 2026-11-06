@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-06T02:15:18+00:00",
+ "atualizado": "2026-11-06T02:52:07+00:00",
  "origem": "noticias.json",
  "metodo": "média de pontuações por palavras-chave; sinal informativo, não previsão",
  "quantidade": 60,
@@ -10,20 +10,20 @@
    "media": 0.2
   },
   "moedas": {
-   "quantidade": 22,
-   "media": -0.136
+   "quantidade": 20,
+   "media": -0.15
   },
   "imobiliario": {
-   "quantidade": 0,
-   "media": 0.0
+   "quantidade": 3,
+   "media": 0.667
   },
   "exterior": {
    "quantidade": 15,
    "media": -0.4
   },
   "acoes": {
-   "quantidade": 26,
-   "media": 0.038
+   "quantidade": 25,
+   "media": -0.04
   }
  },
  "sinal": "neutro"
