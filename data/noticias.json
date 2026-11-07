@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-07T01:47:42+00:00",
+ "atualizado": "2026-11-07T01:57:52+00:00",
  "destaque": {
   "titulo": "Bolsa sobe 1,39%; em alta, dólar fecha a R$ 5,508 - Poder360",
   "fonte": "Poder360",
@@ -9,7 +9,7 @@
   "classes": [
    "moedas"
   ],
-  "impacto": 24.35,
+  "impacto": 24.18,
   "cobertura": 10,
   "motivos": [
    "tema coberto por 10 veículos",
@@ -20,6 +20,23 @@
  },
  "itens": [
   {
+   "titulo": "Dólar encerra sessão em alta com atenção à economia dos EUA e ao cenário fiscal brasileiro - Brasil 247",
+   "fonte": "Brasil 247",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMjVvRVYzZ2pnTkpCLVZVbG9BV2NYbDBueHZKeHlGQ3dVRlpoWlJ1TWwyNXZibFJxT2c0RG5UeGZQMDJ3dVBucUN1dmtSa3k3dVZwX0FXMEVIUHdaQmJoNjZCN2NPY1ltQnJueG1KdDd1S01IWlEteXZRZEEtcGhLZGdZRFpRbjdhRXY3TXZBX2RhZ0w3d29na0NEa3RTNGVlZFRhZlJvUDlNVlc4c01KUlg1bGdtTno1TlIyMy1HbF9SVjFw?oc=5",
+   "data": "2026-11-07T01:53+00:00",
+   "sentimento": 1.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 5.08,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: dólar",
+    "sentimento positivo (+1.00)",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
    "titulo": "Brasil: maior e mais avançado mercado de não bancários da AL - Monitor Mercantil",
    "fonte": "Monitor Mercantil",
    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcDlUeEFldXRhNFpIQ19UQXI1S1lxY3JaZFJHNWR3TjNnREktZTR2a19ES2NWY3Z2Y1pDQmVpYTNaZmM2LVNRLUNnR1NyRmY5bXVBRkRCSlU5aVAwT3YzWWE4S3JKWUlYbFRHRHJxRFBkaXpTcmp4NmUtS0pkU2dldWU5Z2lyakNMQVhHZTZPNFJtU3Y1MDUw?oc=5",
@@ -28,7 +45,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.34,
+   "impacto": 4.3,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -44,7 +61,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 1.45,
+   "impacto": 1.43,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -59,7 +76,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 2.88,
+   "impacto": 2.85,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
@@ -75,7 +92,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 7.76,
+   "impacto": 7.7,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: selic, copom, juros",
@@ -92,7 +109,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 13.64,
+   "impacto": 13.52,
    "cobertura": 4,
    "motivos": [
     "tema coberto por 4 veículos",
@@ -110,11 +127,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.15,
+   "impacto": 2.13,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
-    "publicada há menos de 1 h"
+    "publicada há 1 h"
    ]
   },
   {
@@ -126,11 +143,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.14,
+   "impacto": 2.12,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
-    "publicada há menos de 1 h"
+    "publicada há 1 h"
    ]
   },
   {
@@ -142,7 +159,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 4.22,
+   "impacto": 4.19,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
@@ -158,7 +175,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.11,
+   "impacto": 2.09,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -174,7 +191,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.1,
+   "impacto": 2.09,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -190,11 +207,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.1,
+   "impacto": 2.08,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -206,7 +223,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.06,
+   "impacto": 2.04,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -222,7 +239,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 20.96,
+   "impacto": 20.8,
    "cobertura": 8,
    "motivos": [
     "tema coberto por 8 veículos",
@@ -240,7 +257,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 1.36,
+   "impacto": 1.35,
    "cobertura": 1,
    "motivos": [
     "publicada há 2 h"
@@ -255,7 +272,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 11.53,
+   "impacto": 11.44,
    "cobertura": 4,
    "motivos": [
     "tema coberto por 4 veículos",
@@ -273,7 +290,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.03,
+   "impacto": 2.02,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -289,7 +306,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 18.38,
+   "impacto": 18.24,
    "cobertura": 7,
    "motivos": [
     "tema coberto por 7 veículos",
@@ -307,7 +324,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 4.59,
+   "impacto": 4.56,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -324,7 +341,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 1.35,
+   "impacto": 1.34,
    "cobertura": 1,
    "motivos": [
     "publicada há 2 h"
@@ -339,7 +356,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.35,
+   "impacto": 1.34,
    "cobertura": 1,
    "motivos": [
     "publicada há 2 h"
@@ -354,7 +371,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 20.49,
+   "impacto": 20.34,
    "cobertura": 8,
    "motivos": [
     "tema coberto por 8 veículos",
@@ -372,12 +389,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 6.11,
+   "impacto": 6.06,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: copom, dólar",
     "sentimento negativo (-1.00)",
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -389,7 +406,7 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 3.98,
+   "impacto": 3.95,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -405,7 +422,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 3.96,
+   "impacto": 3.93,
    "cobertura": 5,
    "motivos": [
     "tema coberto por 5 veículos",
@@ -421,7 +438,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.32,
+   "impacto": 1.31,
    "cobertura": 1,
    "motivos": [
     "publicada há 3 h"
@@ -436,7 +453,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 11.2,
+   "impacto": 11.12,
    "cobertura": 4,
    "motivos": [
     "tema coberto por 4 veículos",
@@ -454,7 +471,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 3.95,
+   "impacto": 3.92,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -470,7 +487,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 3.67,
+   "impacto": 3.65,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
@@ -487,7 +504,7 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 1.31,
+   "impacto": 1.3,
    "cobertura": 1,
    "motivos": [
     "publicada há 3 h"
@@ -502,7 +519,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 3.27,
+   "impacto": 3.25,
    "cobertura": 4,
    "motivos": [
     "tema coberto por 4 veículos",
@@ -518,7 +535,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 24.35,
+   "impacto": 24.18,
    "cobertura": 10,
    "motivos": [
     "tema coberto por 10 veículos",
@@ -536,7 +553,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.3,
+   "impacto": 1.29,
    "cobertura": 1,
    "motivos": [
     "publicada há 3 h"
@@ -551,7 +568,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.95,
+   "impacto": 1.94,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -567,7 +584,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 15.44,
+   "impacto": 15.34,
    "cobertura": 6,
    "motivos": [
     "tema coberto por 6 veículos",
@@ -600,7 +617,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.29,
+   "impacto": 1.28,
    "cobertura": 1,
    "motivos": [
     "publicada há 3 h"
@@ -615,7 +632,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 3.87,
+   "impacto": 3.84,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -631,7 +648,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.29,
+   "impacto": 1.28,
    "cobertura": 1,
    "motivos": [
     "publicada há 3 h"
@@ -646,7 +663,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 3.85,
+   "impacto": 3.83,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -662,13 +679,13 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 8.72,
+   "impacto": 8.66,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -680,10 +697,10 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.28,
+   "impacto": 1.27,
    "cobertura": 1,
    "motivos": [
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -696,12 +713,12 @@
     "cripto",
     "exterior"
    ],
-   "impacto": 4.34,
+   "impacto": 4.32,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
     "sentimento negativo (-1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -713,13 +730,13 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 17.34,
+   "impacto": 17.23,
    "cobertura": 7,
    "motivos": [
     "tema coberto por 7 veículos",
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -731,7 +748,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 6.47,
+   "impacto": 6.42,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -749,7 +766,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 3.17,
+   "impacto": 3.14,
    "cobertura": 4,
    "motivos": [
     "tema coberto por 4 veículos",
@@ -765,7 +782,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 2.28,
+   "impacto": 2.26,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar, vale",
@@ -781,7 +798,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 3.79,
+   "impacto": 3.77,
    "cobertura": 5,
    "motivos": [
     "tema coberto por 5 veículos",
@@ -797,7 +814,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 4.29,
+   "impacto": 4.26,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -814,7 +831,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 3.78,
+   "impacto": 3.75,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
@@ -830,7 +847,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 8.55,
+   "impacto": 8.5,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
@@ -848,7 +865,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 5.64,
+   "impacto": 5.61,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -880,7 +897,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 8.5,
+   "impacto": 8.45,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
@@ -898,7 +915,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 12.74,
+   "impacto": 12.66,
    "cobertura": 5,
    "motivos": [
     "tema coberto por 5 veículos",
@@ -916,7 +933,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 3.74,
+   "impacto": 3.72,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -932,7 +949,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.25,
+   "impacto": 1.24,
    "cobertura": 1,
    "motivos": [
     "publicada há 4 h"
@@ -947,7 +964,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 3.72,
+   "impacto": 3.7,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -963,7 +980,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 6.32,
+   "impacto": 6.28,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -981,26 +998,9 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.86,
-   "cobertura": 2,
+   "impacto": 1.23,
+   "cobertura": 1,
    "motivos": [
-    "tema coberto por 2 veículos",
-    "publicada há 4 h"
-   ]
-  },
-  {
-   "titulo": "Fechamento do mercado financeiro - Vitória News",
-   "fonte": "Vitória News",
-   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBacHZkekE2YVh1aGZGakRMRWV0VEwwMFJsMFUydlY3S2tTQ2VWOUUwYWxUczRZZkk2ZGRVeHloRnZpZHFXdDBFRlhEa3gxOGFvak1feFNzUVVlOGp0eE9lcG8tZVJ0dVA1M01mZDFVNGU?oc=5",
-   "data": "2026-11-06T21:33+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.86,
-   "cobertura": 2,
-   "motivos": [
-    "tema coberto por 2 veículos",
     "publicada há 4 h"
    ]
   }
