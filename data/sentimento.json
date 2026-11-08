@@ -1,17 +1,17 @@
 {
- "atualizado": "2026-11-08T02:14:41+00:00",
+ "atualizado": "2026-11-08T03:23:18+00:00",
  "origem": "noticias.json",
  "metodo": "média de pontuações por palavras-chave; sinal informativo, não previsão",
  "quantidade": 60,
  "media": 0.083,
  "por_classe": {
   "cripto": {
-   "quantidade": 20,
-   "media": 0.0
+   "quantidade": 19,
+   "media": 0.053
   },
   "moedas": {
-   "quantidade": 13,
-   "media": 0.385
+   "quantidade": 15,
+   "media": 0.267
   },
   "imobiliario": {
    "quantidade": 0,
@@ -22,7 +22,7 @@
    "media": 0.0
   },
   "acoes": {
-   "quantidade": 26,
+   "quantidade": 25,
    "media": 0.0
   }
  },
