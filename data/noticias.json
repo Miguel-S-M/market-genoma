@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-11T20:01:45+00:00",
+ "atualizado": "2026-11-11T20:06:25+00:00",
  "destaque": {
   "titulo": "Ouro cai com apostas em juros mais altos nos EUA e dólar forte - Valor Econômico",
   "fonte": "Valor Econômico",
@@ -9,7 +9,7 @@
   "classes": [
    "moedas"
   ],
-  "impacto": 9.17,
+  "impacto": 9.13,
   "cobertura": 2,
   "motivos": [
    "tema coberto por 2 veículos",
@@ -20,6 +20,22 @@
  },
  "itens": [
   {
+   "titulo": "Cosan (CSAN3) dispara mais de 12% após rumor sobre a Rumo (RAIL3); mercado volta a apostar em destravamento de valor - Seu Dinheiro",
+   "fonte": "Seu Dinheiro",
+   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNM3YtU1JrUDJRLXh0SlR5Q1U3YlF6QmREUDk4SDhUQ1Y1dU8wbFdCd3YxVlo0bFhQcmsySVU5MVVHdjJmQXBOYWFSSVJuZ1hqaW9VaTdmNzdDNVJqZ2pESnRhX01UWGdvbGtnQ2pubWVSSWJRalNEdTFnMXdIbGRQaE5GTUZQTlBiM1BCNnlyQkNEUVR6SUNoN0cxeExLQnRzVy1LbV9uNnBRWGlxZWFvdm1WZzJFWTNPb3hCU0Vtb3pndk00bHR6elFPcGZGRVcwdXZ0TDFlU05ZQVUwdVBrOW81bjRsWVBaRzNEZ0hncw?oc=5",
+   "data": "2026-11-11T20:01+00:00",
+   "sentimento": 1.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 4.48,
+   "cobertura": 1,
+   "motivos": [
+    "sentimento positivo (+1.00)",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
    "titulo": "Magalu (MGLU3): ação tem nova disparada após outubro mostrar “ponto de virada”",
    "fonte": "InfoMoney",
    "link": "https://www.infomoney.com.br/mercados/magalu-mglu3-acao-tem-nova-disparada-apos-outubro-mostrar-ponto-de-virada/",
@@ -28,7 +44,40 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.49,
+   "impacto": 4.47,
+   "cobertura": 1,
+   "motivos": [
+    "sentimento positivo (+1.00)",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Mais um minerador de Bitcoin amador vence disputa e ganham 3,125 BTC - BitNotícias",
+   "fonte": "BitNotícias",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcXY3bUlvTW1DNVViYkJvaGgyUmxOcDhqY1FEaE5BUmVZNHlnR05RemNnR3NYNG8yM0o3R09JVUlKTnlCMkc0cnhGRmpnQjhYSVh0LVJTMFMxUnhQamZBZ2lfY1RUeFFMUTcyVFNVNHdzai1peWt2OUQyN0N6Q2czenliQmNUZw?oc=5",
+   "data": "2026-11-11T20:00+00:00",
+   "sentimento": 1.0,
+   "classes": [
+    "cripto"
+   ],
+   "impacto": 5.07,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: bitcoin",
+    "sentimento positivo (+1.00)",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Ações de tecnologia dos EUA sobem com retomada de aposta em inteligência artificial - Folha de S.Paulo",
+   "fonte": "Folha de S.Paulo",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOOHRHbDdhUm9CQVl2OEJTUTFqSFgyaW9pby1zZmU3VGpHeUtwX1BEVU1Ic2E4bnV5emdsYURtLVQ3VmpmdzV1ZHBHOFN2alk3SmhESDFIMzdJZjBSWGl0bWtGQS15Q2pKcm03VVY4LXZvMEFPa25oQ2VxT2huR1R5TXZiUFotdnhabkhqSFYwc0w5WTVFQ1lrWnNEYnd3SFNtU3psWjZXdGxDMGxSYlRCa2prdzlkRkprQi1VR0hURTRWMDdWLVhBNzE1c0NBQk5Q?oc=5",
+   "data": "2026-11-11T20:00+00:00",
+   "sentimento": 1.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 4.47,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -44,7 +93,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.49,
+   "impacto": 1.48,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -59,7 +108,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 3.27,
+   "impacto": 3.26,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: fed",
@@ -75,7 +124,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.49,
+   "impacto": 1.48,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -90,7 +139,7 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 2.08,
+   "impacto": 2.07,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dividendos",
@@ -121,7 +170,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.48,
+   "impacto": 1.47,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -136,7 +185,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.44,
+   "impacto": 4.42,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -152,7 +201,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.48,
+   "impacto": 1.47,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -167,7 +216,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 3.62,
+   "impacto": 3.6,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar, petrobras",
@@ -184,7 +233,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.47,
+   "impacto": 1.46,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -199,7 +248,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.41,
+   "impacto": 4.39,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
@@ -215,7 +264,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.46,
+   "impacto": 1.45,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -230,7 +279,7 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 1.46,
+   "impacto": 1.45,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -245,7 +294,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 9.17,
+   "impacto": 9.13,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -263,7 +312,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.36,
+   "impacto": 4.34,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: selic, juros",
@@ -279,7 +328,7 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 4.36,
+   "impacto": 4.34,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -295,7 +344,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.61,
+   "impacto": 2.6,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: inflação",
@@ -311,7 +360,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.45,
+   "impacto": 1.44,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -326,7 +375,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.45,
+   "impacto": 1.44,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -341,7 +390,7 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 2.02,
+   "impacto": 2.01,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dividendos",
@@ -357,7 +406,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 9.08,
+   "impacto": 9.05,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -375,7 +424,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.89,
+   "impacto": 4.87,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: petrobras",
@@ -392,7 +441,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.44,
+   "impacto": 1.43,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -422,7 +471,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.86,
+   "impacto": 4.84,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -439,7 +488,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.26,
+   "impacto": 4.24,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
@@ -455,7 +504,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 2.55,
+   "impacto": 2.54,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar, vale",
@@ -471,7 +520,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.8,
+   "impacto": 4.78,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dividendos",
@@ -488,7 +537,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.21,
+   "impacto": 4.19,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: copom, ipca",
@@ -507,7 +556,7 @@
    "impacto": 1.39,
    "cobertura": 1,
    "motivos": [
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -519,10 +568,10 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 1.39,
+   "impacto": 1.38,
    "cobertura": 1,
    "motivos": [
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -534,7 +583,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.94,
+   "impacto": 1.93,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -550,7 +599,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.38,
+   "impacto": 1.37,
    "cobertura": 1,
    "motivos": [
     "publicada há 2 h"
@@ -565,7 +614,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 4.11,
+   "impacto": 4.1,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
@@ -581,7 +630,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.37,
+   "impacto": 1.36,
    "cobertura": 1,
    "motivos": [
     "publicada há 2 h"
@@ -596,7 +645,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.37,
+   "impacto": 1.36,
    "cobertura": 1,
    "motivos": [
     "publicada há 2 h"
@@ -611,7 +660,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.1,
+   "impacto": 4.08,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
@@ -642,7 +691,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.62,
+   "impacto": 4.6,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -659,7 +708,7 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 1.36,
+   "impacto": 1.35,
    "cobertura": 1,
    "motivos": [
     "publicada há 2 h"
@@ -674,7 +723,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.9,
+   "impacto": 1.89,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -690,7 +739,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.9,
+   "impacto": 1.89,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -706,7 +755,7 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 4.06,
+   "impacto": 4.05,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -738,7 +787,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.34,
+   "impacto": 1.33,
    "cobertura": 1,
    "motivos": [
     "publicada há 2 h"
@@ -753,7 +802,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 2.01,
+   "impacto": 2.0,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -769,7 +818,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 2.01,
+   "impacto": 2.0,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -801,11 +850,11 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 3.46,
+   "impacto": 3.45,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: selic, dólar",
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -817,7 +866,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.86,
+   "impacto": 1.85,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -833,7 +882,7 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 1.86,
+   "impacto": 1.85,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dividendos",
@@ -865,7 +914,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.85,
+   "impacto": 1.84,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -896,7 +945,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.84,
+   "impacto": 1.83,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -908,52 +957,6 @@
    "fonte": "Valor Econômico",
    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNbXdlSGY1WkNrNHp6MlRUdnpsU3NDR2ZUbmFzZ0w1b1VONDhTT3FkT2VLbkl3WUJZYm1FRW9hM3JEQktXSlJ2NzBGRFAtck5QOEluTEsyUmJIMzZSQzBuMkVoMHEtUFlxSEZuTnlqNTBZVlBWbU13blJVY1ZMVjhBQUdBN3MxaUp5aFpyaTdoN1VHYUVlOGw4WXBZc0RCMVF5RjRPV3o0djdETm9EV0N1VnVwSHpKUno1OUVzSUVqSEpLV25GQzctTnM3bWpZdlJBZGVZd2ZUV3VfNWdf0gHrAUFVX3lxTE1RSEhjTUUzSW90cURYNURMTDhTdXBtVWZvV0IyOG5pR0hGQk5HdTF4T2h4RDlaWE95LTVzXzJvX0tJUEhidy1KTEg1Qm4tV3RFX2RsM00tVi1QeUl5T0FGbjd1NDNWakFSbFVTLTVEeFdRQTdoWWZfdG5MTHlmYkU3YlhPRWtzYUFhX2tPWnJ0R0RxMGFHMXEzSGU2dzFCVmNZam04SUEzUWlsSklqVkFCYjRJclVUY3NoOS1IN3JuQ0g0R2JPSEMxeEs3alNRVWJ5Ulg4ZDg5Nmd6cll6UEpkMENyVzdnR3Q3dVU?oc=5",
    "data": "2026-11-11T17:10+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "cripto"
-   ],
-   "impacto": 1.31,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 3 h"
-   ]
-  },
-  {
-   "titulo": "Brasileiro vive na ‘bolha do CDI’ e acorda todo dia ‘short’ em dólar, dizem gestores - Valor Econômico",
-   "fonte": "Valor Econômico",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxObjlZeFc3RzUwQU5tYWpGTTRPMlBrYjdYV0hEdHlYay1yVUJEcTVremFZbUtqOEV0YmdjMlF1VEhLZXlyZHh6cERqRTdPd1hFcnRkSHRxNEFvUC1fVEpUT2c1ZnhxMU44NkF1UGo0MHBNSTI2bmEzRnVkZ1ZXdXAzZmdWQm1LZF9hS1BjOTRNMGFoMl9Gd3ljTWNjZ3BNS0dsQWNDd1daZ0Z1MDdCMHU1S3ppOG9IV1RfYWQwdXdBNUxOeU83VzZ4TEU2THZTdlZzeVRv0gHiAUFVX3lxTE9UYl9TbmpxX0VGSTU5VENCQ0NtMjhZd2VPMWxLaGlGNWNTd0ZwOFNVMXY5UXJTV1ZhaElDdVlqTE0zX0FocVBhcmpqcnptZHRNamNTRkNUSzdHREQ4eHhxcjRHODAtZVgxRk5wblRLc0xHNUN0WjNnemFYWGFIMG10QmtDS1Y0Ry1yMzRNS09MWFhqaEdzUkRVal81c3FPZGtsS3paWk9WczNNUURLdTltblhwOHljN1Q2MmczM25nbXRTZXhhQzZwWXh4ekRlMy1OOHE3TXhGRHpWdU9Sa01iaXc?oc=5",
-   "data": "2026-11-11T17:10+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 1.83,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: dólar",
-    "publicada há 3 h"
-   ]
-  },
-  {
-   "titulo": "Incerteza fiscal trava planos de empresas e adia ofertas de ações para 2027 - Monitor Mercantil",
-   "fonte": "Monitor Mercantil",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeW5RUGhuUC16ejVkdG1DQ1cyR3dtSVNRQTZnRVM0N3NpUDc3ZFR5UklGOGIzckFKNjdsQjZMcXVqSHo1Z29MZGNiWWtsZDVzd0xoQVp1TVlvV2lSZ1NSSGFTZ2tUZWxySkcwaC1KRDh6cUFhYzhqZUNieHdWVnMtSXl3MnJpM2UwM3d6WklkaTZXSEYzZXhac21DRXFGaFJmT3Ffa196bmZkYUJp?oc=5",
-   "data": "2026-11-11T17:06+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.3,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 3 h"
-   ]
-  },
-  {
-   "titulo": "Turbulências nas criptomoedas? Confira como investir nesses ativos com mais tranquilidade - Seu Dinheiro",
-   "fonte": "Seu Dinheiro",
-   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxORW1yWDczQmN6VFpYREIyTFdwNkF0MGZfZ0tUa1lBWnBqMUdPWlRmcEI2c2ZmNERzaGlaZGVORzY1cmpVZUh2aHRWQ2txd1NiN1Yxa3k0Wm1aUzVCN0plVUprNDlPQ1RYNTlFZ0xfMGtrZU9aeDRHM2x2QVE4VmlaMF8zS0loRGtqN09fQXJCaURrbEhWQ0NKQ0lBREt3TWVoYU1yWHJLcE50X19wZWF3WkZDSXg5OFBMZ0tzTl9CczQ4UEh5VkI3UWRLaTdqTERUUVVuazlNS0htbldCZ3c?oc=5",
-   "data": "2026-11-11T17:00+00:00",
    "sentimento": 0.0,
    "classes": [
     "cripto"
