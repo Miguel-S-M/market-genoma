@@ -1,24 +1,148 @@
 {
- "atualizado": "2026-11-11T12:58:41+00:00",
+ "atualizado": "2026-11-11T13:12:50+00:00",
  "destaque": {
-  "titulo": "Bitcoin hoje cai abaixo de US$ 75 mil após inflação nos EUA acender alerta sobre juros - Estadão",
-  "fonte": "Estadão",
-  "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOY0R3T2VqVHRLeXlEMC1GTTRsSnhvclFVdUFsQ0I0dEZTNVBJV1RjTDFFcW56MzNKdWs1QjhxODVGNWU0cnU5MU5SRGF4NjdrMFQ3LWpiN0kwSnRkYVVFN3d5NHU5Ul94aDhKWHBVVVpIWTFTVXU0M3lmZW1JajRLZG9KRnpNLVhhbXRlMEhmUDB1Sjg0cUEwZkVFa0NMV0dXTTNVWW4wY3BFZ0ZoMmZnbFJQMnJNWmNkdkNha1o3TFJpNkxuQ1pOdjM2dktwN1hlOElnTGl3Yw?oc=5",
-  "data": "2026-11-11T11:06+00:00",
+  "titulo": "Dólar abre em queda a R$ 5,57 após atingir maior cotação em 15 meses - Vero Notícias",
+  "fonte": "Vero Notícias",
+  "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQeXJjYU1qRUpWRVI1WnBZcW9mcmc1R05yeGFvZnFFc2liX3FCYU5IRUc4WjltcU9Pd1BXVUdUbkJ3Rl9xZUlZSEhHSmlFaW9QRkY0Q1ByWnRRM0E4VUlxY2VLeEJYNVZFN1BYT2EzUUtWcUIxNWZpbUxYWEFRWUZ3M1lVYUxIOU1xZ3EzV01YWHJ1bEl3eTJsZ1hNYU1TODJHY3E0?oc=5",
+  "data": "2026-11-11T12:50+00:00",
   "sentimento": -1.0,
   "classes": [
-   "cripto"
+   "moedas"
   ],
-  "impacto": 10.23,
-  "cobertura": 2,
+  "impacto": 9.99,
+  "cobertura": 3,
   "motivos": [
-   "tema coberto por 2 veículos",
-   "palavras de alto impacto: juros, inflação, bitcoin",
+   "tema coberto por 3 veículos",
+   "palavras de alto impacto: dólar",
    "sentimento negativo (-1.00)",
-   "publicada há 2 h"
+   "publicada há menos de 1 h"
   ]
  },
  "itens": [
+  {
+   "titulo": "Petrobras: ações caem 2% após proventos abaixo e capex acima ofuscarem balanço",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/mercados/petrobras-petr3-petr4-desempenho-acoes-resultados-3t26-proventos-novas-projecoes/",
+   "data": "2026-11-11T13:12+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 2.7,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: balanço, petrobras",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Fernanda Montenegro e outros artistas da TV protestam contra diárias de 12h",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/brasil/fernanda-montenegro-e-outros-artistas-da-tv-protestam-contra-diarias-de-12h/",
+   "data": "2026-11-11T13:10+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.5,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "A IA pode transformar ataques cibernéticos em uma “pandemia digital”? Entenda",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/business/a-ia-pode-transformar-ataques-ciberneticos-em-uma-pandemia-digital-entenda/",
+   "data": "2026-11-11T13:07+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.49,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Mulher ligada ao CEO da Nvidia entrou em Taiwan com passaporte de Hong Kong",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/mundo/mulher-ligada-ao-ceo-da-nvidia-entrou-em-taiwan-com-passaporte-de-hong-kong/",
+   "data": "2026-11-11T13:06+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.49,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quarta",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-11112026/",
+   "data": "2026-11-11T13:05+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 3.28,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: juros, dólar",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Dólar sobe 1,46% e fecha a R$ 5,58, no maior valor desde julho de 2025, com inflação acima do esperado nos EUA - Impactto News",
+   "fonte": "Impactto News",
+   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOTmtZLXNKTnBNbXl6N1IzVTZtMUg1d0J6Sko4NGdJaEFRSmhXQVNPeWhKbVlqbzRtMHZKZTZ3WVpuekxGMWVBVFdCQW9vUE5DbG1DcEU1SlFBbUtSX2g3U2N3NFl5MklaTDVqdzJSODVDTnlOMFoxWEZ6TFgySmo5Y1NMWGVlUnlvRXJmdTFsR1RZZ19zNzh2c2dZLVdBTEg1WTcydWFwZHZkd1lqQU9XLVVuRThKem55SDhnM2QxYlJDcXlILXI3WHJ4U3hCaGM4cGlPekcwY29FS1lIWUFFT0czRlc?oc=5",
+   "data": "2026-11-11T13:03+00:00",
+   "sentimento": 1.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 6.24,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: inflação, dólar",
+    "sentimento positivo (+1.00)",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "VPPR11 vende imóvel comercial em Barueri por R$ 3,04 milhões - Suno - Investimentos Inteligentes",
+   "fonte": "Suno - Investimentos Inteligentes",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1yMVZhRE9qdkhLdGtMTkdvN0RacW9RTGFxLUh3N2c0YVNIZ1drd01Hb3FjS3NkYldraGVBTDFtOGpaRnhjd3lKTjJUQWprRGx4WWxqcEUtMk5qT1Y5NU9oNHNoc2NCdnlOMTFkblBCNkZodF9leG5netIBfkFVX3lxTFB5S0VxWGtwTk0xaGtVTnBaT2dITFZKQWZZU01pR1ZMNG9fZFZCNjR4d0ZodHhNWHFrcnFVaWtoNG9TYVFucDJzeW9MMEtab2tQVk9GS0IzMUxHRHE2ZXZTeEdGNVc5U3EtMlc2RHVoX185Zm81TnBNZUZSdlBzUQ?oc=5",
+   "data": "2026-11-11T13:02+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.49,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Black XP oferece cashback da taxa de corretagem paga ao investir em ETFs da XP Asset",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/onde-investir/black-xp-oferece-cashback-da-taxa-de-corretagem-paga-ao-investir-em-etfs-da-xp-asset/",
+   "data": "2026-11-11T13:00+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.48,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há menos de 1 h"
+   ]
+  },
   {
    "titulo": "Petróleo sobe após sinalização do Irã e com ataques persistentes em Ormuz",
    "fonte": "InfoMoney",
@@ -28,11 +152,28 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 5.69,
+   "impacto": 5.62,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: petróleo",
     "sentimento positivo (+1.00)",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Bitcoin recua para US$ 73 mil após inflação dos EUA e analistas veem risco de queda até US$ 69 mil - BPMoney",
+   "fonte": "BPMoney",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQllLVVBWYU40eHh5SlpLckxTOXBPVEpLYy0yTS1LV1gtU3dfaWpBeG5TWEpwS2ZGRFM0YVNEWXptWll3WU1sUWZHOGc2Y1ZNWWZNTWcxVGRzUjdINFhnUWxlaHl3ekJFMDlINDZPOGhlRS1JZVJvWE4wdHJSYTdHbFBwUTdpdXhNNnJiR0g1TUE4cDIxbHc?oc=5",
+   "data": "2026-11-11T12:57+00:00",
+   "sentimento": -1.0,
+   "classes": [
+    "cripto"
+   ],
+   "impacto": 6.21,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: inflação, bitcoin",
+    "sentimento negativo (-1.00)",
     "publicada há menos de 1 h"
    ]
   },
@@ -45,9 +186,25 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.49,
+   "impacto": 1.47,
    "cobertura": 1,
    "motivos": [
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Quais são os principais impactos de um dólar alto para o brasileiro? Entenda os efeitos no bolso - CBN",
+   "fonte": "CBN",
+   "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPaTNMclA5RDlqSUpkbWVHUEhRcDEyYTBvckJSMDlYZ2Z6R2QyTkdkTmVjeVRZNG0tRFQ0SVh5VmxjUEVxVzVBUjBtc1hReDQ5TWd2My1qTTFnamUtRFBZWDZwcWRLZFlkSDRoVUhWczl2RERtRURaWFVrZkZPNUt0UDl0b282MFRXXzMxanM0TTRmaWw4Qkt0Zk9RS3VrMGhlbDZCT2FENW5IN2czazQ1bzhWMlJPaWgxVXhDUUFLVnNONEV4NXE0Zk15bHNFUW4yNGNKd1dTZjVWZndPakhfekZiUzJpa0xnMG1fMmRTTDJVMmtRY3cyWW41SlppX01HWVdj0gGSAkFVX3lxTE0wcmhfRkl2NEUtbVZUV3FHbVlFeG1FNm9IWDlTNEV5akJUWjJaS1RUM3ZPT0phYUc3SVFhNmZDdWlVc2tLYk1HaHUwcHY2a2RNWlJnYW9FRmxFNHJ3ZGhvYk03cU1CLXVNMjlQbV95WnlVOS1jakxSX0FGdEV1RU5pZkVnQnpUQ3RZT3dQS3k2Z185WEFFTVpwakY2bkY5VklsLTlRSVVWRENxSVFmVjdXNnpGRmZrZHRjVmZpTFNvVm1aSmxERE5HS0UxNGpFSkVBNXRHZUxGTkYwVExOVngtcmhuaXl2cTdPZGhRa3pmNTJab3ZQZ20xOFRWWTdNVXBhUHBEUnBXaWx3X0l2NVFMR1E?oc=5",
+   "data": "2026-11-11T12:52+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 2.06,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: dólar",
     "publicada há menos de 1 h"
    ]
   },
@@ -60,11 +217,28 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 10.12,
+   "impacto": 9.99,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
     "palavras de alto impacto: dólar",
+    "sentimento negativo (-1.00)",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Taxas de juros abrem em queda, mas permanecem estáveis com a redução do dólar - Tribuna do Sertão",
+   "fonte": "Tribuna do Sertão",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNkF3Znp5TENvOUZBRUZsU0FrT014dWtfeGQ5QWxZVEtzbXhNVTktMm1udUVla3EtS0kxeWx0Mzc3ZFVYX1lDX1N3QXd1WWZHNlRkWjJFVTJWTjBsVVppN0RwN3J6bDM4TUFSNWoxSVg5NFE2TG1jT3RaTGxGWjA5Z25HRGVnSGY5cmVSaGtoYldHYVpzdU5QUWRMYjN1OVRTbTBxaXIwcG9ZSHViNDNTemtPNmI1bmRXVTVucGt0cDFlMWVudGlzRkJ1X00tb0Z3Qmc?oc=5",
+   "data": "2026-11-11T12:49+00:00",
+   "sentimento": -1.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 6.16,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: juros, dólar",
     "sentimento negativo (-1.00)",
     "publicada há menos de 1 h"
    ]
@@ -78,7 +252,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 5.05,
+   "impacto": 4.99,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -95,7 +269,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.48,
+   "impacto": 1.47,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -110,7 +284,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 7.57,
+   "impacto": 7.47,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -128,7 +302,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 5.05,
+   "impacto": 4.98,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -145,7 +319,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.48,
+   "impacto": 1.46,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -160,7 +334,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 7.55,
+   "impacto": 7.45,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -178,7 +352,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 7.51,
+   "impacto": 7.42,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -196,7 +370,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 3.83,
+   "impacto": 3.78,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: inflação, pib",
@@ -212,37 +386,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.47,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há menos de 1 h"
-   ]
-  },
-  {
-   "titulo": "Entenda o que o governo Lula discute sobre ajuste fiscal para acalmar os mercados",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/politica/entenda-o-que-o-governo-lula-discute-sobre-ajuste-fiscal-para-acalmar-os-mercados/",
-   "data": "2026-11-11T12:37+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.47,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há menos de 1 h"
-   ]
-  },
-  {
-   "titulo": "China apoia Cuba na oposição a sanções e bloqueios e promete “apoio firme”",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/mundo/china-apoia-cuba-na-oposicao-a-sancoes-e-bloqueios-e-promete-apoio-firme/",
-   "data": "2026-11-11T12:34+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.47,
+   "impacto": 1.45,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -257,7 +401,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 1.47,
+   "impacto": 1.45,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -272,27 +416,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 7.47,
+   "impacto": 7.38,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "palavras de alto impacto: dólar",
     "sentimento negativo (-1.00)",
-    "publicada há menos de 1 h"
-   ]
-  },
-  {
-   "titulo": "BC da China promete intensificar apoio à economia",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/mundo/bc-da-china-promete-intensificar-apoio-a-economia/",
-   "data": "2026-11-11T12:31+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.46,
-   "cobertura": 1,
-   "motivos": [
     "publicada há menos de 1 h"
    ]
   },
@@ -305,57 +434,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.39,
+   "impacto": 4.33,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
-    "publicada há menos de 1 h"
-   ]
-  },
-  {
-   "titulo": "MPRJ mira em dono da Refit e parentes em operação contra sonegação fiscal",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/brasil/mprj-mira-em-dono-da-refit-e-parentes-em-operacao-contra-sonegacao-fiscal/",
-   "data": "2026-11-11T12:30+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.46,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há menos de 1 h"
-   ]
-  },
-  {
-   "titulo": "Farmacêutica Biomm reverte prejuízo com lucro de R$22,1 mi no 3º tri",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/mercados/farmaceutica-biomm-reverte-prejuizo-com-lucro-de-r221-mi-no-3o-tri/",
-   "data": "2026-11-11T12:29+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.46,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há menos de 1 h"
-   ]
-  },
-  {
-   "titulo": "Dólar hoje tem leve baixa de olho em plano fiscal",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-11112026/",
-   "data": "2026-11-11T12:29+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 4.09,
-   "cobertura": 3,
-   "motivos": [
-    "tema coberto por 3 veículos",
-    "palavras de alto impacto: dólar",
     "publicada há menos de 1 h"
    ]
   },
@@ -368,10 +450,10 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.09,
-   "cobertura": 3,
+   "impacto": 3.03,
+   "cobertura": 2,
    "motivos": [
-    "tema coberto por 3 veículos",
+    "tema coberto por 2 veículos",
     "palavras de alto impacto: dólar",
     "publicada há menos de 1 h"
    ]
@@ -385,7 +467,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.62,
+   "impacto": 2.59,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: juros",
@@ -401,7 +483,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.93,
+   "impacto": 4.87,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -418,7 +500,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 2.03,
+   "impacto": 2.0,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -434,7 +516,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 7.38,
+   "impacto": 7.29,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -452,7 +534,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 3.03,
+   "impacto": 2.99,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -469,12 +551,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.86,
+   "impacto": 4.81,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
     "sentimento negativo (-1.00)",
-    "publicada há menos de 1 h"
+    "publicada há 1 h"
    ]
   },
   {
@@ -486,12 +568,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 3.0,
+   "impacto": 2.97,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "palavras de alto impacto: dólar",
-    "publicada há menos de 1 h"
+    "publicada há 1 h"
    ]
   },
   {
@@ -503,11 +585,11 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 3.14,
+   "impacto": 3.11,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: banco central, bitcoin",
-    "publicada há menos de 1 h"
+    "publicada há 1 h"
    ]
   },
   {
@@ -519,12 +601,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 3.0,
+   "impacto": 2.96,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "palavras de alto impacto: dólar",
-    "publicada há menos de 1 h"
+    "publicada há 1 h"
    ]
   },
   {
@@ -536,12 +618,12 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 5.99,
+   "impacto": 5.92,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: juros, bitcoin",
     "sentimento negativo (-1.00)",
-    "publicada há menos de 1 h"
+    "publicada há 1 h"
    ]
   },
   {
@@ -553,10 +635,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.42,
+   "impacto": 1.41,
    "cobertura": 1,
    "motivos": [
-    "publicada há menos de 1 h"
+    "publicada há 1 h"
    ]
   },
   {
@@ -568,11 +650,11 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 2.14,
+   "impacto": 2.11,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
-    "publicada há menos de 1 h"
+    "publicada há 1 h"
    ]
   },
   {
@@ -584,12 +666,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 5.41,
+   "impacto": 5.35,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar, petrobras",
     "sentimento positivo (+1.00)",
-    "publicada há menos de 1 h"
+    "publicada há 1 h"
    ]
   },
   {
@@ -601,7 +683,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.99,
+   "impacto": 1.96,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -617,7 +699,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.42,
+   "impacto": 1.4,
    "cobertura": 1,
    "motivos": [
     "publicada há 1 h"
@@ -633,7 +715,7 @@
     "moedas",
     "exterior"
    ],
-   "impacto": 2.56,
+   "impacto": 2.53,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: rebaixa",
@@ -649,7 +731,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.42,
+   "impacto": 1.4,
    "cobertura": 1,
    "motivos": [
     "publicada há 1 h"
@@ -664,7 +746,7 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 2.11,
+   "impacto": 2.09,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -680,7 +762,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.97,
+   "impacto": 1.95,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -696,7 +778,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.41,
+   "impacto": 1.39,
    "cobertura": 1,
    "motivos": [
     "publicada há 1 h"
@@ -711,7 +793,7 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 1.4,
+   "impacto": 1.39,
    "cobertura": 1,
    "motivos": [
     "publicada há 1 h"
@@ -726,15 +808,15 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 2.52,
+   "impacto": 2.49,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar, petrobras",
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
-   "titulo": "Bitcoin fica de fora da recuperação das ações enquanto os fluxos de saída dos ETFs se estendem pelo quarto dia - CoinDesk",
+   "titulo": "Bitcoin fica de fora da recuperação das ações enquanto saídas de ETFs continuam: Mercado Cripto Hoje - CoinDesk",
    "fonte": "CoinDesk",
    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMG9zNDlxZkd2X0RYZkpoRkwtc2NTRHJ3NlJCcDZsTFZ3Y09pejFxMUFjNjBtRGRFTzZvc051U1l5SnF3WHR4N3JxVXJwZlM2aTBuMm1ROC1icW9UOHhCV1NpVEZLUFQ5T3BXb1k5WWZJM2phUEYwWmtCOEJqYnhnOVFNUkNsZ0h5c0ZXT3V0WkNMLUVic05HQjd1TDRMNjEwWGJhaDN0czRxQnJiVG41aDFCQkRsTHh2?oc=5",
    "data": "2026-11-11T11:37+00:00",
@@ -742,11 +824,11 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.96,
+   "impacto": 1.94,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -758,12 +840,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.73,
+   "impacto": 4.67,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -775,11 +857,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.5,
+   "impacto": 2.47,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: balanço, petrobras",
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -791,11 +873,11 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.94,
+   "impacto": 1.92,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -807,7 +889,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.39,
+   "impacto": 1.37,
    "cobertura": 1,
    "motivos": [
     "publicada há 2 h"
@@ -822,7 +904,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 4.71,
+   "impacto": 4.66,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -839,7 +921,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 3.04,
+   "impacto": 3.01,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: petróleo, dividendos",
@@ -855,7 +937,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.94,
+   "impacto": 1.91,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -871,7 +953,7 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 1.38,
+   "impacto": 1.36,
    "cobertura": 1,
    "motivos": [
     "publicada há 2 h"
@@ -886,7 +968,7 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 2.05,
+   "impacto": 2.03,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -902,95 +984,10 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 1.92,
+   "impacto": 1.9,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: petrobras",
-    "publicada há 2 h"
-   ]
-  },
-  {
-   "titulo": "Bitcoin hoje cai abaixo de US$ 75 mil após inflação nos EUA acender alerta sobre juros - Estadão",
-   "fonte": "Estadão",
-   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOY0R3T2VqVHRLeXlEMC1GTTRsSnhvclFVdUFsQ0I0dEZTNVBJV1RjTDFFcW56MzNKdWs1QjhxODVGNWU0cnU5MU5SRGF4NjdrMFQ3LWpiN0kwSnRkYVVFN3d5NHU5Ul94aDhKWHBVVVpIWTFTVXU0M3lmZW1JajRLZG9KRnpNLVhhbXRlMEhmUDB1Sjg0cUEwZkVFa0NMV0dXTTNVWW4wY3BFZ0ZoMmZnbFJQMnJNWmNkdkNha1o3TFJpNkxuQ1pOdjM2dktwN1hlOElnTGl3Yw?oc=5",
-   "data": "2026-11-11T11:06+00:00",
-   "sentimento": -1.0,
-   "classes": [
-    "cripto"
-   ],
-   "impacto": 10.23,
-   "cobertura": 2,
-   "motivos": [
-    "tema coberto por 2 veículos",
-    "palavras de alto impacto: juros, inflação, bitcoin",
-    "sentimento negativo (-1.00)",
-    "publicada há 2 h"
-   ]
-  },
-  {
-   "titulo": "GGRC11 paga dividendos de 14% ao ano, mas risco nos contratos exige atenção - O Petróleo",
-   "fonte": "O Petróleo",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZlZPNGVtUER6Snp4UE9ubGVLVWJ1WnNqTUJxdzRHcUtDMUpoNUpzeUNZVFYwN3V2NXg2NFZQNWRzWms1Z3F3WUxHZGRpZjhZSzF6WHpmTU1oWGlVNlZNTmRVN0l6UVg2N2FNblNubnI2Z3pRalJmYnVwdTNrQk12Y050cGZ6RHc2dG52YU90Qzk1bjZRUUstN0M5a2l3X095?oc=5",
-   "data": "2026-11-11T11:06+00:00",
-   "sentimento": -1.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 5.73,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: petróleo, dividendos",
-    "sentimento negativo (-1.00)",
-    "publicada há 2 h"
-   ]
-  },
-  {
-   "titulo": "HGLG11 mais barato? Incorporação do LVBI11 abre oportunidade e muda cenário dos investidores - O Petróleo",
-   "fonte": "O Petróleo",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQnFpaWxqYkQwa0FaQjRQQUlxOWZqbjNQYjFCSjlreG1kN2lQM3NYbjU3cDVCaXFlTlNoZ01hV1RLZERhcUJNSkUzWjdCSHNmYXotTUV6NlBvUmFhdVZBVlY0d2xqOXpwdXZ6cGlDRHlzUlVONEpMSi1tVDBZWWpyaENFbVlqM1dIX3h3T1lKWllkSXp5M00tWGRKM2duSDNQUndfR3ZKNWlYMDNpeUVyaTRfRnNIaTR4?oc=5",
-   "data": "2026-11-11T11:03+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 2.45,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: petróleo",
-    "publicada há 2 h"
-   ]
-  },
-  {
-   "titulo": "Bitcoin hoje cai abaixo de US$ 75 mil após inflação nos EUA acender alerta sobre juros - Estadão",
-   "fonte": "Estadão",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNcExENFE0akw5bFJhQ3dMOWczb1EyaHFBRlFJWmxKWV85VzFKN0Q0aUZOcDdmS01PeC1UY1ZfMlBFU2ZkbEtWcTNXSWxMQVFHWmRsMGJ1VmphMVBIanc3cXR1YXBSRUx0eDkxTmhEYkdlM29mekRCQVhuT1VNMzgzTWk4by0tdExxZTJYLWJhTS1LTkpWdDBDTmtJUFRUNHIxOXhDTzRkTDdvaXZiZE51TGxodjZxRW9oaE5yUkdXZF84Q1lwLW9COWc1M1jSAdIBQVVfeXFMTktMalIzUEJmNHYzeV9kSDFiZi1UNzlUOHBqY3dCbld6QzhSd0lLbWREMnp0bnpBMTRlakhrZjVqQjh0YTkybTFGZmtzUnV2emRva3hyT1ltNWE4V0pBdDUzTHR1Y2Q4VmxSTi1PZmNVdkg2TWxmMkwzU2cxTjUwY2wxX084UUQ0LWZyaVdER0pNcGlKN1FCUll0dmNnOVZIUUZCWDJJMkh0RWdVRFRvaGpzVTM5R3BkbXRaa2lTZTZ5bG5samlzWEEtQUdOdFlYdGtR?oc=5",
-   "data": "2026-11-11T11:01+00:00",
-   "sentimento": -1.0,
-   "classes": [
-    "cripto"
-   ],
-   "impacto": 10.2,
-   "cobertura": 2,
-   "motivos": [
-    "tema coberto por 2 veículos",
-    "palavras de alto impacto: juros, inflação, bitcoin",
-    "sentimento negativo (-1.00)",
-    "publicada há 2 h"
-   ]
-  },
-  {
-   "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quarta - InfoMoney",
-   "fonte": "InfoMoney",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcmZXZEdGdEZTNVZJQ2tEeWljMmhoUFhMOEVOSGt5VldZTXZhVVVfREttOWttdjRfZ1I4TUl4NWJ0LWdTSTZwVnJqTDE0R1hDV2ZlWGtOT0xMMDU3Sk5idXZLNktacUlIallZWWdRMVZsUFhHOTdZNkNSME84SzhGQzVrVnJOaXRwZE81VGwyZw?oc=5",
-   "data": "2026-11-11T11:01+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 2.99,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: juros, dólar",
     "publicada há 2 h"
    ]
   }
