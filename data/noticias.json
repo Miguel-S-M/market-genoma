@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-13T03:20:31+00:00",
+ "atualizado": "2026-11-13T04:06:40+00:00",
  "destaque": {
   "titulo": "Dólar sobe 1,58% após pacote fiscal e fecha a R$ 5,65, maior valor desde junho de 2025 - MEON",
   "fonte": "MEON",
@@ -9,10 +9,10 @@
   "classes": [
    "moedas"
   ],
-  "impacto": 23.47,
-  "cobertura": 9,
+  "impacto": 24.94,
+  "cobertura": 10,
   "motivos": [
-   "tema coberto por 9 veículos",
+   "tema coberto por 10 veículos",
    "palavras de alto impacto: dólar",
    "sentimento positivo (+1.00)",
    "publicada há 2 h"
@@ -20,19 +20,67 @@
  },
  "itens": [
   {
+   "titulo": "Bitcoin cai abaixo de US$ 70.000, pode registrar sexta queda semanal consecutiva, arrisca recuo rumo a US$ 65.000 - TradingKey",
+   "fonte": "TradingKey",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOSXRLNTJrSkdRRVBOUzBxRWlYZWhaNUktVVV3NVVSbjVocVRnTmlhZWFyR0RrRGxnM2YwbW90QWpxZjVGT1dPU3dIdlZiWV92aC1jbXl3NFpnZlBadWFJa1lzMVdEcGJ1QmZlZHh5MGR5SDRoa0tEX3FRNlBuR3Fpcy1laEdfaWtrdmg0UHAtZ2Y5dVhHT0RkYjQ3d1Z1MXFDOXlRWF95QkNrV1RfVjZkMEp2WTNwY3pPQk9KaF9QblBBR0hhRXd2cWNEVVBUOThVbFV2X3J6WlFDSXM?oc=5",
+   "data": "2026-11-13T03:35+00:00",
+   "sentimento": -1.0,
+   "classes": [
+    "cripto"
+   ],
+   "impacto": 4.96,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: bitcoin",
+    "sentimento negativo (-1.00)",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Câmbio asiático: iene em foco com dólar perto de máxima em 19 meses - Investing.com Brasil - Finanças, Câmbio e Investimentos",
+   "fonte": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOV05hQ2N2N19vejRzWV9Pb0I2YW1kQlM4aTBGZjZjaGs4bkxvQlNVa3pOczROdmViVTVDbkFjNW9mbUstczZBT1k0MW0zTjUwMGR2SmJYWDZuck15M2txc1JnNm9oSk1EaTlpTjg2WjMwZDJfQXl2Y0w0bXlIQzVEWk9fLU1jRllYdmlORGpDWTZET1hUeEVZWDhHbGEyWmJGTzRlYVZJQUxvUzRHWjgtS1V5dzBuQQ?oc=5",
+   "data": "2026-11-13T03:25+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 2.02,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: dólar",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
    "titulo": "Bitcoin hoje: acompanhe ao vivo a cotação - GZH",
    "fonte": "GZH",
    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMF9ORzFNWHRzaERac2JxVzZhWk1aZDN0RmNqVWIzXzZpRVhWS1BuakhXbGdoMkZZYndGdU41QVdNbGZ3MzJmSEZkRUdieGNLSmZTZzlKTldJdzZ0enhSUnlBUmdzeWIxTlY0SFZoZ3lFaHNpRUQ0eWVCbTFQUjFFNlhxcktTaXNNT1JsZzFPU1Y2aDBNd1lVa1NXSzlJaW8xLXo3U1J3aFFTNUlVY0gzTUh1QlNubjlZbjk2OS1pSGlfbWc?oc=5",
-   "data": "2026-11-13T03:04+00:00",
+   "data": "2026-11-13T03:07+00:00",
    "sentimento": 0.0,
    "classes": [
     "cripto"
    ],
-   "impacto": 2.07,
+   "impacto": 1.99,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
     "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "EUA anunciam operação contra hackers norte-coreanos e apreendem US$ 1,2 bilhão roubado da Binance - Tribuna do Sertão",
+   "fonte": "Tribuna do Sertão",
+   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPRUVhUEtyWlVWRXhJNnJvZEVXcW5QNFYzNk4zbWQtRzkyY3dVQ1lDa253RW5vMnNqTU1BTm0xU0ZudGNGdEJOYXFLOHFrV0g2dW1wSFBuS2FLLUR3U2ZFYkRtUzhudTVjS1Nyb2RYR3Q0NDZRUEViUnhKdFhheUFTSEEtUzc1VlhMNDZaOWJtZWVTNWFjWHJ3NF8tODJDT0VjMHFTQWMzalFfSmw1MjMwcHBkazlJMS1RcWExZzFyQXJwNDczc0hQZmRjT2FoTTVjdkxpaEozMklfTVNwOGh6NHFnQTBITVJhTVZTMW9iMA?oc=5",
+   "data": "2026-11-13T03:00+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.42,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há 1 h"
    ]
   },
   {
@@ -44,11 +92,29 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 2.03,
+   "impacto": 1.96,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
-    "publicada há menos de 1 h"
+    "publicada há 1 h"
+   ]
+  },
+  {
+   "titulo": "Dólar sobe a R$ 5,65, maior valor desde junho de 2025 - Poder360",
+   "fonte": "Poder360",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNURwX3FweHBJRkJVT1dSNjNtMmJaeTNhS2xITWlTWUp4eEhNMUE5eEdyQk5NVllGVWNCZmdJUjc3TU1fY3FuRTBBWmpMbnphSnVmZE9nUFVySEQ5QUowMFNaLXlUTGE2WjRxZnBlc2lJb09QRW5JUzlHR2VqWGpGSnBud1o2Mm45QXRRUU5vdEpPRjREaVlqelZNNA?oc=5",
+   "data": "2026-11-13T02:30+00:00",
+   "sentimento": 1.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 21.14,
+   "cobertura": 8,
+   "motivos": [
+    "tema coberto por 8 veículos",
+    "palavras de alto impacto: dólar",
+    "sentimento positivo (+1.00)",
+    "publicada há 2 h"
    ]
   },
   {
@@ -60,10 +126,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.43,
+   "impacto": 1.38,
    "cobertura": 1,
    "motivos": [
-    "publicada há menos de 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -75,10 +141,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.42,
+   "impacto": 1.37,
    "cobertura": 1,
    "motivos": [
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -91,11 +157,11 @@
     "cripto",
     "exterior"
    ],
-   "impacto": 2.13,
+   "impacto": 2.05,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -108,11 +174,11 @@
     "cripto",
     "exterior"
    ],
-   "impacto": 2.12,
+   "impacto": 2.05,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -124,10 +190,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.41,
+   "impacto": 1.36,
    "cobertura": 1,
    "motivos": [
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -139,10 +205,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.4,
+   "impacto": 1.35,
    "cobertura": 1,
    "motivos": [
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -154,12 +220,12 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 4.76,
+   "impacto": 4.59,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
     "sentimento negativo (-1.00)",
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -171,11 +237,11 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.72,
+   "impacto": 4.56,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: juros, fed, dólar",
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -187,7 +253,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.71,
+   "impacto": 4.55,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -204,10 +270,10 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 23.47,
-   "cobertura": 9,
+   "impacto": 24.94,
+   "cobertura": 10,
    "motivos": [
-    "tema coberto por 9 veículos",
+    "tema coberto por 10 veículos",
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
     "publicada há 2 h"
@@ -222,12 +288,12 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 4.67,
+   "impacto": 4.51,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
     "sentimento negativo (-1.00)",
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -239,13 +305,13 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 20.96,
-   "cobertura": 8,
+   "impacto": 22.51,
+   "cobertura": 9,
    "motivos": [
-    "tema coberto por 8 veículos",
+    "tema coberto por 9 veículos",
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -257,11 +323,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.91,
+   "impacto": 1.84,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dividendos",
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -273,10 +339,10 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 1.34,
+   "impacto": 1.3,
    "cobertura": 1,
    "motivos": [
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -288,12 +354,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.55,
+   "impacto": 4.41,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -305,10 +371,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.34,
+   "impacto": 1.29,
    "cobertura": 1,
    "motivos": [
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -320,10 +386,10 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.34,
+   "impacto": 1.29,
    "cobertura": 1,
    "motivos": [
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -335,7 +401,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 1.33,
+   "impacto": 1.29,
    "cobertura": 1,
    "motivos": [
     "publicada há 3 h"
@@ -350,7 +416,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.32,
+   "impacto": 1.28,
    "cobertura": 1,
    "motivos": [
     "publicada há 3 h"
@@ -365,7 +431,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.85,
+   "impacto": 1.79,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -381,7 +447,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.85,
+   "impacto": 1.79,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -397,12 +463,11 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 2.76,
-   "cobertura": 2,
+   "impacto": 1.78,
+   "cobertura": 1,
    "motivos": [
-    "tema coberto por 2 veículos",
     "palavras de alto impacto: dólar",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -414,11 +479,11 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.84,
+   "impacto": 1.78,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -430,12 +495,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 7.33,
-   "cobertura": 7,
+   "impacto": 8.0,
+   "cobertura": 8,
    "motivos": [
-    "tema coberto por 7 veículos",
+    "tema coberto por 8 veículos",
     "palavras de alto impacto: dólar",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -447,12 +512,12 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 4.45,
+   "impacto": 4.31,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
     "sentimento negativo (-1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -464,10 +529,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.31,
+   "impacto": 1.27,
    "cobertura": 1,
    "motivos": [
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -479,11 +544,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.95,
+   "impacto": 1.89,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -495,10 +560,10 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 1.3,
+   "impacto": 1.26,
    "cobertura": 1,
    "motivos": [
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -510,11 +575,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.94,
+   "impacto": 1.88,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -526,11 +591,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.94,
+   "impacto": 1.88,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -543,11 +608,11 @@
     "moedas",
     "exterior"
    ],
-   "impacto": 3.87,
+   "impacto": 3.76,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -559,11 +624,29 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.93,
+   "impacto": 1.87,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
-    "publicada há 3 h"
+    "publicada há 4 h"
+   ]
+  },
+  {
+   "titulo": "Dólar dispara 1,58% e fecha a R$ 5,65, maior valor desde junho de 2025 - Brasil 61",
+   "fonte": "Brasil 61",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMVgtZ0phYUlab0xManZNVE1PUGlWeUNueFZVUkNnNjlESEZ2VnBOTlNfQmVPSFB6Q0J3UGdINzh5UC1SOUpPWC1DbjY5U2ZOS3NhelZmN3ZFajJsZXVHNFdLTmZSOHRUdkRNVUNYRk1rU3A2WjZuY1JPY25zUHQ0azlsS0ExNk9ZTW5MaE9HWnE0SXN1QzFiS0cteWZYd202WFdwdtIBqgFBVV95cUxNZXNHQk4zYlpYNzFsSm8xdXMxcUhNd3JpQnlMMHBaNzlnaXU5VTJQMWItc19hRnJ0VExtZ2FUckVTb2hhOWRkVGQzSGNjazIwYjYzc0s4cmRBR2M5aGY3ZDA3bzYtbGlyRHNxZkdZU3ZMZWVLSmVJdGxLSFdIQVNLSEl0S3lhSGhNSDNYMFVzZ3NQTGdXREJaZmVSY0xRM0dubUZpNmk1akxZQQ?oc=5",
+   "data": "2026-11-13T00:00+00:00",
+   "sentimento": 1.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 21.16,
+   "cobertura": 9,
+   "motivos": [
+    "tema coberto por 9 veículos",
+    "palavras de alto impacto: dólar",
+    "sentimento positivo (+1.00)",
+    "publicada há 4 h"
    ]
   },
   {
@@ -575,10 +658,10 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 1.28,
+   "impacto": 1.24,
    "cobertura": 1,
    "motivos": [
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -590,12 +673,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 8.07,
-   "cobertura": 8,
+   "impacto": 8.7,
+   "cobertura": 9,
    "motivos": [
-    "tema coberto por 8 veículos",
+    "tema coberto por 9 veículos",
     "palavras de alto impacto: dólar",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -607,13 +690,13 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 8.7,
-   "cobertura": 3,
+   "impacto": 6.34,
+   "cobertura": 2,
    "motivos": [
-    "tema coberto por 3 veículos",
+    "tema coberto por 2 veículos",
     "palavras de alto impacto: dólar",
     "sentimento negativo (-1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -625,12 +708,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 7.16,
-   "cobertura": 7,
+   "impacto": 7.82,
+   "cobertura": 8,
    "motivos": [
-    "tema coberto por 7 veículos",
+    "tema coberto por 8 veículos",
     "palavras de alto impacto: dólar",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -642,7 +725,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.27,
+   "impacto": 1.23,
    "cobertura": 1,
    "motivos": [
     "publicada há 4 h"
@@ -657,7 +740,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.32,
+   "impacto": 4.19,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -674,10 +757,10 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 7.09,
-   "cobertura": 7,
+   "impacto": 7.75,
+   "cobertura": 8,
    "motivos": [
-    "tema coberto por 7 veículos",
+    "tema coberto por 8 veículos",
     "palavras de alto impacto: dólar",
     "publicada há 4 h"
    ]
@@ -691,10 +774,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.26,
+   "impacto": 1.22,
    "cobertura": 1,
    "motivos": [
-    "publicada há 4 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -706,13 +789,13 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 10.65,
-   "cobertura": 4,
+   "impacto": 6.21,
+   "cobertura": 2,
    "motivos": [
-    "tema coberto por 4 veículos",
+    "tema coberto por 2 veículos",
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 4 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -724,11 +807,11 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.75,
+   "impacto": 1.7,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
-    "publicada há 4 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -740,10 +823,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.24,
+   "impacto": 1.21,
    "cobertura": 1,
    "motivos": [
-    "publicada há 4 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -755,10 +838,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.24,
+   "impacto": 1.21,
    "cobertura": 1,
    "motivos": [
-    "publicada há 4 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -770,12 +853,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.21,
+   "impacto": 4.1,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 4 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -787,13 +870,13 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 6.32,
+   "impacto": 6.15,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 4 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -805,10 +888,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.24,
+   "impacto": 1.21,
    "cobertura": 1,
    "motivos": [
-    "publicada há 4 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -820,10 +903,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.24,
+   "impacto": 1.21,
    "cobertura": 1,
    "motivos": [
-    "publicada há 4 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -835,11 +918,11 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.73,
+   "impacto": 1.69,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
-    "publicada há 4 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -851,13 +934,13 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 16.82,
-   "cobertura": 7,
+   "impacto": 18.41,
+   "cobertura": 8,
    "motivos": [
-    "tema coberto por 7 veículos",
+    "tema coberto por 8 veículos",
     "palavras de alto impacto: dólar",
     "sentimento negativo (-1.00)",
-    "publicada há 4 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -869,10 +952,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.24,
+   "impacto": 1.2,
    "cobertura": 1,
    "motivos": [
-    "publicada há 4 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -884,10 +967,10 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.23,
+   "impacto": 1.2,
    "cobertura": 1,
    "motivos": [
-    "publicada há 4 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -899,94 +982,10 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 1.72,
+   "impacto": 1.68,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dividendos",
-    "publicada há 4 h"
-   ]
-  },
-  {
-   "titulo": "Dólar dispara 1,58% e fecha acima de R$ 5,65, maior valor desde junho de 2025 - TV Guararapes",
-   "fonte": "TV Guararapes",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZm5XenhFenJsc25BSVZUZFYxR0Z3WkEyazV2REVVRUhtNDVjVVZWQm0tcEZhc3FTRnBzQlp6SkNrTnZwTWE4N2FYWkhFYUZ5a1daejBGT2NaYm12NVpGaVdXenVTUWNBckpCRGU4emwta1cxaHRneGpoSzMyR3J3WEk2OEtBNG1IdlRaZk0xeXdVaHdPYkNxY0JLX0dZcHItaURhRTJ0SGhNc1g5dkUteTJ5UnhHTnhHX3BfdWhabVBsWXNYcG9zZA?oc=5",
-   "data": "2026-11-12T22:49+00:00",
-   "sentimento": 1.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 16.68,
-   "cobertura": 7,
-   "motivos": [
-    "tema coberto por 7 veículos",
-    "palavras de alto impacto: dólar",
-    "sentimento positivo (+1.00)",
-    "publicada há 5 h"
-   ]
-  },
-  {
-   "titulo": "Wall Street fecha em baixa afetada pela Nvidia, mas sem entrar em pânico - Correio da Manhã",
-   "fonte": "Correio da Manhã",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZXkxWHFnSXF4SnJ4M3lCSnlXTW4yRkgxM0txTmZkTUVpUnNRalJEdXo1ZWlTcXB4NmxyTTYzMXVmU0pLeEs5RTQ0R094U2F6UXNGQmJzbzgyZGNmOUx3QVB6bjUwZ1d2SnJwSnd0S1JmTEtwTHpIZWJ0akZBU0FJdVR0ZzJVZm5PbVNyYkRQaEdaMUpJRDBzZDRzZWpCODNpSEMyZF9iaXZOdG9qMkJqZjdn0gGsAUFVX3lxTFBOeENMNHNnVFJhRmlHUTFRYmpyM3VzUnl0RmxyR1NGM0FIVnltVjlFUVFfeEJQRWpRVG5tdmNpbVpmVERQRHdNS0VaSlB6aXg0RjQzMVpHZEstV3BlQUdzUDVjT1NGUTMzdi13SEdXRkw5T28xdkY3X18xaTM3ckJUQm5Fa1dySlppSFE2NVBtQTBzQVM0SWpzazBoZkQxTFQ4MUZiN2t4ZnFBNGk?oc=5",
-   "data": "2026-11-12T22:42+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "exterior"
-   ],
-   "impacto": 1.22,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 5 h"
-   ]
-  },
-  {
-   "titulo": "Wall Street encerra em baixa com a renúncia do presidente-executivo da Nvidia; rendimentos dos títulos dos EUA sobem - TradingView",
-   "fonte": "TradingView",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE96UjljSk5xRHQzdExFRFBlWFQ4SXpNMWZ0TmswdUdSU1lPN3lvQVk4U2NwS0dpRFB2REtJNTlfc3E0eW44cVRweW9lRU1hTUhGLVM2VTVNaEUwZlkzNjByWk1iUnZ5ZDkwb3JzTWoyT1hKU1BOWFdN?oc=5",
-   "data": "2026-11-12T22:38+00:00",
-   "sentimento": 1.0,
-   "classes": [
-    "exterior"
-   ],
-   "impacto": 3.65,
-   "cobertura": 1,
-   "motivos": [
-    "sentimento positivo (+1.00)",
-    "publicada há 5 h"
-   ]
-  },
-  {
-   "titulo": "Dólar dispara a R$ 5,65 e atinge maior valor em 17 meses; Ibovespa cai com pressão fiscal - Brasil 247",
-   "fonte": "Brasil 247",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYWpzYkxEUlBPYWRMcWVoOTRvTS1KZ2hVQ2oxUjlBWDRpVkFLeFl2TW1Ia3JwODNIV0M4R1dpczh2Mmx3TnFWdHhpTmNDSFNXazZUaDNna2ZkVnZwWEpNVnFNRkpOaWd4TVZCSmozZTVRY2I4VU5sRXBSeXU0eThpaXpDQ0xYNlNGQzg3VEpzR1VfQmFNUElrNEF5VXhNN29zV0JmYUN1eXRWWWQ0WVI5LXVkN3JrTTlJekxkSU1DTQ?oc=5",
-   "data": "2026-11-12T22:36+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 5.11,
-   "cobertura": 5,
-   "motivos": [
-    "tema coberto por 5 veículos",
-    "palavras de alto impacto: dólar",
-    "publicada há 5 h"
-   ]
-  },
-  {
-   "titulo": "Dólar dispara 1,58% e fecha a R$ 5,65, maior nível em 17 meses - Agência Brasil",
-   "fonte": "Agência Brasil",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUHFHeEFmV0h0S0s5WXo3cEpKOV9MWlBvUkttTDNFZDlpaGd6NDJDb2EtallsRFQ4aU5SeDR1SThzSlhxTGNfYkRMd00zYWN2ZHZ6WjhPd0JYTEdXY0hjb3FMNV9pLUM5dHJ4ejVCc2xfUDBkVEZ1R3BpYXNzWHk1VzFQU1pOeDZEb1pEeHpoR1hObXlZUHNLWEs4cmt3dVg0S3VWc1VZZTI4ZGpsNnVfam9IYw?oc=5",
-   "data": "2026-11-12T22:35+00:00",
-   "sentimento": 1.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 10.34,
-   "cobertura": 4,
-   "motivos": [
-    "tema coberto por 4 veículos",
-    "palavras de alto impacto: dólar",
-    "sentimento positivo (+1.00)",
     "publicada há 5 h"
    ]
   }
