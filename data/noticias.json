@@ -1,24 +1,226 @@
 {
- "atualizado": "2026-11-14T02:14:51+00:00",
+ "atualizado": "2026-11-14T03:37:53+00:00",
  "destaque": {
-  "titulo": "Dólar fecha a R$ 5,65 e Ibovespa sobe 0,66%, com mercado atento a pacote fiscal - Brasil 247",
-  "fonte": "Brasil 247",
-  "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPemJNUlQxQkpWM3o4aUt0QjduazRiT2prcXBYWFJ4MXNhb1YzUDY5OGg2TG1ESGQyR3o0dDZXWnloVlVCLXk1R0VYVXpsU1N3MTFVSDV5VEVseWVxdG1jX3lSdTg0OWdnSldmVnB2dUlHaDdwcnRTY3BYNnpLLXZ3VjVEZ3NzUHhDS2NsdE9SN1RGUUg0ZzJlaVBWRFZuUkJkM3dra0dfZkh5b2RSbUhZ?oc=5",
-  "data": "2026-11-13T23:37+00:00",
+  "titulo": "Dólar fecha em R$ 5,65 e Ibovespa sobe 0,66% na sexta-feira - Portal VV8",
+  "fonte": "Portal VV8",
+  "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSWxtY2NyWVFucVBBX1ZWbVU2dTdObGZvUk5ZVGg1UFdnRkMtTGllN0ZVcm9OUG02TjhFbTZYWHYzSWZaTWNQZDNTejl2TjNNSmluWFR6VVc4NkptenY2U2NxWGk3OGtLcWxOS0JzOWplRDZmTjZBLTZjVkxsOXdLT0o5WUtsRlM2dnFUQXNXYjkyMVp1MGx1V01tRHA?oc=5",
+  "data": "2026-11-13T22:13+00:00",
   "sentimento": 1.0,
   "classes": [
    "moedas"
   ],
-  "impacto": 15.71,
+  "impacto": 14.15,
   "cobertura": 6,
   "motivos": [
    "tema coberto por 6 veículos",
    "palavras de alto impacto: dólar",
    "sentimento positivo (+1.00)",
-   "publicada há 3 h"
+   "publicada há 5 h"
   ]
  },
  "itens": [
+  {
+   "titulo": "Rio confirma morte por mpox; estado já tem 382 casos este ano",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/saude/rio-confirma-morte-por-mpox-estado-ja-tem-382-casos-este-ano/",
+   "data": "2026-11-14T03:06+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.46,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Bitcoin hoje: acompanhe ao vivo a cotação - GZH",
+   "fonte": "GZH",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZ0g4aWh4eGdsUV9yOUhVLVYyZ3RZRU14eXR1d0lPRmpVeG1VUFhNbDhzbng3QVhxU1YxZzgwa1BCaUZZRTlieGZiZ1F3b0ZQeVZIWnJpWm55VzhzRGVEdTdzeGhweVJBc3VFWmg2RWlwNUdDWFMwQXFJM2c1bnpxZFlLY1dlT01NazN2ckx5MFZ2a2I2TDFnNnVvbmdPOUpNUG1zRnI1YVN5ODA5SF9YWHJubkpVaUVUQy04cEFsUGk2LWs?oc=5",
+   "data": "2026-11-14T03:01+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "cripto"
+   ],
+   "impacto": 2.03,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: bitcoin",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Mercado financeiro prevê juros de dois dígitos até 2030, ao longo dos dois mandatos de Lula - G1",
+   "fonte": "G1",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPQ0dkZE5WTm5CTGtUWnJwVnAyb21LYXZHX2ZjVGlBcmNRUkZTU1dEMWc4SFFmRDBVTjZlUndobjNLYmJBQ0JKNXJTdlZyVTlJNjRNRDU1NE90bHZKdGR3V0NxZGxLWFdUM0lqV01kU000WU9VbUdINF9wbGd2dVdrUmxLdndvcklWbkdSYTdDWV9JVTZRUUNrUmdMNFV4UG1KTVFJc0NqWlZ0VW5rUGtNSkdiNmd0WU1RR3FZRU9sSVlvVFFCWXg3cjFsTkZtOC1tYVo3TkU0NDVfcmc3VmfSAewBQVVfeXFMTW5fN0NZcUh1STVaUzE0ZWQwWHgtdnVvb1AzVGhYMlV1SEhuQnNKV1BBNTJESWgtVFFwSWdpcDhaVHpOeWI4WlRyTEp0M3M2TDctQ3FVYkd5WWExTUlfeVA1Zm5nelBMdGZIdzZIdkhpQkNBWWNGNXhLWGREd0RoeXN1RFRwSVFSYjFmeDFJeWdzQTNIZTZ0SmdybG4zVjgwaF9WZ3RMaVJsVDBMRUFyLUtna1BJVkRNMm16eFhTVkJfaTl5VnV0ZW9pZE1YYlVyMUZjRFNOa1lrelU2SjdTOTAtWlpOd0F0UjV2ZkI?oc=5",
+   "data": "2026-11-14T03:00+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 2.61,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: juros",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Trump descarta ataque hacker e IA em apagão que parou voos nos EUA",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/mercados/trump-descarta-ataque-hacker-e-ia-em-apagao-que-parou-voos-nos-eua/",
+   "data": "2026-11-14T03:00+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 2.17,
+   "cobertura": 2,
+   "motivos": [
+    "tema coberto por 2 veículos",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Ajuste fiscal avança no Congresso, mas não convence mercado financeiro - brazileconomy.com.br",
+   "fonte": "brazileconomy.com.br",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTW9BdXB3NDdUMXFjTnByeXBJeEdpWFJ1MWNUS1I0ODZOTXpJcTFEaXRlcTlHMEFYWUU2Mk15MFdYMUZvRkNEUTBaUzBnakFHTHhhaUFINmpBU2NhemtwQUx6ejI4RUIyTHVZamo2VlNQTFZKb0xNYlU1LXpxeDNUcGlia0NFZGtLMTRyejRmWVQ4dmpxaDFtNDhiRnZkVGQtT1oyYVYxV1RvOXNDRWI2MXQ0YkNWV2s?oc=5",
+   "data": "2026-11-14T02:59+00:00",
+   "sentimento": 1.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 4.35,
+   "cobertura": 1,
+   "motivos": [
+    "sentimento positivo (+1.00)",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "BTC price range on Nov 12, 2026 at 10pm EST? - Coinbase",
+   "fonte": "Coinbase",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE42dl94eWFOZFZKWGNPazNQTXhEdjJOSGNzRlhPY3hicURWQ2FfNkc5ZUZtaGF1cE05NHpUSTFtUmNfbExKN2pEZmxVaGFGMmZ3bnczblJHcV9PRnlVdWZmWk9FekEySmNjdnVDendWV25jdw?oc=5",
+   "data": "2026-11-14T02:59+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "cripto"
+   ],
+   "impacto": 1.45,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Cosan anuncia saída do CEO Marcelo Martins e nomeia Guilherme Penin como interino",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/mercados/cosan-anuncia-saida-do-ceo-marcelo-martins-e-nomeia-guilherme-penin-como-interino/",
+   "data": "2026-11-14T02:56+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.44,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Falha de IA ou ataque hacker? O que se sabe sobre o apagão que parou os voos nos EUA",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/mundo/falha-de-ia-ou-ataque-hacker-o-que-se-sabe-sobre-o-apagao-que-parou-os-voos-nos-eua/",
+   "data": "2026-11-14T02:52+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 2.16,
+   "cobertura": 2,
+   "motivos": [
+    "tema coberto por 2 veículos",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "“Vai levar tempo”: EUA reabrem espaço aéreo, mas governo alerta para retomada lenta",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/mundo/vai-levar-tempo-eua-reabrem-espaco-aereo-mas-governo-alerta-para-retomada-lenta/",
+   "data": "2026-11-14T02:48+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.44,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Trump vai se reunir com Xi e Putin na China",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/mundo/trump-vai-se-reunir-com-xi-e-putin-na-china/",
+   "data": "2026-11-14T02:45+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.43,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Bitcoin cai abaixo de US$ 70 mil e acumula perda semanal de 9% - Vero Notícias",
+   "fonte": "Vero Notícias",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYlJHQlBUV2s1QWIyWU9NNFFpWTBESlllRFlrMW5mczBZYjRwa2hPdnI1NFZhck5iRHpZR0xQU01icFhQbjZTYkFHdzFzbkdmZXZyaTZBNDV0a1VIaW05dkFSSWRJbTV3WDhvXzdCVXNRR1dYR0k0WldITHIwOUlJMGwxZG5HY1lEc0VVckFuMl9qeVlfR2RjMms1MA?oc=5",
+   "data": "2026-11-14T02:45+00:00",
+   "sentimento": -1.0,
+   "classes": [
+    "cripto"
+   ],
+   "impacto": 4.87,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: bitcoin",
+    "sentimento negativo (-1.00)",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "EUA retomam voos após apagão de mais de quatro horas no controle aéreo",
+   "fonte": "InfoMoney",
+   "link": "https://www.infomoney.com.br/mundo/eua-retomam-voos-apos-apagao-de-mais-de-quatro-horas-no-controle-aereo/",
+   "data": "2026-11-14T02:38+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.42,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Benjamin Graham, investidor: “O maior inimigo de um investidor provavelmente é ele mesmo”, a lição que vai além do mercado financeiro - O Antagonista",
+   "fonte": "O Antagonista",
+   "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQandKYVltb3FWU0JQVkNBd3RkU0I0bUJrMTJ1T1JvNm1IQmtrdnE2YWFYVF9jWEMyNHZRbGNWbE4zMGFLMlNnMnk5c2ZiRHdTUllfcmNMVkkxczZtcHptaFdhTi1OX2Jfa25wOHRiaHpxUldtOENWRFdJMl8wRF8weWZmb3ZISXJUREREWGVIN0J6a2YtQUtIU2Rrd2l3YUp5NlJETGUwYVJwMkpEMUtQcThIWElWMzYwREYzbXhwY0ZJRFhoVzlLWlRLS292Z0YwVGJQODJiMVFyQ3czc1ppb3YtUzM2dm4wRXVKYWlJQy11d2NyVTdmdjAyWlN0TGNlWDRUa1A3QVpZcjQ?oc=5",
+   "data": "2026-11-14T02:23+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.41,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há 1 h"
+   ]
+  },
   {
    "titulo": "Ibovespa avança 0,66% e dólar acumula alta de 2,63% na semana - Vero Notícias",
    "fonte": "Vero Notícias",
@@ -28,13 +230,13 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 7.55,
+   "impacto": 7.04,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há menos de 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -46,10 +248,10 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.39,
+   "impacto": 1.3,
    "cobertura": 1,
    "motivos": [
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -61,12 +263,12 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 6.22,
+   "impacto": 5.85,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "sentimento positivo (+1.00)",
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -78,12 +280,12 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 6.2,
+   "impacto": 5.83,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "sentimento positivo (+1.00)",
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -95,10 +297,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.38,
+   "impacto": 1.3,
    "cobertura": 1,
    "motivos": [
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -110,10 +312,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.37,
+   "impacto": 1.29,
    "cobertura": 1,
    "motivos": [
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -125,26 +327,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.06,
-   "cobertura": 2,
-   "motivos": [
-    "tema coberto por 2 veículos",
-    "publicada há 2 h"
-   ]
-  },
-  {
-   "titulo": "Voos cancelados nos EUA ultrapassam 3 mil; partidas do Brasil para o Canadá atrasam",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/mundo/voos-cancelados-nos-eua-ultrapassam-3-mil-partidas-do-brasil-para-o-canada-atrasam/",
-   "data": "2026-11-14T00:26+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.37,
+   "impacto": 1.29,
    "cobertura": 1,
    "motivos": [
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -156,42 +342,25 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.37,
+   "impacto": 1.29,
    "cobertura": 1,
    "motivos": [
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
-   "titulo": "Lotomania: confira o resultado do concurso 2999 sorteado nesta sexta-feira (13)",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/consumo/lotomania-confira-o-resultado-do-concurso-2999-sorteado-nesta-sexta-feira-13/",
-   "data": "2026-11-14T00:25+00:00",
+   "titulo": "Panorama Semanal de Câmbio - StoneX",
+   "fonte": "StoneX",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcUZuQzY2Z1JnZnZ5R045dkZPT1o0Wm5IamhZV1RYWU8xUDl6X3ZQNUo5MEF6QVpQOGhTYlBPU1FreENuMXF6WEU2QjZMVmxGUGF3anhtQTNEclJNOE9fOHJIVkI0RXhiOWlHNTlIUElwNW9RRVlyazlLcldZcVRGLTNB?oc=5",
+   "data": "2026-11-14T00:16+00:00",
    "sentimento": 0.0,
    "classes": [
-    "acoes"
+    "moedas"
    ],
-   "impacto": 2.05,
-   "cobertura": 2,
+   "impacto": 1.28,
+   "cobertura": 1,
    "motivos": [
-    "tema coberto por 2 veículos",
-    "publicada há 2 h"
-   ]
-  },
-  {
-   "titulo": "Lotofácil hoje, concurso 3829: confira o resultado sorteado nesta sexta-feira (13)",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/consumo/lotofacil-hoje-concurso-3829-confira-o-resultado-sorteado-nesta-sexta-feira-13/",
-   "data": "2026-11-14T00:08+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 2.03,
-   "cobertura": 2,
-   "motivos": [
-    "tema coberto por 2 veículos",
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -203,44 +372,13 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 10.25,
-   "cobertura": 3,
+   "impacto": 12.1,
+   "cobertura": 4,
    "motivos": [
-    "tema coberto por 3 veículos",
+    "tema coberto por 4 veículos",
     "palavras de alto impacto: balanço, dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 2 h"
-   ]
-  },
-  {
-   "titulo": "Pane Microsoft Bolsa: negócios por WhatsApp e fax - Acia Araçatuba",
-   "fonte": "Acia Araçatuba",
-   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8yMFVial9Sa0dkU3ROSzEzWHd2ZGxGS3FPazlCR0YzWkJZdHprZ21Mb2padTdleUFtOXpQSUdtN1hHeE9MNk5SR1QySHp0dkdhWWMxaGN4VjJQUENfOEVmbmVMbG90TnE5UXZXdFhpMXZWSGdxTEd2Wg?oc=5",
-   "data": "2026-11-14T00:07+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.35,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 2 h"
-   ]
-  },
-  {
-   "titulo": "Quina hoje, concurso 7167: confira o resultado sorteado nesta sexta-feira (13)",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/consumo/quina-hoje-concurso-7167-confira-o-resultado-sorteado-nesta-sexta-feira-13/",
-   "data": "2026-11-14T00:04+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 2.02,
-   "cobertura": 2,
-   "motivos": [
-    "tema coberto por 2 veículos",
-    "publicada há 2 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -252,27 +390,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 2.82,
+   "impacto": 2.67,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "palavras de alto impacto: dólar",
-    "publicada há 2 h"
-   ]
-  },
-  {
-   "titulo": "Falha do tráfego aéreo não será resolvida de forma rápida, diz secretário dos EUA",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/mundo/falha-do-trafego-aereo-nao-sera-resolvida-de-forma-rapida-diz-secretario-dos-eua/",
-   "data": "2026-11-13T23:54+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.34,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 2 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -284,10 +407,10 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 1.33,
+   "impacto": 1.26,
    "cobertura": 1,
    "motivos": [
-    "publicada há 2 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -299,27 +422,11 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 3.98,
+   "impacto": 3.76,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
-    "publicada há 3 h"
-   ]
-  },
-  {
-   "titulo": "Mercado financeiro mantém cautela enquanto pacote fiscal de R$ 60 bilhões avança no Senado - Plantão Brasil",
-   "fonte": "Plantão Brasil",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQU2JQdHdJaHJFT2N1V1RvLWpCWVhsQ1pudW5QbkU2MnUzTUJlbmZwNjZNcHVXdXJKVzd0cHc3Ni1vNmZqbUFQRGE1WkdIWkFoN1p5QkwxYVc0U0h1R1BBVDZLNDJnNVhwenVfd3ljdXdRSEZBSTZvdFhDODBJblBFblY1am1YUE1pQUU5T0d5ODRmX0pVemp4V0xHZ2VWODYxSVU0ZUNlY2RwQlROWktCc3VWM1lGcm5VMVEwcGxWbENVRzZWb0UweHJGQzZaV0Zy?oc=5",
-   "data": "2026-11-13T23:40+00:00",
-   "sentimento": 1.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 3.97,
-   "cobertura": 1,
-   "motivos": [
-    "sentimento positivo (+1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -331,13 +438,13 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 15.71,
-   "cobertura": 6,
+   "impacto": 12.74,
+   "cobertura": 5,
    "motivos": [
-    "tema coberto por 6 veículos",
+    "tema coberto por 5 veículos",
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -349,12 +456,12 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 5.93,
+   "impacto": 5.61,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "sentimento positivo (+1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -366,10 +473,10 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 1.32,
+   "impacto": 1.25,
    "cobertura": 1,
    "motivos": [
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -381,11 +488,11 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 3.95,
+   "impacto": 3.74,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -397,11 +504,11 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.84,
+   "impacto": 1.74,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -413,12 +520,12 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 5.91,
+   "impacto": 5.6,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "sentimento positivo (+1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -430,12 +537,29 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.42,
+   "impacto": 4.19,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
+   ]
+  },
+  {
+   "titulo": "Dólar fecha a R$ 5,65 e mercado se divide sobre ajuste fiscal - TV Sim Brasil",
+   "fonte": "TV Sim Brasil",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMzZRXzZiN0JUbWFRYS03NFp1Y0hmN2d6TlE1WDVYQmxUb24yeTNqVDY0Z3JQZ3dKcE13aUVKTXNPejZEREZ2akNwZVlDb3ZSTTdXQ01YNzJ4bHB0d0VKSjVyYlZWR1czQm1hMm1xR21vU3VhblpsUGFvTVRSQk5QWmppRHpQVDBFbUhJRkViYzVwcU8zanNmNnVCa2UtU21vaTBDM2w3NUJVdw?oc=5",
+   "data": "2026-11-13T23:16+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 4.32,
+   "cobertura": 4,
+   "motivos": [
+    "tema coberto por 4 veículos",
+    "palavras de alto impacto: dólar",
+    "publicada há 4 h"
    ]
   },
   {
@@ -447,28 +571,13 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 13.22,
-   "cobertura": 5,
+   "impacto": 10.44,
+   "cobertura": 4,
    "motivos": [
-    "tema coberto por 5 veículos",
+    "tema coberto por 4 veículos",
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 3 h"
-   ]
-  },
-  {
-   "titulo": "Serviço Nacional de Meteorologia dos EUA relata problemas de internet em todo o país",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/mundo/servico-nacional-de-meteorologia-dos-eua-relata-problemas-de-internet-em-todo-o-pais/",
-   "data": "2026-11-13T23:07+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.29,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -480,25 +589,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.29,
+   "impacto": 1.23,
    "cobertura": 1,
    "motivos": [
-    "publicada há 3 h"
-   ]
-  },
-  {
-   "titulo": "Japão x Brasil: Veja onde assistir, horário e escalações",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/esportes/japao-brasil-onde-assistir-horario-escalacoes/",
-   "data": "2026-11-13T23:00+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.29,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 3 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -510,11 +604,11 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.8,
+   "impacto": 1.71,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
-    "publicada há 3 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -526,13 +620,13 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 6.55,
+   "impacto": 6.22,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 3 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -544,10 +638,10 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.27,
+   "impacto": 1.21,
    "cobertura": 1,
    "motivos": [
-    "publicada há 4 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -559,11 +653,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.29,
+   "impacto": 2.17,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: juros",
-    "publicada há 4 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -575,11 +669,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 3.81,
+   "impacto": 3.62,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
-    "publicada há 4 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -591,10 +685,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.27,
+   "impacto": 1.2,
    "cobertura": 1,
    "motivos": [
-    "publicada há 4 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -606,12 +700,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 2.65,
+   "impacto": 2.52,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "palavras de alto impacto: dólar",
-    "publicada há 4 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -623,13 +717,13 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 12.87,
-   "cobertura": 5,
+   "impacto": 10.2,
+   "cobertura": 4,
    "motivos": [
-    "tema coberto por 5 veículos",
+    "tema coberto por 4 veículos",
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 4 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -641,11 +735,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 3.78,
+   "impacto": 3.6,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
-    "publicada há 4 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -657,12 +751,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.27,
+   "impacto": 4.07,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 4 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -674,12 +768,12 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 7.52,
+   "impacto": 7.16,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
     "sentimento positivo (+1.00)",
-    "publicada há 4 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -691,12 +785,12 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 5.62,
+   "impacto": 5.35,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "sentimento positivo (+1.00)",
-    "publicada há 4 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -708,13 +802,13 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 14.86,
+   "impacto": 14.15,
    "cobertura": 6,
    "motivos": [
     "tema coberto por 6 veículos",
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 4 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -726,12 +820,11 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 2.62,
-   "cobertura": 2,
+   "impacto": 1.66,
+   "cobertura": 1,
    "motivos": [
-    "tema coberto por 2 veículos",
     "palavras de alto impacto: dólar",
-    "publicada há 4 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -743,11 +836,11 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.74,
+   "impacto": 1.66,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
-    "publicada há 4 h"
+    "publicada há 6 h"
    ]
   },
   {
@@ -759,10 +852,10 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 1.24,
+   "impacto": 1.18,
    "cobertura": 1,
    "motivos": [
-    "publicada há 4 h"
+    "publicada há 6 h"
    ]
   },
   {
@@ -774,12 +867,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.22,
+   "impacto": 4.02,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 4 h"
+    "publicada há 6 h"
    ]
   },
   {
@@ -791,11 +884,11 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.74,
+   "impacto": 1.66,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
-    "publicada há 4 h"
+    "publicada há 6 h"
    ]
   },
   {
@@ -807,11 +900,11 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 2.23,
+   "impacto": 2.13,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin, vale",
-    "publicada há 4 h"
+    "publicada há 6 h"
    ]
   },
   {
@@ -823,13 +916,13 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 6.32,
+   "impacto": 6.03,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 4 h"
+    "publicada há 6 h"
    ]
   },
   {
@@ -841,12 +934,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.21,
+   "impacto": 4.01,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 4 h"
+    "publicada há 6 h"
    ]
   },
   {
@@ -858,12 +951,27 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.7,
+   "impacto": 4.48,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: petróleo",
     "sentimento positivo (+1.00)",
-    "publicada há 4 h"
+    "publicada há 6 h"
+   ]
+  },
+  {
+   "titulo": "WorkFusion debate IA no combate a crimes financeiros - www.broadcast.com.br",
+   "fonte": "www.broadcast.com.br",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRGQ5Z1pjQWN0ak16VWh4QS0xWFNydFd6VFF0ZGx1VGNJY1VaLWR5aUVxVUotTUtwVW9haGNadG5fX3NNWF9nTGI2ekh6U1JzV0kxQ0F6NWZVbEllbmpUMGw3N0VqUGN2OUQ0X3g4UXYxUlV2QlVaVk5CNXMzdGx0a0ZZX0VzSThYMDEyU3gzaUNuT2ZSbjUzMzRR?oc=5",
+   "data": "2026-11-13T21:57+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.18,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há 6 h"
    ]
   },
   {
@@ -875,130 +983,11 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.73,
+   "impacto": 1.65,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
-    "publicada há 4 h"
-   ]
-  },
-  {
-   "titulo": "Dólar fecha estável a R$ 5,65, mas sobe 2,63% na semana - Agência Brasil",
-   "fonte": "Agência Brasil",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUjlfTVRsNndCZms4QXFyT0cxeXZWS3dmbWxDbV9CLUJvLUFOdWd3b1U3MThndEcyak8wTXN2R0U1UUdaRlp2UHpFb1FsQnRiT1U5V2NTczZmaUhGNnppLXdUbEJ2Yk43a0xhaGNHQ3MwMkZSZDQ0TTR2Vlcyck44cWJfMk5JZHVOMFJWcWpZWV9SVG9oeUd1NFlwZE9ZWnVERjFwTWxJTGQxQQ?oc=5",
-   "data": "2026-11-13T21:53+00:00",
-   "sentimento": 1.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 14.68,
-   "cobertura": 6,
-   "motivos": [
-    "tema coberto por 6 veículos",
-    "palavras de alto impacto: dólar",
-    "sentimento positivo (+1.00)",
-    "publicada há 4 h"
-   ]
-  },
-  {
-   "titulo": "Dólar deve ter sua melhor semana em dois meses; iene se enfraquece em direção a 160 - TradingView",
-   "fonte": "TradingView",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5kTVhYalUxVHE3dURzTHVzdjlDT1lwcV96SnRjdmNTYlhyYmpQSTBoTV9jc1V3Z0tJdmZFQ1lMUzZzTU5GSWd2SHYxR0diVXRrMTZlWUNHVm8xcFBybUhEN0Z0RGplS0l0d1RDRVhwalpsQ3ZLX3JZ?oc=5",
-   "data": "2026-11-13T21:53+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 1.73,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: dólar",
-    "publicada há 4 h"
-   ]
-  },
-  {
-   "titulo": "Wall Street encerra semana forte com queda diária - TradingView",
-   "fonte": "TradingView",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9UV2Eyd2VGcWwzWUZtUU1lZlpaY1FEVzJzNVdnUmI3eE1vclQ4S0RKM0VGaTJNWWpsNlVuOTZpMkFsWjJMRmQyOFJFRUxaQ0QwNU9NckNMVjc5SmljQzg1bUwzSGlPX0FFYmFleHlXblhMdjNJV2tv?oc=5",
-   "data": "2026-11-13T21:53+00:00",
-   "sentimento": -1.0,
-   "classes": [
-    "exterior"
-   ],
-   "impacto": 3.7,
-   "cobertura": 1,
-   "motivos": [
-    "sentimento negativo (-1.00)",
-    "publicada há 4 h"
-   ]
-  },
-  {
-   "titulo": "Ibovespa hoje sobe 0,66% e encerra semana com elevação de 2,35% - EuQueroInvestir",
-   "fonte": "EuQueroInvestir",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPb05CMmRaZ1doa1VZWWZFRUU2MmlFc3A1VmR4d1JpcS15bkdpNWdnS09SRnZzY1Byd0N2Y1lLR2szTk1jUHA0V1puQ3NXTGhxT25jLUZ3RExhWjdhTTZOeUk0cFY1MFJfX0VjYmlNMkpNY2N3OFNNRlBSSUZWSWRmNlhMNnctTjZVOTJyNnpvdkNvRVdrLXVQRQ?oc=5",
-   "data": "2026-11-13T21:50+00:00",
-   "sentimento": 1.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 3.69,
-   "cobertura": 1,
-   "motivos": [
-    "sentimento positivo (+1.00)",
-    "publicada há 4 h"
-   ]
-  },
-  {
-   "titulo": "Bolsa sobe e dólar fica estável após pacote; veja fechamento - InvestNews",
-   "fonte": "InvestNews",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWk1EVzVBYWFDWEpTdkZjN041aDZUbjBheThrZjBIWVF5MXZ2TzV4RU5YQzZKSklhbk9iR0JKeUJEQjBvSC04aVNyQkpPSE1YbUpDblJWNUk3cEdHRndRbzdUeTFsMlRneW9oVXVWa3BUenZJWWpVX2FsLWUxT2trdWpCUFd1VjZzbmdIMVNYQ19TaU83UWJkVzZWRmxoamU4LWxOdUI0b9IBpwFBVV95cUxPWk1EVzVBYWFDWEpTdkZjN041aDZUbjBheThrZjBIWVF5MXZ2TzV4RU5YQzZKSklhbk9iR0JKeUJEQjBvSC04aVNyQkpPSE1YbUpDblJWNUk3cEdHRndRbzdUeTFsMlRneW9oVXVWa3BUenZJWWpVX2FsLWUxT2trdWpCUFd1VjZzbmdIMVNYQ19TaU83UWJkVzZWRmxoamU4LWxOdUI0bw?oc=5",
-   "data": "2026-11-13T21:47+00:00",
-   "sentimento": 1.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 6.27,
-   "cobertura": 2,
-   "motivos": [
-    "tema coberto por 2 veículos",
-    "palavras de alto impacto: dólar",
-    "sentimento positivo (+1.00)",
-    "publicada há 4 h"
-   ]
-  },
-  {
-   "titulo": "Bolsas de NY fecham sem direção única com perdas de techs em meio à crise da Nvidia - InfoMoney",
-   "fonte": "InfoMoney",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMkxWdU5tUXExRjFPZVR3VENaZlVSdW5hcmpocDlqclpyeURzTXRkWFJJUnQ1Zmh0UnUxdWZOSVpfMGJ1LUF2U01NaldhbFdxSkgtQWFjT2haQkFoTlUtVklyWUhyYlduTFppWjVYTl82a01zNjVKRmNrbFVmSHdiWHFiaDlPcWM0VWw4RVhLQS1LZi1uMnlUR0t6YzVxYzhRTUVjTVNaRjV3U0ZVTkk4Q1ExU3VvLTJrRlB5ZdIBwgFBVV95cUxNT0lLcGpzcVhnQjYtTzFDblNEYVN6bU5idFRPaW1DSXZQV3Nnb182Ri1ESlkyaEZZTlJJb05HbHhXM05ucU52NjNDN2JXRWxhUjJZdFlfMWdiUkNRRnd1WDZGOXZqZldrY0JVdEtuVExpUzRGVnZHUUpLSjYwOWhRM3JMN25TTzU5Z0ZndFZ0d1ZIQS1HR3FhNHpTcnRMaXJJZWVQZGhpaGthRG9GV1U4MW5paTBxUnlkUDF5R29YRDlCZw?oc=5",
-   "data": "2026-11-13T21:45+00:00",
-   "sentimento": -1.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 5.15,
-   "cobertura": 1,
-   "motivos": [
-    "palavras de alto impacto: crise",
-    "sentimento negativo (-1.00)",
-    "publicada há 4 h"
-   ]
-  },
-  {
-   "titulo": "Ibovespa B3 sobe 0,66% após aprovação de pacote fiscal; dólar fica praticamente estável - Bora Investir",
-   "fonte": "Bora Investir",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTXI1OVRubk1MMmhwTWgyNzRWQ2MwWmxLTXZGVUZuUkY0MkhiazZ4UHNwdGlaZnU1T1JKamw3MS1HYzBzZzBuMnFZaHowRy1TbTdxY1RZQy1GQlVwbkxpOGM2LUl2YVFxWlpFN3RZVUhCX2sydTh3ZE16WGcyTEpoXzFKNXRZSzI4Qm85NFJyenZGZi1sVUxVNGFra2hYQ1p1cDB3ZUJWWV8yUllfazBCb0tfRE02cXlZdDhSd2xTNzMwMnY5VDBtMTBoU3djUQ?oc=5",
-   "data": "2026-11-13T21:42+00:00",
-   "sentimento": 1.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 8.33,
-   "cobertura": 3,
-   "motivos": [
-    "tema coberto por 3 veículos",
-    "palavras de alto impacto: dólar",
-    "sentimento positivo (+1.00)",
-    "publicada há 5 h"
+    "publicada há 6 h"
    ]
   }
  ]
