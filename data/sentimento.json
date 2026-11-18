@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-18T03:08:48+00:00",
+ "atualizado": "2026-11-18T03:37:59+00:00",
  "origem": "noticias.json",
  "metodo": "média de pontuações por palavras-chave; sinal informativo, não previsão",
  "quantidade": 60,
@@ -18,12 +18,12 @@
    "media": 0.0
   },
   "exterior": {
-   "quantidade": 8,
-   "media": -0.084
+   "quantidade": 7,
+   "media": -0.096
   },
   "acoes": {
-   "quantidade": 22,
-   "media": -0.091
+   "quantidade": 23,
+   "media": -0.087
   }
  },
  "sinal": "neutro"
