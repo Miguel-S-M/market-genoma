@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-18T03:37:59+00:00",
+ "atualizado": "2026-11-18T03:49:58+00:00",
  "destaque": {
   "titulo": "Dólar fecha em alta e atinge maior cotação desde abril de 2025; Ibovespa avança 0,31% - Blog Edmar Lyra",
   "fonte": "Blog Edmar Lyra",
@@ -9,7 +9,7 @@
   "classes": [
    "moedas"
   ],
-  "impacto": 8.15,
+  "impacto": 8.1,
   "cobertura": 3,
   "motivos": [
    "tema coberto por 3 veículos",
@@ -28,7 +28,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.46,
+   "impacto": 1.44,
    "cobertura": 1,
    "motivos": [
     "publicada há menos de 1 h"
@@ -43,7 +43,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 2.03,
+   "impacto": 2.01,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -59,7 +59,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 2.03,
+   "impacto": 2.01,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -75,11 +75,26 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 6.09,
+   "impacto": 6.03,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: crise",
     "sentimento negativo (-1.00)",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Wall Street encerra em terreno negativo de olhos postos na Nvidia - Jornal Económico",
+   "fonte": "Jornal Económico",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeG9Cd1AtTHJ6VEx1RXhRWUpvRnZIM0FuYjBEejhBUmlXVmhLWXJmTURxS3RoZzVJQzBad0NsSWgwaXlrdmZZRDEtbjJGV2J1bENWRDlmaWZWVVFNVS1QbDZ6THY0UzJOQVhVTjZjMmczZVpHbTJCTW9sTnl0RWhOdmRleGdsYnNJUXBfSzlqdXhDemVseWw1aGdLVEJDLXJfekJlamxrOXhObDg?oc=5",
+   "data": "2026-11-18T03:00+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "exterior"
+   ],
+   "impacto": 1.44,
+   "cobertura": 1,
+   "motivos": [
     "publicada há menos de 1 h"
    ]
   },
@@ -92,7 +107,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 3.03,
+   "impacto": 3.0,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -109,12 +124,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.01,
+   "impacto": 3.97,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
     "palavras de alto impacto: dólar",
-    "publicada há menos de 1 h"
+    "publicada há 1 h"
    ]
   },
   {
@@ -126,10 +141,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.39,
+   "impacto": 1.38,
    "cobertura": 1,
    "motivos": [
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -140,21 +155,6 @@
    "sentimento": 0.0,
    "classes": [
     "acoes"
-   ],
-   "impacto": 1.39,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 1 h"
-   ]
-  },
-  {
-   "titulo": "Wall Street encerra em terreno negativo de olhos postos na Nvidia - Jornal Económico",
-   "fonte": "Jornal Económico",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeG9Cd1AtTHJ6VEx1RXhRWUpvRnZIM0FuYjBEejhBUmlXVmhLWXJmTURxS3RoZzVJQzBad0NsSWgwaXlrdmZZRDEtbjJGV2J1bENWRDlmaWZWVVFNVS1QbDZ6THY0UzJOQVhVTjZjMmczZVpHbTJCTW9sTnl0RWhOdmRleGdsYnNJUXBfSzlqdXhDemVseWw1aGdLVEJDLXJfekJlamxrOXhObDg?oc=5",
-   "data": "2026-11-18T02:00+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "exterior"
    ],
    "impacto": 1.38,
    "cobertura": 1,
@@ -171,7 +171,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.6,
+   "impacto": 4.56,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -189,7 +189,7 @@
     "moedas",
     "exterior"
    ],
-   "impacto": 7.3,
+   "impacto": 7.24,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: fed, crise, dólar",
@@ -206,11 +206,11 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.87,
+   "impacto": 1.85,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -223,7 +223,7 @@
     "moedas",
     "exterior"
    ],
-   "impacto": 3.79,
+   "impacto": 3.76,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: petróleo, dólar",
@@ -240,7 +240,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.32,
+   "impacto": 1.31,
    "cobertura": 1,
    "motivos": [
     "publicada há 3 h"
@@ -255,7 +255,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 1.98,
+   "impacto": 1.96,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -271,7 +271,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.34,
+   "impacto": 2.32,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: juros",
@@ -287,7 +287,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.41,
+   "impacto": 4.38,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -304,7 +304,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 5.45,
+   "impacto": 5.4,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: petróleo, dividendos",
@@ -321,7 +321,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.29,
+   "impacto": 1.28,
    "cobertura": 1,
    "motivos": [
     "publicada há 3 h"
@@ -336,7 +336,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.89,
+   "impacto": 4.85,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: rebaixa",
@@ -353,11 +353,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.93,
+   "impacto": 1.91,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -369,12 +369,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 3.6,
+   "impacto": 3.57,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
     "palavras de alto impacto: dólar",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -386,10 +386,10 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.28,
+   "impacto": 1.27,
    "cobertura": 1,
    "motivos": [
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -401,11 +401,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.91,
+   "impacto": 1.9,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -417,7 +417,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.91,
+   "impacto": 1.9,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -433,7 +433,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.78,
+   "impacto": 1.77,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -449,7 +449,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.27,
+   "impacto": 1.26,
    "cobertura": 1,
    "motivos": [
     "publicada há 4 h"
@@ -464,7 +464,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.91,
+   "impacto": 1.89,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -480,7 +480,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.77,
+   "impacto": 1.75,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -496,7 +496,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.77,
+   "impacto": 1.75,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -512,10 +512,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.23,
+   "impacto": 1.22,
    "cobertura": 1,
    "motivos": [
-    "publicada há 4 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -527,7 +527,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.17,
+   "impacto": 4.14,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -544,7 +544,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.23,
+   "impacto": 1.22,
    "cobertura": 1,
    "motivos": [
     "publicada há 5 h"
@@ -559,7 +559,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.23,
+   "impacto": 1.22,
    "cobertura": 1,
    "motivos": [
     "publicada há 5 h"
@@ -574,7 +574,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 3.68,
+   "impacto": 3.65,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
@@ -590,7 +590,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.22,
+   "impacto": 1.21,
    "cobertura": 1,
    "motivos": [
     "publicada há 5 h"
@@ -605,7 +605,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.15,
+   "impacto": 4.12,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -622,7 +622,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.15,
+   "impacto": 4.12,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -639,7 +639,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 2.56,
+   "impacto": 2.54,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -656,7 +656,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 5.12,
+   "impacto": 5.08,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: juros, dólar",
@@ -673,7 +673,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.22,
+   "impacto": 1.21,
    "cobertura": 1,
    "motivos": [
     "publicada há 5 h"
@@ -688,7 +688,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 2.55,
+   "impacto": 2.54,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -705,7 +705,22 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 1.22,
+   "impacto": 1.21,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há 5 h"
+   ]
+  },
+  {
+   "titulo": "Fato relevante FII VIOL: nova chamada de capital e o impacto no cotista - ativovirtual.com.br",
+   "fonte": "ativovirtual.com.br",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNFhmNE41emIwYVhhQXNSNDV2WVhFLUNuZmY2aUVpNllvcGVaT1k5SDZ3MTdtamNaMUFhc0VSSGpyUkpxZVQ2ZjNDX1JnT1dPQnZtY2czTHN2MDE4QmlUaC1Pb0k2WldESTVzNlI1YzFIV1g0NlRZcURYUXpqSEdrcnpxOXptdzRyaWNYaVpPd3lvUDJaSjdOazFNckMtNHdzeVQxRlVxaFNlNVdCNGZtU2pJaXlYNFc4?oc=5",
+   "data": "2026-11-17T22:51+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "imobiliario"
+   ],
+   "impacto": 1.21,
    "cobertura": 1,
    "motivos": [
     "publicada há 5 h"
@@ -720,7 +735,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 2.55,
+   "impacto": 2.53,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -737,7 +752,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.21,
+   "impacto": 1.2,
    "cobertura": 1,
    "motivos": [
     "publicada há 5 h"
@@ -752,7 +767,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 2.64,
+   "impacto": 2.62,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: juros, dólar",
@@ -768,7 +783,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 8.15,
+   "impacto": 8.1,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
@@ -786,7 +801,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.2,
+   "impacto": 1.19,
    "cobertura": 1,
    "motivos": [
     "publicada há 5 h"
@@ -801,7 +816,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 1.8,
+   "impacto": 1.78,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -817,7 +832,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 2.63,
+   "impacto": 2.61,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: banco central, dólar",
@@ -836,7 +851,7 @@
    "impacto": 1.19,
    "cobertura": 1,
    "motivos": [
-    "publicada há 5 h"
+    "publicada há 6 h"
    ]
   },
   {
@@ -848,13 +863,13 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 6.08,
+   "impacto": 6.04,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 5 h"
+    "publicada há 6 h"
    ]
   },
   {
@@ -866,11 +881,11 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 2.14,
+   "impacto": 2.13,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: juros",
-    "publicada há 5 h"
+    "publicada há 6 h"
    ]
   },
   {
@@ -882,10 +897,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.19,
+   "impacto": 1.18,
    "cobertura": 1,
    "motivos": [
-    "publicada há 5 h"
+    "publicada há 6 h"
    ]
   },
   {
@@ -897,10 +912,10 @@
    "classes": [
     "imobiliario"
    ],
-   "impacto": 1.19,
+   "impacto": 1.18,
    "cobertura": 1,
    "motivos": [
-    "publicada há 5 h"
+    "publicada há 6 h"
    ]
   },
   {
@@ -912,11 +927,11 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.66,
+   "impacto": 1.65,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
-    "publicada há 5 h"
+    "publicada há 6 h"
    ]
   },
   {
@@ -928,13 +943,13 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 6.06,
+   "impacto": 6.02,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 5 h"
+    "publicada há 6 h"
    ]
   },
   {
@@ -946,12 +961,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.04,
+   "impacto": 4.01,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 5 h"
+    "publicada há 6 h"
    ]
   },
   {
@@ -962,21 +977,6 @@
    "sentimento": 0.0,
    "classes": [
     "acoes"
-   ],
-   "impacto": 1.19,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 6 h"
-   ]
-  },
-  {
-   "titulo": "Fundo imobiliário Oxigênio 2 inicia quinta emissão de cotas - Suno - Investimentos Inteligentes",
-   "fonte": "Suno - Investimentos Inteligentes",
-   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNWXhodDdhekp6OUhzTWVWdXFSbHFFR1hCUTRtUjZsZnA5cmxGZlBCRVZHVVR5ZzFkbjVvQmpTM3NYaHJPcF9FTFJnNjU3TW5aM1g5R1RKcTRpN2JNblJZX0ZLbWlZa05PbV9zckx4YWxGQXR0bWFkZnJiU183RThFVlhR0gGHAUFVX3lxTE5Sc3F6TFQyNTUyU0lwZWl2VXRab3pQZzFhT2EySl9lYjFuY19pTTY2MnBzRjI1U1hHOHRMVkg0WE8zOEFMMDc0NzJOWlpJYjdoSUhRNHZsNXlCdXFLY2tEcDNwZ0xoQWh4Wi1yS0s3SFRyRHFBQjdNX2ptLWxWRjVLUU96Z1dCbw?oc=5",
-   "data": "2026-11-17T22:06+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "imobiliario"
    ],
    "impacto": 1.18,
    "cobertura": 1,
