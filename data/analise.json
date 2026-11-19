@@ -1,10 +1,10 @@
 {
- "atualizado": "2026-11-18T21:07:52+00:00",
+ "atualizado": "2026-11-19T03:12:07+00:00",
  "regime_atual": "crise",
  "indicadores": {
-  "retorno_20d": -19.5,
+  "retorno_20d": -19.6,
   "vol_20d": 51.6,
-  "vs_media200": -7.5
+  "vs_media200": -7.6
  },
  "serie": [
   {
@@ -604,7 +604,7 @@
   },
   {
    "data": "2026-11-18",
-   "fechamento": 167578,
+   "fechamento": 167538,
    "regime": "crise"
   }
  ],
