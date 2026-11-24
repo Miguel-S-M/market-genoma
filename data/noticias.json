@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-24T05:28:43+00:00",
+ "atualizado": "2026-11-24T05:54:27+00:00",
  "destaque": {
   "titulo": "Dólar supera R$ 6 durante o dia e fecha em queda a R$ 5,93 - Vero Notícias",
   "fonte": "Vero Notícias",
@@ -9,16 +9,49 @@
   "classes": [
    "moedas"
   ],
-  "impacto": 8.67,
+  "impacto": 8.53,
   "cobertura": 3,
   "motivos": [
    "tema coberto por 3 veículos",
    "palavras de alto impacto: dólar",
    "sentimento negativo (-1.00)",
-   "publicada há 3 h"
+   "publicada há 4 h"
   ]
  },
  "itens": [
+  {
+   "titulo": "Stablecoins e IOF: Receita Federal, operações de câmbio e as diferenças conceituais entre os perímetros regulatório e tributário - JOTA Info",
+   "fonte": "JOTA Info",
+   "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQdk51THNYaG96Z3pGYkpUdGJManZuZ0NwbUN3MnhoUU1sbGpkaHh2X0Z4QTJhMUxadFVjd3FRbkQ5bFRmVUtlT1BkTWlISTEtY0dCc25XbFU0dVBVaEhPa1JXeDlWSDhITUFjWndCVHpBOFJ2cEYzZTBfVHRGM0NZekVESkpFbVpkX2E4cGE0Q0l0QVlQbl8yaFBrX2c2OHhreGJob3k0TnpLbFY4NVFzU3JOWkR4Z2o1amdac0xNS2NndXpMNDFwb2x0NjJUSlpuVlFJOXQ4X3NMWjA2UGdRRGh1Q0FIcEY4LWpRVlU4MlVRTG8tNjZBc3pNMkVzZlYwY0RTUQ?oc=5",
+   "data": "2026-11-24T05:43+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 3.27,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: fed",
+    "publicada há menos de 1 h"
+   ]
+  },
+  {
+   "titulo": "Grayscale afirma que o Bitcoin está sobrevendido, mas um risco externo pode definir seu caminho - BeInCrypto",
+   "fonte": "BeInCrypto",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBWbG44aTM0enRGTVFxNnVJVHQ5eVo1ZnJtbmNSbjVQYVd4R1pVTFhIaTlkM3U2RWJ2Y3daVk04MENIWGRhYWp3R1RMVEV3N2N1U2UyM0ZSRVBvUHpsQUpsanpoOVZTNGt3bk9XWkdZd3NiSkp1YjdlMWVsc1o?oc=5",
+   "data": "2026-11-24T05:26+00:00",
+   "sentimento": -1.0,
+   "classes": [
+    "cripto"
+   ],
+   "impacto": 4.97,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: bitcoin",
+    "sentimento negativo (-1.00)",
+    "publicada há menos de 1 h"
+   ]
+  },
   {
    "titulo": "Analista da Fidelity diz que ameaça quântica ao Bitcoin está em grande parte resolvida: investidores vão atualizar? - BeInCrypto",
    "fonte": "BeInCrypto",
@@ -28,7 +61,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 2.07,
+   "impacto": 2.03,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -44,7 +77,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 6.64,
+   "impacto": 6.49,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -61,7 +94,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 3.23,
+   "impacto": 3.16,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: selic",
@@ -77,12 +110,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.78,
+   "impacto": 4.69,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
     "sentimento negativo (-1.00)",
-    "publicada há 1 h"
+    "publicada há 2 h"
    ]
   },
   {
@@ -94,7 +127,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 6.24,
+   "impacto": 6.12,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -111,7 +144,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.38,
+   "impacto": 1.36,
    "cobertura": 1,
    "motivos": [
     "publicada há 2 h"
@@ -126,7 +159,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 8.21,
+   "impacto": 8.05,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
@@ -143,7 +176,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.91,
+   "impacto": 1.88,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -159,7 +192,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.36,
+   "impacto": 1.34,
    "cobertura": 1,
    "motivos": [
     "publicada há 2 h"
@@ -174,7 +207,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 4.09,
+   "impacto": 4.01,
    "cobertura": 1,
    "motivos": [
     "sentimento negativo (-1.00)",
@@ -182,19 +215,17 @@
    ]
   },
   {
-   "titulo": "Dólar fecha em queda após bater R$ 6 pela primeira vez desde abril de 2025 - GZH",
-   "fonte": "GZH",
-   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQXQ1VlVMcjNXOEI3SFpaMnhaWUp6UFV4ZVpSZDNiQ29xQjgwdnloaTdGWGpLel9KQnB2Q2J4NEtzMGExTzVFcVNrVm5KRy1ObmhOY0ZGQi1TdjlmQzFMa09sVDA5STE2enVhQWFxMlBlSkc0SmZHQWVCczdZRlhoT2d0VjBwS1lHSW00clpZOFRScWtLRGR6VDFtOXotNEY0TlVQNGwteTE4NTRCbkR1RWZUX2NfdzlZTW55bFN3b0t2MDlSclE?oc=5",
-   "data": "2026-11-24T03:33+00:00",
-   "sentimento": -1.0,
+   "titulo": "Fechamento de Câmbio - StoneX",
+   "fonte": "StoneX",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9UbGxaQVZiYTFJZDZldC00MHN3SFFlTEMzZ3NrMUI0Rm1idnFJN3RLMWt6dklKdU01UHd4QTVZYkRNUnBRbEhvXy1EZEhVdklXUTVCY0ItN0Y0TkJkZVo3SzAzQmVEM3VrVXplVE5XbThIZEJlTVNFNHJn?oc=5",
+   "data": "2026-11-24T03:29+00:00",
+   "sentimento": 0.0,
    "classes": [
     "moedas"
    ],
-   "impacto": 4.63,
+   "impacto": 1.33,
    "cobertura": 1,
    "motivos": [
-    "palavras de alto impacto: dólar",
-    "sentimento negativo (-1.00)",
     "publicada há 2 h"
    ]
   },
@@ -207,10 +238,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.33,
+   "impacto": 1.31,
    "cobertura": 1,
    "motivos": [
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -222,10 +253,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.33,
+   "impacto": 1.31,
    "cobertura": 1,
    "motivos": [
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -237,11 +268,11 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.86,
+   "impacto": 1.83,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -253,11 +284,11 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.99,
+   "impacto": 1.96,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -269,12 +300,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.52,
+   "impacto": 4.44,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 2 h"
+    "publicada há 3 h"
    ]
   },
   {
@@ -286,12 +317,30 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 5.05,
+   "impacto": 4.96,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin, vale",
     "sentimento positivo (+1.00)",
-    "publicada há 2 h"
+    "publicada há 3 h"
+   ]
+  },
+  {
+   "titulo": "Dólar chega a R$ 6 durante o dia, mas fecha em queda; Ibovespa recua 0,95% - Diário de Notícias de São Paulo",
+   "fonte": "Diário de Notícias de São Paulo",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPWEhERjNHa0xaTmR1Q3NIemU4d3dLLXhaeTd1VzNjMWZPZUVzM1VaLWtIMnQxM01TejhKVkphTk9TRXdoY0E5ZVBFcGZtOWJma3k4dFAwVkVmMC1CbF9tZjhTVGh0dHdjYVJlTWM2OGIzUnZkY0Z4OG51ZWw2OFQtZHk5TFFiMmt6cHc2c3hJdw?oc=5",
+   "data": "2026-11-24T02:53+00:00",
+   "sentimento": -1.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 6.62,
+   "cobertura": 2,
+   "motivos": [
+    "tema coberto por 2 veículos",
+    "palavras de alto impacto: dólar",
+    "sentimento negativo (-1.00)",
+    "publicada há 3 h"
    ]
   },
   {
@@ -303,7 +352,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.32,
+   "impacto": 1.3,
    "cobertura": 1,
    "motivos": [
     "publicada há 3 h"
@@ -318,7 +367,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.48,
+   "impacto": 4.4,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -335,7 +384,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.84,
+   "impacto": 1.81,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -351,28 +400,9 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 1.97,
-   "cobertura": 2,
+   "impacto": 1.29,
+   "cobertura": 1,
    "motivos": [
-    "tema coberto por 2 veículos",
-    "publicada há 3 h"
-   ]
-  },
-  {
-   "titulo": "Dólar chega a R$ 6 durante o dia, mas fecha em queda; Ibovespa recua 0,95% - Diário de Notícias de São Paulo",
-   "fonte": "Diário de Notícias de São Paulo",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNeEEybi11Vi1XemNUNkJtZUsyRG84NzNmZHFDN1hORzFFQnRXLXlHTWV0ZnFaMDVQcFY2TDgzQ1FDTVRha202VUwySlRVbkxEeFl0dHItMUFvMTU3WUFlclk1Z25WUV9qdmZ5RzJMODFyMk5tRE82YktIOGttSVA5OHp1UVh3NWdFVDhRLTRMQ3ZielFP?oc=5",
-   "data": "2026-11-24T02:37+00:00",
-   "sentimento": -1.0,
-   "classes": [
-    "moedas"
-   ],
-   "impacto": 6.67,
-   "cobertura": 2,
-   "motivos": [
-    "tema coberto por 2 veículos",
-    "palavras de alto impacto: dólar",
-    "sentimento negativo (-1.00)",
     "publicada há 3 h"
    ]
   },
@@ -385,7 +415,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.82,
+   "impacto": 1.79,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -402,12 +432,12 @@
     "cripto",
     "exterior"
    ],
-   "impacto": 4.39,
+   "impacto": 4.32,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
     "sentimento positivo (+1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -419,11 +449,11 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.79,
+   "impacto": 1.76,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -435,12 +465,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.34,
+   "impacto": 4.27,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
     "sentimento negativo (-1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -452,10 +482,10 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.28,
+   "impacto": 1.25,
    "cobertura": 1,
    "motivos": [
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -467,13 +497,13 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 8.67,
+   "impacto": 8.53,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
     "palavras de alto impacto: dólar",
     "sentimento negativo (-1.00)",
-    "publicada há 3 h"
+    "publicada há 4 h"
    ]
   },
   {
@@ -485,11 +515,26 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.91,
+   "impacto": 1.88,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
-    "publicada há 3 h"
+    "publicada há 4 h"
+   ]
+  },
+  {
+   "titulo": "Por que ainda existem carros com câmbio manual no Brasil e no mundo? - Quatro Rodas",
+   "fonte": "Quatro Rodas",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWTY0Y3ExcXBVVmZTNEhZNm5uZVR2ZF8yaGx0NFNvWXA0ei1hZGRLZDVBOVlUYVBVbXFxNEVVUTAyU3pQWFpLaU9EYWNwSEsyNmdpMUl0VzA5VFBnNXFsRVN5Z2E4SDl0TjhIci1jT1BrRkloYXBHTnl3M1FMSE5ySzh1T2V5THZDNmVsaGZRMUxBWmFZVFFwR1dNdWhJMHUtb2xPT29tUzNueXZsNVJuTWpkQjA?oc=5",
+   "data": "2026-11-24T01:59+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 1.25,
+   "cobertura": 1,
+   "motivos": [
+    "publicada há 4 h"
    ]
   },
   {
@@ -501,7 +546,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.27,
+   "impacto": 1.24,
    "cobertura": 1,
    "motivos": [
     "publicada há 4 h"
@@ -516,7 +561,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 2.51,
+   "impacto": 2.47,
    "cobertura": 3,
    "motivos": [
     "tema coberto por 3 veículos",
@@ -532,7 +577,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.75,
+   "impacto": 1.72,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -548,11 +593,11 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 3.72,
+   "impacto": 3.67,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: inflação, pib, dólar",
-    "publicada há 4 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -564,10 +609,10 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 1.24,
+   "impacto": 1.22,
    "cobertura": 1,
    "motivos": [
-    "publicada há 4 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -580,11 +625,11 @@
     "cripto",
     "exterior"
    ],
-   "impacto": 3.71,
+   "impacto": 3.65,
    "cobertura": 1,
    "motivos": [
     "sentimento positivo (+1.00)",
-    "publicada há 4 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -597,12 +642,12 @@
     "moedas",
     "exterior"
    ],
-   "impacto": 5.68,
+   "impacto": 5.6,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: fed, dólar",
     "sentimento positivo (+1.00)",
-    "publicada há 4 h"
+    "publicada há 5 h"
    ]
   },
   {
@@ -614,7 +659,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.7,
+   "impacto": 1.68,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -630,7 +675,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 6.18,
+   "impacto": 6.09,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -648,7 +693,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 5.09,
+   "impacto": 5.01,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: inflação, dólar",
@@ -665,7 +710,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 6.16,
+   "impacto": 6.07,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -683,7 +728,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 4.1,
+   "impacto": 4.04,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: bitcoin",
@@ -700,7 +745,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.81,
+   "impacto": 1.78,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -716,7 +761,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.81,
+   "impacto": 1.78,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
@@ -732,29 +777,29 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 1.78,
+   "impacto": 1.76,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
-    "publicada há 5 h"
+    "publicada há 6 h"
    ]
   },
   {
    "titulo": "Dólar bate R$ 6, mas depois fecha em leve queda - G1",
    "fonte": "G1",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdjB1aUdBQVdHLWN6aVhBd1FRblBQcGRXYy1hc1pCdlR1SGhsOVR6Z1ZlM2ViZkFZM2ljVndldzNKQl9BTlNnd2RocjJETWJmYnBQeEFHR1U0WE9EX3p1bktxWGlELXJWZUY0dncwVlhBTW5IWWtjN01UYmRZOXRjYzJnNl9qZEw2YUZzWUpId0VZcEJkX3pIVjUwWEpjTUtVUXU3dW5n0gG0AUFVX3lxTFBWTkt3b0ZhZXUzX08wRVY1Sno2Q1Rzc2NlQVV0WEdxMU1zcGlOYzREVXFYZXhtY09INmpYNnBiNEI2TTEyTFpsa1pMWEJkTjllcFVJZk9odlhZNVREemc0Zk1pOC1RQUZOY0ZQRnJkYXlsNnNnVFhYWWJqb0JLVUNhWUxDLXVLclNIUDZBUTFGVlBZdWVmVFBRbEJmVVlxRVpia3FfVWtySllaVkJNUEZ2eFVrSA?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVk5Ld29GYWV1M19PMEVWNUp6NkNUc3NjZUFVdFhHcTFNc3BpTmM0RFVxWGV4bWNPSDZqWDZwYjRCNk0xMkxabGtaTFhCZE45ZXBVSWZPaHZYWTVURHpnNGZNaTgtUUFGTmNGUEZyZGF5bDZzZ1RYWFliam9CS1VDYVlMQy11S3JTSFA2QVExRlZQWXVlZlRQUWxCZlVZcUVaYmtxX1VrckpZWlZCTVBGdnhVa0jSAbQBQVVfeXFMUFZOS3dvRmFldTNfTzBFVjVKejZDVHNzY2VBVXRYR3ExTXNwaU5jNERVcVhleG1jT0g2alg2cGI0QjZNMTJMWmxrWkxYQmROOWVwVUlmT2h2WFk1VER6ZzRmTWk4LVFBRk5jRlBGcmRheWw2c2dUWFhZYmpvQktVQ2FZTEMtdUtyU0hQNkFRMUZWUFl1ZWZUUFFsQmZVWXFFWmJrcV9Va3JKWVpWQk1QRnZ4VWtI?oc=5",
    "data": "2026-11-24T00:02+00:00",
    "sentimento": -1.0,
    "classes": [
     "moedas"
    ],
-   "impacto": 6.06,
+   "impacto": 5.97,
    "cobertura": 2,
    "motivos": [
     "tema coberto por 2 veículos",
     "palavras de alto impacto: dólar",
     "sentimento negativo (-1.00)",
-    "publicada há 5 h"
+    "publicada há 6 h"
    ]
   },
   {
@@ -766,11 +811,11 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.66,
+   "impacto": 1.64,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
-    "publicada há 5 h"
+    "publicada há 6 h"
    ]
   },
   {
@@ -783,11 +828,26 @@
     "moedas",
     "exterior"
    ],
-   "impacto": 4.02,
+   "impacto": 3.96,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
     "sentimento positivo (+1.00)",
+    "publicada há 6 h"
+   ]
+  },
+  {
+   "titulo": "Cramer vê mais espaço para Nvidia com volta de Huang - SpaceMoney",
+   "fonte": "SpaceMoney",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQREtXLXpYNjJMSHBBQXRkd1BPN3RPSEVNSGZrdzJ1MEx1Z2lObEF2MXBFYi1hcUFySlRpZkJxbUpYNEdGQWlHLWlpNW5HRGpzeFQ5RFN2WFpqbnpLLU9oRTJRVldrb1RvOHlpcnZFQUpYbG9lNENDbWwySUxjWW9SYWpn?oc=5",
+   "data": "2026-11-23T23:49+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "acoes"
+   ],
+   "impacto": 1.16,
+   "cobertura": 1,
+   "motivos": [
     "publicada há 6 h"
    ]
   },
@@ -800,7 +860,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.95,
+   "impacto": 4.88,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: petróleo, dividendos",
@@ -817,7 +877,7 @@
    "classes": [
     "exterior"
    ],
-   "impacto": 1.18,
+   "impacto": 1.16,
    "cobertura": 1,
    "motivos": [
     "publicada há 6 h"
@@ -832,7 +892,7 @@
    "classes": [
     "cripto"
    ],
-   "impacto": 1.17,
+   "impacto": 1.16,
    "cobertura": 1,
    "motivos": [
     "publicada há 6 h"
@@ -847,7 +907,7 @@
    "classes": [
     "acoes"
    ],
-   "impacto": 4.44,
+   "impacto": 4.38,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: petróleo",
@@ -864,7 +924,7 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 3.97,
+   "impacto": 3.92,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar",
@@ -881,10 +941,43 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 1.17,
+   "impacto": 1.15,
    "cobertura": 1,
    "motivos": [
     "publicada há 6 h"
+   ]
+  },
+  {
+   "titulo": "Dólar fecha a segunda-feira (23) cotado a R$ 5,92 com mercado atento ao ajuste fiscal e ao cenário externo - Brasil 61",
+   "fonte": "Brasil 61",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWHJoT0VHNkZLUUZpd3pPaHhBRUZ0MFhkMU00ZU9pYkI2SkZ6WlVuUzB4U19nZlZ0cFNvRGFQc1Y5OXZGMHZwb1p0NFhnMVZXM1Z2TjRBam1xcFA5TjhTRVVET2hpcGdIWGRXNkFvZElCcEVWQXAtUDRLLWxyUGYtOUF5NWdoZGF4VDQ4eklQNDlDcVVIUF9PQnJ5Yy1wYlFUNjRiT3hkZUQwVDFZTWZDZHBnSkxyUkpiMEFCdEluVE9jcXU0Q0xLcy1uSmYtVGhBOXg4U2NYTWs1d9IB2gFBVV95cUxOWHJoT0VHNkZLUUZpd3pPaHhBRUZ0MFhkMU00ZU9pYkI2SkZ6WlVuUzB4U19nZlZ0cFNvRGFQc1Y5OXZGMHZwb1p0NFhnMVZXM1Z2TjRBam1xcFA5TjhTRVVET2hpcGdIWGRXNkFvZElCcEVWQXAtUDRLLWxyUGYtOUF5NWdoZGF4VDQ4eklQNDlDcVVIUF9PQnJ5Yy1wYlFUNjRiT3hkZUQwVDFZTWZDZHBnSkxyUkpiMEFCdEluVE9jcXU0Q0xLcy1uSmYtVGhBOXg4U2NYTWs1dw?oc=5",
+   "data": "2026-11-23T23:30+00:00",
+   "sentimento": 0.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 1.61,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: dólar",
+    "publicada há 6 h"
+   ]
+  },
+  {
+   "titulo": "Ibovespa cai pelo 3º pregão seguido e dólar fecha em leve baixa após tocar R$ 6 - Estadão",
+   "fonte": "Estadão",
+   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOZUFMMXZFZEVmdDhQYUxDM3lnQ1FlRm8wS001d1VJQkhoNnFQMFNKWFo3TTllNUIzYkVWWVg0M29CT3Q0djlyZ0tRYjZYWTd6TV8zUEJacWw5blRpWEpHUzNMeWxtSEpiOTZQYy1mZXhNV1ZPeUN3Vy0wQ2tTa2ljNkRnckxLZGViS0lLUkd6eVdHb1NmMlZldzB0VU82YXF3X0FMVVhoM2d6NTlwUGdxS0FRb3ZyamRDSENodzJaM3ZVb0VWMEZXaUNiRFMyQ3pUUnRWUHA2YnVIN1lkT241cEZGUWNkWW_SAewBQVVfeXFMT1hHOW00Q20yVXMtMXJqOTJjRnlUY1VRdjJiWHVURkdwZlZvNW9tTEVqNXdaZzhwRzkxMDI3aDgyTEo3ZE00aUlUbGRGTXE5c1M5QWVDVXVXRkFKUEFtX2dmaUxzUzBJUHRLdlBQdHhseHpKWXhCdVpOMmNET0FNNU90MVNjUVFiYnBhdmktdUxSUFBwWDRyOTZQLXlYMTZ1VkF0bjRHWERGaHZNdTQ2NHFTTDRqZFM5cHpldU14ZWU5Q2JfRERPY2UyMWY2ejQzNTFvc3dmSnk4SmVmMjVhRExkZ3Fjd0RIaGh6Rjc?oc=5",
+   "data": "2026-11-23T23:24+00:00",
+   "sentimento": -1.0,
+   "classes": [
+    "moedas"
+   ],
+   "impacto": 3.9,
+   "cobertura": 1,
+   "motivos": [
+    "palavras de alto impacto: dólar",
+    "sentimento negativo (-1.00)",
+    "publicada há 7 h"
    ]
   },
   {
@@ -896,105 +989,12 @@
    "classes": [
     "moedas"
    ],
-   "impacto": 4.42,
+   "impacto": 4.36,
    "cobertura": 1,
    "motivos": [
     "palavras de alto impacto: dólar, petrobras",
     "sentimento negativo (-1.00)",
-    "publicada há 6 h"
-   ]
-  },
-  {
-   "titulo": "Tendências 24/11/2026 | das principais ações da Bolsa - XP",
-   "fonte": "XP",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVkZ3YXZxeHcyNWVxMFEwSl9VUXByRlRTSnc4bnZlWnp4MTQwOUhHTm4xVTFaRlc5Q3N0d08zUWhLTDJfVy1TVWlKcVhqemgtWHhHVHFfc2t2ZU1ueEN2d3hIYThLQzlhOEphTXVqM0JKOEtxMVhpSXVtMjhZLTV0VEtzWjdSX2ZfRWxiTk0tQWZoaVNDaHMwaTJNRVZOa00tMWJIWFNfWE9yYkFp?oc=5",
-   "data": "2026-11-23T23:12+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.16,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 6 h"
-   ]
-  },
-  {
-   "titulo": "Meta suspende ações sem direito a voto com Zuckerberg diante de disputa judicial",
-   "fonte": "InfoMoney",
-   "link": "https://www.infomoney.com.br/mercados/meta-suspende-acoes-sem-direito-a-voto-com-zuckerberg-diante-de-disputa-judicial/",
-   "data": "2026-11-23T23:10+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.16,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 6 h"
-   ]
-  },
-  {
-   "titulo": "Fortuna de Jensen Huang dispara mais de US$ 30 bilhões após retorno à Nvidia - Rádio Itatiaia",
-   "fonte": "Rádio Itatiaia",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMThaelozYmlMRnkybHhfbWlEX0xUN3l0a0xHX1oxQzctSXYxWnE3OHB0NG9TMG1uYlpJb0M2R0ctbE9aUTdHNUFyTWtUZ2MxTHhtLU5aaDJFV3hDMVd1dWpLOGFZNExJYlNtbjM5SXBmSHJVNGFBal9TeGZLR1FUUGlwbw?oc=5",
-   "data": "2026-11-23T23:09+00:00",
-   "sentimento": 1.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 3.46,
-   "cobertura": 1,
-   "motivos": [
-    "sentimento positivo (+1.00)",
-    "publicada há 6 h"
-   ]
-  },
-  {
-   "titulo": "HGRE11 adquire 67 salas ocupadas pela WeWork - SpaceMoney",
-   "fonte": "SpaceMoney",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdGo3VkRpNWZpOG5Wb1NmbTJ1MXRDSzdFWE9mamRudndGSWM2a2dZN0tvWW5Pd3JiTk84YTlTeUdsQ1l3eVdKTmh3a1JrUnQyZzgzTVlkQVl0VVNWTTRtbDhtRi16STdoaW5ncGJMQ01CTXkwS3hlazBqczhDSmtzZFlweXp1bG8temNYaUNOX0pGbUpzS0E?oc=5",
-   "data": "2026-11-23T23:07+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.15,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 6 h"
-   ]
-  },
-  {
-   "titulo": "TRCO11 registra quitação de aluguel de outubro - SpaceMoney",
-   "fonte": "SpaceMoney",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSll6Y3prS2ROU3NqT05pOGgtME5EUVZzczhVREkxMXZBZEtsVDBwS2dncHdfdGJINHRRZnpXTDc1X3J3cW9sNWhWUjhwT2RGdEdYUjNLd1FWaXhmTlRhX3J3Ui1UWFpVZVJ4S19aQUdkcDBZV0ItaDdOb3hsb0F2LWJySVNHMGduLVF0Yk9qMENKOXVNT1QxZGdyYzZjdw?oc=5",
-   "data": "2026-11-23T23:07+00:00",
-   "sentimento": 0.0,
-   "classes": [
-    "acoes"
-   ],
-   "impacto": 1.15,
-   "cobertura": 1,
-   "motivos": [
-    "publicada há 6 h"
-   ]
-  },
-  {
-   "titulo": "Wall Street fecha em forte alta a saudar regresso de Jensen Huang à Nvidia - RTP",
-   "fonte": "RTP",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYm0temFkZTNDNUhTRDJUN1RLXzlEamg4TGNxZ2RQVHZ3TklwWEpaYXNpa2Z4SXFVblRpRk12MTdWWnltTmNSem5UVlNxU1VfZlZUT05DbTFmSkhnejlTelE0a3l3cGNmMmVsUVpkLUx1Z2YzQ2FsUHBHSjNfS2VuUjI3QXpzQXByN2hGM09Nb1NBNzhVV091VW9Ma3VlODZCcFdDcXBXZzFqbVptTnF2V2pwb0M2dlYx?oc=5",
-   "data": "2026-11-23T23:05+00:00",
-   "sentimento": 1.0,
-   "classes": [
-    "exterior"
-   ],
-   "impacto": 5.19,
-   "cobertura": 2,
-   "motivos": [
-    "tema coberto por 2 veículos",
-    "sentimento positivo (+1.00)",
-    "publicada há 6 h"
+    "publicada há 7 h"
    ]
   }
  ]
