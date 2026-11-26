@@ -1,10 +1,10 @@
 {
- "atualizado": "2026-11-26T16:20:31+00:00",
- "regime_atual": "queda",
+ "atualizado": "2026-11-26T22:09:07+00:00",
+ "regime_atual": "lateral",
  "indicadores": {
-  "retorno_20d": -1.6,
-  "vol_20d": 24.2,
-  "vs_media200": -4.4
+  "retorno_20d": 0.6,
+  "vol_20d": 29.8,
+  "vs_media200": -2.2
  },
  "serie": [
   {
@@ -604,8 +604,8 @@
   },
   {
    "data": "2026-11-26",
-   "fechamento": 172930,
-   "regime": "queda"
+   "fechamento": 176800,
+   "regime": "lateral"
   }
  ],
  "regras": [
